@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E14FB9D1A15B31E00165370 /* HowToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14FB941A15B31E00165370 /* HowToViewController.m */; };
+		6E14FB9E1A15B31E00165370 /* PowerMoveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14FB961A15B31E00165370 /* PowerMoveListViewController.m */; };
+		6E14FB9F1A15B31E00165370 /* PowerMoveMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14FB981A15B31E00165370 /* PowerMoveMainViewController.m */; };
+		6E14FBA01A15B31E00165370 /* PowerMoveStepsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14FB9A1A15B31E00165370 /* PowerMoveStepsViewController.m */; };
+		6E14FBA11A15B31E00165370 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14FB9C1A15B31E00165370 /* SettingsViewController.m */; };
+		6E14FBA61A15B32A00165370 /* MSCellAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14FBA31A15B32A00165370 /* MSCellAccessory.m */; };
+		6E14FBA71A15B32A00165370 /* UIView+AccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14FBA51A15B32A00165370 /* UIView+AccessViewController.m */; };
+		6E14FBAA1A15B33600165370 /* kColorConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14FBA91A15B33600165370 /* kColorConstants.m */; };
+		6E14FBB91A15BBE500165370 /* FACEBOLF.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBAD1A15BBE400165370 /* FACEBOLF.OTF */; };
+		6E14FBBA1A15BBE500165370 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBAE1A15BBE400165370 /* Lato-Black.ttf */; };
+		6E14FBBB1A15BBE500165370 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBAF1A15BBE400165370 /* OpenSans-Bold.ttf */; };
+		6E14FBBC1A15BBE500165370 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBB01A15BBE500165370 /* OpenSans-BoldItalic.ttf */; };
+		6E14FBBD1A15BBE500165370 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBB11A15BBE500165370 /* OpenSans-ExtraBold.ttf */; };
+		6E14FBBE1A15BBE500165370 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBB21A15BBE500165370 /* OpenSans-ExtraBoldItalic.ttf */; };
+		6E14FBBF1A15BBE500165370 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBB31A15BBE500165370 /* OpenSans-Italic.ttf */; };
+		6E14FBC01A15BBE500165370 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBB41A15BBE500165370 /* OpenSans-Light.ttf */; };
+		6E14FBC11A15BBE500165370 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBB51A15BBE500165370 /* OpenSans-LightItalic.ttf */; };
+		6E14FBC21A15BBE500165370 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBB61A15BBE500165370 /* OpenSans-Regular.ttf */; };
+		6E14FBC31A15BBE500165370 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBB71A15BBE500165370 /* OpenSans-Semibold.ttf */; };
+		6E14FBC41A15BBE500165370 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBB81A15BBE500165370 /* OpenSans-SemiboldItalic.ttf */; };
+		6E5D9BF21A17FECA0059C509 /* MoveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5D9BF11A17FECA0059C509 /* MoveData.m */; };
+		6E5D9BF81A180D830059C509 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D9BF71A180D830059C509 /* Localizable.strings */; };
+		6E5D9C021A1843570059C509 /* moves.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D9C011A1843570059C509 /* moves.plist */; };
+		6EB3F5FF1A1474FD00BEB523 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3F5FE1A1474FD00BEB523 /* main.m */; };
+		6EB3F6021A1474FD00BEB523 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3F6011A1474FD00BEB523 /* AppDelegate.m */; };
+		6EB3F6051A1474FD00BEB523 /* SOLPM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3F6031A1474FD00BEB523 /* SOLPM.xcdatamodeld */; };
+		6EB3F60B1A1474FD00BEB523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EB3F6091A1474FD00BEB523 /* Main.storyboard */; };
+		6EB3F60D1A1474FD00BEB523 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EB3F60C1A1474FD00BEB523 /* Images.xcassets */; };
+		6EB3F6101A1474FD00BEB523 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB3F60E1A1474FD00BEB523 /* LaunchScreen.xib */; };
+		6EB3F61C1A1474FE00BEB523 /* SOLPMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EB3F61B1A1474FE00BEB523 /* SOLPMTests.m */; };
+		6ECDBB171A18866700C16550 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECDBB151A18865900C16550 /* CoreFoundation.framework */; };
+		6ECDBB181A18866D00C16550 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECDBB101A18863600C16550 /* UIKit.framework */; };
+		6ECDBB1E1A1886CA00C16550 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECDBB1C1A1886C100C16550 /* QuartzCore.framework */; };
+		6ECDBB201A18872100C16550 /* THE SCIENCE OF LEARNING WINDMILL.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6ECDBB1F1A18872100C16550 /* THE SCIENCE OF LEARNING WINDMILL.mp4 */; };
+		6ECDBB261A188D1500C16550 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECDBB231A188D1500C16550 /* FLAnimatedImage.m */; };
+		6ECDBB271A188D1500C16550 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECDBB251A188D1500C16550 /* FLAnimatedImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EB3F6161A1474FE00BEB523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB3F5F11A1474FD00BEB523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EB3F5F81A1474FD00BEB523;
+			remoteInfo = SOLPM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E14FB931A15B31E00165370 /* HowToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HowToViewController.h; path = ViewControllers/HowToViewController.h; sourceTree = "<group>"; };
+		6E14FB941A15B31E00165370 /* HowToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HowToViewController.m; path = ViewControllers/HowToViewController.m; sourceTree = "<group>"; };
+		6E14FB951A15B31E00165370 /* PowerMoveListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PowerMoveListViewController.h; path = ViewControllers/PowerMoveListViewController.h; sourceTree = "<group>"; };
+		6E14FB961A15B31E00165370 /* PowerMoveListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PowerMoveListViewController.m; path = ViewControllers/PowerMoveListViewController.m; sourceTree = "<group>"; };
+		6E14FB971A15B31E00165370 /* PowerMoveMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PowerMoveMainViewController.h; path = ViewControllers/PowerMoveMainViewController.h; sourceTree = "<group>"; };
+		6E14FB981A15B31E00165370 /* PowerMoveMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PowerMoveMainViewController.m; path = ViewControllers/PowerMoveMainViewController.m; sourceTree = "<group>"; };
+		6E14FB991A15B31E00165370 /* PowerMoveStepsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PowerMoveStepsViewController.h; path = ViewControllers/PowerMoveStepsViewController.h; sourceTree = "<group>"; };
+		6E14FB9A1A15B31E00165370 /* PowerMoveStepsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PowerMoveStepsViewController.m; path = ViewControllers/PowerMoveStepsViewController.m; sourceTree = "<group>"; };
+		6E14FB9B1A15B31E00165370 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ViewControllers/SettingsViewController.h; sourceTree = "<group>"; };
+		6E14FB9C1A15B31E00165370 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ViewControllers/SettingsViewController.m; sourceTree = "<group>"; };
+		6E14FBA21A15B32A00165370 /* MSCellAccessory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSCellAccessory.h; path = "Open Source/MSCellAccessory/MSCellAccessory.h"; sourceTree = "<group>"; };
+		6E14FBA31A15B32A00165370 /* MSCellAccessory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSCellAccessory.m; path = "Open Source/MSCellAccessory/MSCellAccessory.m"; sourceTree = "<group>"; };
+		6E14FBA41A15B32A00165370 /* UIView+AccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+AccessViewController.h"; path = "Open Source/MSCellAccessory/UIView+AccessViewController.h"; sourceTree = "<group>"; };
+		6E14FBA51A15B32A00165370 /* UIView+AccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+AccessViewController.m"; path = "Open Source/MSCellAccessory/UIView+AccessViewController.m"; sourceTree = "<group>"; };
+		6E14FBA81A15B33600165370 /* kColorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kColorConstants.h; path = "Helper Files/kColorConstants.h"; sourceTree = "<group>"; };
+		6E14FBA91A15B33600165370 /* kColorConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kColorConstants.m; path = "Helper Files/kColorConstants.m"; sourceTree = "<group>"; };
+		6E14FBAD1A15BBE400165370 /* FACEBOLF.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = FACEBOLF.OTF; path = Fonts/FACEBOLF.OTF; sourceTree = "<group>"; };
+		6E14FBAE1A15BBE400165370 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Black.ttf"; path = "Fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
+		6E14FBAF1A15BBE400165370 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "Fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		6E14FBB01A15BBE500165370 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-BoldItalic.ttf"; path = "Fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6E14FBB11A15BBE500165370 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "Fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6E14FBB21A15BBE500165370 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBoldItalic.ttf"; path = "Fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6E14FBB31A15BBE500165370 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Italic.ttf"; path = "Fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		6E14FBB41A15BBE500165370 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "Fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		6E14FBB51A15BBE500165370 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-LightItalic.ttf"; path = "Fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		6E14FBB61A15BBE500165370 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "Fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		6E14FBB71A15BBE500165370 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Semibold.ttf"; path = "Fonts/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		6E14FBB81A15BBE500165370 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-SemiboldItalic.ttf"; path = "Fonts/OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		6E14FBCE1A15E86A00165370 /* kConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kConstants.h; sourceTree = "<group>"; };
+		6E5D9BF01A17FECA0059C509 /* MoveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveData.h; path = "Helper Files/MoveData.h"; sourceTree = "<group>"; };
+		6E5D9BF11A17FECA0059C509 /* MoveData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoveData.m; path = "Helper Files/MoveData.m"; sourceTree = "<group>"; };
+		6E5D9BF71A180D830059C509 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		6E5D9C011A1843570059C509 /* moves.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = moves.plist; sourceTree = "<group>"; };
+		6EB3F5F91A1474FD00BEB523 /* SOLPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOLPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB3F5FD1A1474FD00BEB523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB3F5FE1A1474FD00BEB523 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EB3F6001A1474FD00BEB523 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EB3F6011A1474FD00BEB523 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6EB3F6041A1474FD00BEB523 /* SOLPM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SOLPM.xcdatamodel; sourceTree = "<group>"; };
+		6EB3F60A1A1474FD00BEB523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EB3F60C1A1474FD00BEB523 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6EB3F60F1A1474FD00BEB523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6EB3F6151A1474FE00BEB523 /* SOLPMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SOLPMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB3F61A1A1474FE00BEB523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB3F61B1A1474FE00BEB523 /* SOLPMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOLPMTests.m; sourceTree = "<group>"; };
+		6ECDBB101A18863600C16550 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6ECDBB151A18865900C16550 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		6ECDBB1C1A1886C100C16550 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6ECDBB1F1A18872100C16550 /* THE SCIENCE OF LEARNING WINDMILL.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "THE SCIENCE OF LEARNING WINDMILL.mp4"; sourceTree = "<group>"; };
+		6ECDBB221A188D1500C16550 /* FLAnimatedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImage.h; sourceTree = "<group>"; };
+		6ECDBB231A188D1500C16550 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
+		6ECDBB241A188D1500C16550 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
+		6ECDBB251A188D1500C16550 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EB3F5F61A1474FD00BEB523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECDBB1E1A1886CA00C16550 /* QuartzCore.framework in Frameworks */,
+				6ECDBB171A18866700C16550 /* CoreFoundation.framework in Frameworks */,
+				6ECDBB181A18866D00C16550 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB3F6121A1474FE00BEB523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E14FB871A15B12200165370 /* OpenSource */ = {
+			isa = PBXGroup;
+			children = (
+				6ECDBB211A188D1500C16550 /* FLAnimatedImage */,
+				6E14FB8C1A15B18100165370 /* MSCellAccessory */,
+			);
+			name = OpenSource;
+			sourceTree = "<group>";
+		};
+		6E14FB881A15B12A00165370 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				6EB3F6001A1474FD00BEB523 /* AppDelegate.h */,
+				6EB3F6011A1474FD00BEB523 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		6E14FB891A15B13D00165370 /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E14FBA81A15B33600165370 /* kColorConstants.h */,
+				6E14FBA91A15B33600165370 /* kColorConstants.m */,
+				6E14FBCE1A15E86A00165370 /* kConstants.h */,
+				6E5D9BF01A17FECA0059C509 /* MoveData.h */,
+				6E5D9BF11A17FECA0059C509 /* MoveData.m */,
+			);
+			name = "Helper Files";
+			sourceTree = "<group>";
+		};
+		6E14FB8A1A15B14900165370 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E14FB931A15B31E00165370 /* HowToViewController.h */,
+				6E14FB941A15B31E00165370 /* HowToViewController.m */,
+				6E14FB951A15B31E00165370 /* PowerMoveListViewController.h */,
+				6E14FB961A15B31E00165370 /* PowerMoveListViewController.m */,
+				6E14FB991A15B31E00165370 /* PowerMoveStepsViewController.h */,
+				6E14FB9A1A15B31E00165370 /* PowerMoveStepsViewController.m */,
+				6E14FB971A15B31E00165370 /* PowerMoveMainViewController.h */,
+				6E14FB981A15B31E00165370 /* PowerMoveMainViewController.m */,
+				6E14FB9B1A15B31E00165370 /* SettingsViewController.h */,
+				6E14FB9C1A15B31E00165370 /* SettingsViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6E14FB8B1A15B15D00165370 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6EB3F6091A1474FD00BEB523 /* Main.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		6E14FB8C1A15B18100165370 /* MSCellAccessory */ = {
+			isa = PBXGroup;
+			children = (
+				6E14FBA21A15B32A00165370 /* MSCellAccessory.h */,
+				6E14FBA31A15B32A00165370 /* MSCellAccessory.m */,
+				6E14FBA41A15B32A00165370 /* UIView+AccessViewController.h */,
+				6E14FBA51A15B32A00165370 /* UIView+AccessViewController.m */,
+			);
+			name = MSCellAccessory;
+			sourceTree = "<group>";
+		};
+		6E14FBAC1A15BBA200165370 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6E14FBAD1A15BBE400165370 /* FACEBOLF.OTF */,
+				6E14FBAE1A15BBE400165370 /* Lato-Black.ttf */,
+				6E14FBAF1A15BBE400165370 /* OpenSans-Bold.ttf */,
+				6E14FBB01A15BBE500165370 /* OpenSans-BoldItalic.ttf */,
+				6E14FBB11A15BBE500165370 /* OpenSans-ExtraBold.ttf */,
+				6E14FBB21A15BBE500165370 /* OpenSans-ExtraBoldItalic.ttf */,
+				6E14FBB31A15BBE500165370 /* OpenSans-Italic.ttf */,
+				6E14FBB41A15BBE500165370 /* OpenSans-Light.ttf */,
+				6E14FBB51A15BBE500165370 /* OpenSans-LightItalic.ttf */,
+				6E14FBB61A15BBE500165370 /* OpenSans-Regular.ttf */,
+				6E14FBB71A15BBE500165370 /* OpenSans-Semibold.ttf */,
+				6E14FBB81A15BBE500165370 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		6EB3F5F01A1474FD00BEB523 = {
+			isa = PBXGroup;
+			children = (
+				6EB3F5FB1A1474FD00BEB523 /* SOLPM */,
+				6ECDBB0F1A1885F000C16550 /* frameworks */,
+				6EB3F6181A1474FE00BEB523 /* SOLPMTests */,
+				6EB3F5FA1A1474FD00BEB523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EB3F5FA1A1474FD00BEB523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB3F5F91A1474FD00BEB523 /* SOLPM.app */,
+				6EB3F6151A1474FE00BEB523 /* SOLPMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EB3F5FB1A1474FD00BEB523 /* SOLPM */ = {
+			isa = PBXGroup;
+			children = (
+				6E14FB871A15B12200165370 /* OpenSource */,
+				6E14FB891A15B13D00165370 /* Helper Files */,
+				6E14FB8B1A15B15D00165370 /* Storyboard */,
+				6E14FB881A15B12A00165370 /* AppDelegate */,
+				6E14FB8A1A15B14900165370 /* View Controllers */,
+				6E14FBAC1A15BBA200165370 /* Fonts */,
+				6ECDBB0B1A18831300C16550 /* Images */,
+				6EB3F60C1A1474FD00BEB523 /* Images.xcassets */,
+				6EB3F60E1A1474FD00BEB523 /* LaunchScreen.xib */,
+				6EB3F6031A1474FD00BEB523 /* SOLPM.xcdatamodeld */,
+				6EB3F5FC1A1474FD00BEB523 /* Supporting Files */,
+			);
+			path = SOLPM;
+			sourceTree = "<group>";
+		};
+		6EB3F5FC1A1474FD00BEB523 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E5D9C011A1843570059C509 /* moves.plist */,
+				6EB3F5FD1A1474FD00BEB523 /* Info.plist */,
+				6EB3F5FE1A1474FD00BEB523 /* main.m */,
+				6E5D9BF71A180D830059C509 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EB3F6181A1474FE00BEB523 /* SOLPMTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EB3F61B1A1474FE00BEB523 /* SOLPMTests.m */,
+				6EB3F6191A1474FE00BEB523 /* Supporting Files */,
+			);
+			path = SOLPMTests;
+			sourceTree = "<group>";
+		};
+		6EB3F6191A1474FE00BEB523 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EB3F61A1A1474FE00BEB523 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ECDBB0B1A18831300C16550 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6ECDBB1F1A18872100C16550 /* THE SCIENCE OF LEARNING WINDMILL.mp4 */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		6ECDBB0F1A1885F000C16550 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ECDBB1C1A1886C100C16550 /* QuartzCore.framework */,
+				6ECDBB151A18865900C16550 /* CoreFoundation.framework */,
+				6ECDBB101A18863600C16550 /* UIKit.framework */,
+			);
+			name = frameworks;
+			path = SOLPM;
+			sourceTree = "<group>";
+		};
+		6ECDBB211A188D1500C16550 /* FLAnimatedImage */ = {
+			isa = PBXGroup;
+			children = (
+				6ECDBB221A188D1500C16550 /* FLAnimatedImage.h */,
+				6ECDBB231A188D1500C16550 /* FLAnimatedImage.m */,
+				6ECDBB241A188D1500C16550 /* FLAnimatedImageView.h */,
+				6ECDBB251A188D1500C16550 /* FLAnimatedImageView.m */,
+			);
+			name = FLAnimatedImage;
+			path = "Open Source/FLAnimatedImage";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB3F5F81A1474FD00BEB523 /* SOLPM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB3F61F1A1474FE00BEB523 /* Build configuration list for PBXNativeTarget "SOLPM" */;
+			buildPhases = (
+				6EB3F5F51A1474FD00BEB523 /* Sources */,
+				6EB3F5F61A1474FD00BEB523 /* Frameworks */,
+				6EB3F5F71A1474FD00BEB523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOLPM;
+			productName = SOLPM;
+			productReference = 6EB3F5F91A1474FD00BEB523 /* SOLPM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EB3F6141A1474FE00BEB523 /* SOLPMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB3F6221A1474FE00BEB523 /* Build configuration list for PBXNativeTarget "SOLPMTests" */;
+			buildPhases = (
+				6EB3F6111A1474FE00BEB523 /* Sources */,
+				6EB3F6121A1474FE00BEB523 /* Frameworks */,
+				6EB3F6131A1474FE00BEB523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EB3F6171A1474FE00BEB523 /* PBXTargetDependency */,
+			);
+			name = SOLPMTests;
+			productName = SOLPMTests;
+			productReference = 6EB3F6151A1474FE00BEB523 /* SOLPMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EB3F5F11A1474FD00BEB523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Newdesto;
+				TargetAttributes = {
+					6EB3F5F81A1474FD00BEB523 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					6EB3F6141A1474FE00BEB523 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 6EB3F5F81A1474FD00BEB523;
+					};
+				};
+			};
+			buildConfigurationList = 6EB3F5F41A1474FD00BEB523 /* Build configuration list for PBXProject "SOLPM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EB3F5F01A1474FD00BEB523;
+			productRefGroup = 6EB3F5FA1A1474FD00BEB523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EB3F5F81A1474FD00BEB523 /* SOLPM */,
+				6EB3F6141A1474FE00BEB523 /* SOLPMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EB3F5F71A1474FD00BEB523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB3F60B1A1474FD00BEB523 /* Main.storyboard in Resources */,
+				6E14FBC41A15BBE500165370 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				6E14FBBE1A15BBE500165370 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				6E14FBC11A15BBE500165370 /* OpenSans-LightItalic.ttf in Resources */,
+				6E14FBB91A15BBE500165370 /* FACEBOLF.OTF in Resources */,
+				6E14FBBF1A15BBE500165370 /* OpenSans-Italic.ttf in Resources */,
+				6E5D9C021A1843570059C509 /* moves.plist in Resources */,
+				6E14FBBB1A15BBE500165370 /* OpenSans-Bold.ttf in Resources */,
+				6E14FBBD1A15BBE500165370 /* OpenSans-ExtraBold.ttf in Resources */,
+				6E14FBBC1A15BBE500165370 /* OpenSans-BoldItalic.ttf in Resources */,
+				6EB3F6101A1474FD00BEB523 /* LaunchScreen.xib in Resources */,
+				6E14FBBA1A15BBE500165370 /* Lato-Black.ttf in Resources */,
+				6E14FBC01A15BBE500165370 /* OpenSans-Light.ttf in Resources */,
+				6E14FBC21A15BBE500165370 /* OpenSans-Regular.ttf in Resources */,
+				6E5D9BF81A180D830059C509 /* Localizable.strings in Resources */,
+				6ECDBB201A18872100C16550 /* THE SCIENCE OF LEARNING WINDMILL.mp4 in Resources */,
+				6E14FBC31A15BBE500165370 /* OpenSans-Semibold.ttf in Resources */,
+				6EB3F60D1A1474FD00BEB523 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB3F6131A1474FE00BEB523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EB3F5F51A1474FD00BEB523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E14FB9D1A15B31E00165370 /* HowToViewController.m in Sources */,
+				6E14FBA71A15B32A00165370 /* UIView+AccessViewController.m in Sources */,
+				6EB3F6021A1474FD00BEB523 /* AppDelegate.m in Sources */,
+				6EB3F6051A1474FD00BEB523 /* SOLPM.xcdatamodeld in Sources */,
+				6E14FBA11A15B31E00165370 /* SettingsViewController.m in Sources */,
+				6E14FBAA1A15B33600165370 /* kColorConstants.m in Sources */,
+				6E5D9BF21A17FECA0059C509 /* MoveData.m in Sources */,
+				6ECDBB271A188D1500C16550 /* FLAnimatedImageView.m in Sources */,
+				6EB3F5FF1A1474FD00BEB523 /* main.m in Sources */,
+				6E14FB9F1A15B31E00165370 /* PowerMoveMainViewController.m in Sources */,
+				6ECDBB261A188D1500C16550 /* FLAnimatedImage.m in Sources */,
+				6E14FB9E1A15B31E00165370 /* PowerMoveListViewController.m in Sources */,
+				6E14FBA61A15B32A00165370 /* MSCellAccessory.m in Sources */,
+				6E14FBA01A15B31E00165370 /* PowerMoveStepsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB3F6111A1474FE00BEB523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB3F61C1A1474FE00BEB523 /* SOLPMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EB3F6171A1474FE00BEB523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EB3F5F81A1474FD00BEB523 /* SOLPM */;
+			targetProxy = 6EB3F6161A1474FE00BEB523 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EB3F6091A1474FD00BEB523 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB3F60A1A1474FD00BEB523 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EB3F60E1A1474FD00BEB523 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EB3F60F1A1474FD00BEB523 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EB3F61D1A1474FE00BEB523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EB3F61E1A1474FE00BEB523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EB3F6201A1474FE00BEB523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SOLPM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6EB3F6211A1474FE00BEB523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SOLPM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6EB3F6231A1474FE00BEB523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SOLPMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOLPM.app/SOLPM";
+			};
+			name = Debug;
+		};
+		6EB3F6241A1474FE00BEB523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SOLPMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SOLPM.app/SOLPM";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EB3F5F41A1474FD00BEB523 /* Build configuration list for PBXProject "SOLPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB3F61D1A1474FE00BEB523 /* Debug */,
+				6EB3F61E1A1474FE00BEB523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB3F61F1A1474FE00BEB523 /* Build configuration list for PBXNativeTarget "SOLPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB3F6201A1474FE00BEB523 /* Debug */,
+				6EB3F6211A1474FE00BEB523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB3F6221A1474FE00BEB523 /* Build configuration list for PBXNativeTarget "SOLPMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB3F6231A1474FE00BEB523 /* Debug */,
+				6EB3F6241A1474FE00BEB523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6EB3F6031A1474FD00BEB523 /* SOLPM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6EB3F6041A1474FD00BEB523 /* SOLPM.xcdatamodel */,
+			);
+			currentVersion = 6EB3F6041A1474FD00BEB523 /* SOLPM.xcdatamodel */;
+			path = SOLPM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6EB3F5F11A1474FD00BEB523 /* Project object */;
+}
