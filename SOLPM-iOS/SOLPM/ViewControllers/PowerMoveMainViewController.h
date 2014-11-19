@@ -11,8 +11,20 @@
 
 @interface PowerMoveMainViewController : UIViewController
 
+// data
 @property (nonatomic, strong) NSString *moveName;
 @property (nonatomic, strong) NSString *moveDescription;
-@property (nonatomic) NSInteger stepNumber;
+@property (nonatomic, strong) NSString *videoString;
+@property (nonatomic, strong) NSNumber *stepNumber;
+@property (nonatomic, strong) NSNumber *incrementCount;
+@property (nonatomic, strong) NSNumber *goal;
+
+@property (nonatomic, strong) UILabel *goalLabel;
+@property (nonatomic, strong) UILabel *goalTotalLabel;
+@property (nonatomic, strong) UILabel *repetitionsLabel;
+@property (nonatomic, strong) UILabel *repetitionsTotalLabel;
+
+@property (nonatomic, strong) MPMoviePlayerController *moviePlayer;
+@property (nonatomic, strong) UIButton *incrementerButton;
 
 @end

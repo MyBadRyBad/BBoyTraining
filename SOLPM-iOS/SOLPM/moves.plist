@@ -9,7 +9,11 @@
 			<string>Windmill</string>
 			<key>stepDescription</key>
 			<array>
-				<string>What</string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
 				<string></string>
 				<string></string>
 				<string></string>
@@ -23,16 +27,75 @@
 			</array>
 			<key>stepVideo</key>
 			<array>
-				<string>Description</string>
-				<string></string>
-				<string></string>
-				<string></string>
-				<string></string>
-				<string></string>
-				<string></string>
-				<string></string>
-				<string></string>
-				<string></string>
+				<string>windmill_step1</string>
+				<string>windmill_step2</string>
+				<string>windmill_step3</string>
+				<string>windmill_step4</string>
+				<string>windmill_step5</string>
+				<string>windmill_step6</string>
+				<string>windmill_step7</string>
+				<string>windmill_step8</string>
+				<string>windmill_step9</string>
+				<string>windmill_step10</string>
+				<string>windmill_step11</string>
+				<string>windmill_step12</string>
+				<string>windmill_step13</string>
+				<string>windmill_step14</string>
+				<string>windmill_step15</string>
+			</array>
+			<key>stepGoalNumber</key>
+			<array>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>50</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+			</array>
+			<key>stepIncrementNumber</key>
+			<array>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>50</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+			</array>
+			<key>stepRepTotal</key>
+			<array>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>2000</integer>
+				<integer>50</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>4000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
 			</array>
 		</dict>
 		<dict>
@@ -41,10 +104,62 @@
 			<key>stepDescription</key>
 			<array>
 				<string>Description</string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
 			</array>
 			<key>stepVideo</key>
 			<array>
-				<string>Video</string>
+				<string>babymills_step1</string>
+				<string>babymills_step2</string>
+				<string>babymills_step3</string>
+				<string>babymills_step4</string>
+				<string>babymills_step5</string>
+				<string>babymills_step6</string>
+				<string>babymills_step7</string>
+				<string>babymills_step8</string>
+				<string>babymills_step9</string>
+			</array>
+			<key>stepGoalNumber</key>
+			<array>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+			</array>
+			<key>stepIncrementNumber</key>
+			<array>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+			</array>
+			<key>stepRepTotal</key>
+			<array>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>4000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
 			</array>
 		</dict>
 		<dict>
@@ -52,20 +167,212 @@
 			<string>Bellymills</string>
 			<key>stepDescription</key>
 			<array>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
 				<string>Description</string>
 			</array>
 			<key>stepVideo</key>
 			<array>
-				<string>Video</string>
+				<string>bellymills_step1</string>
+				<string>bellymills_step2</string>
+				<string>bellymills_step3</string>
+				<string>bellymills_step4</string>
+				<string>bellymills_step5</string>
+				<string>bellymills_step6</string>
+				<string>bellymills_step7</string>
+				<string>bellymills_step8</string>
+				<string>bellymills_step9</string>
+				<string>bellymills_step10</string>
+				<string>bellymills_step11</string>
+				<string>bellymills_step12</string>
+			</array>
+			<key>stepGoalNumber</key>
+			<array>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+			</array>
+			<key>stepIncrementNumber</key>
+			<array>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+			</array>
+			<key>stepRepTotal</key>
+			<array>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
 			</array>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Nutcracker mills</string>
+			<key>stepDescription</key>
+			<array>
+				<string>Description</string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+			</array>
+			<key>stepVideo</key>
+			<array>
+				<string>nutcrackermills_step1</string>
+				<string>nutcrackermills_step2</string>
+				<string>nutcrackermills_step3</string>
+				<string>nutcrackermills_step4</string>
+				<string>nutcrackermills_step5</string>
+				<string>nutcrackermills_step6</string>
+				<string>nutcrackermills_step7</string>
+				<string>nutcrackermills_step8</string>
+			</array>
+			<key>stepGoalNumber</key>
+			<array>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+			</array>
+			<key>stepIncrementNumber</key>
+			<array>
+				<string>10</string>
+				<string>10</string>
+				<string>10</string>
+				<string>10</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+			</array>
+			<key>stepRepTotal</key>
+			<array>
+				<string>1000</string>
+				<string>1000</string>
+				<string>4000</string>
+				<string>2000</string>
+				<string>2000</string>
+				<string>2000</string>
+				<string>2000</string>
+				<string>2000</string>
+			</array>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Halos</string>
+			<key>stepDescription</key>
+			<array>
+				<string>description</string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+			</array>
+			<key>stepVideo</key>
+			<array>
+				<string>halos_step1</string>
+				<string>halos_step2</string>
+				<string>halos_step3</string>
+				<string>halos_step4</string>
+				<string>halos_step5</string>
+				<string>halos_step6</string>
+				<string>halos_step7</string>
+				<string>halos_step8</string>
+				<string>halos_step9</string>
+				<string>halos_step10</string>
+				<string>halos_step11</string>
+			</array>
+			<key>stepGoalNumber</key>
+			<array>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+			</array>
+			<key>stepIncrementNumber</key>
+			<array>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+			</array>
+			<key>setRepTotal</key>
+			<array>
+				<integer>2000</integer>
+				<integer>2000</integer>
+				<integer>2000</integer>
+				<integer>4000</integer>
+				<integer>2000</integer>
+				<integer>2000</integer>
+				<integer>2000</integer>
+				<integer>2000</integer>
+				<integer>2000</integer>
+				<integer>2000</integer>
+				<integer>2000</integer>
+			</array>
 		</dict>
 		<dict>
 			<key>name</key>

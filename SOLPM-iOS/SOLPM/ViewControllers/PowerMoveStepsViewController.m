@@ -13,6 +13,13 @@
 #import "MSCellAccessory.h"
 
 @interface PowerMoveStepsViewController ()
+{
+    NSString *_powermoveName;
+    NSArray *_stepDescriptionArray;
+    NSArray *_stepVideoArray;
+    NSArray *_stepIncrementCountArray;
+    NSArray *_stepGoalCountArray;
+}
 
 @end
 
@@ -21,6 +28,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self setupArrays];
     [self setupTable];
     [self setupNavigationBar];
 }
@@ -54,6 +62,20 @@
 }
 
 #pragma mark -
+#pragma mark - arraySetup
+- (void)setupArrays
+{
+    if (_moveData)
+    {
+        _powermoveName = [_moveData objectForKey:@"name"];
+        _stepDescriptionArray = [_moveData objectForKey:@"stepDescription"];
+        _stepVideoArray = [_moveData objectForKey:@"stepVideo"];
+        _stepIncrementCountArray = [_moveData objectForKey:@"stepIncrementNumber"];
+        _stepGoalCountArray = [_moveData objectForKey:@"stepGoalNumber"];
+    }
+}
+
+#pragma mark -
 #pragma mark - tableSetup
 - (void)setupTable
 {
@@ -84,9 +106,8 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 4;
+    return [_stepVideoArray count];
 }
-
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -137,13 +158,17 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     NSIndexPath *indexPath = sender;
-    
    PowerMoveMainViewController *powermoveStepsViewController = [segue destinationViewController];
     
     NSString *moveName = [_moveData objectForKey:@"name"];
     
     powermoveStepsViewController.moveName = moveName;
-    powermoveStepsViewController.stepNumber = indexPath.row + 1;
+    powermoveStepsViewController.stepNumber = [NSNumber numberWithInteger: indexPath.row + 1];
+    powermoveStepsViewController.moveDescription = [_stepDescriptionArray objectAtIndex:indexPath.row];
+    powermoveStepsViewController.videoString = [_stepVideoArray objectAtIndex:indexPath.row];
+    powermoveStepsViewController.incrementCount = [_stepIncrementCountArray objectAtIndex:indexPath.row];
+    powermoveStepsViewController.goal = [_stepGoalCountArray objectAtIndex:indexPath.row];
+    
 }
 
 

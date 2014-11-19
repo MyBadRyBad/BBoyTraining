@@ -31,7 +31,7 @@
     NSArray *_powermoveComboVideoArray;
     
     NSArray *_miscArray;
-    NSArray *_stretchinVideoArray;
+    NSArray *_stretchingVideoArray;
     
     UIImageView *navBarHairlineImageView;
 }
@@ -104,7 +104,6 @@
     _tableView.dataSource = self;
     _tableView.delegate = self;
     _tableView.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
-    _tableView.separatorColor = [kColorConstants blueMidnightBlue:1.0f];
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     
     UIView *footerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 70)];
@@ -216,9 +215,9 @@
 
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 50)];
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 36)];
     view.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
-    
+
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 8, tableView.frame.size.width, 18)];
     label.font = [UIFont fontWithName:@"OpenSans-Light" size:18.0f];
     label.textColor = [UIColor whiteColor];
@@ -227,6 +226,7 @@
      NSString *string = [_moveType objectAtIndex:section];
     
     [label setText:string];
+    
     [view addSubview:label];
     return view;
 }
