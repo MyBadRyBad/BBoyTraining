@@ -18,18 +18,11 @@
 {
     NSArray *_moveType;
     
-    NSArray *_flipsArray;
-    NSArray *_flipsVideoArray;
-    
-    NSArray *_freezesArray;
-    NSArray *_freezesVideoArray;
-    
     NSArray *_powermoveListArray;
-    NSArray *_powermoveVideoArray;
-    
     NSArray *_powermoveComboListArray;
-    NSArray *_powermoveComboVideoArray;
-    
+    NSArray *_freezesArray;
+    NSArray *_tricksArray;
+    NSArray *_flipsArray;
     NSArray *_miscArray;
     NSArray *_stretchingVideoArray;
     
@@ -122,8 +115,9 @@
     
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     _powermoveListArray = [dict objectForKey:@"powermoves"];
-    _freezesArray = [dict objectForKey:@"freezes"];
     _powermoveComboListArray = [dict objectForKey:@"combos"];
+    _freezesArray = [dict objectForKey:@"freezes"];
+    _tricksArray = [dict objectForKey:@"tricks"];
     _flipsArray = [dict objectForKey:@"flips"];
     _miscArray = [dict objectForKey:@"misc"];
     
@@ -147,6 +141,8 @@
     else if (section == 2)
         return [_freezesArray count];
     else if (section == 3)
+        return [_tricksArray count];
+    else if (section == 4)
         return [_flipsArray count];
     else
         return [_miscArray count];
@@ -178,8 +174,10 @@
     else if (indexPath.section == 2)
         moveDictionary = [_freezesArray objectAtIndex:indexPath.row];
     else if (indexPath.section == 3)
-        moveDictionary = [_flipsArray objectAtIndex:indexPath.row];
+        moveDictionary = [_tricksArray objectAtIndex:indexPath.row];
     else if (indexPath.section == 4)
+        moveDictionary = [_flipsArray objectAtIndex:indexPath.row];
+    else if (indexPath.section == 5)
         moveDictionary = [_miscArray objectAtIndex:indexPath.row];
     
     if (moveDictionary)
@@ -248,18 +246,21 @@
     // powermove combos
     else if (indexPath.section == 1)
         moveData = [_powermoveComboListArray objectAtIndex:indexPath.row];
-
     
     // freezes
     else if (indexPath.section == 2)
         moveData = [_freezesArray objectAtIndex:indexPath.row];
     
-    // flips
+    // tricks
     else if (indexPath.section == 3)
+        moveData = [_tricksArray objectAtIndex:indexPath.row];
+    
+    // flips
+    else if (indexPath.section == 4)
         moveData = [_flipsArray objectAtIndex:indexPath.row];
 
     // misc
-    else if (indexPath.section == 4)
+    else if (indexPath.section == 5)
         moveData = [_miscArray objectAtIndex:indexPath.row];
     
     powermoveStepsViewController.moveData = moveData;

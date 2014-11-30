@@ -26,6 +26,7 @@
                                      MOVE_TYPE_POWERMOVES,
                                      MOVE_TYPE_POWERMOVE_COMBOS,
                                      MOVE_TYPE_FREEZES,
+                                     MOVE_TYPE_TRICKS,
                                      MOVE_TYPE_FLIPS,
                                      MOVE_TYPE_MISC,
                                      nil];

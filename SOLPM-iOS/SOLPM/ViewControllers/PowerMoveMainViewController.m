@@ -129,8 +129,22 @@
 - (void)setupIncrementerButton
 {
     
+    CGRect incrementerButtonFrame;
+    CGFloat fontSize;
+    
+    if (IS_IPHONE_4_AND_OLDER || IS_IPHONE_5)
+    {
+        incrementerButtonFrame = CGRectMake(0, 0, 70, 70);
+        fontSize = 26.0f;
+    }
+    else
+    {
+        incrementerButtonFrame = CGRectMake(0, 0, 80, 80);
+        fontSize = 30.0f;
+    }
     _incrementerButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    _incrementerButton.frame = CGRectMake(0, 0, 80, 80);
+    
+    _incrementerButton.frame = incrementerButtonFrame;
     _incrementerButton.center = CGPointMake(self.view.frame.size.width * 0.5, self.view.frame.size.height * .75);
     _incrementerButton.clipsToBounds = YES;
     _incrementerButton.backgroundColor = [kColorConstants blueWetAsphalt:1.0f];
@@ -140,7 +154,7 @@
     _incrementerButton.clipsToBounds = YES;
 
     _incrementerButton.titleLabel.textColor = [UIColor whiteColor];
-    _incrementerButton.titleLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:30.0f];
+    _incrementerButton.titleLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:fontSize];
     
     NSString *buttonTitle = [NSString stringWithFormat:@"+%ld", (long)[_incrementCount integerValue]];
     

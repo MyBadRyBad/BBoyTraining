@@ -422,7 +422,7 @@
 				<integer>200</integer>
 				<integer>200</integer>
 			</array>
-			<key>stepIncrement</key>
+			<key>stepIncrementNumber</key>
 			<array>
 				<integer>5</integer>
 				<integer>5</integer>
@@ -456,18 +456,289 @@
 		<dict>
 			<key>name</key>
 			<string>Elbow Flares</string>
+			<key>stepDescription</key>
+			<array>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+			</array>
+			<key>stepVideo</key>
+			<array>
+				<string>elbowflares_step1</string>
+				<string>elbowflares_step2</string>
+				<string>elbowflares_step3</string>
+				<string>elbowflares_step4</string>
+				<string>elbowflares_step5</string>
+				<string>elbowflares_step6</string>
+				<string>elbowflares_step7</string>
+				<string>elbowflares_step8</string>
+				<string>elbowflares_step9</string>
+				<string>elbowflares_step10</string>
+				<string>elbowflares_step11</string>
+				<string>elbowflares_step12</string>
+				<string>elbowflares_step13</string>
+				<string>elbowflares_step14</string>
+				<string>elbowflares_step15</string>
+			</array>
+			<key>stepGoalNumber</key>
+			<array>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+			</array>
+			<key>stepIncrementNumber</key>
+			<array>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+			</array>
+			<key>stepRepTotal</key>
+			<array>
+				<integer>2000</integer>
+				<integer>2000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>4000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+			</array>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Airflares</string>
+			<key>stepDescription</key>
+			<array>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+			</array>
+			<key>stepVideo</key>
+			<array>
+				<string>airflares_step1</string>
+				<string>airflares_step2</string>
+				<string>airflares_step3</string>
+				<string>airflares_step4</string>
+				<string>airflares_step5</string>
+				<string>airflares_step6</string>
+				<string>airflares_step7</string>
+				<string>airflares_step8</string>
+				<string>airflares_step9</string>
+				<string>airflares_step10</string>
+				<string>airflares_step11</string>
+				<string>airflares_step12</string>
+				<string>airflares_step13</string>
+			</array>
+			<key>stepGoalNumber</key>
+			<array>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+			</array>
+			<key>stepIncrementNumber</key>
+			<array>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+			</array>
+			<key>stepRepTotal</key>
+			<array>
+				<integer>2000</integer>
+				<integer>2000</integer>
+				<integer>2000</integer>
+				<integer>2000</integer>
+				<integer>1000</integer>
+				<integer>1000</integer>
+				<integer>2000</integer>
+				<integer>1000</integer>
+				<integer>4000</integer>
+				<integer>2000</integer>
+				<integer>2000</integer>
+				<integer>2000</integer>
+				<integer>1000</integer>
+			</array>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Headspins</string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Hand Hops</string>
+			<key>stepDescription</key>
+			<array>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+			</array>
+			<key>stepVideo</key>
+			<array>
+				<string>headspin_step1</string>
+				<string>headspin_step2</string>
+				<string>headspin_step3</string>
+				<string>headspin_step4</string>
+				<string>headspin_step5</string>
+				<string>headspin_step6</string>
+				<string>headspin_step7</string>
+				<string>headspin_step8</string>
+				<string>headspin_step9</string>
+				<string>headspin_step10</string>
+				<string>headspin_step11</string>
+				<string>headspin_step12</string>
+				<string>headspin_step13</string>
+				<string>headspin_step14</string>
+				<string>headspin_step15</string>
+				<string>headspin_step16</string>
+				<string>headspin_step17</string>
+				<string>headspin_step18</string>
+			</array>
+			<key>stepGoalNumber</key>
+			<array>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>100</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>100</integer>
+				<integer>100</integer>
+			</array>
+			<key>stepIncrementNumber</key>
+			<array>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>5</integer>
+				<integer>1</integer>
+			</array>
+			<key>stepRepTotal</key>
+			<array>
+				<string>1000</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>500</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>500</string>
+				<string>2000</string>
+			</array>
 		</dict>
 	</array>
 	<key>combos</key>
@@ -504,23 +775,34 @@
 			<string>Planche</string>
 		</dict>
 	</array>
+	<key>tricks</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Hand Hops</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Half press handstand</string>
+		</dict>
+	</array>
 	<key>flips</key>
 	<array>
 		<dict>
 			<key>name</key>
-			<string>Aerial Cartwheel</string>
+			<string>Backflip</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Webster</string>
+			<string>Aerial Cartwheel (Sidesplit)</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Raiz Flip</string>
+			<string>Webster (Front Flip)</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Corkscrew</string>
+			<string>Raiz Flip (Chun-li)</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -528,11 +810,11 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Btwist</string>
+			<string>Corkscrew</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Backflip</string>
+			<string>Btwist</string>
 		</dict>
 	</array>
 	<key>misc</key>
