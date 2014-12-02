@@ -88,6 +88,15 @@
 		6E772F731A28F78800EC0D8D /* airflares_step7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E772F661A28F78800EC0D8D /* airflares_step7.mp4 */; };
 		6E772F741A28F78800EC0D8D /* airflares_step8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E772F671A28F78800EC0D8D /* airflares_step8.mp4 */; };
 		6E772F751A28F78800EC0D8D /* airflares_step9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E772F681A28F78800EC0D8D /* airflares_step9.mp4 */; };
+		6E9E8A7E1A2DDF18006EFA5E /* flaretoheadspin_step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E8A741A2DDF18006EFA5E /* flaretoheadspin_step1.mp4 */; };
+		6E9E8A7F1A2DDF18006EFA5E /* flaretoheadspin_step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E8A751A2DDF18006EFA5E /* flaretoheadspin_step2.mp4 */; };
+		6E9E8A801A2DDF18006EFA5E /* flaretoheadspin_step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E8A761A2DDF18006EFA5E /* flaretoheadspin_step3.mp4 */; };
+		6E9E8A811A2DDF18006EFA5E /* flaretoheadspin_step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E8A771A2DDF18006EFA5E /* flaretoheadspin_step4.mp4 */; };
+		6E9E8A821A2DDF18006EFA5E /* windmilltoflare_step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E8A791A2DDF18006EFA5E /* windmilltoflare_step1.mp4 */; };
+		6E9E8A831A2DDF18006EFA5E /* windmilltoflare_step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E8A7A1A2DDF18006EFA5E /* windmilltoflare_step2.mp4 */; };
+		6E9E8A841A2DDF18006EFA5E /* windmilltoflare_step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E8A7B1A2DDF18006EFA5E /* windmilltoflare_step3.mp4 */; };
+		6E9E8A851A2DDF18006EFA5E /* windmilltoflare_step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E8A7C1A2DDF18006EFA5E /* windmilltoflare_step4.mp4 */; };
+		6E9E8A861A2DDF18006EFA5E /* windmilltoflare_step5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E8A7D1A2DDF18006EFA5E /* windmilltoflare_step5.mp4 */; };
 		6EA245AE1A1CAE0500EB95E0 /* bellymills_step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6EA245A21A1CAE0500EB95E0 /* bellymills_step1.mp4 */; };
 		6EA245AF1A1CAE0500EB95E0 /* bellymills_step10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6EA245A31A1CAE0500EB95E0 /* bellymills_step10.mp4 */; };
 		6EA245B01A1CAE0500EB95E0 /* bellymills_step11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6EA245A41A1CAE0500EB95E0 /* bellymills_step11.mp4 */; };
@@ -262,6 +271,15 @@
 		6E772F661A28F78800EC0D8D /* airflares_step7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = airflares_step7.mp4; sourceTree = "<group>"; };
 		6E772F671A28F78800EC0D8D /* airflares_step8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = airflares_step8.mp4; sourceTree = "<group>"; };
 		6E772F681A28F78800EC0D8D /* airflares_step9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = airflares_step9.mp4; sourceTree = "<group>"; };
+		6E9E8A741A2DDF18006EFA5E /* flaretoheadspin_step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = flaretoheadspin_step1.mp4; sourceTree = "<group>"; };
+		6E9E8A751A2DDF18006EFA5E /* flaretoheadspin_step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = flaretoheadspin_step2.mp4; sourceTree = "<group>"; };
+		6E9E8A761A2DDF18006EFA5E /* flaretoheadspin_step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = flaretoheadspin_step3.mp4; sourceTree = "<group>"; };
+		6E9E8A771A2DDF18006EFA5E /* flaretoheadspin_step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = flaretoheadspin_step4.mp4; sourceTree = "<group>"; };
+		6E9E8A791A2DDF18006EFA5E /* windmilltoflare_step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = windmilltoflare_step1.mp4; sourceTree = "<group>"; };
+		6E9E8A7A1A2DDF18006EFA5E /* windmilltoflare_step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = windmilltoflare_step2.mp4; sourceTree = "<group>"; };
+		6E9E8A7B1A2DDF18006EFA5E /* windmilltoflare_step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = windmilltoflare_step3.mp4; sourceTree = "<group>"; };
+		6E9E8A7C1A2DDF18006EFA5E /* windmilltoflare_step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = windmilltoflare_step4.mp4; sourceTree = "<group>"; };
+		6E9E8A7D1A2DDF18006EFA5E /* windmilltoflare_step5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = windmilltoflare_step5.mp4; sourceTree = "<group>"; };
 		6EA245A21A1CAE0500EB95E0 /* bellymills_step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bellymills_step1.mp4; sourceTree = "<group>"; };
 		6EA245A31A1CAE0500EB95E0 /* bellymills_step10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bellymills_step10.mp4; sourceTree = "<group>"; };
 		6EA245A41A1CAE0500EB95E0 /* bellymills_step11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bellymills_step11.mp4; sourceTree = "<group>"; };
@@ -473,6 +491,8 @@
 		6E55B8B11A18BC1B008A3C11 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
+				6E9E8A731A2DDF18006EFA5E /* flareToHeadSpin */,
+				6E9E8A781A2DDF18006EFA5E /* windmillToFlare */,
 				6EC6FC991A2B426700446B01 /* headspins */,
 				6E772F5B1A28F78800EC0D8D /* airflares */,
 				6E772F211A28E95100EC0D8D /* elbowFlares */,
@@ -551,6 +571,31 @@
 			);
 			name = airflares;
 			path = videos/airflares;
+			sourceTree = "<group>";
+		};
+		6E9E8A731A2DDF18006EFA5E /* flareToHeadSpin */ = {
+			isa = PBXGroup;
+			children = (
+				6E9E8A741A2DDF18006EFA5E /* flaretoheadspin_step1.mp4 */,
+				6E9E8A751A2DDF18006EFA5E /* flaretoheadspin_step2.mp4 */,
+				6E9E8A761A2DDF18006EFA5E /* flaretoheadspin_step3.mp4 */,
+				6E9E8A771A2DDF18006EFA5E /* flaretoheadspin_step4.mp4 */,
+			);
+			name = flareToHeadSpin;
+			path = videos/flareToHeadSpin;
+			sourceTree = "<group>";
+		};
+		6E9E8A781A2DDF18006EFA5E /* windmillToFlare */ = {
+			isa = PBXGroup;
+			children = (
+				6E9E8A791A2DDF18006EFA5E /* windmilltoflare_step1.mp4 */,
+				6E9E8A7A1A2DDF18006EFA5E /* windmilltoflare_step2.mp4 */,
+				6E9E8A7B1A2DDF18006EFA5E /* windmilltoflare_step3.mp4 */,
+				6E9E8A7C1A2DDF18006EFA5E /* windmilltoflare_step4.mp4 */,
+				6E9E8A7D1A2DDF18006EFA5E /* windmilltoflare_step5.mp4 */,
+			);
+			name = windmillToFlare;
+			path = videos/windmillToFlare;
 			sourceTree = "<group>";
 		};
 		6EA245A11A1CAE0500EB95E0 /* bellymills */ = {
@@ -832,12 +877,15 @@
 			files = (
 				6EA245AE1A1CAE0500EB95E0 /* bellymills_step1.mp4 in Resources */,
 				6EA245C51A1CB67E00EB95E0 /* nutcrackermills_step3.mp4 in Resources */,
+				6E9E8A831A2DDF18006EFA5E /* windmilltoflare_step2.mp4 in Resources */,
 				6EC6FCB11A2B426700446B01 /* headspin_step14.mp4 in Resources */,
 				6E55B8EC1A18BC64008A3C11 /* windmill_step6.mp4 in Resources */,
 				6E28E0ED1A1D5114000EFDF8 /* flares_step1.mp4 in Resources */,
 				6EA245B51A1CAE0500EB95E0 /* bellymills_step5.mp4 in Resources */,
 				6E772F311A28E95100EC0D8D /* elbowflares_step1.mp4 in Resources */,
+				6E9E8A821A2DDF18006EFA5E /* windmilltoflare_step1.mp4 in Resources */,
 				6EA245B01A1CAE0500EB95E0 /* bellymills_step11.mp4 in Resources */,
+				6E9E8A811A2DDF18006EFA5E /* flaretoheadspin_step4.mp4 in Resources */,
 				6EC6FCB31A2B426700446B01 /* headspin_step16.mp4 in Resources */,
 				6E28E0F31A1D5114000EFDF8 /* flares_step4.mp4 in Resources */,
 				6EB3F60B1A1474FD00BEB523 /* Main.storyboard in Resources */,
@@ -855,6 +903,7 @@
 				6E28E0EF1A1D5114000EFDF8 /* flares_step11.mp4 in Resources */,
 				6E14FBC41A15BBE500165370 /* OpenSans-SemiboldItalic.ttf in Resources */,
 				6EAD99231A1AC1970054C6CD /* babymills_step4.mp4 in Resources */,
+				6E9E8A7E1A2DDF18006EFA5E /* flaretoheadspin_step1.mp4 in Resources */,
 				6EA245C41A1CB67E00EB95E0 /* nutcrackermills_step2.mp4 in Resources */,
 				6EAD99201A1AC1970054C6CD /* babymills_step1.mp4 in Resources */,
 				6EA245DF1A1CCAEC00EB95E0 /* halos_step7.mp4 in Resources */,
@@ -866,6 +915,7 @@
 				6E772F741A28F78800EC0D8D /* airflares_step8.mp4 in Resources */,
 				6E14FBBE1A15BBE500165370 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				6E55B8EF1A18BC64008A3C11 /* windmill_step9.mp4 in Resources */,
+				6E9E8A851A2DDF18006EFA5E /* windmilltoflare_step4.mp4 in Resources */,
 				6EC6FCB91A2B426700446B01 /* headspin_step5.mp4 in Resources */,
 				6EA245B61A1CAE0500EB95E0 /* bellymills_step6.mp4 in Resources */,
 				6E772F331A28E95100EC0D8D /* elbowflares_step11.mp4 in Resources */,
@@ -903,6 +953,7 @@
 				6EA245B91A1CAE0500EB95E0 /* bellymills_step9.mp4 in Resources */,
 				6EC6FCB21A2B426700446B01 /* headspin_step15.mp4 in Resources */,
 				6EAD99281A1AC1970054C6CD /* babymills_step9.mp4 in Resources */,
+				6E9E8A841A2DDF18006EFA5E /* windmilltoflare_step3.mp4 in Resources */,
 				6EC6FCAD1A2B426700446B01 /* headspin_step10.mp4 in Resources */,
 				6EC6FCAF1A2B426700446B01 /* headspin_step12.mp4 in Resources */,
 				6EA245D91A1CCAEC00EB95E0 /* halos_step11.mp4 in Resources */,
@@ -918,6 +969,7 @@
 				6E772F321A28E95100EC0D8D /* elbowflares_step10.mp4 in Resources */,
 				6EA245B81A1CAE0500EB95E0 /* bellymills_step8.mp4 in Resources */,
 				6E55B8ED1A18BC64008A3C11 /* windmill_step7.mp4 in Resources */,
+				6E9E8A861A2DDF18006EFA5E /* windmilltoflare_step5.mp4 in Resources */,
 				6E55B8E41A18BC64008A3C11 /* windmill_step12.mp4 in Resources */,
 				6EA245B71A1CAE0500EB95E0 /* bellymills_step7.mp4 in Resources */,
 				6E772F701A28F78800EC0D8D /* airflares_step4.mp4 in Resources */,
@@ -947,6 +999,7 @@
 				6E28E0F01A1D5114000EFDF8 /* flares_step12.mp4 in Resources */,
 				6EA245DC1A1CCAEC00EB95E0 /* halos_step4.mp4 in Resources */,
 				6E55B8E11A18BC64008A3C11 /* windmill_step1.mp4 in Resources */,
+				6E9E8A7F1A2DDF18006EFA5E /* flaretoheadspin_step2.mp4 in Resources */,
 				6E772F691A28F78800EC0D8D /* airflares_step1.mp4 in Resources */,
 				6E772F6B1A28F78800EC0D8D /* airflares_step11.mp4 in Resources */,
 				6E772F341A28E95100EC0D8D /* elbowflares_step12.mp4 in Resources */,
@@ -954,6 +1007,7 @@
 				6E772F351A28E95100EC0D8D /* elbowflares_step13.mp4 in Resources */,
 				6E14FBC21A15BBE500165370 /* OpenSans-Regular.ttf in Resources */,
 				6EC6FCB41A2B426700446B01 /* headspin_step17.mp4 in Resources */,
+				6E9E8A801A2DDF18006EFA5E /* flaretoheadspin_step3.mp4 in Resources */,
 				6E5D9BF81A180D830059C509 /* Localizable.strings in Resources */,
 				6E14FBC31A15BBE500165370 /* OpenSans-Semibold.ttf in Resources */,
 				6E55B8E81A18BC64008A3C11 /* windmill_step2.mp4 in Resources */,

@@ -746,10 +746,85 @@
 		<dict>
 			<key>name</key>
 			<string>Windmill to Flare</string>
+			<key>stepDescription</key>
+			<array>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+			</array>
+			<key>stepVideo</key>
+			<array>
+				<string>windmilltoflare_step1</string>
+				<string>windmilltoflare_step2</string>
+				<string>windmilltoflare_step3</string>
+				<string>windmilltoflare_step4</string>
+				<string>windmilltoflare_step5</string>
+			</array>
+			<key>stepGoalNumber</key>
+			<array>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+			</array>
+			<key>stepIncrementNumber</key>
+			<array>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+			</array>
+			<key>stepRepTotal</key>
+			<array>
+				<integer>600</integer>
+				<integer>400</integer>
+				<integer>200</integer>
+				<integer>400</integer>
+				<integer>400</integer>
+			</array>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Flare to Headspin</string>
+			<key>stepDescription</key>
+			<array>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+			</array>
+			<key>stepVideo</key>
+			<array>
+				<string>flaretoheadspin_step1</string>
+				<string>flaretoheadspin_step2</string>
+				<string>flaretoheadspin_step3</string>
+				<string>flaretoheadspin_step4</string>
+			</array>
+			<key>stepGoalNumber</key>
+			<array>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+			</array>
+			<key>stepIncrementNumber</key>
+			<array>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+			</array>
+			<key>stepRepTotal</key>
+			<array>
+				<integer>200</integer>
+				<integer>800</integer>
+				<integer>200</integer>
+				<integer>800</integer>
+			</array>
 		</dict>
 	</array>
 	<key>freezes</key>
@@ -780,6 +855,8 @@
 		<dict>
 			<key>name</key>
 			<string>Hand Hops</string>
+			<key>New item</key>
+			<string></string>
 		</dict>
 		<dict>
 			<key>name</key>
