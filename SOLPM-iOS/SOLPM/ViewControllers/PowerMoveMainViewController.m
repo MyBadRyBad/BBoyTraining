@@ -10,11 +10,10 @@
 #import <QuartzCore/QuartzCore.h>
 #import "kColorConstants.h"
 #import "kConstants.h"
-#import "FLAnimatedImage.h"
 
 @interface PowerMoveMainViewController ()
 {
-    FLAnimatedImageView *imageView;
+  //  FLAnimatedImageView *imageView;
     NSInteger counter;
 }
 
@@ -81,7 +80,7 @@
     moveLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:16.0f];
     [self.view addSubview:moveLabel];
     
-    if (!imageView) {
+ /*   if (!imageView) {
         imageView = [[FLAnimatedImageView alloc] init];
         imageView.contentMode = UIViewContentModeScaleAspectFit;
         imageView.clipsToBounds = YES;
@@ -93,7 +92,7 @@
     NSData *data1 = [NSData dataWithContentsOfURL:url1];
     FLAnimatedImage *animatedImage = [FLAnimatedImage animatedImageWithGIFData:data1];
     imageView.animatedImage = animatedImage;
-    [self.view addSubview:imageView];
+    [self.view addSubview:imageView]; */
 }
 
 #pragma mark -
@@ -203,7 +202,7 @@
     
     _goalTotalLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width * 0.5, 30)];
     _goalTotalLabel.center = CGPointMake(self.view.frame.size.width * 0.80, (self.view.frame.size.height * 0.75) + 15);
-    _goalTotalLabel.text = @"200";
+    _goalTotalLabel.text = [NSString stringWithFormat:@"+%ld", (long)[_goal integerValue]];
     _goalTotalLabel.textAlignment = NSTextAlignmentCenter;
     _goalTotalLabel.textColor = [UIColor whiteColor];
     _goalTotalLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:20.0f];
