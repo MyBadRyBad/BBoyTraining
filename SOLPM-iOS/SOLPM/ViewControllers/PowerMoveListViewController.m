@@ -41,9 +41,11 @@
     
     [self configureNavigationBar];
     
+    
 //    navBarHairlineImageView = [self findHairlineImageViewUnder:self.navigationController.navigationBar];
     
 }
+
 
 #pragma mark -
 #pragma mark - configuration

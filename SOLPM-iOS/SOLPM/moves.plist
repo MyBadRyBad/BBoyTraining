@@ -689,11 +689,11 @@
 				<integer>200</integer>
 				<integer>200</integer>
 				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
 				<integer>100</integer>
-				<integer>200</integer>
-				<integer>200</integer>
-				<integer>200</integer>
-				<integer>200</integer>
 				<integer>100</integer>
 				<integer>100</integer>
 			</array>
@@ -1019,10 +1019,160 @@
 		<dict>
 			<key>name</key>
 			<string>Hollowback</string>
+			<key>stepDescription</key>
+			<array>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+			</array>
+			<key>stepVideo</key>
+			<array>
+				<string>hollowback_step1</string>
+				<string>hollowback_step2</string>
+				<string>hollowback_step3</string>
+				<string>hollowback_step4</string>
+				<string>hollowback_step5</string>
+				<string>hollowback_step6</string>
+				<string>hollowback_step7</string>
+				<string>hollowback_step8</string>
+			</array>
+			<key>stepGoalNumber</key>
+			<array>
+				<integer>50</integer>
+				<integer>50</integer>
+				<integer>50</integer>
+				<integer>100</integer>
+				<integer>100</integer>
+				<integer>200</integer>
+				<integer>100</integer>
+				<integer>50</integer>
+			</array>
+			<key>stepIncrementNumber</key>
+			<array>
+				<integer>1</integer>
+				<integer>1</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>10</integer>
+				<integer>5</integer>
+				<integer>1</integer>
+			</array>
+			<key>stepRepTotal</key>
+			<array>
+				<string>500</string>
+				<string>500</string>
+				<string>500</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>1000</string>
+				<string>500</string>
+			</array>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Planche</string>
+			<key>stepDescription</key>
+			<array>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+			</array>
+			<key>stepVideo</key>
+			<array>
+				<string>planche_step1</string>
+				<string>planche_step2</string>
+				<string>planche_step3</string>
+				<string>planche_step4</string>
+				<string>planche_step5</string>
+				<string>planche_step6</string>
+				<string>planche_step7</string>
+				<string>planche_step8</string>
+				<string>planche_step9</string>
+				<string>planche_step10</string>
+				<string>planche_step11</string>
+				<string>planche_step12</string>
+				<string>planche_step13</string>
+				<string>planche_step14</string>
+				<string>planche_step15</string>
+				<string>planche_step16</string>
+			</array>
+			<key>stepGoalNumber</key>
+			<array>
+				<integer>500</integer>
+				<integer>500</integer>
+				<integer>500</integer>
+				<integer>500</integer>
+				<integer>500</integer>
+				<integer>500</integer>
+				<integer>500</integer>
+				<integer>500</integer>
+				<integer>500</integer>
+				<integer>1000</integer>
+				<integer>500</integer>
+				<integer>500</integer>
+				<integer>500</integer>
+				<integer>500</integer>
+				<integer>500</integer>
+				<integer>250</integer>
+			</array>
+			<key>stepIncrementNumber</key>
+			<array>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>10</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+				<integer>5</integer>
+			</array>
+			<key>stepRepTotal</key>
+			<array>
+				<integer>100</integer>
+				<integer>100</integer>
+				<integer>100</integer>
+				<integer>100</integer>
+				<integer>100</integer>
+				<integer>100</integer>
+				<integer>100</integer>
+				<integer>100</integer>
+				<integer>100</integer>
+				<integer>200</integer>
+				<integer>100</integer>
+				<integer>100</integer>
+				<integer>100</integer>
+				<integer>100</integer>
+				<integer>100</integer>
+				<integer>50</integer>
+			</array>
 		</dict>
 	</array>
 	<key>tricks</key>

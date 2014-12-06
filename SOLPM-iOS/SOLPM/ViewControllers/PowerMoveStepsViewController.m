@@ -8,6 +8,7 @@
 
 #import "PowerMoveStepsViewController.h"
 #import "PowerMoveMainViewController.h"
+#import "LandscapeNavigationController.h"
 #import "kConstants.h"
 #import "kColorConstants.h"
 #import "MSCellAccessory.h"
@@ -32,6 +33,7 @@
     [self setupTable];
     [self setupNavigationBar];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -158,16 +160,17 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     NSIndexPath *indexPath = sender;
-   PowerMoveMainViewController *powermoveStepsViewController = [segue destinationViewController];
-    
+    PowerMoveMainViewController *powermoveMainViewController = [segue destinationViewController];
+  //  LandscapeNavigationController *navController = [segue destinationViewController];
+   // PowerMoveMainViewController *powermoveMainViewController = (PowerMoveMainViewController *)navController.topViewController;
     NSString *moveName = [_moveData objectForKey:@"name"];
     
-    powermoveStepsViewController.moveName = moveName;
-    powermoveStepsViewController.stepNumber = [NSNumber numberWithInteger: indexPath.row + 1];
-    powermoveStepsViewController.moveDescription = [_stepDescriptionArray objectAtIndex:indexPath.row];
-    powermoveStepsViewController.videoString = [_stepVideoArray objectAtIndex:indexPath.row];
-    powermoveStepsViewController.incrementCount = [_stepIncrementCountArray objectAtIndex:indexPath.row];
-    powermoveStepsViewController.goal = [_stepGoalCountArray objectAtIndex:indexPath.row];
+    powermoveMainViewController.moveName = moveName;
+    powermoveMainViewController.stepNumber = [NSNumber numberWithInteger: indexPath.row + 1];
+    powermoveMainViewController.moveDescription = [_stepDescriptionArray objectAtIndex:indexPath.row];
+    powermoveMainViewController.videoString = [_stepVideoArray objectAtIndex:indexPath.row];
+    powermoveMainViewController.incrementCount = [_stepIncrementCountArray objectAtIndex:indexPath.row];
+    powermoveMainViewController.goal = [_stepGoalCountArray objectAtIndex:indexPath.row];
     
 }
 
