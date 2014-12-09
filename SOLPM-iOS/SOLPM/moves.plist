@@ -1561,13 +1561,112 @@
 		<dict>
 			<key>name</key>
 			<string>Corkscrew</string>
+			<key>stepDescription</key>
+			<array>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+				<string></string>
+			</array>
+			<key>stepVideo</key>
+			<array>
+				<string>corkscrew_step1</string>
+				<string>corkscrew_step2</string>
+				<string>corkscrew_step3</string>
+				<string>corkscrew_step4</string>
+				<string>corkscrew_step5</string>
+				<string>corkscrew_step6</string>
+			</array>
+			<key>stepGoalNumber</key>
+			<array>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>200</integer>
+				<integer>400</integer>
+				<integer>50</integer>
+			</array>
+			<key>stepIncrementNumber</key>
+			<array>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+				<integer>10</integer>
+			</array>
+			<key>stepRepTotal</key>
+			<array>
+				<integer>1000</integer>
+				<integer>600</integer>
+				<integer>400</integer>
+				<integer>1000</integer>
+				<integer>4000</integer>
+				<integer>500</integer>
+			</array>
 		</dict>
 	</array>
 	<key>misc</key>
 	<array>
 		<dict>
 			<key>name</key>
-			<string>Stretching</string>
+			<string>stretching</string>
+			<key>legs</key>
+			<array>
+				<string>stretching_legs_step1</string>
+				<string>stretching_legs_step2</string>
+				<string>stretching_legs_step3</string>
+				<string>stretching_legs_step4</string>
+				<string>stretching_legs_step5</string>
+				<string>stretching_legs_step6</string>
+				<string>stretching_legs_step7</string>
+				<string>stretching_legs_step8</string>
+				<string>stretching_legs_step9</string>
+				<string>stretching_legs_step10</string>
+				<string>stretching_legs_step11</string>
+				<string>stretching_legs_step12</string>
+				<string>stretching_legs_step13</string>
+				<string>stretching_legs_step14</string>
+				<string>stretching_legs_step15</string>
+				<string>stretching_legs_step16</string>
+				<string>stretching_legs_step17</string>
+				<string>stretching_legs_step18</string>
+				<string>stretching_legs_step19</string>
+				<string>stretching_legs_step20</string>
+				<string>stretching_legs_step21</string>
+				<string>stretching_legs_step22</string>
+				<string>stretching_legs_step23</string>
+				<string>stretching_legs_step24</string>
+				<string>stretching_legs_step25</string>
+				<string>stretching_legs_step26</string>
+				<string>stretching_legs_step27</string>
+				<string>stretching_legs_step28</string>
+				<string>stretching_legs_step29</string>
+			</array>
+			<key>back</key>
+			<array>
+				<string>back_stretching_step1</string>
+				<string>back_stretching_step2</string>
+				<string>back_stretching_step3</string>
+				<string>back_stretching_step4</string>
+				<string>back_stretching_step5</string>
+			</array>
+			<key>arms</key>
+			<array>
+				<string>arm_stretching_step1</string>
+				<string>arm_stretching_step2</string>
+				<string>arm_stretching_step3</string>
+				<string>arm_stretching_step4</string>
+				<string>arm_stretching_step5</string>
+				<string>arm_stretching_step6</string>
+				<string>arm_stretching_step7</string>
+				<string>arm_stretching_step8</string>
+				<string>arm_stretching_step9</string>
+				<string>arm_stretching_step10</string>
+				<string>arm_stretching_step11</string>
+			</array>
 		</dict>
 		<dict>
 			<key>name</key>

@@ -79,6 +79,57 @@
 		6E0210731A36361A00F34B83 /* gainer_step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E02106E1A36361A00F34B83 /* gainer_step3.mp4 */; };
 		6E0210741A36361A00F34B83 /* gainer_step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E02106F1A36361A00F34B83 /* gainer_step4.mp4 */; };
 		6E0210751A36361A00F34B83 /* gainer_step5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210701A36361A00F34B83 /* gainer_step5.mp4 */; };
+		6E02108A1A377B0400F34B83 /* corkscrew_step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210841A377B0400F34B83 /* corkscrew_step1.mp4 */; };
+		6E02108B1A377B0400F34B83 /* corkscrew_step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210851A377B0400F34B83 /* corkscrew_step2.mp4 */; };
+		6E02108C1A377B0400F34B83 /* corkscrew_step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210861A377B0400F34B83 /* corkscrew_step3.mp4 */; };
+		6E02108D1A377B0400F34B83 /* corkscrew_step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210871A377B0400F34B83 /* corkscrew_step4.mp4 */; };
+		6E02108E1A377B0400F34B83 /* corkscrew_step5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210881A377B0400F34B83 /* corkscrew_step5.mp4 */; };
+		6E02108F1A377B0400F34B83 /* corkscrew_step6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210891A377B0400F34B83 /* corkscrew_step6.mp4 */; };
+		6E0210C11A378CB800F34B83 /* arm_stretching_step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210921A378CB800F34B83 /* arm_stretching_step1.mp4 */; };
+		6E0210C21A378CB800F34B83 /* arm_stretching_step10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210931A378CB800F34B83 /* arm_stretching_step10.mp4 */; };
+		6E0210C31A378CB800F34B83 /* arm_stretching_step11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210941A378CB800F34B83 /* arm_stretching_step11.mp4 */; };
+		6E0210C41A378CB800F34B83 /* arm_stretching_step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210951A378CB800F34B83 /* arm_stretching_step2.mp4 */; };
+		6E0210C51A378CB800F34B83 /* arm_stretching_step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210961A378CB800F34B83 /* arm_stretching_step3.mp4 */; };
+		6E0210C61A378CB800F34B83 /* arm_stretching_step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210971A378CB800F34B83 /* arm_stretching_step4.mp4 */; };
+		6E0210C71A378CB800F34B83 /* arm_stretching_step5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210981A378CB800F34B83 /* arm_stretching_step5.mp4 */; };
+		6E0210C81A378CB800F34B83 /* arm_stretching_step6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210991A378CB800F34B83 /* arm_stretching_step6.mp4 */; };
+		6E0210C91A378CB800F34B83 /* arm_stretching_step7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E02109A1A378CB800F34B83 /* arm_stretching_step7.mp4 */; };
+		6E0210CA1A378CB800F34B83 /* arm_stretching_step8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E02109B1A378CB800F34B83 /* arm_stretching_step8.mp4 */; };
+		6E0210CB1A378CB800F34B83 /* arm_stretching_step9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E02109C1A378CB800F34B83 /* arm_stretching_step9.mp4 */; };
+		6E0210CC1A378CB800F34B83 /* back_stretching_step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E02109E1A378CB800F34B83 /* back_stretching_step1.mp4 */; };
+		6E0210CD1A378CB800F34B83 /* back_stretching_step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E02109F1A378CB800F34B83 /* back_stretching_step2.mp4 */; };
+		6E0210CE1A378CB800F34B83 /* back_stretching_step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210A01A378CB800F34B83 /* back_stretching_step3.mp4 */; };
+		6E0210CF1A378CB800F34B83 /* back_stretching_step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210A11A378CB800F34B83 /* back_stretching_step4.mp4 */; };
+		6E0210D01A378CB800F34B83 /* back_stretching_step5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210A21A378CB800F34B83 /* back_stretching_step5.mp4 */; };
+		6E0210D11A378CB800F34B83 /* stretching_legs_step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210A41A378CB800F34B83 /* stretching_legs_step1.mp4 */; };
+		6E0210D21A378CB800F34B83 /* stretching_legs_step10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210A51A378CB800F34B83 /* stretching_legs_step10.mp4 */; };
+		6E0210D31A378CB800F34B83 /* stretching_legs_step11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210A61A378CB800F34B83 /* stretching_legs_step11.mp4 */; };
+		6E0210D41A378CB800F34B83 /* stretching_legs_step12.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210A71A378CB800F34B83 /* stretching_legs_step12.mp4 */; };
+		6E0210D51A378CB800F34B83 /* stretching_legs_step13.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210A81A378CB800F34B83 /* stretching_legs_step13.mp4 */; };
+		6E0210D61A378CB800F34B83 /* stretching_legs_step14.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210A91A378CB800F34B83 /* stretching_legs_step14.mp4 */; };
+		6E0210D71A378CB800F34B83 /* stretching_legs_step15.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210AA1A378CB800F34B83 /* stretching_legs_step15.mp4 */; };
+		6E0210D81A378CB800F34B83 /* stretching_legs_step16.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210AB1A378CB800F34B83 /* stretching_legs_step16.mp4 */; };
+		6E0210D91A378CB800F34B83 /* stretching_legs_step17.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210AC1A378CB800F34B83 /* stretching_legs_step17.mp4 */; };
+		6E0210DA1A378CB800F34B83 /* stretching_legs_step18.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210AD1A378CB800F34B83 /* stretching_legs_step18.mp4 */; };
+		6E0210DB1A378CB800F34B83 /* stretching_legs_step19.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210AE1A378CB800F34B83 /* stretching_legs_step19.mp4 */; };
+		6E0210DC1A378CB800F34B83 /* stretching_legs_step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210AF1A378CB800F34B83 /* stretching_legs_step2.mp4 */; };
+		6E0210DD1A378CB800F34B83 /* stretching_legs_step20.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210B01A378CB800F34B83 /* stretching_legs_step20.mp4 */; };
+		6E0210DE1A378CB800F34B83 /* stretching_legs_step21.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210B11A378CB800F34B83 /* stretching_legs_step21.mp4 */; };
+		6E0210DF1A378CB800F34B83 /* stretching_legs_step22.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210B21A378CB800F34B83 /* stretching_legs_step22.mp4 */; };
+		6E0210E01A378CB800F34B83 /* stretching_legs_step23.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210B31A378CB800F34B83 /* stretching_legs_step23.mp4 */; };
+		6E0210E11A378CB800F34B83 /* stretching_legs_step24.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210B41A378CB800F34B83 /* stretching_legs_step24.mp4 */; };
+		6E0210E21A378CB800F34B83 /* stretching_legs_step25.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210B51A378CB800F34B83 /* stretching_legs_step25.mp4 */; };
+		6E0210E31A378CB800F34B83 /* stretching_legs_step26.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210B61A378CB800F34B83 /* stretching_legs_step26.mp4 */; };
+		6E0210E41A378CB800F34B83 /* stretching_legs_step27.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210B71A378CB800F34B83 /* stretching_legs_step27.mp4 */; };
+		6E0210E51A378CB800F34B83 /* stretching_legs_step28.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210B81A378CB800F34B83 /* stretching_legs_step28.mp4 */; };
+		6E0210E61A378CB800F34B83 /* stretching_legs_step29.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210B91A378CB800F34B83 /* stretching_legs_step29.mp4 */; };
+		6E0210E71A378CB800F34B83 /* stretching_legs_step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210BA1A378CB800F34B83 /* stretching_legs_step3.mp4 */; };
+		6E0210E81A378CB800F34B83 /* stretching_legs_step4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210BB1A378CB800F34B83 /* stretching_legs_step4.mp4 */; };
+		6E0210E91A378CB800F34B83 /* stretching_legs_step5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210BC1A378CB800F34B83 /* stretching_legs_step5.mp4 */; };
+		6E0210EA1A378CB800F34B83 /* stretching_legs_step6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210BD1A378CB800F34B83 /* stretching_legs_step6.mp4 */; };
+		6E0210EB1A378CB800F34B83 /* stretching_legs_step7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210BE1A378CB800F34B83 /* stretching_legs_step7.mp4 */; };
+		6E0210EC1A378CB800F34B83 /* stretching_legs_step8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210BF1A378CB800F34B83 /* stretching_legs_step8.mp4 */; };
+		6E0210ED1A378CB800F34B83 /* stretching_legs_step9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E0210C01A378CB800F34B83 /* stretching_legs_step9.mp4 */; };
 		6E14FB9D1A15B31E00165370 /* HowToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14FB941A15B31E00165370 /* HowToViewController.m */; };
 		6E14FB9E1A15B31E00165370 /* PowerMoveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14FB961A15B31E00165370 /* PowerMoveListViewController.m */; };
 		6E14FB9F1A15B31E00165370 /* PowerMoveMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14FB981A15B31E00165370 /* PowerMoveMainViewController.m */; };
@@ -359,6 +410,57 @@
 		6E02106E1A36361A00F34B83 /* gainer_step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gainer_step3.mp4; sourceTree = "<group>"; };
 		6E02106F1A36361A00F34B83 /* gainer_step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gainer_step4.mp4; sourceTree = "<group>"; };
 		6E0210701A36361A00F34B83 /* gainer_step5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gainer_step5.mp4; sourceTree = "<group>"; };
+		6E0210841A377B0400F34B83 /* corkscrew_step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = corkscrew_step1.mp4; sourceTree = "<group>"; };
+		6E0210851A377B0400F34B83 /* corkscrew_step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = corkscrew_step2.mp4; sourceTree = "<group>"; };
+		6E0210861A377B0400F34B83 /* corkscrew_step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = corkscrew_step3.mp4; sourceTree = "<group>"; };
+		6E0210871A377B0400F34B83 /* corkscrew_step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = corkscrew_step4.mp4; sourceTree = "<group>"; };
+		6E0210881A377B0400F34B83 /* corkscrew_step5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = corkscrew_step5.mp4; sourceTree = "<group>"; };
+		6E0210891A377B0400F34B83 /* corkscrew_step6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = corkscrew_step6.mp4; sourceTree = "<group>"; };
+		6E0210921A378CB800F34B83 /* arm_stretching_step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm_stretching_step1.mp4; sourceTree = "<group>"; };
+		6E0210931A378CB800F34B83 /* arm_stretching_step10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm_stretching_step10.mp4; sourceTree = "<group>"; };
+		6E0210941A378CB800F34B83 /* arm_stretching_step11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm_stretching_step11.mp4; sourceTree = "<group>"; };
+		6E0210951A378CB800F34B83 /* arm_stretching_step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm_stretching_step2.mp4; sourceTree = "<group>"; };
+		6E0210961A378CB800F34B83 /* arm_stretching_step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm_stretching_step3.mp4; sourceTree = "<group>"; };
+		6E0210971A378CB800F34B83 /* arm_stretching_step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm_stretching_step4.mp4; sourceTree = "<group>"; };
+		6E0210981A378CB800F34B83 /* arm_stretching_step5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm_stretching_step5.mp4; sourceTree = "<group>"; };
+		6E0210991A378CB800F34B83 /* arm_stretching_step6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm_stretching_step6.mp4; sourceTree = "<group>"; };
+		6E02109A1A378CB800F34B83 /* arm_stretching_step7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm_stretching_step7.mp4; sourceTree = "<group>"; };
+		6E02109B1A378CB800F34B83 /* arm_stretching_step8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm_stretching_step8.mp4; sourceTree = "<group>"; };
+		6E02109C1A378CB800F34B83 /* arm_stretching_step9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = arm_stretching_step9.mp4; sourceTree = "<group>"; };
+		6E02109E1A378CB800F34B83 /* back_stretching_step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = back_stretching_step1.mp4; sourceTree = "<group>"; };
+		6E02109F1A378CB800F34B83 /* back_stretching_step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = back_stretching_step2.mp4; sourceTree = "<group>"; };
+		6E0210A01A378CB800F34B83 /* back_stretching_step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = back_stretching_step3.mp4; sourceTree = "<group>"; };
+		6E0210A11A378CB800F34B83 /* back_stretching_step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = back_stretching_step4.mp4; sourceTree = "<group>"; };
+		6E0210A21A378CB800F34B83 /* back_stretching_step5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = back_stretching_step5.mp4; sourceTree = "<group>"; };
+		6E0210A41A378CB800F34B83 /* stretching_legs_step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step1.mp4; sourceTree = "<group>"; };
+		6E0210A51A378CB800F34B83 /* stretching_legs_step10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step10.mp4; sourceTree = "<group>"; };
+		6E0210A61A378CB800F34B83 /* stretching_legs_step11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step11.mp4; sourceTree = "<group>"; };
+		6E0210A71A378CB800F34B83 /* stretching_legs_step12.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step12.mp4; sourceTree = "<group>"; };
+		6E0210A81A378CB800F34B83 /* stretching_legs_step13.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step13.mp4; sourceTree = "<group>"; };
+		6E0210A91A378CB800F34B83 /* stretching_legs_step14.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step14.mp4; sourceTree = "<group>"; };
+		6E0210AA1A378CB800F34B83 /* stretching_legs_step15.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step15.mp4; sourceTree = "<group>"; };
+		6E0210AB1A378CB800F34B83 /* stretching_legs_step16.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step16.mp4; sourceTree = "<group>"; };
+		6E0210AC1A378CB800F34B83 /* stretching_legs_step17.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step17.mp4; sourceTree = "<group>"; };
+		6E0210AD1A378CB800F34B83 /* stretching_legs_step18.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step18.mp4; sourceTree = "<group>"; };
+		6E0210AE1A378CB800F34B83 /* stretching_legs_step19.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step19.mp4; sourceTree = "<group>"; };
+		6E0210AF1A378CB800F34B83 /* stretching_legs_step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step2.mp4; sourceTree = "<group>"; };
+		6E0210B01A378CB800F34B83 /* stretching_legs_step20.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step20.mp4; sourceTree = "<group>"; };
+		6E0210B11A378CB800F34B83 /* stretching_legs_step21.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step21.mp4; sourceTree = "<group>"; };
+		6E0210B21A378CB800F34B83 /* stretching_legs_step22.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step22.mp4; sourceTree = "<group>"; };
+		6E0210B31A378CB800F34B83 /* stretching_legs_step23.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step23.mp4; sourceTree = "<group>"; };
+		6E0210B41A378CB800F34B83 /* stretching_legs_step24.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step24.mp4; sourceTree = "<group>"; };
+		6E0210B51A378CB800F34B83 /* stretching_legs_step25.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step25.mp4; sourceTree = "<group>"; };
+		6E0210B61A378CB800F34B83 /* stretching_legs_step26.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step26.mp4; sourceTree = "<group>"; };
+		6E0210B71A378CB800F34B83 /* stretching_legs_step27.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step27.mp4; sourceTree = "<group>"; };
+		6E0210B81A378CB800F34B83 /* stretching_legs_step28.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step28.mp4; sourceTree = "<group>"; };
+		6E0210B91A378CB800F34B83 /* stretching_legs_step29.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step29.mp4; sourceTree = "<group>"; };
+		6E0210BA1A378CB800F34B83 /* stretching_legs_step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step3.mp4; sourceTree = "<group>"; };
+		6E0210BB1A378CB800F34B83 /* stretching_legs_step4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step4.mp4; sourceTree = "<group>"; };
+		6E0210BC1A378CB800F34B83 /* stretching_legs_step5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step5.mp4; sourceTree = "<group>"; };
+		6E0210BD1A378CB800F34B83 /* stretching_legs_step6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step6.mp4; sourceTree = "<group>"; };
+		6E0210BE1A378CB800F34B83 /* stretching_legs_step7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step7.mp4; sourceTree = "<group>"; };
+		6E0210BF1A378CB800F34B83 /* stretching_legs_step8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step8.mp4; sourceTree = "<group>"; };
+		6E0210C01A378CB800F34B83 /* stretching_legs_step9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = stretching_legs_step9.mp4; sourceTree = "<group>"; };
 		6E14FB931A15B31E00165370 /* HowToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HowToViewController.h; path = ViewControllers/HowToViewController.h; sourceTree = "<group>"; };
 		6E14FB941A15B31E00165370 /* HowToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HowToViewController.m; path = ViewControllers/HowToViewController.m; sourceTree = "<group>"; };
 		6E14FB951A15B31E00165370 /* PowerMoveListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PowerMoveListViewController.h; path = ViewControllers/PowerMoveListViewController.h; sourceTree = "<group>"; };
@@ -742,6 +844,97 @@
 			path = videos/gainer;
 			sourceTree = "<group>";
 		};
+		6E0210831A377B0400F34B83 /* corkscrew */ = {
+			isa = PBXGroup;
+			children = (
+				6E0210841A377B0400F34B83 /* corkscrew_step1.mp4 */,
+				6E0210851A377B0400F34B83 /* corkscrew_step2.mp4 */,
+				6E0210861A377B0400F34B83 /* corkscrew_step3.mp4 */,
+				6E0210871A377B0400F34B83 /* corkscrew_step4.mp4 */,
+				6E0210881A377B0400F34B83 /* corkscrew_step5.mp4 */,
+				6E0210891A377B0400F34B83 /* corkscrew_step6.mp4 */,
+			);
+			name = corkscrew;
+			path = videos/corkscrew;
+			sourceTree = "<group>";
+		};
+		6E0210901A378CB800F34B83 /* stretching */ = {
+			isa = PBXGroup;
+			children = (
+				6E0210911A378CB800F34B83 /* arm_stretching */,
+				6E02109D1A378CB800F34B83 /* back_stretching */,
+				6E0210A31A378CB800F34B83 /* leg_stretching */,
+			);
+			name = stretching;
+			path = SOLPM/videos/stretching;
+			sourceTree = SOURCE_ROOT;
+		};
+		6E0210911A378CB800F34B83 /* arm_stretching */ = {
+			isa = PBXGroup;
+			children = (
+				6E0210921A378CB800F34B83 /* arm_stretching_step1.mp4 */,
+				6E0210931A378CB800F34B83 /* arm_stretching_step10.mp4 */,
+				6E0210941A378CB800F34B83 /* arm_stretching_step11.mp4 */,
+				6E0210951A378CB800F34B83 /* arm_stretching_step2.mp4 */,
+				6E0210961A378CB800F34B83 /* arm_stretching_step3.mp4 */,
+				6E0210971A378CB800F34B83 /* arm_stretching_step4.mp4 */,
+				6E0210981A378CB800F34B83 /* arm_stretching_step5.mp4 */,
+				6E0210991A378CB800F34B83 /* arm_stretching_step6.mp4 */,
+				6E02109A1A378CB800F34B83 /* arm_stretching_step7.mp4 */,
+				6E02109B1A378CB800F34B83 /* arm_stretching_step8.mp4 */,
+				6E02109C1A378CB800F34B83 /* arm_stretching_step9.mp4 */,
+			);
+			path = arm_stretching;
+			sourceTree = "<group>";
+		};
+		6E02109D1A378CB800F34B83 /* back_stretching */ = {
+			isa = PBXGroup;
+			children = (
+				6E02109E1A378CB800F34B83 /* back_stretching_step1.mp4 */,
+				6E02109F1A378CB800F34B83 /* back_stretching_step2.mp4 */,
+				6E0210A01A378CB800F34B83 /* back_stretching_step3.mp4 */,
+				6E0210A11A378CB800F34B83 /* back_stretching_step4.mp4 */,
+				6E0210A21A378CB800F34B83 /* back_stretching_step5.mp4 */,
+			);
+			path = back_stretching;
+			sourceTree = "<group>";
+		};
+		6E0210A31A378CB800F34B83 /* leg_stretching */ = {
+			isa = PBXGroup;
+			children = (
+				6E0210A41A378CB800F34B83 /* stretching_legs_step1.mp4 */,
+				6E0210A51A378CB800F34B83 /* stretching_legs_step10.mp4 */,
+				6E0210A61A378CB800F34B83 /* stretching_legs_step11.mp4 */,
+				6E0210A71A378CB800F34B83 /* stretching_legs_step12.mp4 */,
+				6E0210A81A378CB800F34B83 /* stretching_legs_step13.mp4 */,
+				6E0210A91A378CB800F34B83 /* stretching_legs_step14.mp4 */,
+				6E0210AA1A378CB800F34B83 /* stretching_legs_step15.mp4 */,
+				6E0210AB1A378CB800F34B83 /* stretching_legs_step16.mp4 */,
+				6E0210AC1A378CB800F34B83 /* stretching_legs_step17.mp4 */,
+				6E0210AD1A378CB800F34B83 /* stretching_legs_step18.mp4 */,
+				6E0210AE1A378CB800F34B83 /* stretching_legs_step19.mp4 */,
+				6E0210AF1A378CB800F34B83 /* stretching_legs_step2.mp4 */,
+				6E0210B01A378CB800F34B83 /* stretching_legs_step20.mp4 */,
+				6E0210B11A378CB800F34B83 /* stretching_legs_step21.mp4 */,
+				6E0210B21A378CB800F34B83 /* stretching_legs_step22.mp4 */,
+				6E0210B31A378CB800F34B83 /* stretching_legs_step23.mp4 */,
+				6E0210B41A378CB800F34B83 /* stretching_legs_step24.mp4 */,
+				6E0210B51A378CB800F34B83 /* stretching_legs_step25.mp4 */,
+				6E0210B61A378CB800F34B83 /* stretching_legs_step26.mp4 */,
+				6E0210B71A378CB800F34B83 /* stretching_legs_step27.mp4 */,
+				6E0210B81A378CB800F34B83 /* stretching_legs_step28.mp4 */,
+				6E0210B91A378CB800F34B83 /* stretching_legs_step29.mp4 */,
+				6E0210BA1A378CB800F34B83 /* stretching_legs_step3.mp4 */,
+				6E0210BB1A378CB800F34B83 /* stretching_legs_step4.mp4 */,
+				6E0210BC1A378CB800F34B83 /* stretching_legs_step5.mp4 */,
+				6E0210BD1A378CB800F34B83 /* stretching_legs_step6.mp4 */,
+				6E0210BE1A378CB800F34B83 /* stretching_legs_step7.mp4 */,
+				6E0210BF1A378CB800F34B83 /* stretching_legs_step8.mp4 */,
+				6E0210C01A378CB800F34B83 /* stretching_legs_step9.mp4 */,
+			);
+			path = leg_stretching;
+			sourceTree = "<group>";
+		};
 		6E14FB871A15B12200165370 /* OpenSource */ = {
 			isa = PBXGroup;
 			children = (
@@ -900,6 +1093,8 @@
 		6E55B8B11A18BC1B008A3C11 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
+				6E0210901A378CB800F34B83 /* stretching */,
+				6E0210831A377B0400F34B83 /* corkscrew */,
 				6E02106B1A36361A00F34B83 /* gainer */,
 				6E0210601A36305000F34B83 /* chunli_flip */,
 				6E0210531A36281000F34B83 /* btwist */,
@@ -1318,6 +1513,7 @@
 				6EA245AE1A1CAE0500EB95E0 /* bellymills_step1.mp4 in Resources */,
 				6EA245C51A1CB67E00EB95E0 /* nutcrackermills_step3.mp4 in Resources */,
 				6E9E8A831A2DDF18006EFA5E /* windmilltoflare_step2.mp4 in Resources */,
+				6E0210E51A378CB800F34B83 /* stretching_legs_step28.mp4 in Resources */,
 				6E0210511A36219B00F34B83 /* webster_step8.mp4 in Resources */,
 				6EC6FCB11A2B426700446B01 /* headspin_step14.mp4 in Resources */,
 				6E55B8EC1A18BC64008A3C11 /* windmill_step6.mp4 in Resources */,
@@ -1328,17 +1524,20 @@
 				6E451DB51A32A3EA00A4FDED /* hollowback_step4.mp4 in Resources */,
 				6EA245B01A1CAE0500EB95E0 /* bellymills_step11.mp4 in Resources */,
 				6E9E8A811A2DDF18006EFA5E /* flaretoheadspin_step4.mp4 in Resources */,
+				6E0210D91A378CB800F34B83 /* stretching_legs_step17.mp4 in Resources */,
 				6EC6FCB31A2B426700446B01 /* headspin_step16.mp4 in Resources */,
 				6E300ADB1A2FAC490092E49B /* onearmhandstand_step5.mp4 in Resources */,
 				6E300AD81A2FAC490092E49B /* onearmhandstand_step2.mp4 in Resources */,
 				6E28E0F31A1D5114000EFDF8 /* flares_step4.mp4 in Resources */,
 				6E451DB41A32A3EA00A4FDED /* hollowback_step3.mp4 in Resources */,
 				6E02106A1A36305000F34B83 /* chunli_step5.mp4 in Resources */,
+				6E0210C61A378CB800F34B83 /* arm_stretching_step4.mp4 in Resources */,
 				6E300ADF1A2FAC490092E49B /* onearmhandstand_step9.mp4 in Resources */,
 				6EB3F60B1A1474FD00BEB523 /* Main.storyboard in Resources */,
 				6E451DB91A32A3EA00A4FDED /* hollowback_step8.mp4 in Resources */,
 				6E55B8EA1A18BC64008A3C11 /* windmill_step4.mp4 in Resources */,
 				6EAD99241A1AC1970054C6CD /* babymills_step5.mp4 in Resources */,
+				6E0210D11A378CB800F34B83 /* stretching_legs_step1.mp4 in Resources */,
 				6E772F6D1A28F78800EC0D8D /* airflares_step13.mp4 in Resources */,
 				6E772F3F1A28E95100EC0D8D /* elbowflares_step9.mp4 in Resources */,
 				6EA245B11A1CAE0500EB95E0 /* bellymills_step12.mp4 in Resources */,
@@ -1355,21 +1554,26 @@
 				6E0210731A36361A00F34B83 /* gainer_step3.mp4 in Resources */,
 				6E300AC91A2FA0920092E49B /* doubleairchair_step6.mp4 in Resources */,
 				6E300ADA1A2FAC490092E49B /* onearmhandstand_step4.mp4 in Resources */,
+				6E0210DD1A378CB800F34B83 /* stretching_legs_step20.mp4 in Resources */,
 				6E0210091A34867400F34B83 /* handhops_step10.mp4 in Resources */,
 				6E28E0EF1A1D5114000EFDF8 /* flares_step11.mp4 in Resources */,
+				6E0210EA1A378CB800F34B83 /* stretching_legs_step6.mp4 in Resources */,
 				6E300AC81A2FA0920092E49B /* doubleairchair_step5.mp4 in Resources */,
 				6E14FBC41A15BBE500165370 /* OpenSans-SemiboldItalic.ttf in Resources */,
 				6EAD99231A1AC1970054C6CD /* babymills_step4.mp4 in Resources */,
+				6E0210CF1A378CB800F34B83 /* back_stretching_step4.mp4 in Resources */,
 				6E9E8A7E1A2DDF18006EFA5E /* flaretoheadspin_step1.mp4 in Resources */,
 				6E0210681A36305000F34B83 /* chunli_step3.mp4 in Resources */,
 				6EA245C41A1CB67E00EB95E0 /* nutcrackermills_step2.mp4 in Resources */,
 				6EAD99201A1AC1970054C6CD /* babymills_step1.mp4 in Resources */,
 				6E0210281A35F12400F34B83 /* backflip_step1.mp4 in Resources */,
 				6E02102C1A35F12400F34B83 /* backflip_step5.mp4 in Resources */,
+				6E0210E91A378CB800F34B83 /* stretching_legs_step5.mp4 in Resources */,
 				6EA245DF1A1CCAEC00EB95E0 /* halos_step7.mp4 in Resources */,
 				6EA245DD1A1CCAEC00EB95E0 /* halos_step5.mp4 in Resources */,
 				6E772F6F1A28F78800EC0D8D /* airflares_step3.mp4 in Resources */,
 				6EAD99261A1AC1970054C6CD /* babymills_step7.mp4 in Resources */,
+				6E0210E61A378CB800F34B83 /* stretching_legs_step29.mp4 in Resources */,
 				6EAD99221A1AC1970054C6CD /* babymills_step3.mp4 in Resources */,
 				6E02100B1A34867400F34B83 /* handhops_step3.mp4 in Resources */,
 				6EC6FCAE1A2B426700446B01 /* headspin_step11.mp4 in Resources */,
@@ -1383,6 +1587,8 @@
 				6E772F331A28E95100EC0D8D /* elbowflares_step11.mp4 in Resources */,
 				6EA245DA1A1CCAEC00EB95E0 /* halos_step2.mp4 in Resources */,
 				6E02100C1A34867400F34B83 /* handhops_step4.mp4 in Resources */,
+				6E0210EB1A378CB800F34B83 /* stretching_legs_step7.mp4 in Resources */,
+				6E0210D41A378CB800F34B83 /* stretching_legs_step12.mp4 in Resources */,
 				6E02101C1A35E6F700F34B83 /* halfpress_handstand_step3.mp4 in Resources */,
 				6E020FEF1A33335300F34B83 /* planche_step11.mp4 in Resources */,
 				6E6F1E801A302FA5006E5E22 /* airchair_step9.mp4 in Resources */,
@@ -1392,6 +1598,7 @@
 				6E451DB31A32A3EA00A4FDED /* hollowback_step2.mp4 in Resources */,
 				6E020FF01A33335300F34B83 /* planche_step12.mp4 in Resources */,
 				6E020FF81A33335300F34B83 /* planche_step5.mp4 in Resources */,
+				6E0210E11A378CB800F34B83 /* stretching_legs_step24.mp4 in Resources */,
 				6EC6FCB51A2B426700446B01 /* headspin_step18.mp4 in Resources */,
 				6E6F1E791A302FA5006E5E22 /* airchair_step2.mp4 in Resources */,
 				6EA245D81A1CCAEC00EB95E0 /* halos_step10.mp4 in Resources */,
@@ -1403,16 +1610,19 @@
 				6E55B8EE1A18BC64008A3C11 /* windmill_step8.mp4 in Resources */,
 				6E300ADE1A2FAC490092E49B /* onearmhandstand_step8.mp4 in Resources */,
 				6E772F3B1A28E95100EC0D8D /* elbowflares_step5.mp4 in Resources */,
+				6E02108B1A377B0400F34B83 /* corkscrew_step2.mp4 in Resources */,
 				6EA245E01A1CCAEC00EB95E0 /* halos_step8.mp4 in Resources */,
 				6E55B8E51A18BC64008A3C11 /* windmill_step13.mp4 in Resources */,
 				6E772F381A28E95100EC0D8D /* elbowflares_step2.mp4 in Resources */,
 				6E772F3E1A28E95100EC0D8D /* elbowflares_step8.mp4 in Resources */,
 				6E0210201A35E6F700F34B83 /* halfpress_handstand_step7.mp4 in Resources */,
+				6E0210D31A378CB800F34B83 /* stretching_legs_step11.mp4 in Resources */,
 				6EA245DB1A1CCAEC00EB95E0 /* halos_step3.mp4 in Resources */,
 				6E02101A1A35E6F700F34B83 /* halfpress_handstand_step1.mp4 in Resources */,
 				6E02104C1A36219B00F34B83 /* webster_step3.mp4 in Resources */,
 				6E020FF21A33335300F34B83 /* planche_step14.mp4 in Resources */,
 				6E02102D1A35F12400F34B83 /* backflip_step6.mp4 in Resources */,
+				6E0210DB1A378CB800F34B83 /* stretching_legs_step19.mp4 in Resources */,
 				6E55B8E91A18BC64008A3C11 /* windmill_step3.mp4 in Resources */,
 				6E55B8E31A18BC64008A3C11 /* windmill_step11.mp4 in Resources */,
 				6E02103E1A36171700F34B83 /* aerialCartwheel_step7.mp4 in Resources */,
@@ -1428,24 +1638,32 @@
 				6E300AC61A2FA0920092E49B /* doubleairchair_step3.mp4 in Resources */,
 				6EC6FCBD1A2B426700446B01 /* headspin_step9.mp4 in Resources */,
 				6EA245C61A1CB67E00EB95E0 /* nutcrackermills_step4.mp4 in Resources */,
+				6E0210E21A378CB800F34B83 /* stretching_legs_step25.mp4 in Resources */,
+				6E0210ED1A378CB800F34B83 /* stretching_legs_step9.mp4 in Resources */,
+				6E0210C81A378CB800F34B83 /* arm_stretching_step6.mp4 in Resources */,
 				6E02101D1A35E6F700F34B83 /* halfpress_handstand_step4.mp4 in Resources */,
 				6EC6FCB01A2B426700446B01 /* headspin_step13.mp4 in Resources */,
+				6E0210D81A378CB800F34B83 /* stretching_legs_step16.mp4 in Resources */,
 				6E02102A1A35F12400F34B83 /* backflip_step3.mp4 in Resources */,
 				6E28E0F61A1D5114000EFDF8 /* flares_step7.mp4 in Resources */,
 				6E020FF61A33335300F34B83 /* planche_step3.mp4 in Resources */,
 				6E6F1E7C1A302FA5006E5E22 /* airchair_step5.mp4 in Resources */,
 				6E02105A1A36281000F34B83 /* btwist_step1.mp4 in Resources */,
+				6E0210C11A378CB800F34B83 /* arm_stretching_step1.mp4 in Resources */,
 				6E28E0F11A1D5114000EFDF8 /* flares_step2.mp4 in Resources */,
 				6E020FF11A33335300F34B83 /* planche_step13.mp4 in Resources */,
 				6E02105B1A36281000F34B83 /* btwist_step2.mp4 in Resources */,
 				6E020FFC1A33335300F34B83 /* planche_step9.mp4 in Resources */,
 				6EA245B91A1CAE0500EB95E0 /* bellymills_step9.mp4 in Resources */,
+				6E0210C51A378CB800F34B83 /* arm_stretching_step3.mp4 in Resources */,
+				6E0210DE1A378CB800F34B83 /* stretching_legs_step21.mp4 in Resources */,
 				6E020FEE1A33335300F34B83 /* planche_step10.mp4 in Resources */,
 				6E0210391A36171700F34B83 /* aerialCartwheel_step2.mp4 in Resources */,
 				6E020FFA1A33335300F34B83 /* planche_step7.mp4 in Resources */,
 				6E02104D1A36219B00F34B83 /* webster_step4.mp4 in Resources */,
 				6E6F1E781A302FA5006E5E22 /* airchair_step10.mp4 in Resources */,
 				6EC6FCB21A2B426700446B01 /* headspin_step15.mp4 in Resources */,
+				6E0210CD1A378CB800F34B83 /* back_stretching_step2.mp4 in Resources */,
 				6EAD99281A1AC1970054C6CD /* babymills_step9.mp4 in Resources */,
 				6E02100D1A34867400F34B83 /* handhops_step5.mp4 in Resources */,
 				6E9E8A841A2DDF18006EFA5E /* windmilltoflare_step3.mp4 in Resources */,
@@ -1460,42 +1678,54 @@
 				6EAD99271A1AC1970054C6CD /* babymills_step8.mp4 in Resources */,
 				6EA245B41A1CAE0500EB95E0 /* bellymills_step4.mp4 in Resources */,
 				6E14FBB91A15BBE500165370 /* FACEBOLF.OTF in Resources */,
+				6E02108F1A377B0400F34B83 /* corkscrew_step6.mp4 in Resources */,
 				6EA245DE1A1CCAEC00EB95E0 /* halos_step6.mp4 in Resources */,
 				6E772F731A28F78800EC0D8D /* airflares_step7.mp4 in Resources */,
 				6E300AD61A2FAC490092E49B /* onearmhandstand_step1.mp4 in Resources */,
 				6E772F3C1A28E95100EC0D8D /* elbowflares_step6.mp4 in Resources */,
 				6E28E0F71A1D5114000EFDF8 /* flares_step8.mp4 in Resources */,
 				6EA245D71A1CCAEC00EB95E0 /* halos_step1.mp4 in Resources */,
+				6E0210C41A378CB800F34B83 /* arm_stretching_step2.mp4 in Resources */,
 				6E02101F1A35E6F700F34B83 /* halfpress_handstand_step6.mp4 in Resources */,
+				6E0210C91A378CB800F34B83 /* arm_stretching_step7.mp4 in Resources */,
 				6E772F321A28E95100EC0D8D /* elbowflares_step10.mp4 in Resources */,
 				6EA245B81A1CAE0500EB95E0 /* bellymills_step8.mp4 in Resources */,
 				6E0210381A36171700F34B83 /* aerialCartwheel_step1.mp4 in Resources */,
+				6E0210E01A378CB800F34B83 /* stretching_legs_step23.mp4 in Resources */,
 				6E0210291A35F12400F34B83 /* backflip_step2.mp4 in Resources */,
 				6E55B8ED1A18BC64008A3C11 /* windmill_step7.mp4 in Resources */,
 				6E02105C1A36281000F34B83 /* btwist_step3.mp4 in Resources */,
 				6E020FED1A33335300F34B83 /* planche_step1.mp4 in Resources */,
 				6E9E8A861A2DDF18006EFA5E /* windmilltoflare_step5.mp4 in Resources */,
+				6E0210D51A378CB800F34B83 /* stretching_legs_step13.mp4 in Resources */,
 				6E300AD91A2FAC490092E49B /* onearmhandstand_step3.mp4 in Resources */,
 				6E55B8E41A18BC64008A3C11 /* windmill_step12.mp4 in Resources */,
+				6E0210DA1A378CB800F34B83 /* stretching_legs_step18.mp4 in Resources */,
 				6E6F1E771A302FA5006E5E22 /* airchair_step1.mp4 in Resources */,
 				6EA245B71A1CAE0500EB95E0 /* bellymills_step7.mp4 in Resources */,
 				6E772F701A28F78800EC0D8D /* airflares_step4.mp4 in Resources */,
 				6E14FBBF1A15BBE500165370 /* OpenSans-Italic.ttf in Resources */,
 				6E020FF51A33335300F34B83 /* planche_step2.mp4 in Resources */,
+				6E0210CA1A378CB800F34B83 /* arm_stretching_step8.mp4 in Resources */,
+				6E02108D1A377B0400F34B83 /* corkscrew_step4.mp4 in Resources */,
 				6E0210401A36171700F34B83 /* aerialCartwheel_step9.mp4 in Resources */,
 				6E0210691A36305000F34B83 /* chunli_step4.mp4 in Resources */,
 				6EA245C71A1CB67E00EB95E0 /* nutcrackermills_step5.mp4 in Resources */,
 				6E772F3A1A28E95100EC0D8D /* elbowflares_step4.mp4 in Resources */,
 				6E772F371A28E95100EC0D8D /* elbowflares_step15.mp4 in Resources */,
 				6EA245AF1A1CAE0500EB95E0 /* bellymills_step10.mp4 in Resources */,
+				6E0210DF1A378CB800F34B83 /* stretching_legs_step22.mp4 in Resources */,
 				6E6F1E7D1A302FA5006E5E22 /* airchair_step6.mp4 in Resources */,
 				6E5D9C021A1843570059C509 /* moves.plist in Resources */,
 				6E02103C1A36171700F34B83 /* aerialCartwheel_step5.mp4 in Resources */,
+				6E0210CC1A378CB800F34B83 /* back_stretching_step1.mp4 in Resources */,
 				6E0210081A34867400F34B83 /* handhops_step1.mp4 in Resources */,
 				6E02100F1A34867400F34B83 /* handhops_step7.mp4 in Resources */,
 				6E020FF41A33335300F34B83 /* planche_step16.mp4 in Resources */,
 				6E14FBBB1A15BBE500165370 /* OpenSans-Bold.ttf in Resources */,
+				6E0210D71A378CB800F34B83 /* stretching_legs_step15.mp4 in Resources */,
 				6E0210101A34867400F34B83 /* handhops_step8.mp4 in Resources */,
+				6E0210CB1A378CB800F34B83 /* arm_stretching_step9.mp4 in Resources */,
 				6E02103D1A36171700F34B83 /* aerialCartwheel_step6.mp4 in Resources */,
 				6EA245C91A1CB67E00EB95E0 /* nutcrackermills_step7.mp4 in Resources */,
 				6E6F1E7E1A302FA5006E5E22 /* airchair_step7.mp4 in Resources */,
@@ -1506,21 +1736,32 @@
 				6E020FF31A33335300F34B83 /* planche_step15.mp4 in Resources */,
 				6E14FBBD1A15BBE500165370 /* OpenSans-ExtraBold.ttf in Resources */,
 				6E451DB81A32A3EA00A4FDED /* hollowback_step7.mp4 in Resources */,
+				6E02108E1A377B0400F34B83 /* corkscrew_step5.mp4 in Resources */,
 				6E0210671A36305000F34B83 /* chunli_step2.mp4 in Resources */,
 				6E300AD71A2FAC490092E49B /* onearmhandstand_step10.mp4 in Resources */,
 				6E02105D1A36281000F34B83 /* btwist_step4.mp4 in Resources */,
+				6E02108C1A377B0400F34B83 /* corkscrew_step3.mp4 in Resources */,
+				6E0210E81A378CB800F34B83 /* stretching_legs_step4.mp4 in Resources */,
+				6E0210CE1A378CB800F34B83 /* back_stretching_step3.mp4 in Resources */,
 				6E14FBBC1A15BBE500165370 /* OpenSans-BoldItalic.ttf in Resources */,
 				6E772F361A28E95100EC0D8D /* elbowflares_step14.mp4 in Resources */,
 				6E55B8E21A18BC64008A3C11 /* windmill_step10.mp4 in Resources */,
 				6E451DB21A32A3EA00A4FDED /* hollowback_step1.mp4 in Resources */,
+				6E0210DC1A378CB800F34B83 /* stretching_legs_step2.mp4 in Resources */,
 				6E300AC51A2FA0920092E49B /* doubleairchair_step2.mp4 in Resources */,
+				6E0210EC1A378CB800F34B83 /* stretching_legs_step8.mp4 in Resources */,
 				6E28E0F21A1D5114000EFDF8 /* flares_step3.mp4 in Resources */,
+				6E0210D01A378CB800F34B83 /* back_stretching_step5.mp4 in Resources */,
 				6E28E0F51A1D5114000EFDF8 /* flares_step6.mp4 in Resources */,
+				6E0210C31A378CB800F34B83 /* arm_stretching_step11.mp4 in Resources */,
+				6E0210D21A378CB800F34B83 /* stretching_legs_step10.mp4 in Resources */,
 				6EC6FCB71A2B426700446B01 /* headspin_step3.mp4 in Resources */,
 				6E02103F1A36171700F34B83 /* aerialCartwheel_step8.mp4 in Resources */,
 				6EAD99211A1AC1970054C6CD /* babymills_step2.mp4 in Resources */,
 				6EB3F6101A1474FD00BEB523 /* LaunchScreen.xib in Resources */,
+				6E0210C21A378CB800F34B83 /* arm_stretching_step10.mp4 in Resources */,
 				6E14FBBA1A15BBE500165370 /* Lato-Black.ttf in Resources */,
+				6E0210C71A378CB800F34B83 /* arm_stretching_step5.mp4 in Resources */,
 				6E772F3D1A28E95100EC0D8D /* elbowflares_step7.mp4 in Resources */,
 				6EC6FCBB1A2B426700446B01 /* headspin_step7.mp4 in Resources */,
 				6E0210721A36361A00F34B83 /* gainer_step2.mp4 in Resources */,
@@ -1528,6 +1769,7 @@
 				6E020FF91A33335300F34B83 /* planche_step6.mp4 in Resources */,
 				6E14FBC01A15BBE500165370 /* OpenSans-Light.ttf in Resources */,
 				6E02103A1A36171700F34B83 /* aerialCartwheel_step3.mp4 in Resources */,
+				6E0210E71A378CB800F34B83 /* stretching_legs_step3.mp4 in Resources */,
 				6E0210751A36361A00F34B83 /* gainer_step5.mp4 in Resources */,
 				6E28E0F01A1D5114000EFDF8 /* flares_step12.mp4 in Resources */,
 				6EA245DC1A1CCAEC00EB95E0 /* halos_step4.mp4 in Resources */,
@@ -1540,6 +1782,7 @@
 				6E0210111A34867400F34B83 /* handhops_step9.mp4 in Resources */,
 				6E9E8A7F1A2DDF18006EFA5E /* flaretoheadspin_step2.mp4 in Resources */,
 				6E772F691A28F78800EC0D8D /* airflares_step1.mp4 in Resources */,
+				6E02108A1A377B0400F34B83 /* corkscrew_step1.mp4 in Resources */,
 				6E772F6B1A28F78800EC0D8D /* airflares_step11.mp4 in Resources */,
 				6E0210661A36305000F34B83 /* chunli_step1.mp4 in Resources */,
 				6E772F341A28E95100EC0D8D /* elbowflares_step12.mp4 in Resources */,
@@ -1550,9 +1793,12 @@
 				6E14FBC21A15BBE500165370 /* OpenSans-Regular.ttf in Resources */,
 				6EC6FCB41A2B426700446B01 /* headspin_step17.mp4 in Resources */,
 				6E9E8A801A2DDF18006EFA5E /* flaretoheadspin_step3.mp4 in Resources */,
+				6E0210E41A378CB800F34B83 /* stretching_legs_step27.mp4 in Resources */,
 				6E02105F1A36281000F34B83 /* btwist_step6.mp4 in Resources */,
 				6E5D9BF81A180D830059C509 /* Localizable.strings in Resources */,
 				6E14FBC31A15BBE500165370 /* OpenSans-Semibold.ttf in Resources */,
+				6E0210E31A378CB800F34B83 /* stretching_legs_step26.mp4 in Resources */,
+				6E0210D61A378CB800F34B83 /* stretching_legs_step14.mp4 in Resources */,
 				6E020FF71A33335300F34B83 /* planche_step4.mp4 in Resources */,
 				6E55B8E81A18BC64008A3C11 /* windmill_step2.mp4 in Resources */,
 				6EA245C81A1CB67E00EB95E0 /* nutcrackermills_step6.mp4 in Resources */,
