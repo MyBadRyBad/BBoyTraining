@@ -39,8 +39,8 @@
                     <navigationItem key="navigationItem" id="ebC-Xb-Azr"/>
                     <connections>
                         <segue destination="Wiq-7l-Bce" kind="show" identifier="segueToPowerMoveStepsViewController" id="g1C-eX-tpA"/>
-                        <segue destination="LAV-9z-zJn" kind="presentation" id="HtV-de-erC"/>
-                        <segue destination="84W-W3-EQZ" kind="show" id="QsN-AG-u2U"/>
+                        <segue destination="LAV-9z-zJn" kind="presentation" identifier="segueToHowTo" id="HtV-de-erC"/>
+                        <segue destination="84W-W3-EQZ" kind="show" identifier="segueToSettings" id="QsN-AG-u2U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="taU-9Q-8Fk" userLabel="First Responder" sceneMemberID="firstResponder"/>

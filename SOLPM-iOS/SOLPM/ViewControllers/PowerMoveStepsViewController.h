@@ -14,4 +14,6 @@
 
 @property (nonatomic, strong) NSDictionary *moveData;
 
+@property (nonatomic) BOOL isStretching;
+
 @end

@@ -205,7 +205,6 @@
 		6E55B8F21A18C3B9008A3C11 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E55B8F01A18C3A9008A3C11 /* MobileCoreServices.framework */; };
 		6E55B8F71A18C3D6008A3C11 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E55B8F51A18C3C9008A3C11 /* CoreMedia.framework */; };
 		6E55B8F81A18C3DB008A3C11 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E55B8F31A18C3C4008A3C11 /* MediaPlayer.framework */; };
-		6E5D9BF21A17FECA0059C509 /* MoveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5D9BF11A17FECA0059C509 /* MoveData.m */; };
 		6E5D9BF81A180D830059C509 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D9BF71A180D830059C509 /* Localizable.strings */; };
 		6E5D9C021A1843570059C509 /* moves.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E5D9C011A1843570059C509 /* moves.plist */; };
 		6E6F1E771A302FA5006E5E22 /* airchair_step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E6F1E6D1A302FA5006E5E22 /* airchair_step1.mp4 */; };
@@ -246,6 +245,9 @@
 		6E772F731A28F78800EC0D8D /* airflares_step7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E772F661A28F78800EC0D8D /* airflares_step7.mp4 */; };
 		6E772F741A28F78800EC0D8D /* airflares_step8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E772F671A28F78800EC0D8D /* airflares_step8.mp4 */; };
 		6E772F751A28F78800EC0D8D /* airflares_step9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E772F681A28F78800EC0D8D /* airflares_step9.mp4 */; };
+		6E9B3E3C1A3FBFBD00D37A05 /* StepTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9B3E3B1A3FBFBD00D37A05 /* StepTableViewCell.m */; };
+		6E9B3E411A3FED4100D37A05 /* MCSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9B3E401A3FED4100D37A05 /* MCSwipeTableViewCell.m */; };
+		6E9B3E471A3FF4EF00D37A05 /* MoveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9B3E461A3FF4EF00D37A05 /* MoveData.m */; };
 		6E9E8A7E1A2DDF18006EFA5E /* flaretoheadspin_step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E8A741A2DDF18006EFA5E /* flaretoheadspin_step1.mp4 */; };
 		6E9E8A7F1A2DDF18006EFA5E /* flaretoheadspin_step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E8A751A2DDF18006EFA5E /* flaretoheadspin_step2.mp4 */; };
 		6E9E8A801A2DDF18006EFA5E /* flaretoheadspin_step3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9E8A761A2DDF18006EFA5E /* flaretoheadspin_step3.mp4 */; };
@@ -546,8 +548,6 @@
 		6E55B8F01A18C3A9008A3C11 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		6E55B8F31A18C3C4008A3C11 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		6E55B8F51A18C3C9008A3C11 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		6E5D9BF01A17FECA0059C509 /* MoveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveData.h; path = "Helper Files/MoveData.h"; sourceTree = "<group>"; };
-		6E5D9BF11A17FECA0059C509 /* MoveData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoveData.m; path = "Helper Files/MoveData.m"; sourceTree = "<group>"; };
 		6E5D9BF71A180D830059C509 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		6E5D9C011A1843570059C509 /* moves.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = moves.plist; sourceTree = "<group>"; };
 		6E6F1E6D1A302FA5006E5E22 /* airchair_step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = airchair_step1.mp4; sourceTree = "<group>"; };
@@ -588,6 +588,12 @@
 		6E772F661A28F78800EC0D8D /* airflares_step7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = airflares_step7.mp4; sourceTree = "<group>"; };
 		6E772F671A28F78800EC0D8D /* airflares_step8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = airflares_step8.mp4; sourceTree = "<group>"; };
 		6E772F681A28F78800EC0D8D /* airflares_step9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = airflares_step9.mp4; sourceTree = "<group>"; };
+		6E9B3E3A1A3FBFBD00D37A05 /* StepTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StepTableViewCell.h; path = "Helper Files/StepTableViewCell.h"; sourceTree = "<group>"; };
+		6E9B3E3B1A3FBFBD00D37A05 /* StepTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StepTableViewCell.m; path = "Helper Files/StepTableViewCell.m"; sourceTree = "<group>"; };
+		6E9B3E3F1A3FED4100D37A05 /* MCSwipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSwipeTableViewCell.h; sourceTree = "<group>"; };
+		6E9B3E401A3FED4100D37A05 /* MCSwipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSwipeTableViewCell.m; sourceTree = "<group>"; };
+		6E9B3E451A3FF4EF00D37A05 /* MoveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveData.h; path = "Helper Files/MoveData.h"; sourceTree = "<group>"; };
+		6E9B3E461A3FF4EF00D37A05 /* MoveData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoveData.m; path = "Helper Files/MoveData.m"; sourceTree = "<group>"; };
 		6E9E8A741A2DDF18006EFA5E /* flaretoheadspin_step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = flaretoheadspin_step1.mp4; sourceTree = "<group>"; };
 		6E9E8A751A2DDF18006EFA5E /* flaretoheadspin_step2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = flaretoheadspin_step2.mp4; sourceTree = "<group>"; };
 		6E9E8A761A2DDF18006EFA5E /* flaretoheadspin_step3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = flaretoheadspin_step3.mp4; sourceTree = "<group>"; };
@@ -938,6 +944,7 @@
 		6E14FB871A15B12200165370 /* OpenSource */ = {
 			isa = PBXGroup;
 			children = (
+				6E9B3E3E1A3FED4100D37A05 /* MCSwipeTableViewCell */,
 				6ECDBB211A188D1500C16550 /* FLAnimatedImage */,
 				6E14FB8C1A15B18100165370 /* MSCellAccessory */,
 			);
@@ -956,11 +963,13 @@
 		6E14FB891A15B13D00165370 /* Helper Files */ = {
 			isa = PBXGroup;
 			children = (
+				6E9B3E3A1A3FBFBD00D37A05 /* StepTableViewCell.h */,
+				6E9B3E3B1A3FBFBD00D37A05 /* StepTableViewCell.m */,
 				6E14FBA81A15B33600165370 /* kColorConstants.h */,
 				6E14FBA91A15B33600165370 /* kColorConstants.m */,
 				6E14FBCE1A15E86A00165370 /* kConstants.h */,
-				6E5D9BF01A17FECA0059C509 /* MoveData.h */,
-				6E5D9BF11A17FECA0059C509 /* MoveData.m */,
+				6E9B3E451A3FF4EF00D37A05 /* MoveData.h */,
+				6E9B3E461A3FF4EF00D37A05 /* MoveData.m */,
 			);
 			name = "Helper Files";
 			sourceTree = "<group>";
@@ -1206,6 +1215,16 @@
 			);
 			name = airflares;
 			path = videos/airflares;
+			sourceTree = "<group>";
+		};
+		6E9B3E3E1A3FED4100D37A05 /* MCSwipeTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6E9B3E3F1A3FED4100D37A05 /* MCSwipeTableViewCell.h */,
+				6E9B3E401A3FED4100D37A05 /* MCSwipeTableViewCell.m */,
+			);
+			name = MCSwipeTableViewCell;
+			path = "Open Source/MCSwipeTableViewCell";
 			sourceTree = "<group>";
 		};
 		6E9E8A731A2DDF18006EFA5E /* flareToHeadSpin */ = {
@@ -1823,19 +1842,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E9B3E471A3FF4EF00D37A05 /* MoveData.m in Sources */,
 				6E14FB9D1A15B31E00165370 /* HowToViewController.m in Sources */,
 				6E14FBA71A15B32A00165370 /* UIView+AccessViewController.m in Sources */,
 				6EB3F6021A1474FD00BEB523 /* AppDelegate.m in Sources */,
 				6EB3F6051A1474FD00BEB523 /* SOLPM.xcdatamodeld in Sources */,
 				6E451DA81A326C1300A4FDED /* LandscapeNavigationController.m in Sources */,
+				6E9B3E411A3FED4100D37A05 /* MCSwipeTableViewCell.m in Sources */,
 				6E14FBA11A15B31E00165370 /* SettingsViewController.m in Sources */,
 				6E14FBAA1A15B33600165370 /* kColorConstants.m in Sources */,
-				6E5D9BF21A17FECA0059C509 /* MoveData.m in Sources */,
 				6ECDBB271A188D1500C16550 /* FLAnimatedImageView.m in Sources */,
 				6EB3F5FF1A1474FD00BEB523 /* main.m in Sources */,
 				6E14FB9F1A15B31E00165370 /* PowerMoveMainViewController.m in Sources */,
 				6ECDBB261A188D1500C16550 /* FLAnimatedImage.m in Sources */,
 				6E14FB9E1A15B31E00165370 /* PowerMoveListViewController.m in Sources */,
+				6E9B3E3C1A3FBFBD00D37A05 /* StepTableViewCell.m in Sources */,
 				6E14FBA61A15B32A00165370 /* MSCellAccessory.m in Sources */,
 				6E14FBA01A15B31E00165370 /* PowerMoveStepsViewController.m in Sources */,
 			);

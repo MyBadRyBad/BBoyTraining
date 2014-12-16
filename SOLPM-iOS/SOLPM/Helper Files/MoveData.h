@@ -10,6 +10,8 @@
 
 @interface MoveData : NSObject
 
++ (NSString *)getMoveKeyString:(NSString *)moveName step:(long)step;
+
 + (NSDictionary *)getMoveData;
 
 + (NSArray *)getMoveTypeArray;

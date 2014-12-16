@@ -12,6 +12,12 @@
 
 @implementation MoveData
 
++ (NSString *)getMoveKeyString:(NSString *)moveName step:(long)step
+{
+    return [NSString stringWithFormat:@"%@/step%ld", moveName, step];
+}
+
+
 + (NSDictionary *)getMoveData
 {
     return nil;

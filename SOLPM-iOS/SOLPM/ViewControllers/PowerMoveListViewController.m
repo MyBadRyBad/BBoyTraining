@@ -240,6 +240,7 @@
     PowerMoveStepsViewController *powermoveStepsViewController = [segue destinationViewController];
     
     NSDictionary *moveData;
+    BOOL isStretching = NO;
     
     // powermoves
     if (indexPath.section == 0)
@@ -263,9 +264,16 @@
 
     // misc
     else if (indexPath.section == 5)
+    {
         moveData = [_miscArray objectAtIndex:indexPath.row];
+        
+        if (indexPath.row == 0)
+            isStretching = YES;
+    }
+    
     
     powermoveStepsViewController.moveData = moveData;
+    powermoveStepsViewController.isStretching = isStretching;
 }
 
 
