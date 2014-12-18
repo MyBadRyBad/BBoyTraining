@@ -256,8 +256,12 @@
     
     // Store the data
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
     NSString *key = [MoveData getMoveKeyString:_moveName step:[_stepNumber longValue]];
-    [defaults setObject:[NSNumber numberWithInteger:counter] forKey:key];
+    
+    NSNumber *repsNumber = [defaults objectForKey:key];
+    NSInteger totalReps = [repsNumber integerValue];
+    [defaults setObject:[NSNumber numberWithInteger:(counter + totalReps)] forKey:key];
     
     [defaults synchronize];
 }

@@ -7,14 +7,27 @@
 //
 
 #import "MCSwipeTableViewCell.h"
+#import "kColorConstants.h"
+#import "MSCellAccessory.h"
 
-#define STEP_LABEL_X_POS            16
+/*#define STEP_LABEL_X_POS            16
 #define SUB_X_POS                   100
 #define NUMBER_X_POS                (SUB_X_POS + 80)
 
 #define STEP_LABEL_Y_POS            16
 #define REPS_COMPLETED_Y_POS        8
 #define REPS_GOAL_Y_POS             24
+#define REPS_DAILY_Y_POS            40 */
+
+#define STEP_LABEL_X_POS            16
+#define SUB_X_POS                   100
+#define NUMBER_X_POS                (SUB_X_POS + 110)
+
+#define STEP_LABEL_Y_POS            20
+#define REPS_COMPLETED_Y_POS        4
+#define REPS_DAILY_Y_POS            20
+#define REPS_GOAL_Y_POS             36
+
 
 static CGFloat const kMCStop1                       = 0.25; // Percentage limit to trigger the first action
 static CGFloat const kMCStop2                       = 0.75; // Percentage limit to trigger the second action
@@ -106,6 +119,56 @@ typedef NS_ENUM(NSUInteger, MCSwipeTableViewCellDirection) {
     return self;
 }
 
+-(void)setCompleted:(BOOL)completed
+{
+    if (completed)
+    {
+        _stepLabel.font = [UIFont fontWithName:@"OpenSans-Semibold" size:16.0f];
+        _stepLabel.textColor = [kColorConstants greenEmeraldColor:1.0f];
+        
+        _repsCompletedLabel.font = [UIFont fontWithName:@"OpenSans-Semibold" size:12.0f];
+        _repsCompletedLabel.textColor = [kColorConstants greenEmeraldColor:1.0f];
+        
+        _repsGoalLabel.font = [UIFont fontWithName:@"OpenSans-Semibold" size:12.0f];
+        _repsGoalLabel.textColor = [kColorConstants greenEmeraldColor:1.0f];
+        
+        _repsDailyLabel.font = [UIFont fontWithName:@"OpenSans-Semibold" size:12.0f];
+        _repsDailyLabel.textColor = [kColorConstants greenEmeraldColor:1.0f];
+        
+        _completedNumberLabel.font = [UIFont fontWithName:@"OpenSans-Semibold" size:12.0f];
+        _completedNumberLabel.textColor = [kColorConstants greenEmeraldColor:1.0f];
+        
+        _goalNumberLabel.font = [UIFont fontWithName:@"OpenSans-Semibold" size:12.0f];
+        _goalNumberLabel.textColor = [kColorConstants greenEmeraldColor:1.0f];
+        
+        _dailyNumberLabel.font = [UIFont fontWithName:@"OpenSans-Semibold" size:12.0f];
+        _dailyNumberLabel.textColor = [kColorConstants greenEmeraldColor:1.0f];
+    }
+    else
+    {
+        _stepLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:16.0f];
+        _stepLabel.textColor = [UIColor whiteColor];
+        
+        _repsCompletedLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:12.0f];
+        _repsCompletedLabel.textColor = [UIColor whiteColor];
+        
+        _repsGoalLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:12.0f];
+        _repsGoalLabel.textColor = [UIColor whiteColor];
+        
+        _repsDailyLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:12.0f];
+        _repsDailyLabel.textColor = [UIColor whiteColor];
+        
+        _completedNumberLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:12.0f];
+        _completedNumberLabel.textColor = [UIColor whiteColor];
+        
+        _goalNumberLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:12.0f];
+        _goalNumberLabel.textColor = [UIColor whiteColor];
+        
+        _dailyNumberLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:12.0f];
+        _dailyNumberLabel.textColor = [UIColor whiteColor];
+    }
+}
+
 - (void)setupLabels
 {
     _stepLabel = [[UILabel alloc] initWithFrame:CGRectMake(STEP_LABEL_X_POS, STEP_LABEL_Y_POS, (self.contentView.frame.size.width - (STEP_LABEL_X_POS * 2)), 26)];
@@ -115,12 +178,17 @@ typedef NS_ENUM(NSUInteger, MCSwipeTableViewCellDirection) {
     _repsCompletedLabel = [[UILabel alloc] initWithFrame:CGRectMake(SUB_X_POS, REPS_COMPLETED_Y_POS, (self.contentView.frame.size.width - (SUB_X_POS * 2)), 26)];
     _repsCompletedLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:12.0f];
     _repsCompletedLabel.textColor = [UIColor whiteColor];
-    _repsCompletedLabel.text = @"Completed:";
+    _repsCompletedLabel.text = @"Total Completed:";
     
     _repsGoalLabel = [[UILabel alloc] initWithFrame:CGRectMake(SUB_X_POS, REPS_GOAL_Y_POS, (self.contentView.frame.size.width - (SUB_X_POS * 2)), 26)];
     _repsGoalLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:12.0f];
     _repsGoalLabel.textColor = [UIColor whiteColor];
-    _repsGoalLabel.text = @"Goal:";
+    _repsGoalLabel.text = @"Total Goal:";
+    
+    _repsDailyLabel = [[UILabel alloc] initWithFrame:CGRectMake(SUB_X_POS, REPS_DAILY_Y_POS, (self.contentView.frame.size.width - (SUB_X_POS *2)), 26)];
+    _repsDailyLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:12.0f];
+    _repsDailyLabel.textColor = [UIColor whiteColor];
+    _repsDailyLabel.text = @"Daily Goal:";
     
     _completedNumberLabel = [[UILabel alloc] initWithFrame:CGRectMake(NUMBER_X_POS, REPS_COMPLETED_Y_POS, (self.contentView.frame.size.width - NUMBER_X_POS), 26)];
     _completedNumberLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:12.0f];
@@ -130,11 +198,19 @@ typedef NS_ENUM(NSUInteger, MCSwipeTableViewCellDirection) {
     _goalNumberLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:12.0f];
     _goalNumberLabel.textColor = [UIColor whiteColor];
     
+    _dailyNumberLabel = [[UILabel alloc] initWithFrame:CGRectMake(NUMBER_X_POS, REPS_DAILY_Y_POS, (self.contentView.frame.size.width - NUMBER_X_POS), 26)];
+    _dailyNumberLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:12.0f];
+    _dailyNumberLabel.textColor = [UIColor whiteColor];
+    
     [self.contentView addSubview:_stepLabel];
     [self.contentView addSubview:_repsCompletedLabel];
     [self.contentView addSubview:_repsGoalLabel];
+    [self.contentView addSubview:_repsDailyLabel];
+    
     [self.contentView addSubview:_completedNumberLabel];
     [self.contentView addSubview:_goalNumberLabel];
+    [self.contentView addSubview:_dailyNumberLabel];
+
 }
 
 - (void)initializer {

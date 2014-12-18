@@ -66,9 +66,13 @@ typedef void (^MCSwipeCompletionBlock)(MCSwipeTableViewCell *cell, MCSwipeTableV
 @property (nonatomic, strong) UILabel *stepLabel;
 @property (nonatomic, strong) UILabel *repsCompletedLabel;
 @property (nonatomic, strong) UILabel *repsGoalLabel;
+@property (nonatomic, strong) UILabel *repsDailyLabel;
 
 @property (nonatomic, strong) UILabel *completedNumberLabel;
 @property (nonatomic, strong) UILabel *goalNumberLabel;
+@property (nonatomic, strong) UILabel *dailyNumberLabel;
+
+-(void)setCompleted:(BOOL)completed;
 //
 //
 //

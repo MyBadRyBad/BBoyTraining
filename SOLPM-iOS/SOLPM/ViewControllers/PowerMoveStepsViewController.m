@@ -214,7 +214,7 @@
     if (_isStretching)
         return 44.0f;
     else
-        return 60.0f;
+        return 70.0f;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -271,18 +271,28 @@
     UIColor *redColor = [kColorConstants redPomegranate:1.0f];
     
     NSNumber *goalNumber = [_stepRepTotalArray objectAtIndex:indexPath.row];
+    NSNumber *dailyNumber = [_stepGoalCountArray objectAtIndex:indexPath.row];
     NSNumber *repsNumber = [defaults objectForKey:[MoveData getMoveKeyString:_powermoveName step:(indexPath.row + 1)]];
     
     if ([repsNumber integerValue] >= [goalNumber integerValue])
+    {
+        [cell setCompleted:YES];
         cell.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
+        cell.accessoryView = [MSCellAccessory accessoryWithType:FLAT_CHECKMARK color:[kColorConstants greenEmeraldColor:1.0f]];
+    }
     else
+    {
+        [cell setCompleted:NO];
         cell.backgroundColor = [kColorConstants blueWetAsphalt:1.0f];
+        cell.accessoryView = [MSCellAccessory accessoryWithType:FLAT_DISCLOSURE_INDICATOR color:[UIColor whiteColor]];
+    }
     
     cell.stepLabel.text = [NSString stringWithFormat:@"Step %ld", (long)(indexPath.row + 1)];
     cell.completedNumberLabel.text = ((repsNumber) ? [repsNumber stringValue] : @"0");
     cell.goalNumberLabel.text = [goalNumber stringValue];
+    cell.dailyNumberLabel.text = [dailyNumber stringValue];
     
-    cell.accessoryView = [MSCellAccessory accessoryWithType:FLAT_DISCLOSURE_INDICATOR color:[UIColor whiteColor]];
+
     
     // Setting the default inactive state color to the tableView background color
     [cell setDefaultColor:self.tableView.backgroundView.backgroundColor];
