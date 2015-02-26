@@ -150,6 +150,7 @@
 		6E14FBC21A15BBE500165370 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBB61A15BBE500165370 /* OpenSans-Regular.ttf */; };
 		6E14FBC31A15BBE500165370 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBB71A15BBE500165370 /* OpenSans-Semibold.ttf */; };
 		6E14FBC41A15BBE500165370 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E14FBB81A15BBE500165370 /* OpenSans-SemiboldItalic.ttf */; };
+		6E15B0A21A4BACBE0028A01D /* HelperFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E15B0A11A4BACBE0028A01D /* HelperFunctions.m */; };
 		6E28E0ED1A1D5114000EFDF8 /* flares_step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E28E0E11A1D5114000EFDF8 /* flares_step1.mp4 */; };
 		6E28E0EE1A1D5114000EFDF8 /* flares_step10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E28E0E21A1D5114000EFDF8 /* flares_step10.mp4 */; };
 		6E28E0EF1A1D5114000EFDF8 /* flares_step11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E28E0E31A1D5114000EFDF8 /* flares_step11.mp4 */; };
@@ -178,6 +179,7 @@
 		6E300ADD1A2FAC490092E49B /* onearmhandstand_step7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E300AD31A2FAC490092E49B /* onearmhandstand_step7.mp4 */; };
 		6E300ADE1A2FAC490092E49B /* onearmhandstand_step8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E300AD41A2FAC490092E49B /* onearmhandstand_step8.mp4 */; };
 		6E300ADF1A2FAC490092E49B /* onearmhandstand_step9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E300AD51A2FAC490092E49B /* onearmhandstand_step9.mp4 */; };
+		6E3C8BA01A4B7B3800B48133 /* CustomIncrementerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C8B9F1A4B7B3800B48133 /* CustomIncrementerViewController.m */; };
 		6E451DA81A326C1300A4FDED /* LandscapeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E451DA71A326C1300A4FDED /* LandscapeNavigationController.m */; };
 		6E451DB21A32A3EA00A4FDED /* hollowback_step1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E451DAA1A32A3EA00A4FDED /* hollowback_step1.mp4 */; };
 		6E451DB31A32A3EA00A4FDED /* hollowback_step2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E451DAB1A32A3EA00A4FDED /* hollowback_step2.mp4 */; };
@@ -245,6 +247,75 @@
 		6E772F731A28F78800EC0D8D /* airflares_step7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E772F661A28F78800EC0D8D /* airflares_step7.mp4 */; };
 		6E772F741A28F78800EC0D8D /* airflares_step8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E772F671A28F78800EC0D8D /* airflares_step8.mp4 */; };
 		6E772F751A28F78800EC0D8D /* airflares_step9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E772F681A28F78800EC0D8D /* airflares_step9.mp4 */; };
+		6E98E9341A4E2F5500E7E9FE /* atomic-sixstep-kneespin-slingshot.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8E61A4E2F5500E7E9FE /* atomic-sixstep-kneespin-slingshot.mp4 */; };
+		6E98E9351A4E2F5500E7E9FE /* atomic-sixstep-kneewalk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8E71A4E2F5500E7E9FE /* atomic-sixstep-kneewalk.mp4 */; };
+		6E98E9361A4E2F5500E7E9FE /* atomic-sixstep-spin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8E81A4E2F5500E7E9FE /* atomic-sixstep-spin.mp4 */; };
+		6E98E9371A4E2F5500E7E9FE /* atomic-sixstep.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8E91A4E2F5500E7E9FE /* atomic-sixstep.mp4 */; };
+		6E98E9381A4E2F5500E7E9FE /* octopus.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8EA1A4E2F5500E7E9FE /* octopus.mp4 */; };
+		6E98E9391A4E2F5500E7E9FE /* sixstep-swipe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8EB1A4E2F5500E7E9FE /* sixstep-swipe.mp4 */; };
+		6E98E93A1A4E2F5500E7E9FE /* backbone-swing.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8ED1A4E2F5500E7E9FE /* backbone-swing.mp4 */; };
+		6E98E93C1A4E2F5500E7E9FE /* jumpover-jumpback.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8EF1A4E2F5500E7E9FE /* jumpover-jumpback.mp4 */; };
+		6E98E93D1A4E2F5500E7E9FE /* jumpover-tap.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8F01A4E2F5500E7E9FE /* jumpover-tap.mp4 */; };
+		6E98E93E1A4E2F5500E7E9FE /* octopus-comeup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8F11A4E2F5500E7E9FE /* octopus-comeup.mp4 */; };
+		6E98E93F1A4E2F5500E7E9FE /* twistup-kickspin-down.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8F21A4E2F5500E7E9FE /* twistup-kickspin-down.mp4 */; };
+		6E98E9401A4E2F5500E7E9FE /* twistup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8F31A4E2F5500E7E9FE /* twistup.mp4 */; };
+		6E98E9411A4E2F5500E7E9FE /* floorsalsa-kneerock.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8F51A4E2F5500E7E9FE /* floorsalsa-kneerock.mp4 */; };
+		6E98E9421A4E2F5500E7E9FE /* floorsalsa.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8F61A4E2F5500E7E9FE /* floorsalsa.mp4 */; };
+		6E98E9431A4E2F5500E7E9FE /* forth & back.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8F71A4E2F5500E7E9FE /* forth & back.mp4 */; };
+		6E98E9441A4E2F5500E7E9FE /* sixstep-kneewalk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8F81A4E2F5500E7E9FE /* sixstep-kneewalk.mp4 */; };
+		6E98E9451A4E2F5500E7E9FE /* sixstep-sling.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8F91A4E2F5500E7E9FE /* sixstep-sling.mp4 */; };
+		6E98E9461A4E2F5500E7E9FE /* sixstep.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8FA1A4E2F5500E7E9FE /* sixstep.mp4 */; };
+		6E98E9471A4E2F5500E7E9FE /* drop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8FD1A4E2F5500E7E9FE /* drop.mp4 */; };
+		6E98E9481A4E2F5500E7E9FE /* kickspin-high.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8FE1A4E2F5500E7E9FE /* kickspin-high.mp4 */; };
+		6E98E9491A4E2F5500E7E9FE /* kickspin-low.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E8FF1A4E2F5500E7E9FE /* kickspin-low.mp4 */; };
+		6E98E94A1A4E2F5500E7E9FE /* kneedrop.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9001A4E2F5500E7E9FE /* kneedrop.mp4 */; };
+		6E98E94B1A4E2F5500E7E9FE /* spindown.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9011A4E2F5500E7E9FE /* spindown.mp4 */; };
+		6E98E94C1A4E2F5500E7E9FE /* sweep.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9021A4E2F5500E7E9FE /* sweep.mp4 */; };
+		6E98E94D1A4E2F5500E7E9FE /* swipedown.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9031A4E2F5500E7E9FE /* swipedown.mp4 */; };
+		6E98E94E1A4E2F5500E7E9FE /* walk-in.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9041A4E2F5500E7E9FE /* walk-in.mp4 */; };
+		6E98E94F1A4E2F5500E7E9FE /* hook.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9061A4E2F5500E7E9FE /* hook.mp4 */; };
+		6E98E9501A4E2F5500E7E9FE /* hookcircle-sling-change.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9071A4E2F5500E7E9FE /* hookcircle-sling-change.mp4 */; };
+		6E98E9511A4E2F5500E7E9FE /* hookwalk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9081A4E2F5500E7E9FE /* hookwalk.mp4 */; };
+		6E98E9521A4E2F5500E7E9FE /* peterpan-full.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9091A4E2F5500E7E9FE /* peterpan-full.mp4 */; };
+		6E98E9531A4E2F5500E7E9FE /* peterpan-half.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E90A1A4E2F5500E7E9FE /* peterpan-half.mp4 */; };
+		6E98E9541A4E2F5500E7E9FE /* slingwalk-sideways.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E90B1A4E2F5500E7E9FE /* slingwalk-sideways.mp4 */; };
+		6E98E9551A4E2F5500E7E9FE /* slingwalk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E90C1A4E2F5500E7E9FE /* slingwalk.mp4 */; };
+		6E98E9561A4E2F5500E7E9FE /* backkick spin-kickout.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E90E1A4E2F5500E7E9FE /* backkick spin-kickout.mp4 */; };
+		6E98E9571A4E2F5500E7E9FE /* backkick spin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E90F1A4E2F5500E7E9FE /* backkick spin.mp4 */; };
+		6E98E9581A4E2F5500E7E9FE /* backkick.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9101A4E2F5500E7E9FE /* backkick.mp4 */; };
+		6E98E9591A4E2F5500E7E9FE /* jumpover-jumpback.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9111A4E2F5500E7E9FE /* jumpover-jumpback.mp4 */; };
+		6E98E95A1A4E2F5500E7E9FE /* kickout-backkick.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9121A4E2F5500E7E9FE /* kickout-backkick.mp4 */; };
+		6E98E95B1A4E2F5500E7E9FE /* kickout-cc (footwork).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9131A4E2F5500E7E9FE /* kickout-cc (footwork).mp4 */; };
+		6E98E95C1A4E2F5500E7E9FE /* kickout-cc (standing).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9141A4E2F5500E7E9FE /* kickout-cc (standing).mp4 */; };
+		6E98E95D1A4E2F5500E7E9FE /* kickout-kickspin-swing.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9151A4E2F5500E7E9FE /* kickout-kickspin-swing.mp4 */; };
+		6E98E95E1A4E2F5500E7E9FE /* kickout-swing.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9161A4E2F5500E7E9FE /* kickout-swing.mp4 */; };
+		6E98E95F1A4E2F5500E7E9FE /* kickspin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9171A4E2F5500E7E9FE /* kickspin.mp4 */; };
+		6E98E9601A4E2F5500E7E9FE /* kickturn (footwork).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9181A4E2F5500E7E9FE /* kickturn (footwork).mp4 */; };
+		6E98E9611A4E2F5500E7E9FE /* kickturn (standing).mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9191A4E2F5500E7E9FE /* kickturn (standing).mp4 */; };
+		6E98E9621A4E2F5500E7E9FE /* monkeyswing.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E91A1A4E2F5500E7E9FE /* monkeyswing.mp4 */; };
+		6E98E9631A4E2F5500E7E9FE /* bellyroll-ninjakick-comeup.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E91C1A4E2F5500E7E9FE /* bellyroll-ninjakick-comeup.mp4 */; };
+		6E98E9641A4E2F5500E7E9FE /* bellyroll-up-kickout.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E91D1A4E2F5500E7E9FE /* bellyroll-up-kickout.mp4 */; };
+		6E98E9651A4E2F5500E7E9FE /* buttslide.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E91E1A4E2F5500E7E9FE /* buttslide.mp4 */; };
+		6E98E9661A4E2F5500E7E9FE /* dolphin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E91F1A4E2F5500E7E9FE /* dolphin.mp4 */; };
+		6E98E9671A4E2F5500E7E9FE /* handtap.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9201A4E2F5500E7E9FE /* handtap.mp4 */; };
+		6E98E9681A4E2F5500E7E9FE /* hiproll-handtap.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9211A4E2F5500E7E9FE /* hiproll-handtap.mp4 */; };
+		6E98E9691A4E2F5500E7E9FE /* lofty.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9221A4E2F5500E7E9FE /* lofty.mp4 */; };
+		6E98E96A1A4E2F5500E7E9FE /* sixstep with hands.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9231A4E2F5500E7E9FE /* sixstep with hands.mp4 */; };
+		6E98E96B1A4E2F5500E7E9FE /* turnover-footslide.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9241A4E2F5500E7E9FE /* turnover-footslide.mp4 */; };
+		6E98E96C1A4E2F5500E7E9FE /* doodlewalk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9261A4E2F5500E7E9FE /* doodlewalk.mp4 */; };
+		6E98E96D1A4E2F5500E7E9FE /* kneespin-slide-tuckin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9271A4E2F5500E7E9FE /* kneespin-slide-tuckin.mp4 */; };
+		6E98E96E1A4E2F5500E7E9FE /* kneeswitch-slide-tuckin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9281A4E2F5500E7E9FE /* kneeswitch-slide-tuckin.mp4 */; };
+		6E98E96F1A4E2F5500E7E9FE /* kneeswitch-turn-on-foot.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9291A4E2F5500E7E9FE /* kneeswitch-turn-on-foot.mp4 */; };
+		6E98E9701A4E2F5500E7E9FE /* kneeswitch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E92A1A4E2F5500E7E9FE /* kneeswitch.mp4 */; };
+		6E98E9711A4E2F5500E7E9FE /* kneewalk-turn-kneeswitch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E92B1A4E2F5500E7E9FE /* kneewalk-turn-kneeswitch.mp4 */; };
+		6E98E9721A4E2F5500E7E9FE /* no hand sweep.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E92C1A4E2F5500E7E9FE /* no hand sweep.mp4 */; };
+		6E98E9731A4E2F5500E7E9FE /* extended pretzel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E92E1A4E2F5500E7E9FE /* extended pretzel.mp4 */; };
+		6E98E9741A4E2F5500E7E9FE /* insideout pretzel-walkover.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E92F1A4E2F5500E7E9FE /* insideout pretzel-walkover.mp4 */; };
+		6E98E9751A4E2F5500E7E9FE /* insideout pretzel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9301A4E2F5500E7E9FE /* insideout pretzel.mp4 */; };
+		6E98E9761A4E2F5500E7E9FE /* pretzel walkover.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9311A4E2F5500E7E9FE /* pretzel walkover.mp4 */; };
+		6E98E9771A4E2F5500E7E9FE /* pretzel-backswipe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9321A4E2F5500E7E9FE /* pretzel-backswipe.mp4 */; };
+		6E98E9781A4E2F5500E7E9FE /* simple pretzel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9331A4E2F5500E7E9FE /* simple pretzel.mp4 */; };
+		6E98E97A1A4E48BA00E7E9FE /* jumpover-change leg-tap.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6E98E9791A4E48BA00E7E9FE /* jumpover-change leg-tap.mp4 */; };
 		6E9B3E3C1A3FBFBD00D37A05 /* StepTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9B3E3B1A3FBFBD00D37A05 /* StepTableViewCell.m */; };
 		6E9B3E411A3FED4100D37A05 /* MCSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9B3E401A3FED4100D37A05 /* MCSwipeTableViewCell.m */; };
 		6E9B3E471A3FF4EF00D37A05 /* MoveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9B3E461A3FF4EF00D37A05 /* MoveData.m */; };
@@ -327,6 +398,7 @@
 		6ECDBB1E1A1886CA00C16550 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECDBB1C1A1886C100C16550 /* QuartzCore.framework */; };
 		6ECDBB261A188D1500C16550 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECDBB231A188D1500C16550 /* FLAnimatedImage.m */; };
 		6ECDBB271A188D1500C16550 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ECDBB251A188D1500C16550 /* FLAnimatedImageView.m */; };
+		6ED1EF9F1A4ACC990067219F /* FootworkGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED1EF9E1A4ACC990067219F /* FootworkGeneratorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -492,6 +564,8 @@
 		6E14FBB71A15BBE500165370 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Semibold.ttf"; path = "Fonts/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		6E14FBB81A15BBE500165370 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-SemiboldItalic.ttf"; path = "Fonts/OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
 		6E14FBCE1A15E86A00165370 /* kConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kConstants.h; sourceTree = "<group>"; };
+		6E15B0A01A4BACBE0028A01D /* HelperFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelperFunctions.h; path = "Helper Files/HelperFunctions.h"; sourceTree = "<group>"; };
+		6E15B0A11A4BACBE0028A01D /* HelperFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelperFunctions.m; path = "Helper Files/HelperFunctions.m"; sourceTree = "<group>"; };
 		6E28E0E11A1D5114000EFDF8 /* flares_step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = flares_step1.mp4; sourceTree = "<group>"; };
 		6E28E0E21A1D5114000EFDF8 /* flares_step10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = flares_step10.mp4; sourceTree = "<group>"; };
 		6E28E0E31A1D5114000EFDF8 /* flares_step11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = flares_step11.mp4; sourceTree = "<group>"; };
@@ -520,6 +594,8 @@
 		6E300AD31A2FAC490092E49B /* onearmhandstand_step7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onearmhandstand_step7.mp4; sourceTree = "<group>"; };
 		6E300AD41A2FAC490092E49B /* onearmhandstand_step8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onearmhandstand_step8.mp4; sourceTree = "<group>"; };
 		6E300AD51A2FAC490092E49B /* onearmhandstand_step9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = onearmhandstand_step9.mp4; sourceTree = "<group>"; };
+		6E3C8B9E1A4B7B3800B48133 /* CustomIncrementerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomIncrementerViewController.h; path = ViewControllers/CustomIncrementerViewController.h; sourceTree = "<group>"; };
+		6E3C8B9F1A4B7B3800B48133 /* CustomIncrementerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomIncrementerViewController.m; path = ViewControllers/CustomIncrementerViewController.m; sourceTree = "<group>"; };
 		6E451DA61A326C1300A4FDED /* LandscapeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LandscapeNavigationController.h; path = ViewControllers/LandscapeNavigationController.h; sourceTree = "<group>"; };
 		6E451DA71A326C1300A4FDED /* LandscapeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LandscapeNavigationController.m; path = ViewControllers/LandscapeNavigationController.m; sourceTree = "<group>"; };
 		6E451DAA1A32A3EA00A4FDED /* hollowback_step1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hollowback_step1.mp4; sourceTree = "<group>"; };
@@ -588,6 +664,75 @@
 		6E772F661A28F78800EC0D8D /* airflares_step7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = airflares_step7.mp4; sourceTree = "<group>"; };
 		6E772F671A28F78800EC0D8D /* airflares_step8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = airflares_step8.mp4; sourceTree = "<group>"; };
 		6E772F681A28F78800EC0D8D /* airflares_step9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = airflares_step9.mp4; sourceTree = "<group>"; };
+		6E98E8E61A4E2F5500E7E9FE /* atomic-sixstep-kneespin-slingshot.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "atomic-sixstep-kneespin-slingshot.mp4"; sourceTree = "<group>"; };
+		6E98E8E71A4E2F5500E7E9FE /* atomic-sixstep-kneewalk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "atomic-sixstep-kneewalk.mp4"; sourceTree = "<group>"; };
+		6E98E8E81A4E2F5500E7E9FE /* atomic-sixstep-spin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "atomic-sixstep-spin.mp4"; sourceTree = "<group>"; };
+		6E98E8E91A4E2F5500E7E9FE /* atomic-sixstep.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "atomic-sixstep.mp4"; sourceTree = "<group>"; };
+		6E98E8EA1A4E2F5500E7E9FE /* octopus.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = octopus.mp4; sourceTree = "<group>"; };
+		6E98E8EB1A4E2F5500E7E9FE /* sixstep-swipe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sixstep-swipe.mp4"; sourceTree = "<group>"; };
+		6E98E8ED1A4E2F5500E7E9FE /* backbone-swing.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "backbone-swing.mp4"; sourceTree = "<group>"; };
+		6E98E8EF1A4E2F5500E7E9FE /* jumpover-jumpback.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jumpover-jumpback.mp4"; sourceTree = "<group>"; };
+		6E98E8F01A4E2F5500E7E9FE /* jumpover-tap.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jumpover-tap.mp4"; sourceTree = "<group>"; };
+		6E98E8F11A4E2F5500E7E9FE /* octopus-comeup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "octopus-comeup.mp4"; sourceTree = "<group>"; };
+		6E98E8F21A4E2F5500E7E9FE /* twistup-kickspin-down.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "twistup-kickspin-down.mp4"; sourceTree = "<group>"; };
+		6E98E8F31A4E2F5500E7E9FE /* twistup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = twistup.mp4; sourceTree = "<group>"; };
+		6E98E8F51A4E2F5500E7E9FE /* floorsalsa-kneerock.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "floorsalsa-kneerock.mp4"; sourceTree = "<group>"; };
+		6E98E8F61A4E2F5500E7E9FE /* floorsalsa.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = floorsalsa.mp4; sourceTree = "<group>"; };
+		6E98E8F71A4E2F5500E7E9FE /* forth & back.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "forth & back.mp4"; sourceTree = "<group>"; };
+		6E98E8F81A4E2F5500E7E9FE /* sixstep-kneewalk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sixstep-kneewalk.mp4"; sourceTree = "<group>"; };
+		6E98E8F91A4E2F5500E7E9FE /* sixstep-sling.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sixstep-sling.mp4"; sourceTree = "<group>"; };
+		6E98E8FA1A4E2F5500E7E9FE /* sixstep.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sixstep.mp4; sourceTree = "<group>"; };
+		6E98E8FD1A4E2F5500E7E9FE /* drop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = drop.mp4; sourceTree = "<group>"; };
+		6E98E8FE1A4E2F5500E7E9FE /* kickspin-high.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kickspin-high.mp4"; sourceTree = "<group>"; };
+		6E98E8FF1A4E2F5500E7E9FE /* kickspin-low.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kickspin-low.mp4"; sourceTree = "<group>"; };
+		6E98E9001A4E2F5500E7E9FE /* kneedrop.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kneedrop.mp4; sourceTree = "<group>"; };
+		6E98E9011A4E2F5500E7E9FE /* spindown.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = spindown.mp4; sourceTree = "<group>"; };
+		6E98E9021A4E2F5500E7E9FE /* sweep.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sweep.mp4; sourceTree = "<group>"; };
+		6E98E9031A4E2F5500E7E9FE /* swipedown.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = swipedown.mp4; sourceTree = "<group>"; };
+		6E98E9041A4E2F5500E7E9FE /* walk-in.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "walk-in.mp4"; sourceTree = "<group>"; };
+		6E98E9061A4E2F5500E7E9FE /* hook.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hook.mp4; sourceTree = "<group>"; };
+		6E98E9071A4E2F5500E7E9FE /* hookcircle-sling-change.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hookcircle-sling-change.mp4"; sourceTree = "<group>"; };
+		6E98E9081A4E2F5500E7E9FE /* hookwalk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hookwalk.mp4; sourceTree = "<group>"; };
+		6E98E9091A4E2F5500E7E9FE /* peterpan-full.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "peterpan-full.mp4"; sourceTree = "<group>"; };
+		6E98E90A1A4E2F5500E7E9FE /* peterpan-half.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "peterpan-half.mp4"; sourceTree = "<group>"; };
+		6E98E90B1A4E2F5500E7E9FE /* slingwalk-sideways.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "slingwalk-sideways.mp4"; sourceTree = "<group>"; };
+		6E98E90C1A4E2F5500E7E9FE /* slingwalk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = slingwalk.mp4; sourceTree = "<group>"; };
+		6E98E90E1A4E2F5500E7E9FE /* backkick spin-kickout.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "backkick spin-kickout.mp4"; sourceTree = "<group>"; };
+		6E98E90F1A4E2F5500E7E9FE /* backkick spin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "backkick spin.mp4"; sourceTree = "<group>"; };
+		6E98E9101A4E2F5500E7E9FE /* backkick.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = backkick.mp4; sourceTree = "<group>"; };
+		6E98E9111A4E2F5500E7E9FE /* jumpover-jumpback.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jumpover-jumpback.mp4"; sourceTree = "<group>"; };
+		6E98E9121A4E2F5500E7E9FE /* kickout-backkick.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kickout-backkick.mp4"; sourceTree = "<group>"; };
+		6E98E9131A4E2F5500E7E9FE /* kickout-cc (footwork).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kickout-cc (footwork).mp4"; sourceTree = "<group>"; };
+		6E98E9141A4E2F5500E7E9FE /* kickout-cc (standing).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kickout-cc (standing).mp4"; sourceTree = "<group>"; };
+		6E98E9151A4E2F5500E7E9FE /* kickout-kickspin-swing.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kickout-kickspin-swing.mp4"; sourceTree = "<group>"; };
+		6E98E9161A4E2F5500E7E9FE /* kickout-swing.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kickout-swing.mp4"; sourceTree = "<group>"; };
+		6E98E9171A4E2F5500E7E9FE /* kickspin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kickspin.mp4; sourceTree = "<group>"; };
+		6E98E9181A4E2F5500E7E9FE /* kickturn (footwork).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kickturn (footwork).mp4"; sourceTree = "<group>"; };
+		6E98E9191A4E2F5500E7E9FE /* kickturn (standing).mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kickturn (standing).mp4"; sourceTree = "<group>"; };
+		6E98E91A1A4E2F5500E7E9FE /* monkeyswing.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = monkeyswing.mp4; sourceTree = "<group>"; };
+		6E98E91C1A4E2F5500E7E9FE /* bellyroll-ninjakick-comeup.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bellyroll-ninjakick-comeup.mp4"; sourceTree = "<group>"; };
+		6E98E91D1A4E2F5500E7E9FE /* bellyroll-up-kickout.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bellyroll-up-kickout.mp4"; sourceTree = "<group>"; };
+		6E98E91E1A4E2F5500E7E9FE /* buttslide.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = buttslide.mp4; sourceTree = "<group>"; };
+		6E98E91F1A4E2F5500E7E9FE /* dolphin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dolphin.mp4; sourceTree = "<group>"; };
+		6E98E9201A4E2F5500E7E9FE /* handtap.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = handtap.mp4; sourceTree = "<group>"; };
+		6E98E9211A4E2F5500E7E9FE /* hiproll-handtap.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hiproll-handtap.mp4"; sourceTree = "<group>"; };
+		6E98E9221A4E2F5500E7E9FE /* lofty.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lofty.mp4; sourceTree = "<group>"; };
+		6E98E9231A4E2F5500E7E9FE /* sixstep with hands.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sixstep with hands.mp4"; sourceTree = "<group>"; };
+		6E98E9241A4E2F5500E7E9FE /* turnover-footslide.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "turnover-footslide.mp4"; sourceTree = "<group>"; };
+		6E98E9261A4E2F5500E7E9FE /* doodlewalk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = doodlewalk.mp4; sourceTree = "<group>"; };
+		6E98E9271A4E2F5500E7E9FE /* kneespin-slide-tuckin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kneespin-slide-tuckin.mp4"; sourceTree = "<group>"; };
+		6E98E9281A4E2F5500E7E9FE /* kneeswitch-slide-tuckin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kneeswitch-slide-tuckin.mp4"; sourceTree = "<group>"; };
+		6E98E9291A4E2F5500E7E9FE /* kneeswitch-turn-on-foot.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kneeswitch-turn-on-foot.mp4"; sourceTree = "<group>"; };
+		6E98E92A1A4E2F5500E7E9FE /* kneeswitch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = kneeswitch.mp4; sourceTree = "<group>"; };
+		6E98E92B1A4E2F5500E7E9FE /* kneewalk-turn-kneeswitch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "kneewalk-turn-kneeswitch.mp4"; sourceTree = "<group>"; };
+		6E98E92C1A4E2F5500E7E9FE /* no hand sweep.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "no hand sweep.mp4"; sourceTree = "<group>"; };
+		6E98E92E1A4E2F5500E7E9FE /* extended pretzel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "extended pretzel.mp4"; sourceTree = "<group>"; };
+		6E98E92F1A4E2F5500E7E9FE /* insideout pretzel-walkover.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "insideout pretzel-walkover.mp4"; sourceTree = "<group>"; };
+		6E98E9301A4E2F5500E7E9FE /* insideout pretzel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "insideout pretzel.mp4"; sourceTree = "<group>"; };
+		6E98E9311A4E2F5500E7E9FE /* pretzel walkover.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pretzel walkover.mp4"; sourceTree = "<group>"; };
+		6E98E9321A4E2F5500E7E9FE /* pretzel-backswipe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pretzel-backswipe.mp4"; sourceTree = "<group>"; };
+		6E98E9331A4E2F5500E7E9FE /* simple pretzel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "simple pretzel.mp4"; sourceTree = "<group>"; };
+		6E98E9791A4E48BA00E7E9FE /* jumpover-change leg-tap.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jumpover-change leg-tap.mp4"; sourceTree = "<group>"; };
 		6E9B3E3A1A3FBFBD00D37A05 /* StepTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StepTableViewCell.h; path = "Helper Files/StepTableViewCell.h"; sourceTree = "<group>"; };
 		6E9B3E3B1A3FBFBD00D37A05 /* StepTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StepTableViewCell.m; path = "Helper Files/StepTableViewCell.m"; sourceTree = "<group>"; };
 		6E9B3E3F1A3FED4100D37A05 /* MCSwipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSwipeTableViewCell.h; sourceTree = "<group>"; };
@@ -680,6 +825,8 @@
 		6ECDBB231A188D1500C16550 /* FLAnimatedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImage.m; sourceTree = "<group>"; };
 		6ECDBB241A188D1500C16550 /* FLAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLAnimatedImageView.h; sourceTree = "<group>"; };
 		6ECDBB251A188D1500C16550 /* FLAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLAnimatedImageView.m; sourceTree = "<group>"; };
+		6ED1EF9D1A4ACC990067219F /* FootworkGeneratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FootworkGeneratorViewController.h; path = ViewControllers/FootworkGeneratorViewController.h; sourceTree = "<group>"; };
+		6ED1EF9E1A4ACC990067219F /* FootworkGeneratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FootworkGeneratorViewController.m; path = ViewControllers/FootworkGeneratorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -970,6 +1117,8 @@
 				6E14FBCE1A15E86A00165370 /* kConstants.h */,
 				6E9B3E451A3FF4EF00D37A05 /* MoveData.h */,
 				6E9B3E461A3FF4EF00D37A05 /* MoveData.m */,
+				6E15B0A01A4BACBE0028A01D /* HelperFunctions.h */,
+				6E15B0A11A4BACBE0028A01D /* HelperFunctions.m */,
 			);
 			name = "Helper Files";
 			sourceTree = "<group>";
@@ -989,6 +1138,10 @@
 				6E14FB9C1A15B31E00165370 /* SettingsViewController.m */,
 				6E451DA61A326C1300A4FDED /* LandscapeNavigationController.h */,
 				6E451DA71A326C1300A4FDED /* LandscapeNavigationController.m */,
+				6ED1EF9D1A4ACC990067219F /* FootworkGeneratorViewController.h */,
+				6ED1EF9E1A4ACC990067219F /* FootworkGeneratorViewController.m */,
+				6E3C8B9E1A4B7B3800B48133 /* CustomIncrementerViewController.h */,
+				6E3C8B9F1A4B7B3800B48133 /* CustomIncrementerViewController.m */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -1029,6 +1182,13 @@
 				6E14FBB81A15BBE500165370 /* OpenSans-SemiboldItalic.ttf */,
 			);
 			name = Fonts;
+			sourceTree = "<group>";
+		};
+		6E15B0A41A4BB7CA0028A01D /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Subviews;
 			sourceTree = "<group>";
 		};
 		6E28E0E01A1D5114000EFDF8 /* flares */ = {
@@ -1102,6 +1262,7 @@
 		6E55B8B11A18BC1B008A3C11 /* Videos */ = {
 			isa = PBXGroup;
 			children = (
+				6E98E8E41A4E2F5500E7E9FE /* footwork */,
 				6E0210901A378CB800F34B83 /* stretching */,
 				6E0210831A377B0400F34B83 /* corkscrew */,
 				6E02106B1A36361A00F34B83 /* gainer */,
@@ -1215,6 +1376,155 @@
 			);
 			name = airflares;
 			path = videos/airflares;
+			sourceTree = "<group>";
+		};
+		6E98E8E41A4E2F5500E7E9FE /* footwork */ = {
+			isa = PBXGroup;
+			children = (
+				6E98E8E51A4E2F5500E7E9FE /* atomicstyle */,
+				6E98E8EC1A4E2F5500E7E9FE /* backbone */,
+				6E98E8F41A4E2F5500E7E9FE /* circulating */,
+				6E98E8FC1A4E2F5500E7E9FE /* godowns */,
+				6E98E9051A4E2F5500E7E9FE /* hook&sling */,
+				6E98E90D1A4E2F5500E7E9FE /* inyourface */,
+				6E98E91B1A4E2F5500E7E9FE /* misc */,
+				6E98E9251A4E2F5500E7E9FE /* nohandedfootwork */,
+				6E98E92D1A4E2F5500E7E9FE /* pretzels */,
+			);
+			name = footwork;
+			path = videos/footwork;
+			sourceTree = "<group>";
+		};
+		6E98E8E51A4E2F5500E7E9FE /* atomicstyle */ = {
+			isa = PBXGroup;
+			children = (
+				6E98E8E61A4E2F5500E7E9FE /* atomic-sixstep-kneespin-slingshot.mp4 */,
+				6E98E8E71A4E2F5500E7E9FE /* atomic-sixstep-kneewalk.mp4 */,
+				6E98E8E81A4E2F5500E7E9FE /* atomic-sixstep-spin.mp4 */,
+				6E98E8E91A4E2F5500E7E9FE /* atomic-sixstep.mp4 */,
+				6E98E8EA1A4E2F5500E7E9FE /* octopus.mp4 */,
+				6E98E8EB1A4E2F5500E7E9FE /* sixstep-swipe.mp4 */,
+			);
+			path = atomicstyle;
+			sourceTree = "<group>";
+		};
+		6E98E8EC1A4E2F5500E7E9FE /* backbone */ = {
+			isa = PBXGroup;
+			children = (
+				6E98E8ED1A4E2F5500E7E9FE /* backbone-swing.mp4 */,
+				6E98E9791A4E48BA00E7E9FE /* jumpover-change leg-tap.mp4 */,
+				6E98E8EF1A4E2F5500E7E9FE /* jumpover-jumpback.mp4 */,
+				6E98E8F01A4E2F5500E7E9FE /* jumpover-tap.mp4 */,
+				6E98E8F11A4E2F5500E7E9FE /* octopus-comeup.mp4 */,
+				6E98E8F21A4E2F5500E7E9FE /* twistup-kickspin-down.mp4 */,
+				6E98E8F31A4E2F5500E7E9FE /* twistup.mp4 */,
+			);
+			path = backbone;
+			sourceTree = "<group>";
+		};
+		6E98E8F41A4E2F5500E7E9FE /* circulating */ = {
+			isa = PBXGroup;
+			children = (
+				6E98E8F51A4E2F5500E7E9FE /* floorsalsa-kneerock.mp4 */,
+				6E98E8F61A4E2F5500E7E9FE /* floorsalsa.mp4 */,
+				6E98E8F71A4E2F5500E7E9FE /* forth & back.mp4 */,
+				6E98E8F81A4E2F5500E7E9FE /* sixstep-kneewalk.mp4 */,
+				6E98E8F91A4E2F5500E7E9FE /* sixstep-sling.mp4 */,
+				6E98E8FA1A4E2F5500E7E9FE /* sixstep.mp4 */,
+			);
+			path = circulating;
+			sourceTree = "<group>";
+		};
+		6E98E8FC1A4E2F5500E7E9FE /* godowns */ = {
+			isa = PBXGroup;
+			children = (
+				6E98E8FD1A4E2F5500E7E9FE /* drop.mp4 */,
+				6E98E8FE1A4E2F5500E7E9FE /* kickspin-high.mp4 */,
+				6E98E8FF1A4E2F5500E7E9FE /* kickspin-low.mp4 */,
+				6E98E9001A4E2F5500E7E9FE /* kneedrop.mp4 */,
+				6E98E9011A4E2F5500E7E9FE /* spindown.mp4 */,
+				6E98E9021A4E2F5500E7E9FE /* sweep.mp4 */,
+				6E98E9031A4E2F5500E7E9FE /* swipedown.mp4 */,
+				6E98E9041A4E2F5500E7E9FE /* walk-in.mp4 */,
+			);
+			path = godowns;
+			sourceTree = "<group>";
+		};
+		6E98E9051A4E2F5500E7E9FE /* hook&sling */ = {
+			isa = PBXGroup;
+			children = (
+				6E98E9061A4E2F5500E7E9FE /* hook.mp4 */,
+				6E98E9071A4E2F5500E7E9FE /* hookcircle-sling-change.mp4 */,
+				6E98E9081A4E2F5500E7E9FE /* hookwalk.mp4 */,
+				6E98E9091A4E2F5500E7E9FE /* peterpan-full.mp4 */,
+				6E98E90A1A4E2F5500E7E9FE /* peterpan-half.mp4 */,
+				6E98E90B1A4E2F5500E7E9FE /* slingwalk-sideways.mp4 */,
+				6E98E90C1A4E2F5500E7E9FE /* slingwalk.mp4 */,
+			);
+			path = "hook&sling";
+			sourceTree = "<group>";
+		};
+		6E98E90D1A4E2F5500E7E9FE /* inyourface */ = {
+			isa = PBXGroup;
+			children = (
+				6E98E90E1A4E2F5500E7E9FE /* backkick spin-kickout.mp4 */,
+				6E98E90F1A4E2F5500E7E9FE /* backkick spin.mp4 */,
+				6E98E9101A4E2F5500E7E9FE /* backkick.mp4 */,
+				6E98E9111A4E2F5500E7E9FE /* jumpover-jumpback.mp4 */,
+				6E98E9121A4E2F5500E7E9FE /* kickout-backkick.mp4 */,
+				6E98E9131A4E2F5500E7E9FE /* kickout-cc (footwork).mp4 */,
+				6E98E9141A4E2F5500E7E9FE /* kickout-cc (standing).mp4 */,
+				6E98E9151A4E2F5500E7E9FE /* kickout-kickspin-swing.mp4 */,
+				6E98E9161A4E2F5500E7E9FE /* kickout-swing.mp4 */,
+				6E98E9171A4E2F5500E7E9FE /* kickspin.mp4 */,
+				6E98E9181A4E2F5500E7E9FE /* kickturn (footwork).mp4 */,
+				6E98E9191A4E2F5500E7E9FE /* kickturn (standing).mp4 */,
+				6E98E91A1A4E2F5500E7E9FE /* monkeyswing.mp4 */,
+			);
+			path = inyourface;
+			sourceTree = "<group>";
+		};
+		6E98E91B1A4E2F5500E7E9FE /* misc */ = {
+			isa = PBXGroup;
+			children = (
+				6E98E91C1A4E2F5500E7E9FE /* bellyroll-ninjakick-comeup.mp4 */,
+				6E98E91D1A4E2F5500E7E9FE /* bellyroll-up-kickout.mp4 */,
+				6E98E91E1A4E2F5500E7E9FE /* buttslide.mp4 */,
+				6E98E91F1A4E2F5500E7E9FE /* dolphin.mp4 */,
+				6E98E9201A4E2F5500E7E9FE /* handtap.mp4 */,
+				6E98E9211A4E2F5500E7E9FE /* hiproll-handtap.mp4 */,
+				6E98E9221A4E2F5500E7E9FE /* lofty.mp4 */,
+				6E98E9231A4E2F5500E7E9FE /* sixstep with hands.mp4 */,
+				6E98E9241A4E2F5500E7E9FE /* turnover-footslide.mp4 */,
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		6E98E9251A4E2F5500E7E9FE /* nohandedfootwork */ = {
+			isa = PBXGroup;
+			children = (
+				6E98E9261A4E2F5500E7E9FE /* doodlewalk.mp4 */,
+				6E98E9271A4E2F5500E7E9FE /* kneespin-slide-tuckin.mp4 */,
+				6E98E9281A4E2F5500E7E9FE /* kneeswitch-slide-tuckin.mp4 */,
+				6E98E9291A4E2F5500E7E9FE /* kneeswitch-turn-on-foot.mp4 */,
+				6E98E92A1A4E2F5500E7E9FE /* kneeswitch.mp4 */,
+				6E98E92B1A4E2F5500E7E9FE /* kneewalk-turn-kneeswitch.mp4 */,
+				6E98E92C1A4E2F5500E7E9FE /* no hand sweep.mp4 */,
+			);
+			path = nohandedfootwork;
+			sourceTree = "<group>";
+		};
+		6E98E92D1A4E2F5500E7E9FE /* pretzels */ = {
+			isa = PBXGroup;
+			children = (
+				6E98E92E1A4E2F5500E7E9FE /* extended pretzel.mp4 */,
+				6E98E92F1A4E2F5500E7E9FE /* insideout pretzel-walkover.mp4 */,
+				6E98E9301A4E2F5500E7E9FE /* insideout pretzel.mp4 */,
+				6E98E9311A4E2F5500E7E9FE /* pretzel walkover.mp4 */,
+				6E98E9321A4E2F5500E7E9FE /* pretzel-backswipe.mp4 */,
+				6E98E9331A4E2F5500E7E9FE /* simple pretzel.mp4 */,
+			);
+			path = pretzels;
 			sourceTree = "<group>";
 		};
 		6E9B3E3E1A3FED4100D37A05 /* MCSwipeTableViewCell */ = {
@@ -1350,6 +1660,7 @@
 				6E14FB891A15B13D00165370 /* Helper Files */,
 				6E14FB8B1A15B15D00165370 /* Storyboard */,
 				6E14FB881A15B12A00165370 /* AppDelegate */,
+				6E15B0A41A4BB7CA0028A01D /* Subviews */,
 				6E14FB8A1A15B14900165370 /* View Controllers */,
 				6E14FBAC1A15BBA200165370 /* Fonts */,
 				6ECDBB0B1A18831300C16550 /* Images */,
@@ -1529,11 +1840,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E98E95A1A4E2F5500E7E9FE /* kickout-backkick.mp4 in Resources */,
 				6EA245AE1A1CAE0500EB95E0 /* bellymills_step1.mp4 in Resources */,
 				6EA245C51A1CB67E00EB95E0 /* nutcrackermills_step3.mp4 in Resources */,
 				6E9E8A831A2DDF18006EFA5E /* windmilltoflare_step2.mp4 in Resources */,
 				6E0210E51A378CB800F34B83 /* stretching_legs_step28.mp4 in Resources */,
 				6E0210511A36219B00F34B83 /* webster_step8.mp4 in Resources */,
+				6E98E9511A4E2F5500E7E9FE /* hookwalk.mp4 in Resources */,
 				6EC6FCB11A2B426700446B01 /* headspin_step14.mp4 in Resources */,
 				6E55B8EC1A18BC64008A3C11 /* windmill_step6.mp4 in Resources */,
 				6E28E0ED1A1D5114000EFDF8 /* flares_step1.mp4 in Resources */,
@@ -1543,15 +1856,21 @@
 				6E451DB51A32A3EA00A4FDED /* hollowback_step4.mp4 in Resources */,
 				6EA245B01A1CAE0500EB95E0 /* bellymills_step11.mp4 in Resources */,
 				6E9E8A811A2DDF18006EFA5E /* flaretoheadspin_step4.mp4 in Resources */,
+				6E98E96B1A4E2F5500E7E9FE /* turnover-footslide.mp4 in Resources */,
 				6E0210D91A378CB800F34B83 /* stretching_legs_step17.mp4 in Resources */,
 				6EC6FCB31A2B426700446B01 /* headspin_step16.mp4 in Resources */,
 				6E300ADB1A2FAC490092E49B /* onearmhandstand_step5.mp4 in Resources */,
+				6E98E9361A4E2F5500E7E9FE /* atomic-sixstep-spin.mp4 in Resources */,
 				6E300AD81A2FAC490092E49B /* onearmhandstand_step2.mp4 in Resources */,
 				6E28E0F31A1D5114000EFDF8 /* flares_step4.mp4 in Resources */,
 				6E451DB41A32A3EA00A4FDED /* hollowback_step3.mp4 in Resources */,
 				6E02106A1A36305000F34B83 /* chunli_step5.mp4 in Resources */,
+				6E98E96A1A4E2F5500E7E9FE /* sixstep with hands.mp4 in Resources */,
 				6E0210C61A378CB800F34B83 /* arm_stretching_step4.mp4 in Resources */,
+				6E98E9591A4E2F5500E7E9FE /* jumpover-jumpback.mp4 in Resources */,
 				6E300ADF1A2FAC490092E49B /* onearmhandstand_step9.mp4 in Resources */,
+				6E98E9641A4E2F5500E7E9FE /* bellyroll-up-kickout.mp4 in Resources */,
+				6E98E9741A4E2F5500E7E9FE /* insideout pretzel-walkover.mp4 in Resources */,
 				6EB3F60B1A1474FD00BEB523 /* Main.storyboard in Resources */,
 				6E451DB91A32A3EA00A4FDED /* hollowback_step8.mp4 in Resources */,
 				6E55B8EA1A18BC64008A3C11 /* windmill_step4.mp4 in Resources */,
@@ -1562,10 +1881,12 @@
 				6EA245B11A1CAE0500EB95E0 /* bellymills_step12.mp4 in Resources */,
 				6E6F1E7F1A302FA5006E5E22 /* airchair_step8.mp4 in Resources */,
 				6EA245E11A1CCAEC00EB95E0 /* halos_step9.mp4 in Resources */,
+				6E98E93F1A4E2F5500E7E9FE /* twistup-kickspin-down.mp4 in Resources */,
 				6E772F751A28F78800EC0D8D /* airflares_step9.mp4 in Resources */,
 				6EC6FCAC1A2B426700446B01 /* headspin_step1.mp4 in Resources */,
 				6E300AC41A2FA0920092E49B /* doubleairchair_step1.mp4 in Resources */,
 				6E28E0F41A1D5114000EFDF8 /* flares_step5.mp4 in Resources */,
+				6E98E9411A4E2F5500E7E9FE /* floorsalsa-kneerock.mp4 in Resources */,
 				6EC6FCB81A2B426700446B01 /* headspin_step4.mp4 in Resources */,
 				6E6F1E7A1A302FA5006E5E22 /* airchair_step3.mp4 in Resources */,
 				6EC6FCBA1A2B426700446B01 /* headspin_step6.mp4 in Resources */,
@@ -1579,14 +1900,19 @@
 				6E0210EA1A378CB800F34B83 /* stretching_legs_step6.mp4 in Resources */,
 				6E300AC81A2FA0920092E49B /* doubleairchair_step5.mp4 in Resources */,
 				6E14FBC41A15BBE500165370 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				6E98E94E1A4E2F5500E7E9FE /* walk-in.mp4 in Resources */,
 				6EAD99231A1AC1970054C6CD /* babymills_step4.mp4 in Resources */,
 				6E0210CF1A378CB800F34B83 /* back_stretching_step4.mp4 in Resources */,
 				6E9E8A7E1A2DDF18006EFA5E /* flaretoheadspin_step1.mp4 in Resources */,
 				6E0210681A36305000F34B83 /* chunli_step3.mp4 in Resources */,
+				6E98E9431A4E2F5500E7E9FE /* forth & back.mp4 in Resources */,
 				6EA245C41A1CB67E00EB95E0 /* nutcrackermills_step2.mp4 in Resources */,
 				6EAD99201A1AC1970054C6CD /* babymills_step1.mp4 in Resources */,
+				6E98E9381A4E2F5500E7E9FE /* octopus.mp4 in Resources */,
 				6E0210281A35F12400F34B83 /* backflip_step1.mp4 in Resources */,
+				6E98E9751A4E2F5500E7E9FE /* insideout pretzel.mp4 in Resources */,
 				6E02102C1A35F12400F34B83 /* backflip_step5.mp4 in Resources */,
+				6E98E9631A4E2F5500E7E9FE /* bellyroll-ninjakick-comeup.mp4 in Resources */,
 				6E0210E91A378CB800F34B83 /* stretching_legs_step5.mp4 in Resources */,
 				6EA245DF1A1CCAEC00EB95E0 /* halos_step7.mp4 in Resources */,
 				6EA245DD1A1CCAEC00EB95E0 /* halos_step5.mp4 in Resources */,
@@ -1598,16 +1924,21 @@
 				6EC6FCAE1A2B426700446B01 /* headspin_step11.mp4 in Resources */,
 				6E772F741A28F78800EC0D8D /* airflares_step8.mp4 in Resources */,
 				6E14FBBE1A15BBE500165370 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				6E98E9611A4E2F5500E7E9FE /* kickturn (standing).mp4 in Resources */,
+				6E98E9491A4E2F5500E7E9FE /* kickspin-low.mp4 in Resources */,
 				6E02104B1A36219B00F34B83 /* webster_step2.mp4 in Resources */,
 				6E55B8EF1A18BC64008A3C11 /* windmill_step9.mp4 in Resources */,
 				6E9E8A851A2DDF18006EFA5E /* windmilltoflare_step4.mp4 in Resources */,
 				6EC6FCB91A2B426700446B01 /* headspin_step5.mp4 in Resources */,
 				6EA245B61A1CAE0500EB95E0 /* bellymills_step6.mp4 in Resources */,
 				6E772F331A28E95100EC0D8D /* elbowflares_step11.mp4 in Resources */,
+				6E98E9771A4E2F5500E7E9FE /* pretzel-backswipe.mp4 in Resources */,
 				6EA245DA1A1CCAEC00EB95E0 /* halos_step2.mp4 in Resources */,
+				6E98E96C1A4E2F5500E7E9FE /* doodlewalk.mp4 in Resources */,
 				6E02100C1A34867400F34B83 /* handhops_step4.mp4 in Resources */,
 				6E0210EB1A378CB800F34B83 /* stretching_legs_step7.mp4 in Resources */,
 				6E0210D41A378CB800F34B83 /* stretching_legs_step12.mp4 in Resources */,
+				6E98E93C1A4E2F5500E7E9FE /* jumpover-jumpback.mp4 in Resources */,
 				6E02101C1A35E6F700F34B83 /* halfpress_handstand_step3.mp4 in Resources */,
 				6E020FEF1A33335300F34B83 /* planche_step11.mp4 in Resources */,
 				6E6F1E801A302FA5006E5E22 /* airchair_step9.mp4 in Resources */,
@@ -1616,11 +1947,17 @@
 				6E28E0F81A1D5114000EFDF8 /* flares_step9.mp4 in Resources */,
 				6E451DB31A32A3EA00A4FDED /* hollowback_step2.mp4 in Resources */,
 				6E020FF01A33335300F34B83 /* planche_step12.mp4 in Resources */,
+				6E98E9551A4E2F5500E7E9FE /* slingwalk.mp4 in Resources */,
 				6E020FF81A33335300F34B83 /* planche_step5.mp4 in Resources */,
 				6E0210E11A378CB800F34B83 /* stretching_legs_step24.mp4 in Resources */,
+				6E98E9441A4E2F5500E7E9FE /* sixstep-kneewalk.mp4 in Resources */,
 				6EC6FCB51A2B426700446B01 /* headspin_step18.mp4 in Resources */,
+				6E98E9651A4E2F5500E7E9FE /* buttslide.mp4 in Resources */,
 				6E6F1E791A302FA5006E5E22 /* airchair_step2.mp4 in Resources */,
+				6E98E93A1A4E2F5500E7E9FE /* backbone-swing.mp4 in Resources */,
+				6E98E9521A4E2F5500E7E9FE /* peterpan-full.mp4 in Resources */,
 				6EA245D81A1CCAEC00EB95E0 /* halos_step10.mp4 in Resources */,
+				6E98E9451A4E2F5500E7E9FE /* sixstep-sling.mp4 in Resources */,
 				6EA245CA1A1CB67E00EB95E0 /* nutcrackermills_step8.mp4 in Resources */,
 				6E28E0EE1A1D5114000EFDF8 /* flares_step10.mp4 in Resources */,
 				6EC6FCB61A2B426700446B01 /* headspin_step2.mp4 in Resources */,
@@ -1632,6 +1969,10 @@
 				6E02108B1A377B0400F34B83 /* corkscrew_step2.mp4 in Resources */,
 				6EA245E01A1CCAEC00EB95E0 /* halos_step8.mp4 in Resources */,
 				6E55B8E51A18BC64008A3C11 /* windmill_step13.mp4 in Resources */,
+				6E98E9581A4E2F5500E7E9FE /* backkick.mp4 in Resources */,
+				6E98E9481A4E2F5500E7E9FE /* kickspin-high.mp4 in Resources */,
+				6E98E9781A4E2F5500E7E9FE /* simple pretzel.mp4 in Resources */,
+				6E98E96F1A4E2F5500E7E9FE /* kneeswitch-turn-on-foot.mp4 in Resources */,
 				6E772F381A28E95100EC0D8D /* elbowflares_step2.mp4 in Resources */,
 				6E772F3E1A28E95100EC0D8D /* elbowflares_step8.mp4 in Resources */,
 				6E0210201A35E6F700F34B83 /* halfpress_handstand_step7.mp4 in Resources */,
@@ -1639,6 +1980,7 @@
 				6EA245DB1A1CCAEC00EB95E0 /* halos_step3.mp4 in Resources */,
 				6E02101A1A35E6F700F34B83 /* halfpress_handstand_step1.mp4 in Resources */,
 				6E02104C1A36219B00F34B83 /* webster_step3.mp4 in Resources */,
+				6E98E9691A4E2F5500E7E9FE /* lofty.mp4 in Resources */,
 				6E020FF21A33335300F34B83 /* planche_step14.mp4 in Resources */,
 				6E02102D1A35F12400F34B83 /* backflip_step6.mp4 in Resources */,
 				6E0210DB1A378CB800F34B83 /* stretching_legs_step19.mp4 in Resources */,
@@ -1651,12 +1993,16 @@
 				6E451DB61A32A3EA00A4FDED /* hollowback_step5.mp4 in Resources */,
 				6E14FBC11A15BBE500165370 /* OpenSans-LightItalic.ttf in Resources */,
 				6E772F6E1A28F78800EC0D8D /* airflares_step2.mp4 in Resources */,
+				6E98E94C1A4E2F5500E7E9FE /* sweep.mp4 in Resources */,
 				6E300ADC1A2FAC490092E49B /* onearmhandstand_step6.mp4 in Resources */,
+				6E98E9761A4E2F5500E7E9FE /* pretzel walkover.mp4 in Resources */,
 				6E55B8E61A18BC64008A3C11 /* windmill_step14.mp4 in Resources */,
 				6EA245C31A1CB67E00EB95E0 /* nutcrackermills_step1.mp4 in Resources */,
+				6E98E9571A4E2F5500E7E9FE /* backkick spin.mp4 in Resources */,
 				6E300AC61A2FA0920092E49B /* doubleairchair_step3.mp4 in Resources */,
 				6EC6FCBD1A2B426700446B01 /* headspin_step9.mp4 in Resources */,
 				6EA245C61A1CB67E00EB95E0 /* nutcrackermills_step4.mp4 in Resources */,
+				6E98E95C1A4E2F5500E7E9FE /* kickout-cc (standing).mp4 in Resources */,
 				6E0210E21A378CB800F34B83 /* stretching_legs_step25.mp4 in Resources */,
 				6E0210ED1A378CB800F34B83 /* stretching_legs_step9.mp4 in Resources */,
 				6E0210C81A378CB800F34B83 /* arm_stretching_step6.mp4 in Resources */,
@@ -1669,9 +2015,11 @@
 				6E6F1E7C1A302FA5006E5E22 /* airchair_step5.mp4 in Resources */,
 				6E02105A1A36281000F34B83 /* btwist_step1.mp4 in Resources */,
 				6E0210C11A378CB800F34B83 /* arm_stretching_step1.mp4 in Resources */,
+				6E98E95B1A4E2F5500E7E9FE /* kickout-cc (footwork).mp4 in Resources */,
 				6E28E0F11A1D5114000EFDF8 /* flares_step2.mp4 in Resources */,
 				6E020FF11A33335300F34B83 /* planche_step13.mp4 in Resources */,
 				6E02105B1A36281000F34B83 /* btwist_step2.mp4 in Resources */,
+				6E98E95E1A4E2F5500E7E9FE /* kickout-swing.mp4 in Resources */,
 				6E020FFC1A33335300F34B83 /* planche_step9.mp4 in Resources */,
 				6EA245B91A1CAE0500EB95E0 /* bellymills_step9.mp4 in Resources */,
 				6E0210C51A378CB800F34B83 /* arm_stretching_step3.mp4 in Resources */,
@@ -1685,29 +2033,37 @@
 				6E0210CD1A378CB800F34B83 /* back_stretching_step2.mp4 in Resources */,
 				6EAD99281A1AC1970054C6CD /* babymills_step9.mp4 in Resources */,
 				6E02100D1A34867400F34B83 /* handhops_step5.mp4 in Resources */,
+				6E98E9421A4E2F5500E7E9FE /* floorsalsa.mp4 in Resources */,
 				6E9E8A841A2DDF18006EFA5E /* windmilltoflare_step3.mp4 in Resources */,
 				6EC6FCAD1A2B426700446B01 /* headspin_step10.mp4 in Resources */,
 				6E6F1E7B1A302FA5006E5E22 /* airchair_step4.mp4 in Resources */,
+				6E98E9601A4E2F5500E7E9FE /* kickturn (footwork).mp4 in Resources */,
 				6EC6FCAF1A2B426700446B01 /* headspin_step12.mp4 in Resources */,
 				6E02101E1A35E6F700F34B83 /* halfpress_handstand_step5.mp4 in Resources */,
 				6EA245D91A1CCAEC00EB95E0 /* halos_step11.mp4 in Resources */,
 				6E02100A1A34867400F34B83 /* handhops_step2.mp4 in Resources */,
 				6E772F391A28E95100EC0D8D /* elbowflares_step3.mp4 in Resources */,
 				6E02104F1A36219B00F34B83 /* webster_step6.mp4 in Resources */,
+				6E98E97A1A4E48BA00E7E9FE /* jumpover-change leg-tap.mp4 in Resources */,
 				6EAD99271A1AC1970054C6CD /* babymills_step8.mp4 in Resources */,
+				6E98E9711A4E2F5500E7E9FE /* kneewalk-turn-kneeswitch.mp4 in Resources */,
 				6EA245B41A1CAE0500EB95E0 /* bellymills_step4.mp4 in Resources */,
 				6E14FBB91A15BBE500165370 /* FACEBOLF.OTF in Resources */,
 				6E02108F1A377B0400F34B83 /* corkscrew_step6.mp4 in Resources */,
 				6EA245DE1A1CCAEC00EB95E0 /* halos_step6.mp4 in Resources */,
 				6E772F731A28F78800EC0D8D /* airflares_step7.mp4 in Resources */,
+				6E98E9721A4E2F5500E7E9FE /* no hand sweep.mp4 in Resources */,
 				6E300AD61A2FAC490092E49B /* onearmhandstand_step1.mp4 in Resources */,
 				6E772F3C1A28E95100EC0D8D /* elbowflares_step6.mp4 in Resources */,
 				6E28E0F71A1D5114000EFDF8 /* flares_step8.mp4 in Resources */,
 				6EA245D71A1CCAEC00EB95E0 /* halos_step1.mp4 in Resources */,
+				6E98E9681A4E2F5500E7E9FE /* hiproll-handtap.mp4 in Resources */,
 				6E0210C41A378CB800F34B83 /* arm_stretching_step2.mp4 in Resources */,
 				6E02101F1A35E6F700F34B83 /* halfpress_handstand_step6.mp4 in Resources */,
+				6E98E94A1A4E2F5500E7E9FE /* kneedrop.mp4 in Resources */,
 				6E0210C91A378CB800F34B83 /* arm_stretching_step7.mp4 in Resources */,
 				6E772F321A28E95100EC0D8D /* elbowflares_step10.mp4 in Resources */,
+				6E98E9461A4E2F5500E7E9FE /* sixstep.mp4 in Resources */,
 				6EA245B81A1CAE0500EB95E0 /* bellymills_step8.mp4 in Resources */,
 				6E0210381A36171700F34B83 /* aerialCartwheel_step1.mp4 in Resources */,
 				6E0210E01A378CB800F34B83 /* stretching_legs_step23.mp4 in Resources */,
@@ -1715,6 +2071,8 @@
 				6E55B8ED1A18BC64008A3C11 /* windmill_step7.mp4 in Resources */,
 				6E02105C1A36281000F34B83 /* btwist_step3.mp4 in Resources */,
 				6E020FED1A33335300F34B83 /* planche_step1.mp4 in Resources */,
+				6E98E9501A4E2F5500E7E9FE /* hookcircle-sling-change.mp4 in Resources */,
+				6E98E96D1A4E2F5500E7E9FE /* kneespin-slide-tuckin.mp4 in Resources */,
 				6E9E8A861A2DDF18006EFA5E /* windmilltoflare_step5.mp4 in Resources */,
 				6E0210D51A378CB800F34B83 /* stretching_legs_step13.mp4 in Resources */,
 				6E300AD91A2FAC490092E49B /* onearmhandstand_step3.mp4 in Resources */,
@@ -1722,6 +2080,7 @@
 				6E0210DA1A378CB800F34B83 /* stretching_legs_step18.mp4 in Resources */,
 				6E6F1E771A302FA5006E5E22 /* airchair_step1.mp4 in Resources */,
 				6EA245B71A1CAE0500EB95E0 /* bellymills_step7.mp4 in Resources */,
+				6E98E9671A4E2F5500E7E9FE /* handtap.mp4 in Resources */,
 				6E772F701A28F78800EC0D8D /* airflares_step4.mp4 in Resources */,
 				6E14FBBF1A15BBE500165370 /* OpenSans-Italic.ttf in Resources */,
 				6E020FF51A33335300F34B83 /* planche_step2.mp4 in Resources */,
@@ -1732,15 +2091,19 @@
 				6EA245C71A1CB67E00EB95E0 /* nutcrackermills_step5.mp4 in Resources */,
 				6E772F3A1A28E95100EC0D8D /* elbowflares_step4.mp4 in Resources */,
 				6E772F371A28E95100EC0D8D /* elbowflares_step15.mp4 in Resources */,
+				6E98E9531A4E2F5500E7E9FE /* peterpan-half.mp4 in Resources */,
 				6EA245AF1A1CAE0500EB95E0 /* bellymills_step10.mp4 in Resources */,
 				6E0210DF1A378CB800F34B83 /* stretching_legs_step22.mp4 in Resources */,
+				6E98E9541A4E2F5500E7E9FE /* slingwalk-sideways.mp4 in Resources */,
 				6E6F1E7D1A302FA5006E5E22 /* airchair_step6.mp4 in Resources */,
 				6E5D9C021A1843570059C509 /* moves.plist in Resources */,
 				6E02103C1A36171700F34B83 /* aerialCartwheel_step5.mp4 in Resources */,
 				6E0210CC1A378CB800F34B83 /* back_stretching_step1.mp4 in Resources */,
 				6E0210081A34867400F34B83 /* handhops_step1.mp4 in Resources */,
+				6E98E93E1A4E2F5500E7E9FE /* octopus-comeup.mp4 in Resources */,
 				6E02100F1A34867400F34B83 /* handhops_step7.mp4 in Resources */,
 				6E020FF41A33335300F34B83 /* planche_step16.mp4 in Resources */,
+				6E98E95F1A4E2F5500E7E9FE /* kickspin.mp4 in Resources */,
 				6E14FBBB1A15BBE500165370 /* OpenSans-Bold.ttf in Resources */,
 				6E0210D71A378CB800F34B83 /* stretching_legs_step15.mp4 in Resources */,
 				6E0210101A34867400F34B83 /* handhops_step8.mp4 in Resources */,
@@ -1751,6 +2114,7 @@
 				6E0210741A36361A00F34B83 /* gainer_step4.mp4 in Resources */,
 				6E772F6C1A28F78800EC0D8D /* airflares_step12.mp4 in Resources */,
 				6E772F711A28F78800EC0D8D /* airflares_step5.mp4 in Resources */,
+				6E98E9371A4E2F5500E7E9FE /* atomic-sixstep.mp4 in Resources */,
 				6E02105E1A36281000F34B83 /* btwist_step5.mp4 in Resources */,
 				6E020FF31A33335300F34B83 /* planche_step15.mp4 in Resources */,
 				6E14FBBD1A15BBE500165370 /* OpenSans-ExtraBold.ttf in Resources */,
@@ -1759,6 +2123,7 @@
 				6E0210671A36305000F34B83 /* chunli_step2.mp4 in Resources */,
 				6E300AD71A2FAC490092E49B /* onearmhandstand_step10.mp4 in Resources */,
 				6E02105D1A36281000F34B83 /* btwist_step4.mp4 in Resources */,
+				6E98E9471A4E2F5500E7E9FE /* drop.mp4 in Resources */,
 				6E02108C1A377B0400F34B83 /* corkscrew_step3.mp4 in Resources */,
 				6E0210E81A378CB800F34B83 /* stretching_legs_step4.mp4 in Resources */,
 				6E0210CE1A378CB800F34B83 /* back_stretching_step3.mp4 in Resources */,
@@ -1772,7 +2137,9 @@
 				6E28E0F21A1D5114000EFDF8 /* flares_step3.mp4 in Resources */,
 				6E0210D01A378CB800F34B83 /* back_stretching_step5.mp4 in Resources */,
 				6E28E0F51A1D5114000EFDF8 /* flares_step6.mp4 in Resources */,
+				6E98E9341A4E2F5500E7E9FE /* atomic-sixstep-kneespin-slingshot.mp4 in Resources */,
 				6E0210C31A378CB800F34B83 /* arm_stretching_step11.mp4 in Resources */,
+				6E98E93D1A4E2F5500E7E9FE /* jumpover-tap.mp4 in Resources */,
 				6E0210D21A378CB800F34B83 /* stretching_legs_step10.mp4 in Resources */,
 				6EC6FCB71A2B426700446B01 /* headspin_step3.mp4 in Resources */,
 				6E02103F1A36171700F34B83 /* aerialCartwheel_step8.mp4 in Resources */,
@@ -1792,39 +2159,52 @@
 				6E0210751A36361A00F34B83 /* gainer_step5.mp4 in Resources */,
 				6E28E0F01A1D5114000EFDF8 /* flares_step12.mp4 in Resources */,
 				6EA245DC1A1CCAEC00EB95E0 /* halos_step4.mp4 in Resources */,
+				6E98E9561A4E2F5500E7E9FE /* backkick spin-kickout.mp4 in Resources */,
 				6E55B8E11A18BC64008A3C11 /* windmill_step1.mp4 in Resources */,
+				6E98E95D1A4E2F5500E7E9FE /* kickout-kickspin-swing.mp4 in Resources */,
 				6E02102B1A35F12400F34B83 /* backflip_step4.mp4 in Resources */,
 				6E451DB71A32A3EA00A4FDED /* hollowback_step6.mp4 in Resources */,
 				6E02101B1A35E6F700F34B83 /* halfpress_handstand_step2.mp4 in Resources */,
 				6E02104E1A36219B00F34B83 /* webster_step5.mp4 in Resources */,
 				6E300ADD1A2FAC490092E49B /* onearmhandstand_step7.mp4 in Resources */,
+				6E98E9731A4E2F5500E7E9FE /* extended pretzel.mp4 in Resources */,
 				6E0210111A34867400F34B83 /* handhops_step9.mp4 in Resources */,
 				6E9E8A7F1A2DDF18006EFA5E /* flaretoheadspin_step2.mp4 in Resources */,
 				6E772F691A28F78800EC0D8D /* airflares_step1.mp4 in Resources */,
+				6E98E9351A4E2F5500E7E9FE /* atomic-sixstep-kneewalk.mp4 in Resources */,
 				6E02108A1A377B0400F34B83 /* corkscrew_step1.mp4 in Resources */,
+				6E98E9661A4E2F5500E7E9FE /* dolphin.mp4 in Resources */,
 				6E772F6B1A28F78800EC0D8D /* airflares_step11.mp4 in Resources */,
+				6E98E94D1A4E2F5500E7E9FE /* swipedown.mp4 in Resources */,
 				6E0210661A36305000F34B83 /* chunli_step1.mp4 in Resources */,
 				6E772F341A28E95100EC0D8D /* elbowflares_step12.mp4 in Resources */,
 				6EC6FCBC1A2B426700446B01 /* headspin_step8.mp4 in Resources */,
 				6E02104A1A36219B00F34B83 /* webster_step1.mp4 in Resources */,
 				6E772F351A28E95100EC0D8D /* elbowflares_step13.mp4 in Resources */,
 				6E02103B1A36171700F34B83 /* aerialCartwheel_step4.mp4 in Resources */,
+				6E98E94F1A4E2F5500E7E9FE /* hook.mp4 in Resources */,
 				6E14FBC21A15BBE500165370 /* OpenSans-Regular.ttf in Resources */,
 				6EC6FCB41A2B426700446B01 /* headspin_step17.mp4 in Resources */,
+				6E98E9701A4E2F5500E7E9FE /* kneeswitch.mp4 in Resources */,
 				6E9E8A801A2DDF18006EFA5E /* flaretoheadspin_step3.mp4 in Resources */,
 				6E0210E41A378CB800F34B83 /* stretching_legs_step27.mp4 in Resources */,
+				6E98E9391A4E2F5500E7E9FE /* sixstep-swipe.mp4 in Resources */,
 				6E02105F1A36281000F34B83 /* btwist_step6.mp4 in Resources */,
 				6E5D9BF81A180D830059C509 /* Localizable.strings in Resources */,
 				6E14FBC31A15BBE500165370 /* OpenSans-Semibold.ttf in Resources */,
 				6E0210E31A378CB800F34B83 /* stretching_legs_step26.mp4 in Resources */,
+				6E98E9401A4E2F5500E7E9FE /* twistup.mp4 in Resources */,
 				6E0210D61A378CB800F34B83 /* stretching_legs_step14.mp4 in Resources */,
 				6E020FF71A33335300F34B83 /* planche_step4.mp4 in Resources */,
 				6E55B8E81A18BC64008A3C11 /* windmill_step2.mp4 in Resources */,
 				6EA245C81A1CB67E00EB95E0 /* nutcrackermills_step6.mp4 in Resources */,
+				6E98E9621A4E2F5500E7E9FE /* monkeyswing.mp4 in Resources */,
 				6E772F721A28F78800EC0D8D /* airflares_step6.mp4 in Resources */,
 				6EB3F60D1A1474FD00BEB523 /* Images.xcassets in Resources */,
+				6E98E94B1A4E2F5500E7E9FE /* spindown.mp4 in Resources */,
 				6E300AC71A2FA0920092E49B /* doubleairchair_step4.mp4 in Resources */,
 				6E0210711A36361A00F34B83 /* gainer_step1.mp4 in Resources */,
+				6E98E96E1A4E2F5500E7E9FE /* kneeswitch-slide-tuckin.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1847,8 +2227,10 @@
 				6E14FBA71A15B32A00165370 /* UIView+AccessViewController.m in Sources */,
 				6EB3F6021A1474FD00BEB523 /* AppDelegate.m in Sources */,
 				6EB3F6051A1474FD00BEB523 /* SOLPM.xcdatamodeld in Sources */,
+				6E15B0A21A4BACBE0028A01D /* HelperFunctions.m in Sources */,
 				6E451DA81A326C1300A4FDED /* LandscapeNavigationController.m in Sources */,
 				6E9B3E411A3FED4100D37A05 /* MCSwipeTableViewCell.m in Sources */,
+				6ED1EF9F1A4ACC990067219F /* FootworkGeneratorViewController.m in Sources */,
 				6E14FBA11A15B31E00165370 /* SettingsViewController.m in Sources */,
 				6E14FBAA1A15B33600165370 /* kColorConstants.m in Sources */,
 				6ECDBB271A188D1500C16550 /* FLAnimatedImageView.m in Sources */,
@@ -1859,6 +2241,7 @@
 				6E9B3E3C1A3FBFBD00D37A05 /* StepTableViewCell.m in Sources */,
 				6E14FBA61A15B32A00165370 /* MSCellAccessory.m in Sources */,
 				6E14FBA01A15B31E00165370 /* PowerMoveStepsViewController.m in Sources */,
+				6E3C8BA01A4B7B3800B48133 /* CustomIncrementerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

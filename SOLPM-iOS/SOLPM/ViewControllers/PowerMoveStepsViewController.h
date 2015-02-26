@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "kConstants.h"
 
 @interface PowerMoveStepsViewController : UIViewController < UITableViewDataSource, UITableViewDelegate>
 
@@ -14,6 +15,6 @@
 
 @property (nonatomic, strong) NSDictionary *moveData;
 
-@property (nonatomic) BOOL isStretching;
+@property (nonatomic) MoveType movetype;
 
 @end

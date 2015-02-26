@@ -1608,6 +1608,122 @@
 			</array>
 		</dict>
 	</array>
+	<key>footwork</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Footwork by Storm</string>
+			<key>atomicStyle</key>
+			<array>
+				<string>Atomic-Sixstep-Kneespin-Slingshot</string>
+				<string>Atomic-Sixstep-Kneewalk</string>
+				<string>Atomic-Sixstep-Spin</string>
+				<string>Atomic-Sixstep</string>
+				<string>Octopus</string>
+				<string>Sixstep-Swipe</string>
+			</array>
+			<key>backbone</key>
+			<array>
+				<string>Backbone-Swing</string>
+				<string>Jumpover-Change Leg-Tap</string>
+				<string>Jumpover-Jumpback</string>
+				<string>Jumpover-Tap</string>
+				<string>Octopus-Comeup</string>
+				<string>Twistup-Kickspin-Down</string>
+				<string>Twistup</string>
+			</array>
+			<key>circulating</key>
+			<array>
+				<string>Floorsalsa-Kneerock</string>
+				<string>Floorsalsa</string>
+				<string>Forth &amp; Back</string>
+				<string>Sixstep-Kneewalk</string>
+				<string>Sixstep-Sling</string>
+				<string>Sixstep</string>
+				<string>Fourstep</string>
+				<string>Threestep</string>
+				<string>Sevenstep</string>
+			</array>
+			<key>freezes</key>
+			<array>
+				<string>Babyfreeze</string>
+				<string>Chairfreeze</string>
+				<string>Elbow Handstand</string>
+				<string>Headstand</string>
+				<string>Airbaby</string>
+				<string>Handstand</string>
+				<string>Rummenigge</string>
+			</array>
+			<key>godowns</key>
+			<array>
+				<string>Drop</string>
+				<string>Kickspin-High</string>
+				<string>Kickspin-Low</string>
+				<string>Kneedrop</string>
+				<string>Spindown</string>
+				<string>Sweep</string>
+				<string>Swipedown</string>
+				<string>Walk-in</string>
+			</array>
+			<key>hook&amp;sling</key>
+			<array>
+				<string>Hook</string>
+				<string>Hookcircle-Sling-Change</string>
+				<string>Hookwalk</string>
+				<string>Peterpan-Full</string>
+				<string>Peterpan-Half</string>
+				<string>Slingwalk-Sideways</string>
+				<string>Slingwalk</string>
+			</array>
+			<key>inYourFace</key>
+			<array>
+				<string>Backkick</string>
+				<string>Backkick Spin-Kickout</string>
+				<string>Backkick Spin</string>
+				<string>Jumpover-Jumpback</string>
+				<string>Kickout-Backkick</string>
+				<string>Kickout-CC (footwork)</string>
+				<string>Kickout-CC (standing)</string>
+				<string>Kickout-Kickspin-Swing</string>
+				<string>Kickout-Swing</string>
+				<string>Kickspin</string>
+				<string>Kickturn (footwork)</string>
+				<string>Kickturn (standing)</string>
+				<string>Monkeyswing</string>
+			</array>
+			<key>misc</key>
+			<array>
+				<string>Bellyroll-Ninjakick-Comeup</string>
+				<string>Bellyroll-Up-Kickout</string>
+				<string>Buttslide</string>
+				<string>Dolphin</string>
+				<string>Handtap</string>
+				<string>Hiproll-Handtap</string>
+				<string>Lofty</string>
+				<string>Sixstep with hands</string>
+				<string>Turnover-Footslide</string>
+			</array>
+			<key>nohanded</key>
+			<array>
+				<string>Doodlewalk</string>
+				<string>Kneespin-Slide-Tuckin</string>
+				<string>Kneeswitch-Slide-Tuckin</string>
+				<string>Kneeswitch-turn-on-Foot</string>
+				<string>Kneeswitch</string>
+				<string>Kneewalk-Turn-Kneeswitch</string>
+				<string>No hand Sweep</string>
+			</array>
+			<key>pretzels</key>
+			<array>
+				<string>Extended Pretzel</string>
+				<string>Insideout Pretzel-Walkover</string>
+				<string>Insideout Pretzel</string>
+				<string>Pretzel-Backswipe</string>
+				<string>Pretzel Walkover</string>
+				<string>Simple Pretzel</string>
+			</array>
+		</dict>
+	</array>
 	<key>misc</key>
 	<array>
 		<dict>
@@ -1721,6 +1837,17 @@
 				<integer>1000</integer>
 				<integer>1000</integer>
 			</array>
+		</dict>
+	</array>
+	<key>tools</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Footwork Generator</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Increment Counter</string>
 		</dict>
 	</array>
 </dict>

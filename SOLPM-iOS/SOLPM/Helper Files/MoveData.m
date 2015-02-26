@@ -34,7 +34,9 @@
                                      MOVE_TYPE_FREEZES,
                                      MOVE_TYPE_TRICKS,
                                      MOVE_TYPE_FLIPS,
+                                     MOVE_TYPE_FOOTWORK,
                                      MOVE_TYPE_MISC,
+                                     MOVE_TYPE_TOOLS,
                                      nil];
     
     return moveType;
@@ -199,6 +201,29 @@
     
     else
     return 0;
+
+}
+
++ (BOOL)hasVideo:(NSString *)moveName
+{
+    // footwork
+    if ([moveName isEqualToString:FOOTWORK_FOURSTEP] ||
+        [moveName isEqualToString:FOOTWORK_THREESTEP] ||
+        [moveName isEqualToString:FOOTWORK_SEVENSTEP])
+        return NO;
+    
+    // freezes
+    else if ([moveName isEqualToString:FREEZES_BABYFREEZE] ||
+             [moveName isEqualToString:FREEZES_CHAIRFREEZE] ||
+             [moveName isEqualToString:FREEZES_ELBOW_HANDSTAND] ||
+             [moveName isEqualToString:FREEZES_HEADSTAND] ||
+             [moveName isEqualToString:FREEZES_AIRBABY] ||
+             [moveName isEqualToString:FREEZES_HANDSTAND] ||
+             [moveName isEqualToString:FREEZES_RUMMENIGGE])
+        return NO;
+    
+    else
+        return YES;
 
 }
 

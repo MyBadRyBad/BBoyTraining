@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <MediaPlayer/MediaPlayer.h>
+#import "kConstants.h"
+
 
 @interface PowerMoveMainViewController : UIViewController
 
-// data
+@property (nonatomic) MoveType moveType;
+
 @property (nonatomic, strong) NSString *moveName;
 @property (nonatomic, strong) NSString *moveDescription;
 @property (nonatomic, strong) NSString *videoString;

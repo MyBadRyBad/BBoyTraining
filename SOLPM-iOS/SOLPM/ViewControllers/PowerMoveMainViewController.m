@@ -9,8 +9,8 @@
 #import "PowerMoveMainViewController.h"
 #import <QuartzCore/QuartzCore.h>
 #import "MoveData.h"
+#import "HelperFunctions.h"
 #import "kColorConstants.h"
-#import "kConstants.h"
 
 @interface PowerMoveMainViewController ()
 {
@@ -31,7 +31,10 @@
     [self setupNavigationBar];
     [self setupView];
     [self setupVideoPlayer];
-    [self setupIncrementerButton];
+    
+    if (_moveType != footwork)
+        [self setupIncrementerButton];
+    
     [self setupLabels];
 }
 
@@ -49,7 +52,10 @@
 #pragma mark - setup navigation button
 - (void)setupNavigationBar
 {
-    self.navigationItem.title = @"Training";
+    if (_moveType == footwork)
+        self.navigationItem.title = @"Footwork";
+    else
+        self.navigationItem.title = @"Training";
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:self action:@selector(backButtonPressed:)];
     
@@ -62,16 +68,19 @@
     
     [self.navigationItem.leftBarButtonItem setTitleTextAttributes:leftBarButtonDictionary forState:UIControlStateNormal];
     
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(doneButtonPressed:)];
+    if (_moveType != footwork)
+    {
+        self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(doneButtonPressed:)];
     
-    NSDictionary *rightBarButtonDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
+        NSDictionary *rightBarButtonDictionary = [NSDictionary dictionaryWithObjectsAndKeys:
                                               [UIFont fontWithName:@"OpenSans-Light" size:16.0],
                                               NSFontAttributeName,
                                               [UIColor whiteColor],
                                               NSForegroundColorAttributeName,
                                               nil];
     
-    [self.navigationItem.rightBarButtonItem setTitleTextAttributes:rightBarButtonDictionary forState:UIControlStateNormal];
+        [self.navigationItem.rightBarButtonItem setTitleTextAttributes:rightBarButtonDictionary forState:UIControlStateNormal];
+    }
 }
 
 #pragma mark -
@@ -81,7 +90,12 @@
     self.view.backgroundColor = [kColorConstants blueWetAsphalt:1.0f];
     
     UILabel *moveLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 40)];
-    moveLabel.text = [NSString stringWithFormat:@"%@ - Step %ld", _moveName, (long)[_stepNumber integerValue]];
+    
+    if (_moveType == footwork)
+        moveLabel.text = _moveName;
+    else
+        moveLabel.text = [NSString stringWithFormat:@"%@ - Step %ld", _moveName, (long)[_stepNumber integerValue]];
+    
     moveLabel.textColor = [UIColor whiteColor];
     moveLabel.textAlignment = NSTextAlignmentCenter;
     moveLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:16.0f];
@@ -178,9 +192,9 @@
     [_incrementerButton setTitle:buttonTitle forState:UIControlStateSelected];
     [_incrementerButton setTitle:buttonTitle forState:UIControlStateHighlighted];
     
-    [_incrementerButton setBackgroundImage:[PowerMoveMainViewController imageWithColor:[kColorConstants blueWetAsphalt:1.0f]] forState:UIControlStateNormal];
-    [_incrementerButton setBackgroundImage:[PowerMoveMainViewController imageWithColor:[kColorConstants blueMidnightBlue:1.0f]] forState:UIControlStateSelected];
-    [_incrementerButton setBackgroundImage:[PowerMoveMainViewController imageWithColor:[kColorConstants blueMidnightBlue:1.0f]] forState:UIControlStateHighlighted];
+    [_incrementerButton setBackgroundImage:[HelperFunctions imageWithColor:[kColorConstants blueWetAsphalt:1.0f]] forState:UIControlStateNormal];
+    [_incrementerButton setBackgroundImage:[HelperFunctions imageWithColor:[kColorConstants blueMidnightBlue:1.0f]] forState:UIControlStateSelected];
+    [_incrementerButton setBackgroundImage:[HelperFunctions imageWithColor:[kColorConstants blueMidnightBlue:1.0f]] forState:UIControlStateHighlighted];
     
     [_incrementerButton addTarget:self action:@selector(incrementerButtonPress:) forControlEvents:UIControlEventTouchDown];
     [_incrementerButton addTarget:self action:@selector(incrementerButtonRelease:) forControlEvents:UIControlEventTouchUpInside];
@@ -192,21 +206,6 @@
     
     [self.view addSubview:_incrementerButton];
 
-}
-
-
-+ (UIImage *)imageWithColor:(UIColor *)color {
-    CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
-    UIGraphicsBeginImageContext(rect.size);
-    CGContextRef context = UIGraphicsGetCurrentContext();
-    
-    CGContextSetFillColorWithColor(context, [color CGColor]);
-    CGContextFillRect(context, rect);
-    
-    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-    UIGraphicsEndImageContext();
-    
-    return image;
 }
 
 - (void)setupLabels

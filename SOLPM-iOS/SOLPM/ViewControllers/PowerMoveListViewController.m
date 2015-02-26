@@ -8,6 +8,7 @@
 
 #import "PowerMoveListViewController.h"
 #import "PowerMoveStepsViewController.h"
+#import "FootworkGeneratorViewController.h"
 #import "kColorConstants.h"
 #import "MSCellAccessory.h"
 #import "kConstants.h"
@@ -25,6 +26,9 @@
     NSArray *_flipsArray;
     NSArray *_miscArray;
     NSArray *_stretchingVideoArray;
+    
+    NSArray *_footworkArray;
+    NSArray *_toolsArray;
     
     UIImageView *navBarHairlineImageView;
 }
@@ -122,6 +126,8 @@
     _tricksArray = [dict objectForKey:@"tricks"];
     _flipsArray = [dict objectForKey:@"flips"];
     _miscArray = [dict objectForKey:@"misc"];
+    _footworkArray = [dict objectForKey:@"footwork"];
+    _toolsArray = [dict objectForKey:@"tools"];
     
     _moveType = [MoveData getMoveTypeArray];
 }
@@ -146,8 +152,12 @@
         return [_tricksArray count];
     else if (section == 4)
         return [_flipsArray count];
-    else
+    else if (section == 5)
+        return [_footworkArray count];
+    else if (section == 6)
         return [_miscArray count];
+    else
+        return [_toolsArray count];
 }
 
 
@@ -180,7 +190,11 @@
     else if (indexPath.section == 4)
         moveDictionary = [_flipsArray objectAtIndex:indexPath.row];
     else if (indexPath.section == 5)
+        moveDictionary = [_footworkArray objectAtIndex:indexPath.row];
+    else if (indexPath.section == 6)
         moveDictionary = [_miscArray objectAtIndex:indexPath.row];
+    else if (indexPath.section == 7)
+        moveDictionary = [_toolsArray objectAtIndex:indexPath.row];
     
     if (moveDictionary)
         cellName = [moveDictionary objectForKey:@"name"];
@@ -198,7 +212,12 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    [self performSegueWithIdentifier:@"segueToPowerMoveStepsViewController" sender:indexPath];
+    if (indexPath.section == 7 && indexPath.row == 0)
+        [self performSegueWithIdentifier:@"segueToFootworkGeneratorViewController" sender:indexPath];
+    else if (indexPath.section == 7 && indexPath.row == 1)
+        [self performSegueWithIdentifier:@"segueToCustomIncrementerViewController" sender:indexPath];
+    else
+        [self performSegueWithIdentifier:@"segueToPowerMoveStepsViewController" sender:indexPath];
     
 }
 
@@ -235,45 +254,62 @@
 #pragma mark - Navigation
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    NSIndexPath *indexPath = sender;
-
-    PowerMoveStepsViewController *powermoveStepsViewController = [segue destinationViewController];
     
-    NSDictionary *moveData;
-    BOOL isStretching = NO;
-    
-    // powermoves
-    if (indexPath.section == 0)
-        moveData = [_powermoveListArray objectAtIndex:indexPath.row];
-    
-    // powermove combos
-    else if (indexPath.section == 1)
-        moveData = [_powermoveComboListArray objectAtIndex:indexPath.row];
-    
-    // freezes
-    else if (indexPath.section == 2)
-        moveData = [_freezesArray objectAtIndex:indexPath.row];
-    
-    // tricks
-    else if (indexPath.section == 3)
-        moveData = [_tricksArray objectAtIndex:indexPath.row];
-    
-    // flips
-    else if (indexPath.section == 4)
-        moveData = [_flipsArray objectAtIndex:indexPath.row];
-
-    // misc
-    else if (indexPath.section == 5)
+    if ([segue.identifier isEqualToString:@"segueToPowerMoveStepsViewController"])
     {
-        moveData = [_miscArray objectAtIndex:indexPath.row];
+        NSIndexPath *indexPath = sender;
+
+        PowerMoveStepsViewController *powermoveStepsViewController = [segue destinationViewController];
+    
+        NSDictionary *moveData;
+        MoveType movetype = powermove;
+    
+        // powermoves
+        if (indexPath.section == 0)
+            moveData = [_powermoveListArray objectAtIndex:indexPath.row];
+    
+        // powermove combos
+        else if (indexPath.section == 1)
+            moveData = [_powermoveComboListArray objectAtIndex:indexPath.row];
+    
+        // freezes
+        else if (indexPath.section == 2)
+            moveData = [_freezesArray objectAtIndex:indexPath.row];
+    
+        // tricks
+        else if (indexPath.section == 3)
+            moveData = [_tricksArray objectAtIndex:indexPath.row];
+    
+        // flips
+        else if (indexPath.section == 4)
+            moveData = [_flipsArray objectAtIndex:indexPath.row];
+
+        // footwork
+        else if (indexPath.section == 5)
+        {
+            moveData = [_footworkArray objectAtIndex:indexPath.row];
+            movetype = footwork;
+        }
+    
+        // misc
+        else if (indexPath.section == 6)
+        {
+            moveData = [_miscArray objectAtIndex:indexPath.row];
         
-        if (indexPath.row == 0)
-            isStretching = YES;
+            if (indexPath.row == 0)
+                movetype = stretching;
+        }
+    
+        powermoveStepsViewController.moveData = moveData;
+        powermoveStepsViewController.movetype = movetype;
     }
     
-    
-    powermoveStepsViewController.moveData = moveData;
-    powermoveStepsViewController.isStretching = isStretching;
+    else if ([segue.identifier isEqualToString:@"segueToFootworkGeneratorViewController"])
+    {
+        FootworkGeneratorViewController *footworkGeneratorViewController = [segue destinationViewController];
+        
+        footworkGeneratorViewController.moveData = [_footworkArray objectAtIndex:0];
+    }
 }
 
 

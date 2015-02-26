@@ -22,6 +22,6 @@
 + (NSArray *)getMiscArray;
 
 + (NSInteger)getNumberOfStepsForMove:(NSString *)move;
-
++ (BOOL)hasVideo:(NSString *)moveName;
 
 @end

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5yy-dD-ihE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5yy-dD-ihE">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
@@ -21,7 +21,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y1u-bt-Z5d" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2238" y="171.75"/>
+            <point key="canvasLocation" x="2238" y="-313"/>
         </scene>
         <!--Power Move List View Controller-->
         <scene sceneID="EWR-In-SAb">
@@ -41,11 +41,13 @@
                         <segue destination="Wiq-7l-Bce" kind="show" identifier="segueToPowerMoveStepsViewController" id="g1C-eX-tpA"/>
                         <segue destination="LAV-9z-zJn" kind="presentation" identifier="segueToHowTo" id="HtV-de-erC"/>
                         <segue destination="84W-W3-EQZ" kind="show" identifier="segueToSettings" id="QsN-AG-u2U"/>
+                        <segue destination="nIU-fq-wk5" kind="show" identifier="segueToFootworkGeneratorViewController" id="EXG-ov-VKX"/>
+                        <segue destination="0P6-us-mLD" kind="show" identifier="segueToCustomIncrementerViewController" id="F71-qM-o3K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="taU-9Q-8Fk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1438" y="896.25"/>
+            <point key="canvasLocation" x="1438" y="868"/>
         </scene>
         <!--How To View Controller-->
         <scene sceneID="GE0-sy-rWg">
@@ -84,7 +86,46 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RYo-Yi-aLn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2238" y="896.25"/>
+            <point key="canvasLocation" x="2238" y="516"/>
+        </scene>
+        <!--Footwork Generator View Controller-->
+        <scene sceneID="CV5-9r-2eb">
+            <objects>
+                <viewController id="nIU-fq-wk5" customClass="FootworkGeneratorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="k4O-Zl-AQn"/>
+                        <viewControllerLayoutGuide type="bottom" id="DuJ-1h-moM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EXh-AA-y70">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <segue destination="coK-xg-Vdi" kind="show" identifier="segueToPowerMoveMainViewControllerFromFootworkGenerator" id="Kfj-WV-uRj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HJs-Oo-eTg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2238" y="1335"/>
+        </scene>
+        <!--Custom Incrementer View Controller-->
+        <scene sceneID="lha-8J-SUd">
+            <objects>
+                <viewController id="0P6-us-mLD" customClass="CustomIncrementerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XPy-QW-7tA"/>
+                        <viewControllerLayoutGuide type="bottom" id="e1V-kr-x4Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Buv-LD-Lu2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ow4-Dv-yyp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2238" y="2131"/>
         </scene>
         <!--Power Move Main View Controller-->
         <scene sceneID="kN1-xe-DQs">
@@ -124,4 +165,7 @@
             <point key="canvasLocation" x="626" y="896.25"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Kfj-WV-uRj"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -9,6 +9,13 @@
 #ifndef SOLPM_kConstants_h
 #define SOLPM_kConstants_h
 
+typedef enum MoveType
+{
+    powermove,
+    footwork,
+    stretching
+} MoveType;
+
 #define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
 #define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
 #define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
@@ -33,6 +40,9 @@
 #define IS_IPHONE_6P ( ( [ [ UIScreen mainScreen ] respondsToSelector: @selector( nativeBounds ) ] ) ? IS_IPHONE_6P_IOS8 : IS_IPHONE_6P_IOS7 )
 #define IS_IPHONE_4_AND_OLDER ( ( [ [ UIScreen mainScreen ] respondsToSelector: @selector( nativeBounds ) ] ) ? IS_IPHONE_4_AND_OLDER_IOS8 : IS_IPHONE_4_AND_OLDER_IOS7 )
 
+
+//
+
 //--------------------------------
 //--------------------------------
 //
@@ -46,7 +56,9 @@
 #define MOVE_TYPE_FREEZES @"Freezes"
 #define MOVE_TYPE_FLIPS @"Flips"
 #define MOVE_TYPE_TRICKS @"Tricks"
+#define MOVE_TYPE_FOOTWORK @"Footwork"
 #define MOVE_TYPE_MISC @"Misc"
+#define MOVE_TYPE_TOOLS @"Tools"
 
 // powermove list strings
 #define POWERMOVE_WINDMILLS @"Windmills"
@@ -83,7 +95,19 @@
 // misc list string
 #define MISC_STRETCHING @"Stretching"
 
+//footwork
+#define FOOTWORK_FOURSTEP @"Fourstep"
+#define FOOTWORK_THREESTEP @"Threestep"
+#define FOOTWORK_SEVENSTEP @"Sevenstep"
 
+//freezes
+#define FREEZES_BABYFREEZE @"Babyfreeze"
+#define FREEZES_CHAIRFREEZE @"Chairfreeze"
+#define FREEZES_ELBOW_HANDSTAND @"Elbow Handstand"
+#define FREEZES_HEADSTAND @"Headstand"
+#define FREEZES_AIRBABY @"Airbaby"
+#define FREEZES_HANDSTAND @"Handstand"
+#define FREEZES_RUMMENIGGE @"Rummenigge"
 //--------------------------------
 //--------------------------------
 //
