@@ -16,6 +16,12 @@ typedef enum MoveType
     stretching
 } MoveType;
 
+
+static NSString* const kFootworkNameKey = @"footworkName";
+static NSString* const kFootworkCategoryKey = @"footworkCategory";
+
+static NSString* const kUserDefaultsFWCombosKey = @"savedFootworkCombos";
+
 #define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
 #define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
 #define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)

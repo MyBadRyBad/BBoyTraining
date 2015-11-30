@@ -9,11 +9,17 @@
 #import "FootworkGeneratorViewController.h"
 #import <QuartzCore/QuartzCore.h>
 #import "PowerMoveMainViewController.h"
+#import "FootworkListViewController.h"
 #import "kColorConstants.h"
 #import "kConstants.h"
 #import "HelperFunctions.h"
 #import "MSCellAccessory.h"
 #import "MoveData.h"
+
+#define GENERATEBUTTONTAG 1000
+#define SAVECOMBOBUTTONTAG 2000
+#define LISTCOMBOBUTTONTAG 3000
+
 
 @interface FootworkGeneratorViewController ()
 {
@@ -63,20 +69,35 @@
     CGRect headerFrame = CGRectMake(0, 0, _tableView.frame.size.width, 60);
     
     CGRect generateButtonFrame = CGRectMake(0, 0, 100, 40);
-    CGPoint generateButtonCenter = CGPointMake(_tableView.frame.size.width * 0.5, headerFrame.size.height - 30);
+    CGRect saveComboButtomFrame = CGRectMake(0, 0, 100, 40);
+    CGRect listSavedCombosButtonFrame = CGRectMake(0, 0, 100, 40);
+    
+    
+    
+    CGPoint generateButtonCenter = CGPointMake(_tableView.frame.size.width * 0.15, headerFrame.size.height - 30);
+    CGPoint saveComboButtonCenter = CGPointMake(_tableView.frame.size.width * 0.5, headerFrame.size.height - 30);
+    CGPoint listSavedCombosButtonCenter = CGPointMake(_tableView.frame.size.width * 0.85, headerFrame.size.height - 30);
     
     
     UIView *headerView = [[UIView alloc] initWithFrame:headerFrame];
     
     UIButton *generateButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    generateButton = [self setupButton:generateButton frame:generateButtonFrame center:generateButtonCenter buttonTitle:@"Generate" fontSize:14.0f isCircle:NO];
+    UIButton *saveComboButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    UIButton *listSavedCombosButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    generateButton = [self setupButton:generateButton frame:generateButtonFrame center:generateButtonCenter buttonTitle:@"Generate" fontSize:14.0f isCircle:NO tag:GENERATEBUTTONTAG];
+    saveComboButton = [self setupButton:saveComboButton frame:saveComboButtomFrame center:saveComboButtonCenter buttonTitle:@"Save Combo" fontSize:14.0f isCircle:NO tag:SAVECOMBOBUTTONTAG];
+    listSavedCombosButton = [self setupButton:listSavedCombosButton frame:listSavedCombosButtonFrame center:listSavedCombosButtonCenter buttonTitle:@"List Combos" fontSize:14.0f isCircle:NO tag:LISTCOMBOBUTTONTAG];
+    
 
     [headerView addSubview:generateButton];
+    [headerView addSubview:saveComboButton];
+    [headerView addSubview:listSavedCombosButton];
     
     tableView.tableHeaderView = headerView;
 }
 
--(UIButton *)setupButton:(UIButton *)button frame:(CGRect)frame center:(CGPoint)center buttonTitle:(NSString *)buttonTitle fontSize:(CGFloat)fontSize isCircle:(BOOL)isCircle
+-(UIButton *)setupButton:(UIButton *)button frame:(CGRect)frame center:(CGPoint)center buttonTitle:(NSString *)buttonTitle fontSize:(CGFloat)fontSize isCircle:(BOOL)isCircle tag:(NSInteger)tag
 {
     
     button.frame = frame;
@@ -108,6 +129,8 @@
     [button addTarget:self action:@selector(buttonCancel:) forControlEvents:UIControlEventTouchUpOutside];
     [button addTarget:self action:@selector(buttonDragExit:) forControlEvents:UIControlEventTouchDragExit];
     [button addTarget:self action:@selector(buttonCancel:) forControlEvents:UIControlEventTouchCancel];
+    
+    button.tag = tag;
     
     return button;
 }
@@ -246,7 +269,12 @@
 {
     button.transform = CGAffineTransformMakeScale(1.0, 1.0);
     
-    [self generateFootwork];
+    if (button.tag == GENERATEBUTTONTAG)
+        [self generateFootwork];
+    else if (button.tag == SAVECOMBOBUTTONTAG)
+        [self saveFootwork];
+    else if (button.tag == LISTCOMBOBUTTONTAG)
+        [self listFootwork];
 }
 
 - (void)buttonDragExit:(UIButton *)button
@@ -258,6 +286,43 @@
 {
     button.transform = CGAffineTransformMakeScale(1.0, 1.0);
 }
+
+#pragma mark -
+#pragma mark - list footwork
+- (void)listFootwork
+{
+    FootworkListViewController *footworkListViewController = [[FootworkListViewController alloc] init];
+    
+    [self.navigationController pushViewController:footworkListViewController animated:YES];
+    
+}
+
+#pragma mark -
+#pragma mark - save Footwork
+- (void)saveFootwork
+{
+    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+    NSMutableArray *currentSavedFootwork = [userDefaults objectForKey:kUserDefaultsFWCombosKey];
+    
+    if (!currentSavedFootwork)
+        currentSavedFootwork = [[NSMutableArray alloc] init];
+    
+    
+    if ([_footworkCategoryArray count] > 0 && [_footworkArray count] > 0)
+    {
+        NSDictionary *footworkDictionary = @{kFootworkCategoryKey : _footworkCategoryArray,
+                                             kFootworkNameKey : _footworkArray};
+        
+        NSMutableArray *copy = [NSMutableArray arrayWithArray:currentSavedFootwork];
+        [copy addObject:footworkDictionary];
+        [userDefaults setObject:copy forKey:kUserDefaultsFWCombosKey];
+        [userDefaults synchronize];
+        
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"" message:@"Combo Saved" delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+        [alertView show];
+    }
+}
+
 
 #pragma mark -
 #pragma mark - generateFootwork

@@ -72,6 +72,8 @@ typedef void (^MCSwipeCompletionBlock)(MCSwipeTableViewCell *cell, MCSwipeTableV
 @property (nonatomic, strong) UILabel *goalNumberLabel;
 @property (nonatomic, strong) UILabel *dailyNumberLabel;
 
+- (void)hideLabels:(BOOL)hide;
+
 -(void)setCompleted:(BOOL)completed;
 //
 //

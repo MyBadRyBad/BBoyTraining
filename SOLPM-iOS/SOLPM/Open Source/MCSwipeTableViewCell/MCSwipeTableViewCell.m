@@ -119,6 +119,18 @@ typedef NS_ENUM(NSUInteger, MCSwipeTableViewCellDirection) {
     return self;
 }
 
+- (void)hideLabels:(BOOL)hide
+{
+    _stepLabel.hidden = hide;
+    _repsCompletedLabel.hidden = hide;
+    _repsGoalLabel.hidden = hide;
+    _repsDailyLabel.hidden = hide;
+    
+    _completedNumberLabel.hidden = hide;
+    _goalNumberLabel.hidden = hide;
+    _dailyNumberLabel.hidden = hide;
+}
+
 -(void)setCompleted:(BOOL)completed
 {
     if (completed)
