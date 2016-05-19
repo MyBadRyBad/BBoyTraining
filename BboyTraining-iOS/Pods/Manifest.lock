@@ -1,0 +1,15 @@
+PODS:
+  - ionicons (2.0.3)
+  - MSCellAccessory (1.1.2)
+
+DEPENDENCIES:
+  - ionicons
+  - MSCellAccessory
+
+SPEC CHECKSUMS:
+  ionicons: ec1e86e6c3316bd9942a7f024080dd75c70dd6a5
+  MSCellAccessory: 8265f3cd2386c1f372da00232472605ab11426e4
+
+PODFILE CHECKSUM: 270a8fad3c134f5e05491ed0aebdc60aca36010f
+
+COCOAPODS: 1.0.0.rc.2
