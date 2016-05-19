@@ -8,5 +8,3 @@ It is the science of learning powermoves, Bboy kaio's 5 week power training, and
 
 TODO
 * Code clean up / a bunch of refactoring
-
-
