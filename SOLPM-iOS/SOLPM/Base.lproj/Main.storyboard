@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5yy-dD-ihE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--Settings View Controller-->
+        <!--Root View Controller-->
         <scene sceneID="cy2-9a-g8c">
             <objects>
-                <viewController id="84W-W3-EQZ" customClass="SettingsViewController" sceneMemberID="viewController">
+                <viewController id="84W-W3-EQZ" customClass="RootViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="IXT-UD-5AV"/>
                         <viewControllerLayoutGuide type="bottom" id="aFb-9F-tu5"/>
@@ -16,7 +16,6 @@
                     <view key="view" contentMode="scaleToFill" id="g7G-AZ-ucl">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -24,156 +23,5 @@
             </objects>
             <point key="canvasLocation" x="2238" y="-313"/>
         </scene>
-        <!--Power Move List View Controller-->
-        <scene sceneID="EWR-In-SAb">
-            <objects>
-                <viewController id="EPa-hC-EEG" customClass="PowerMoveListViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0No-21-rAb"/>
-                        <viewControllerLayoutGuide type="bottom" id="URi-Ww-Cd4"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="T7E-UI-44b">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="ebC-Xb-Azr"/>
-                    <connections>
-                        <segue destination="Wiq-7l-Bce" kind="show" identifier="segueToPowerMoveStepsViewController" id="g1C-eX-tpA"/>
-                        <segue destination="LAV-9z-zJn" kind="presentation" identifier="segueToHowTo" id="HtV-de-erC"/>
-                        <segue destination="84W-W3-EQZ" kind="show" identifier="segueToSettings" id="QsN-AG-u2U"/>
-                        <segue destination="nIU-fq-wk5" kind="show" identifier="segueToFootworkGeneratorViewController" id="EXG-ov-VKX"/>
-                        <segue destination="0P6-us-mLD" kind="show" identifier="segueToCustomIncrementerViewController" id="F71-qM-o3K"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="taU-9Q-8Fk" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1438" y="868"/>
-        </scene>
-        <!--How To View Controller-->
-        <scene sceneID="GE0-sy-rWg">
-            <objects>
-                <viewController id="LAV-9z-zJn" customClass="HowToViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Dmk-mh-TBh"/>
-                        <viewControllerLayoutGuide type="bottom" id="bIi-CD-hhS"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="pKo-dF-PKT">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Om-oS-0le" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1438" y="1653.75"/>
-        </scene>
-        <!--Power Move Steps View Controller-->
-        <scene sceneID="PC0-94-0SP">
-            <objects>
-                <viewController id="Wiq-7l-Bce" customClass="PowerMoveStepsViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="sVo-kZ-1Mp"/>
-                        <viewControllerLayoutGuide type="bottom" id="nrz-8W-VTc"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="fmI-0K-K8O">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <segue destination="coK-xg-Vdi" kind="show" identifier="segueToPowerMoveMainViewController" id="3CO-1a-qAv"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RYo-Yi-aLn" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2238" y="516"/>
-        </scene>
-        <!--Footwork Generator View Controller-->
-        <scene sceneID="CV5-9r-2eb">
-            <objects>
-                <viewController id="nIU-fq-wk5" customClass="FootworkGeneratorViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="k4O-Zl-AQn"/>
-                        <viewControllerLayoutGuide type="bottom" id="DuJ-1h-moM"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="EXh-AA-y70">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <segue destination="coK-xg-Vdi" kind="show" identifier="segueToPowerMoveMainViewControllerFromFootworkGenerator" id="Kfj-WV-uRj"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HJs-Oo-eTg" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2238" y="1335"/>
-        </scene>
-        <!--Custom Incrementer View Controller-->
-        <scene sceneID="lha-8J-SUd">
-            <objects>
-                <viewController id="0P6-us-mLD" customClass="CustomIncrementerViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="XPy-QW-7tA"/>
-                        <viewControllerLayoutGuide type="bottom" id="e1V-kr-x4Q"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Buv-LD-Lu2">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ow4-Dv-yyp" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2238" y="2131"/>
-        </scene>
-        <!--Power Move Main View Controller-->
-        <scene sceneID="kN1-xe-DQs">
-            <objects>
-                <viewController id="coK-xg-Vdi" customClass="PowerMoveMainViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="gWl-kv-jqH"/>
-                        <viewControllerLayoutGuide type="bottom" id="oT7-pz-fJB"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Jv9-mz-MVk">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="2nK-Mi-vpO"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lk5-5N-i8j" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3142" y="896"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="72u-3h-DeJ">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5yy-dD-ihE" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CPJ-HU-etZ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="EPa-hC-EEG" kind="relationship" relationship="rootViewController" id="3Z7-Im-kHq"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8zU-zy-6MP" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="626" y="896.25"/>
-        </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="Kfj-WV-uRj"/>
-    </inferredMetricsTieBreakers>
 </document>
