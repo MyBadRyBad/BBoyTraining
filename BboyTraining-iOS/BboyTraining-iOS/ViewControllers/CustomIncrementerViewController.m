@@ -83,7 +83,7 @@
     CGRect incrementerButtonFrame;
     CGFloat fontSize;
     
-    if (IS_IPHONE_4_AND_OLDER || IS_IPHONE_5)
+  /*  if (IS_IPHONE_4_AND_OLDER || IS_IPHONE_5)
     {
         incrementerButtonFrame = CGRectMake(0, 0, 70, 70);
         fontSize = 26.0f;
@@ -92,7 +92,7 @@
     {
         incrementerButtonFrame = CGRectMake(0, 0, 80, 80);
         fontSize = 30.0f;
-    }
+    } */
     _incrementerMainButton = [UIButton buttonWithType:UIButtonTypeCustom];
     
     _incrementerMainButton.frame = incrementerButtonFrame;
@@ -134,7 +134,7 @@
     CGRect decrementButtonFrame;
     CGFloat fontSize;
     
-    if (IS_IPHONE_4_AND_OLDER || IS_IPHONE_5)
+   /* if (IS_IPHONE_4_AND_OLDER || IS_IPHONE_5)
     {
         incrementButtonFrame = CGRectMake(0, 0, 30, 30);
         decrementButtonFrame = CGRectMake(0, 0, 30 ,30);
@@ -145,7 +145,7 @@
         incrementButtonFrame = CGRectMake(0, 0, 40, 40);
         decrementButtonFrame = CGRectMake(0, 0, 40, 40);
         fontSize = 30.0f;
-    }
+    } */
     
     // increment button set up
     _incrementButton = [UIButton buttonWithType:UIButtonTypeCustom];

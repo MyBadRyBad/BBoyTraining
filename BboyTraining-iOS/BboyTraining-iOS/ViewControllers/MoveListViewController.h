@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PowerMoveListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@interface MoveListViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) UITableView *tableView;
 

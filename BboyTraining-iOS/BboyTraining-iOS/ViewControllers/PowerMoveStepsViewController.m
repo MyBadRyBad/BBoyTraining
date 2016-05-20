@@ -14,9 +14,8 @@
 #import "MSCellAccessory.h"
 #import "MoveData.h"
 #import "HelperFunctions.h"
-#import "MCSwipeTableViewCell.h"
 
-@interface PowerMoveStepsViewController () <MCSwipeTableViewCellDelegate, UIAlertViewDelegate>
+@interface PowerMoveStepsViewController () <UIAlertViewDelegate>
 {
     NSIndexPath *_resetIndexPath;
     
@@ -248,7 +247,7 @@
     }
     else
     {
-        MCSwipeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+  /*      MCSwipeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
         
         if (cell == nil) {
             
@@ -263,7 +262,9 @@
         
         [self configureCell:cell forRowAtIndexPath:indexPath];
         
-        return cell;
+        return cell; */
+        
+        return nil;
     }
 }
 
@@ -390,7 +391,7 @@
         return [_freezesArray objectAtIndex:indexPath.row];
 }
 
-- (void)configureCell:(MCSwipeTableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+/*- (void)configureCell:(MCSwipeTableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UIView *resetView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44.0f)];
     UIColor *redColor = [kColorConstants redPomegranate:1.0f];
@@ -404,7 +405,7 @@
     
     if ([repsNumber integerValue] >= [goalNumber integerValue])
     {
-        [cell setCompleted:YES];
+      [cell setCompleted:YES];
         cell.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
         cell.accessoryView = [MSCellAccessory accessoryWithType:FLAT_CHECKMARK color:[kColorConstants greenEmeraldColor:1.0f]];
     }
@@ -454,7 +455,7 @@
             cell.accessoryView = [MSCellAccessory accessoryWithType:FLAT_CHECKMARK color:[kColorConstants greenEmeraldColor:1.0f]];
             [_tableView reloadData];
     }];
-}
+} */
 
 
 #pragma mark -
@@ -510,23 +511,6 @@
     }
 }
 
-#pragma mark - MCSwipeTableViewCellDelegate
-
-
-// When the user starts swiping the cell this method is called
-- (void)swipeTableViewCellDidStartSwiping:(MCSwipeTableViewCell *)cell {
-    // NSLog(@"Did start swiping the cell!");
-}
-
-// When the user ends swiping the cell this method is called
-- (void)swipeTableViewCellDidEndSwiping:(MCSwipeTableViewCell *)cell {
-    // NSLog(@"Did end swiping the cell!");
-}
-
-// When the user is dragging, this method is called and return the dragged percentage from the border
-- (void)swipeTableViewCell:(MCSwipeTableViewCell *)cell didSwipeWithPercentage:(CGFloat)percentage {
-    // NSLog(@"Did swipe with percentage : %f", percentage);
-}
 
 #pragma mark -
 #pragma mark - alertView

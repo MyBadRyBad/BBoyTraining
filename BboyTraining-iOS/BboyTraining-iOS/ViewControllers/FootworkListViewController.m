@@ -8,12 +8,12 @@
 
 #import "FootworkListViewController.h"
 #import "FootworkComboViewController.h"
-#import "MCSwipeTableViewCell.h"
+//#import "MCSwipeTableViewCell.h"
 #import "MSCellAccessory.h"
 #import "kConstants.h"
 #import "kColorConstants.h"
 
-@interface FootworkListViewController () <UITableViewDataSource, UITableViewDelegate, MCSwipeTableViewCellDelegate, UIAlertViewDelegate>
+@interface FootworkListViewController () <UITableViewDataSource, UITableViewDelegate, UIAlertViewDelegate>
 
 @property (nonatomic, strong) NSMutableArray *footworkComboListArray;
 @property (nonatomic) NSInteger removeIndex;
@@ -72,7 +72,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *cellID = @"cellID";
+ /*   static NSString *cellID = @"cellID";
     
     MCSwipeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
         
@@ -88,7 +88,8 @@
         
     [self configureCell:cell forRowAtIndexPath:indexPath];
         
-    return cell;
+    return cell; */
+    return nil;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -108,7 +109,7 @@
 }
 
 
-- (void)configureCell:(MCSwipeTableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
+/*- (void)configureCell:(MCSwipeTableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath {
     
     UIView *resetView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 44.0f)];
     UIColor *redColor = [kColorConstants redPomegranate:1.0f];
@@ -136,7 +137,7 @@
                                                   otherButtonTitles:@"Yes", nil];
         [alertView show];
     }];
-}
+} */
 
 #pragma mark -
 #pragma mark - alertview

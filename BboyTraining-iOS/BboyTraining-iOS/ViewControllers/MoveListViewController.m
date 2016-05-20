@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Newdesto. All rights reserved.
 //
 
-#import "PowerMoveListViewController.h"
+#import "MoveListViewController.h"
 #import "PowerMoveStepsViewController.h"
 #import "FootworkGeneratorViewController.h"
 #import "kColorConstants.h"
@@ -17,7 +17,7 @@
 
 static NSString *kNavigationBarTitle = @"Bboy Training";
 
-@interface PowerMoveListViewController ()
+@interface MoveListViewController ()
 
 @property (nonatomic, strong) NSArray *moveType;
 @property (nonatomic, strong) NSArray *powermoveListArray;
@@ -35,7 +35,7 @@ static NSString *kNavigationBarTitle = @"Bboy Training";
 
 @end
 
-@implementation PowerMoveListViewController
+@implementation MoveListViewController
 
 #pragma mark -
 #pragma mark - View Controller lifecycle
@@ -94,9 +94,12 @@ static NSString *kNavigationBarTitle = @"Bboy Training";
     
     NSShadow *shadow = [[NSShadow alloc] init];
     [self.navigationController.navigationBar setTitleTextAttributes:
-     @{NSForegroundColorAttributeName : [UIColor whiteColor],
-       NSShadowAttributeName : shadow,
-       NSFontAttributeName : [UIFont fontWithName:kNavigationBarTitle size:kDefaultNavigationBarFontSize]}];
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIColor whiteColor], NSForegroundColorAttributeName,
+      shadow, NSShadowAttributeName,
+      shadow, NSShadowAttributeName,
+      [UIFont fontWithName:@"OpenSans-Light" size:20.0], NSFontAttributeName,
+      nil]];
 }
 
 - (void)setUpDataArray
@@ -104,14 +107,15 @@ static NSString *kNavigationBarTitle = @"Bboy Training";
     NSString *path = [[NSBundle mainBundle] pathForResource:@"moves" ofType:@"plist"];
     
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
-    _powermoveListArray = [dict objectForKey:@"powermoves"];
-    _powermoveComboListArray = [dict objectForKey:@"combos"];
-    _freezesArray = [dict objectForKey:@"freezes"];
-    _tricksArray = [dict objectForKey:@"tricks"];
-    _flipsArray = [dict objectForKey:@"flips"];
-    _miscArray = [dict objectForKey:@"misc"];
-    _footworkArray = [dict objectForKey:@"footwork"];
-    _toolsArray = [dict objectForKey:@"tools"];
+    
+    _powermoveListArray = dict[kMovesPowermovesKey];
+    _powermoveComboListArray = dict[kMovesCombosKey];
+    _freezesArray = dict[kMovesFreezesKey];
+    _tricksArray = dict[kMovesTricksKey];
+    _flipsArray = dict[kMovesFlipsKey];
+    _miscArray = dict[kMovesMiscKey];
+    _footworkArray = dict[kMovesFootworkKey];
+    _toolsArray = dict[kMovesToolsKey];
     
     _moveType = [MoveData getMoveTypeArray];
 }
@@ -126,35 +130,33 @@ static NSString *kNavigationBarTitle = @"Bboy Training";
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    if (section == 0)
-        return [_powermoveListArray count];
-    else if (section == 1)
-        return [_powermoveComboListArray count];
-    else if (section == 2)
-        return [_freezesArray count];
-    else if (section == 3)
-        return [_tricksArray count];
-    else if (section == 4)
-        return [_flipsArray count];
-    else if (section == 5)
-        return [_footworkArray count];
-    else if (section == 6)
-        return [_miscArray count];
-    else
-        return [_toolsArray count];
+    switch (section) {
+        case 0:
+            return [_powermoveListArray count];
+        case 1:
+            return [_powermoveComboListArray count];
+        case 2:
+            return [_freezesArray count];
+        case 3:
+            return [_tricksArray count];
+        case 4:
+            return [_flipsArray count];
+        case 5:
+            return [_footworkArray count];
+        case 6:
+            return [_miscArray count];
+        default:
+            return [_toolsArray count];;
+    }
 }
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *cellName;
-    NSDictionary *moveDictionary;
     static NSString *cellID = @"cellID";
-    
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
     
     if (cell == nil) {
-        
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
         
         UIView *backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, cell.frame.size.width, cell.frame.size.height)];
@@ -162,6 +164,54 @@ static NSString *kNavigationBarTitle = @"Bboy Training";
         
         cell.selectedBackgroundView = backgroundView;
     }
+    
+    [self setupCell:cell withIndexPath:indexPath];
+    
+    return cell;
+}
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    if (indexPath.section == 7 && indexPath.row == 0)
+        [self performSegueWithIdentifier:@"segueToFootworkGeneratorViewController" sender:indexPath];
+    else if (indexPath.section == 7 && indexPath.row == 1)
+        [self performSegueWithIdentifier:@"segueToCustomIncrementerViewController" sender:indexPath];
+    else
+        [self performSegueWithIdentifier:@"segueToPowerMoveStepsViewController" sender:indexPath];
+    
+}
+
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    return [_moveType objectAtIndex:section];
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 36.0;
+}
+
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 36)];
+    view.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
+
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 8, tableView.frame.size.width, 18)];
+    label.font = [UIFont fontWithName:kDefaultFontName size:18.0f];
+    label.textColor = [UIColor whiteColor];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.text = [_moveType objectAtIndex:section];
+
+    [view addSubview:label];
+    
+    return view;
+}
+
+- (void)setupCell:(UITableViewCell *)cell withIndexPath:(NSIndexPath *)indexPath {
+    NSDictionary *moveDictionary;
+    NSString *cellName;
     
     if (indexPath.section == 0)
         moveDictionary = [_powermoveListArray objectAtIndex:indexPath.row];
@@ -185,57 +235,24 @@ static NSString *kNavigationBarTitle = @"Bboy Training";
     
     cell.backgroundColor = [kColorConstants blueWetAsphalt:1.0f];
     
-    cell.textLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:16.0f];
+    cell.textLabel.font = [UIFont fontWithName:kDefaultFontName size:16.0f];
     cell.textLabel.text = cellName;
     cell.textLabel.textColor = [UIColor whiteColor];
     cell.accessoryView = [MSCellAccessory accessoryWithType:FLAT_DISCLOSURE_INDICATOR color:[UIColor whiteColor]];
-    return cell;
-}
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    if (indexPath.section == 7 && indexPath.row == 0)
-        [self performSegueWithIdentifier:@"segueToFootworkGeneratorViewController" sender:indexPath];
-    else if (indexPath.section == 7 && indexPath.row == 1)
-        [self performSegueWithIdentifier:@"segueToCustomIncrementerViewController" sender:indexPath];
-    else
-        [self performSegueWithIdentifier:@"segueToPowerMoveStepsViewController" sender:indexPath];
-    
-}
-
--(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    
-    //Set the header value for each section. We return the letter for this group.
-    return [_moveType objectAtIndex:section];
-}
-
--(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{
-    return 36.0;
-}
-
--(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-{
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 36)];
-    view.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
-
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 8, tableView.frame.size.width, 18)];
-    label.font = [UIFont fontWithName:@"OpenSans-Light" size:18.0f];
-    label.textColor = [UIColor whiteColor];
-    label.textAlignment = NSTextAlignmentCenter;
-
-     NSString *string = [_moveType objectAtIndex:section];
-    
-    [label setText:string];
-    
-    [view addSubview:label];
-    return view;
 }
 
 #pragma mark - 
 #pragma mark - Navigation
+- (void)presentStepsViewControllerWithStepDictionary:(NSDictionary *)stepDictionary
+                                        onCompletion:(void (^)(void))onCompletion {
+    
+    PowerMoveStepsViewController *powermovesStepViewController = [[PowerMoveStepsViewController alloc] init];
+    powermovesStepViewController.moveData = stepDictionary;
+    
+    [self presentViewController:powermovesStepViewController animated:YES completion:onCompletion];
+}
+
+
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     

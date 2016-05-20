@@ -7,7 +7,7 @@
 //
 
 #import "RootViewController.h"
-#import "PowerMoveListViewController.h"
+#import "MoveListViewController.h"
 
 @interface RootViewController ()
 
@@ -21,22 +21,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
 }
 
-- (void)viewDidAppear:(BOOL)animated
-{
+- (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
+    [self presentMoveListViewController];
 }
 
-- (void)viewWillAppear:(BOOL)animated
-{
+- (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 }
 
 
 #pragma mark -
 #pragma mark - 
+- (void)presentMoveListViewController {
+    MoveListViewController *moveListViewController = [[MoveListViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:moveListViewController];
+    
+    [self presentViewController:navigationController animated:NO completion:nil];
+}
 
 #pragma mark -
 #pragma mark - didReceiveMemoryWarning

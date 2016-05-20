@@ -19,15 +19,31 @@ typedef enum MoveType
 ////////////////////////////////////////
 ////////////////////////////////////////
 //
-// Global Fonts
+// Global Font Settings
 //
 ////////////////////////////////////////
 ////////////////////////////////////////
 
 static CGFloat const kDefaultNavigationBarFontSize = 20.0f;
 
-static NSString* const kDefaultFontName = @"OpenSans-Light";
+static NSString *const kDefaultFontName = @"OpenSans-Light";
 
+
+////////////////////////////////////////
+////////////////////////////////////////
+//
+// Move Dictionary Keys
+//
+////////////////////////////////////////
+////////////////////////////////////////
+static NSString *const kMovesPowermovesKey = @"powermoves";
+static NSString *const kMovesCombosKey = @"combos";
+static NSString *const kMovesFreezesKey = @"freezes";
+static NSString *const kMovesTricksKey = @"tricks";
+static NSString *const kMovesFlipsKey = @"flips";
+static NSString *const kMovesMiscKey = @"misc";
+static NSString *const kMovesFootworkKey = @"footwork";
+static NSString *const kMovesToolsKey = @"tools";
 
 static NSString* const kFootworkNameKey = @"footworkName";
 static NSString* const kFootworkCategoryKey = @"footworkCategory";

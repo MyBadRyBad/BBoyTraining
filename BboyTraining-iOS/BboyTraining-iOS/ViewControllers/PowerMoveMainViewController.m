@@ -121,7 +121,7 @@
 -(void)setupVideoPlayer
 {
     
-    if (_videoString.length > 0)
+ /*   if (_videoString.length > 0)
     {
         //movieplayer initialization
         NSString *path = [[NSBundle mainBundle] pathForResource:_videoString ofType:@"mp4"];
@@ -141,7 +141,7 @@
     
         [_moviePlayer prepareToPlay];
         [_moviePlayer play];
-    }
+    } */
 }
 
 #pragma mark -
@@ -151,7 +151,7 @@
     CGRect incrementerButtonFrame;
     CGFloat fontSize;
     
-    if (IS_IPHONE_4_AND_OLDER || IS_IPHONE_5)
+  /*  if (IS_IPHONE_4_AND_OLDER || IS_IPHONE_5)
     {
         incrementerButtonFrame = CGRectMake(0, 0, 70, 70);
         fontSize = 26.0f;
@@ -160,7 +160,7 @@
     {
         incrementerButtonFrame = CGRectMake(0, 0, 80, 80);
         fontSize = 30.0f;
-    }
+    } */
     _incrementerButton = [UIButton buttonWithType:UIButtonTypeCustom];
     
     _incrementerButton.frame = incrementerButtonFrame;
