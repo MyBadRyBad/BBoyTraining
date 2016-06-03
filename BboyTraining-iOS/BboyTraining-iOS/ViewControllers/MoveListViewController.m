@@ -170,45 +170,6 @@ static NSString *kNavigationBarTitle = @"Bboy Training";
     return cell;
 }
 
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    
-    if (indexPath.section == 7 && indexPath.row == 0)
-        [self performSegueWithIdentifier:@"segueToFootworkGeneratorViewController" sender:indexPath];
-    else if (indexPath.section == 7 && indexPath.row == 1)
-        [self performSegueWithIdentifier:@"segueToCustomIncrementerViewController" sender:indexPath];
-    else
-        [self performSegueWithIdentifier:@"segueToPowerMoveStepsViewController" sender:indexPath];
-    
-}
-
--(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    return [_moveType objectAtIndex:section];
-}
-
--(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-{
-    return 36.0;
-}
-
--(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
-{
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 36)];
-    view.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
-
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 8, tableView.frame.size.width, 18)];
-    label.font = [UIFont fontWithName:kDefaultFontName size:18.0f];
-    label.textColor = [UIColor whiteColor];
-    label.textAlignment = NSTextAlignmentCenter;
-    label.text = [_moveType objectAtIndex:section];
-
-    [view addSubview:label];
-    
-    return view;
-}
-
 - (void)setupCell:(UITableViewCell *)cell withIndexPath:(NSIndexPath *)indexPath {
     NSDictionary *moveDictionary;
     NSString *cellName;
@@ -241,15 +202,80 @@ static NSString *kNavigationBarTitle = @"Bboy Training";
     cell.accessoryView = [MSCellAccessory accessoryWithType:FLAT_DISCLOSURE_INDICATOR color:[UIColor whiteColor]];
 }
 
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    // go to footwork generator
+    if (indexPath.section == 7 && indexPath.row == 0) {
+        
+    }
+    // go to incrementer
+    else if (indexPath.section == 7 && indexPath.row == 1) {
+     /*   Incred *powermovesStepViewController = [[PowerMoveStepsViewController alloc] init];
+        powermovesStepViewController.moveData = nil;
+        
+        [self.navigationController pushViewController:powermovesStepViewController animated:YES];
+        [self presentViewController:powermovesStepViewController animated:YES completion:nil]; */
+    }
+    else {
+        PowerMoveStepsViewController *powermovesStepViewController = [[PowerMoveStepsViewController alloc] init];
+        powermovesStepViewController.moveData = nil;
+        
+        [self.navigationController pushViewController:powermovesStepViewController animated:YES];
+        [self presentViewController:powermovesStepViewController animated:YES completion:nil];
+    }
+    
+   /* if (indexPath.section == 7 && indexPath.row == 0)
+        [self performSegueWithIdentifier:@"segueToFootworkGeneratorViewController" sender:indexPath];
+    else if (indexPath.section == 7 && indexPath.row == 1)
+        [self performSegueWithIdentifier:@"segueToCustomIncrementerViewController" sender:indexPath];
+    else
+        [self performSegueWithIdentifier:@"segueToPowerMoveStepsViewController" sender:indexPath]; */
+    
+}
+
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    return [_moveType objectAtIndex:section];
+}
+
+-(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 36.0;
+}
+
+-(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
+{
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 36)];
+    view.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
+
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 8, tableView.frame.size.width, 18)];
+    label.font = [UIFont fontWithName:kDefaultFontName size:18.0f];
+    label.textColor = [UIColor whiteColor];
+    label.textAlignment = NSTextAlignmentCenter;
+    label.text = [_moveType objectAtIndex:section];
+
+    [view addSubview:label];
+    
+    return view;
+}
+
 #pragma mark - 
 #pragma mark - Navigation
-- (void)presentStepsViewControllerWithStepDictionary:(NSDictionary *)stepDictionary
+- (void)pushStepsViewControllerWithStepDictionary:(NSDictionary *)stepDictionary
                                         onCompletion:(void (^)(void))onCompletion {
     
     PowerMoveStepsViewController *powermovesStepViewController = [[PowerMoveStepsViewController alloc] init];
     powermovesStepViewController.moveData = stepDictionary;
     
+    [self.navigationController pushViewController:powermovesStepViewController animated:YES];
     [self presentViewController:powermovesStepViewController animated:YES completion:onCompletion];
+}
+
+- (void)pushFootworkGeneratorViewControllerWithStepDictionary {
+    
 }
 
 
@@ -311,7 +337,7 @@ static NSString *kNavigationBarTitle = @"Bboy Training";
         
         footworkGeneratorViewController.moveData = [_footworkArray objectAtIndex:0];
     }
-}
+} 
 
 
 #pragma mark -
