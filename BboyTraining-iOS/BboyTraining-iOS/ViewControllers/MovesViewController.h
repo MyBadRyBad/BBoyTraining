@@ -10,6 +10,10 @@
 
 @interface MovesViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
+@property (nonatomic, strong) NSString *navigationBarTitle;
+
+
+@property (nonatomic, strong) NSArray *moveNodesArray;
 @property (nonatomic, strong) UITableView *tableView;
 
 @end

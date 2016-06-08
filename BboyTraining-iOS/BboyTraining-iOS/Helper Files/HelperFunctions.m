@@ -42,5 +42,20 @@
     return image;
 }
 
+#pragma mark -
+#pragma mark - print available fonts
++ (void)printAvailableFonts
+{
+    for (NSString* family in [UIFont familyNames])
+    {
+        NSLog(@"%@", family);
+        
+        for (NSString* name in [UIFont fontNamesForFamilyName: family])
+        {
+            NSLog(@"  %@", name);
+        }
+    }
+}
+
 
 @end

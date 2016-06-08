@@ -13,5 +13,6 @@
 
 + (UIImageView *)findHairlineImageViewUnder:(UIView *)view;
 + (UIImage *)imageWithColor:(UIColor *)color;
++ (void)printAvailableFonts;
 
 @end

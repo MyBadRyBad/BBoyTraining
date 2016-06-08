@@ -13,23 +13,12 @@
 #import "HelperFunctions.h"
 #import "MSCellAccessory.h"
 #import "kConstants.h"
-#import "MoveData.h"
+#import "MoveNode.h"
+#import <IonIcons.h>
 
 static NSString *kNavigationBarTitle = @"Moves";
 
 @interface MovesViewController ()
-
-@property (nonatomic, strong) NSArray *moveType;
-@property (nonatomic, strong) NSArray *powermoveListArray;
-@property (nonatomic, strong) NSArray *powermoveComboListArray;
-@property (nonatomic, strong) NSArray *freezesArray;
-@property (nonatomic, strong) NSArray *tricksArray;
-@property (nonatomic, strong) NSArray *flipsArray;
-@property (nonatomic, strong) NSArray *miscArray;
-@property (nonatomic, strong) NSArray *stretchingVideoArray;
-
-@property (nonatomic, strong) NSArray *footworkArray;
-@property (nonatomic, strong) NSArray *toolsArray;
 
 @property (nonatomic, strong) UIImageView *navBarHairlineImageView;
 
@@ -41,27 +30,22 @@ static NSString *kNavigationBarTitle = @"Moves";
 #pragma mark - View Controller lifecycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    [self setupViews];
-    [self setupConstaints];
-    [self setUpDataArray];
-    [self configureNavigationBar];
-    
-    // remove hairline
-    _navBarHairlineImageView = [HelperFunctions findHairlineImageViewUnder:self.navigationController.navigationBar];
+    [self setup];
 }
 
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    _navBarHairlineImageView.hidden = YES;
+
+    
     
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-    
+  
 }
+
 
 #pragma mark -
 #pragma mark - didReceiveMemoryWarning
@@ -72,15 +56,25 @@ static NSString *kNavigationBarTitle = @"Moves";
 
 #pragma mark -
 #pragma mark - setup
+- (void)setup {
+    [self setupViews];
+    [self setupConstaints];
+    [self configureNavigationBar];
+    
+    // remove hairline
+    _navBarHairlineImageView = [HelperFunctions findHairlineImageViewUnder:self.navigationController.navigationBar];
+}
+
 - (void)setupViews {
     [self.view addSubview:[self tableView]];
 }
 
 - (void)setupConstaints {
+    BOOL shouldHaveBackButton = [self.navigationController.viewControllers count] > 1;
+    
     // Create a dictionary of views and metrics
     NSDictionary *viewsDictionary = NSDictionaryOfVariableBindings(_tableView);
     NSDictionary *metrics = nil;
-    
     
     // Set up the vertical constraints
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[_tableView]|" options:0 metrics:metrics views:viewsDictionary]];
@@ -90,13 +84,10 @@ static NSString *kNavigationBarTitle = @"Moves";
 }
 
 - (void)configureNavigationBar {
-    // Configure the navigation bar to a flat grey design and other stuff
-    //   self.navigationController.navigationBar.barTintColor = [kColorConstants navigationBarColor:1.0f];
-    //   self.navigationController.navigationBar.tintColor = [kColorConstants navigationBarColor:1.0f];
     self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
     self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     self.navigationController.navigationBar.translucent = NO;
-    self.navigationController.navigationBar.topItem.title = kNavigationBarTitle;
+    self.navigationItem.title = _navigationBarTitle;
     
     NSShadow *shadow = [[NSShadow alloc] init];
     [self.navigationController.navigationBar setTitleTextAttributes:
@@ -107,24 +98,10 @@ static NSString *kNavigationBarTitle = @"Moves";
       [UIFont fontWithName:kDefaultFontName size:kTableCellFontSize], NSFontAttributeName,
       nil]];
     
-}
-
-- (void)setUpDataArray
-{
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"moves" ofType:@"plist"];
     
-    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+    UIImage *backImage = [IonIcons imageWithIcon:ion_ios_arrow_back size:30.0 color:[UIColor blackColor]];
     
-    _powermoveListArray = dict[kMovesPowermovesKey];
-    _powermoveComboListArray = dict[kMovesCombosKey];
-    _freezesArray = dict[kMovesFreezesKey];
-    _tricksArray = dict[kMovesTricksKey];
-    _flipsArray = dict[kMovesFlipsKey];
-    _miscArray = dict[kMovesMiscKey];
-    _footworkArray = dict[kMovesFootworkKey];
-    _toolsArray = dict[kMovesToolsKey];
-    
-    _moveType = [MoveData getMoveTypeArray];
+    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithImage:backImage style:UIBarButtonItemStyleDone target:self action:nil];
 }
 
 #pragma mark -
@@ -137,7 +114,7 @@ static NSString *kNavigationBarTitle = @"Moves";
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [_moveType count];
+    return [_moveNodesArray count];
 }
 
 
@@ -156,45 +133,43 @@ static NSString *kNavigationBarTitle = @"Moves";
 }
 
 - (void)setupCell:(UITableViewCell *)cell withIndexPath:(NSIndexPath *)indexPath {
-    //  cell.backgroundColor = [kColorConstants blueWetAsphalt:1.0f];
     cell.backgroundColor = [UIColor whiteColor];
     
     cell.textLabel.font = [UIFont fontWithName:kDefaultFontName size:kTableCellFontSize];
     cell.textLabel.textColor = [UIColor blackColor];
     cell.textLabel.textAlignment = NSTextAlignmentCenter;
-    cell.textLabel.text = [_moveType objectAtIndex:indexPath.row];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    
+    MoveNode *moveNode = [_moveNodesArray objectAtIndex:indexPath.row];
+    cell.textLabel.text = moveNode.categoryName;
 }
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    MoveNode *moveNode = [_moveNodesArray objectAtIndex:indexPath.row];
     
-    // go to footwork generator
-    if (indexPath.section == 7 && indexPath.row == 0) {
+    // has a next category
+    if (moveNode.movesArray != nil && [moveNode.movesArray count] > 0) {
         
-    }
-    // go to incrementer
-    else if (indexPath.section == 7 && indexPath.row == 1) {
-        /*   Incred *powermovesStepViewController = [[PowerMoveStepsViewController alloc] init];
-         powermovesStepViewController.moveData = nil;
-         
-         [self.navigationController pushViewController:powermovesStepViewController animated:YES];
-         [self presentViewController:powermovesStepViewController animated:YES completion:nil]; */
-    }
-    else {
-        PowerMoveStepsViewController *powermovesStepViewController = [[PowerMoveStepsViewController alloc] init];
-        powermovesStepViewController.moveData = nil;
+        NSMutableArray *newArrayOfMoveNodes = [[NSMutableArray alloc] init];
+        for (NSDictionary *dictionary in moveNode.movesArray) {
+            MoveNode *moveNode = [[MoveNode alloc] initWithMoveDictionary:dictionary];
+            [newArrayOfMoveNodes addObject:moveNode];
+        }
         
-        [self.navigationController pushViewController:powermovesStepViewController animated:YES];
-        [self presentViewController:powermovesStepViewController animated:YES completion:nil];
+        // push a new movesViewController with subcategorys
+        MovesViewController *movesViewController = [[MovesViewController alloc] init];
+        movesViewController.moveNodesArray = newArrayOfMoveNodes;
+        movesViewController.navigationBarTitle = moveNode.categoryName;
+        
+        [self.navigationController pushViewController:movesViewController animated:YES];
     }
-    
 }
 
 
 #pragma mark -
-#pragma mark - tableView Hegihts
+#pragma mark - tableView Heights
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
     return kTableCellRowHeight;
 }
@@ -216,83 +191,6 @@ static NSString *kNavigationBarTitle = @"Moves";
     UIView *view = [[UIView alloc] initWithFrame: CGRectZero];
     view.backgroundColor = [UIColor clearColor];
     return view;
-}
-
-#pragma mark -
-#pragma mark - Navigation
-- (void)pushStepsViewControllerWithStepDictionary:(NSDictionary *)stepDictionary
-                                     onCompletion:(void (^)(void))onCompletion {
-    
-    PowerMoveStepsViewController *powermovesStepViewController = [[PowerMoveStepsViewController alloc] init];
-    powermovesStepViewController.moveData = stepDictionary;
-    
-    [self.navigationController pushViewController:powermovesStepViewController animated:YES];
-    [self presentViewController:powermovesStepViewController animated:YES completion:onCompletion];
-}
-
-- (void)pushFootworkGeneratorViewControllerWithStepDictionary {
-    
-}
-
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    
-    if ([segue.identifier isEqualToString:@"segueToPowerMoveStepsViewController"])
-    {
-        NSIndexPath *indexPath = sender;
-        
-        PowerMoveStepsViewController *powermoveStepsViewController = [segue destinationViewController];
-        
-        NSDictionary *moveData;
-        MoveType movetype = powermove;
-        
-        // powermoves
-        if (indexPath.section == 0)
-            moveData = [_powermoveListArray objectAtIndex:indexPath.row];
-        
-        // powermove combos
-        else if (indexPath.section == 1)
-            moveData = [_powermoveComboListArray objectAtIndex:indexPath.row];
-        
-        // freezes
-        else if (indexPath.section == 2)
-            moveData = [_freezesArray objectAtIndex:indexPath.row];
-        
-        // tricks
-        else if (indexPath.section == 3)
-            moveData = [_tricksArray objectAtIndex:indexPath.row];
-        
-        // flips
-        else if (indexPath.section == 4)
-            moveData = [_flipsArray objectAtIndex:indexPath.row];
-        
-        // footwork
-        else if (indexPath.section == 5)
-        {
-            moveData = [_footworkArray objectAtIndex:indexPath.row];
-            movetype = footwork;
-        }
-        
-        // misc
-        else if (indexPath.section == 6)
-        {
-            moveData = [_miscArray objectAtIndex:indexPath.row];
-            
-            if (indexPath.row == 0)
-                movetype = stretching;
-        }
-        
-        powermoveStepsViewController.moveData = moveData;
-        powermoveStepsViewController.movetype = movetype;
-    }
-    
-    else if ([segue.identifier isEqualToString:@"segueToFootworkGeneratorViewController"])
-    {
-        FootworkGeneratorViewController *footworkGeneratorViewController = [segue destinationViewController];
-        
-        footworkGeneratorViewController.moveData = [_footworkArray objectAtIndex:0];
-    }
 }
 
 

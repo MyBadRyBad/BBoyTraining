@@ -7,72 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0455E50253EB0E439304E66EF112AEFB /* ZCFallLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 989BEE39399AC07AE0D879049FABD82E /* ZCFallLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		06D11C2ABF027D0202879F36226DBD93 /* ZCFocusLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79C78AD0C2C0A577168A12F253F0A99D /* ZCFocusLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		12C3F601EE0BA8F98463D3F7C07AB38E /* MSCellAccessory.h in Headers */ = {isa = PBXBuildFile; fileRef = AA5055AD765256E4A5CE2FBB150E8196 /* MSCellAccessory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A8B1B1F3E60B8BD6C4A7AFD6FD4011B /* ZCDashLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F20193BEA3010388C8D82E1B516717B5 /* ZCDashLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1B0C80C2F0E502F2BA4F3EF400A2DA31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B29866137BF581CBB5A867C5FECD64 /* Foundation.framework */; };
+		064659F0F908D66ABB5BA7EFFC525269 /* ZCShapeshiftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E8BEDE62E050390BDADFFDC6E9920FF /* ZCShapeshiftLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0ABB70DDD8595EF22548EFDCEDAD3742 /* ZCFocusLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E655D98A62E717322C6C0BD042225E /* ZCFocusLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0D925902DCC7F443F66AE5F648C3A087 /* ZCCoreTextLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = CB54A5E17E62DADAEC1FFABC317FED40 /* ZCCoreTextLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E4D2F03998C13D2BFD7B327C7BB168A /* ZCDuangLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A806C6AE9CD046BBA5F7DA91972A6B2 /* ZCDuangLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		101EC93283AEDCF6BE4FA8607E0EB4E9 /* UINavigationController+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B558C67544488D4BE53972CEE40AB35B /* UINavigationController+KMNavigationBarTransition.m */; };
+		12C3F601EE0BA8F98463D3F7C07AB38E /* MSCellAccessory.h in Headers */ = {isa = PBXBuildFile; fileRef = DBE5B5C060005D747A60E0CD49F53DE0 /* MSCellAccessory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19893DA644478F7F5B34A1953094F5D6 /* ZCFallLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F33D231186411E764F4BBA6707B951D /* ZCFallLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		19BC5FF898E0161F1A09B3B3211510D4 /* ZCShapeshiftLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = FBD1BEDD03DEB1A5205A512840C0AE60 /* ZCShapeshiftLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19F33BE961CEEC3FB218FE441F6895AD /* ZCDashLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74008B21F2D19EA836DA04C0D9AE63FB /* ZCDashLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1B0C80C2F0E502F2BA4F3EF400A2DA31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
 		24AF937CEAE3779B9A2722D12E109C6A /* Pods-BboyTraining-iOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D6486CE21A647FDC168E8A3818F748 /* Pods-BboyTraining-iOSTests-dummy.m */; };
-		2896A01077FD249B86981F6FE7FE9484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B29866137BF581CBB5A867C5FECD64 /* Foundation.framework */; };
-		335161BCD9276A89BB97EE479D90E470 /* ZCEasingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B9BA65E48DA9EAE39E5DAC099BA6D13 /* ZCEasingUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		351C70AE680494D2285C25E2AFAC8724 /* ZCDashLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B42A84A41F5EBA8FE2F5696FD2AABD /* ZCDashLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		356728985FB4A053811A07502344D8B1 /* ZCSpinLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B62798B827ED97F25FF209A208200F4 /* ZCSpinLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4216EBA1B175A44FD163BC3FAF395DF9 /* ZCEasingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 28B27EA34E066D3AB6A83D126A7A7EA6 /* ZCEasingUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		422EC4C3520070273A0D8C45E414D0D4 /* ZCDuangLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A114234AC145FE13C9436F2973BF328B /* ZCDuangLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		44536B020F56700D535C8C3AE7D8F016 /* ZCFocusLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C020DCE709C2093CB21BB62374C9A1C /* ZCFocusLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		490E4D68C35BA0480B4397F4ADF05F97 /* UIView+AccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D4B579BC440BBAB1F4F923498A5EBA /* UIView+AccessViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4D0668500E1A2DE110FFBB0A17293F0E /* ZCAnimatedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D83DC49B1386CEEDE1B39DFEAB23DA5 /* ZCAnimatedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D6DB2F1C1580619A151B1F0AE36CCE1 /* ionicons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E7AED299D0AC1171CFF92CF66810AE /* ionicons-dummy.m */; };
-		4FE0797F0C6DCCAC66E3F6CF7D4AC366 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B29866137BF581CBB5A867C5FECD64 /* Foundation.framework */; };
-		51AE22FC5C341ED31ABC23818D4967ED /* ZCCoreTextLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 394B55D374FA61E4A62E13983BC0F436 /* ZCCoreTextLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B3BED169632ECA7EC06CFE401A45FE7 /* ionicons-codes.h in Headers */ = {isa = PBXBuildFile; fileRef = B6FA17353427EE24B9128606EAE061A4 /* ionicons-codes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62D300DAE7EF376D4B7D543E899F3A2A /* UIView+AccessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8482E7C6A0A9AAF5F0836426CAD2A148 /* UIView+AccessViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2896A01077FD249B86981F6FE7FE9484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		290FA1FABB87B96606E41ED403EB62B3 /* ZCFlyinLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = BC225C912C9891124CFC96D891B99095 /* ZCFlyinLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3045A4C79A788E19457DB6E668272F10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		38D4D64FCDAE0407F186759A06B8A8F0 /* ZCAnimatedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1DFFA31C9F4E17142BE47B6F034E83 /* ZCAnimatedLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AB7D59AEFE79C7124D0A9393BC91895 /* ZCThrownLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E074ED1931877C30CCF90B775EE29F0 /* ZCThrownLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F83B1566567138E27D0B2E9B3F4FA7F /* ZCSpinLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 07668A2ED61B888646A4D2F7F71340E8 /* ZCSpinLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		402527859964B483A2503E613D23A6B7 /* ZCRevealLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 70D6C0ACC019835E9D7D90FE2147C895 /* ZCRevealLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4086D38B52375E556527865A26D589B6 /* KMSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = C8A4889075623764F4ED76C186617D5C /* KMSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		459355E60D483BCBE75CFE5A1C8BF11A /* ZCDashLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F7EF2DA39AF340395A75679E91B6C5F /* ZCDashLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		490E4D68C35BA0480B4397F4ADF05F97 /* UIView+AccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02ED23DAEF1013DB59743FE9E1FB3BD0 /* UIView+AccessViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4C330E6A41628CB628F2AB68278B1CAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */; };
+		4D6DB2F1C1580619A151B1F0AE36CCE1 /* ionicons-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FDF1BF1CF14BA1FB61B6C83958B0C77 /* ionicons-dummy.m */; };
+		4FE0797F0C6DCCAC66E3F6CF7D4AC366 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		57D64FBDFE3D51B69181F5812625CFCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		5A0A72669318551BDE34660F41A668BD /* UIViewController+KMNavigationBarTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 3DEB2DB0A5EE59B47DEF8E7343EC08D7 /* UIViewController+KMNavigationBarTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B3BED169632ECA7EC06CFE401A45FE7 /* ionicons-codes.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5BD7A1DDEFA54C24DED9A8B5DC3861 /* ionicons-codes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D73FEB8FCD678F263D9D8411CFCFF80 /* ZCFocusLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F25EC4C94E356C7492EB72A14BE188C /* ZCFocusLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FAE86C8474F3AE5B8022C2D278CA7B2 /* KMNavigationBarTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 555DDAD43A8040AC2DA8EC39C16C84ED /* KMNavigationBarTransition-dummy.m */; };
+		62D300DAE7EF376D4B7D543E899F3A2A /* UIView+AccessViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CAEA1006B31ADCB195C1CF7775A6C20 /* UIView+AccessViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67FF1598CFB56AF27A8847AF2C7C7B8B /* ZCFallLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 556B42FB4F51D74122D7552E0ECF9572 /* ZCFallLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69C9373F5EF2A3B655554F1853B02AEA /* ZCEasingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CE20B82FC51CF97461689E301255DE1 /* ZCEasingUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CBA9479E064AED621E3A07BFFE666B6 /* ZCThrownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 33427978B016AEA03213022AB5D65BB9 /* ZCThrownLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		6E8BDFF89545831BDA32A4D4927A1959 /* Pods-BboyTraining-iOSUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A81E5587E7A29319F885933C36840 /* Pods-BboyTraining-iOSUITests-dummy.m */; };
-		6FA820810340C125E869B1762210ACED /* ZCSpinLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F73CD4A123E0ACE1EF5BE1466B53A0F /* ZCSpinLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		70F6B9A0B5F022E330613E1563147029 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69672827B1FB1D764E1D1B89B682F6D5 /* CoreText.framework */; };
-		7BAF12B6B8936971A3DFFE1144D25753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B29866137BF581CBB5A867C5FECD64 /* Foundation.framework */; };
-		813CE321523C34621214FF3E6C453139 /* ZCShapeshiftLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE4BD1D62D94430BA36DC8BCE3D99A4 /* ZCShapeshiftLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E6388D8F4591B7A8DD6A90C374840DF /* ZCThrownLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D7BF174692DDD6FE04022392F00509B /* ZCThrownLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FBC62786E6324DCDE620E1985C764E1 /* FontInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = BFA37D6CCF927DE91B24AA7AC7F033FD /* FontInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		988B486A15870E26585E1282386F9C1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B29866137BF581CBB5A867C5FECD64 /* Foundation.framework */; };
-		990510D38526893A36777512F779DA52 /* ZCThrownLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 958042508EDEB37CBFF7118CA44B2EC6 /* ZCThrownLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A55FC369D4E062F96148FD19DFDB537F /* IonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 635C7F531BA56EF56F3266F7E4F11552 /* IonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A6F9EAF68FFAA0D5CB45A0763E1CD04B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B29866137BF581CBB5A867C5FECD64 /* Foundation.framework */; };
-		A71451CDDC5BC58621EABC8863F441F3 /* ZCRevealLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4120973CF7D3988E98C18E92FE87DFB /* ZCRevealLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		ADED12B52D1FFAF2B82072EF23546FBE /* ZCTransparencyLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EB5DA95F5AB9EFE7683EA32ADD6658 /* ZCTransparencyLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B19D893852A5AE2D30945DF5392D9063 /* ZCTransparencyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42110A7BDC4E3B89BE5AE2C7BD310E63 /* ZCTransparencyLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C1007E25FDD5EE896494ADD3E88B6850 /* FontInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D3C0E159EB421122698EA2457FF785 /* FontInspector.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C3202A22B15A05BAA6C970527B657282 /* MSCellAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = AED2316CA6A2598028B5F58CB8B0F817 /* MSCellAccessory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C89B3BD99E3A65C052F02B0500CE3DF5 /* ZCRevealLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F8DEDFB6DBB6DEDB44B30B396DE7FF /* ZCRevealLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD3B0EB761A18CCDF3F1D2FEFCF42B13 /* ZCShapeshiftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C6248C44BECF763A8FE5ED89C75D9AD1 /* ZCShapeshiftLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		CDB46F7B8CA32698C64213B6AF2CC69F /* ZCDuangLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 759774A9CD52495ABC0CE1C0C32543F1 /* ZCDuangLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEC47AEDDE468D454CE6487264BFEFD9 /* ZCFlyinLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = D22DEB2F4D7533639F11EE5E2FCADC4F /* ZCFlyinLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6827C1D71EA5CEE03D13951C7123BB6 /* ZCFallLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 480D1EF1DED62AA1DC22F18697E9028C /* ZCFallLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D89B3F58098E53CB53EB2FF9ACF5EB4C /* ZCAnimatedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6D79CD368D994019AFB8CB67B14F4F /* ZCAnimatedLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D98A944C4ED2F08D324FCC716897EADB /* Pods-BboyTraining-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 803E971DB40DFE8227CB41EE21CC3BCA /* Pods-BboyTraining-iOS-dummy.m */; };
-		E14E6FA1C3D1012D40DBF62622B846F6 /* ZCFlyinLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 083E15E082FE67C393A8943370493623 /* ZCFlyinLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E3F306134150E57EF1791EFEBCC00864 /* ZCAnimatedLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79582449BD37723B61DC9398CEB348B8 /* ZCAnimatedLabel-dummy.m */; };
-		F01E82778AC1D66C21025C952643DBA7 /* MSCellAccessory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E812C5F3E92AEE7D600B7F54B7CE942 /* MSCellAccessory-dummy.m */; };
-		F08C77A463119402BD68BB66DCCAB906 /* ZCCoreTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E244AB8059D13F26BFD5C10FD0F97BAC /* ZCCoreTextLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F50250E56C301387438BD172870D0C90 /* IonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 024BE41DA280D662048DF8F1B04EC485 /* IonIcons.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		76144958A751A6DD43F1C616E4186687 /* ZCSpinLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 120BD50F526BEF26D6E9A395A4E1C3EC /* ZCSpinLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B843B0AA93D90AC49C317512EEA3C3F /* KMWeakObjectContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = EBFC4A6299C04818140184EE6E6C8A54 /* KMWeakObjectContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BAF12B6B8936971A3DFFE1144D25753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		7F46DE1B5145D615BE5F31CD777F3324 /* ZCDuangLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE299F52E33418CF3880DBCAD05014F /* ZCDuangLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		817E3114F41D021C6C6376C8178087F3 /* ZCEasingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C54C74A55A38AB780515DC060E83E3 /* ZCEasingUtil.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		869CC07DA355CBA9740E1F407B63235C /* KMSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = B3986E01468FC6E4A7644D3AF99063D9 /* KMSwizzle.m */; };
+		8D3F0696EEA1E3BE94388D6CD286A9D0 /* ZCCoreTextLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D188620740ABF74478D409A807B298DF /* ZCCoreTextLayout.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8FBC62786E6324DCDE620E1985C764E1 /* FontInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DFCA5E18067D8376B38476237C459AF /* FontInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1C3A2474204347D224718F4AA4846FA /* ZCFlyinLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4BE91AA874EA96EF30D4C35EBAD972C /* ZCFlyinLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A55FC369D4E062F96148FD19DFDB537F /* IonIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E54CC2B17D1C4D2D974A72A53E755CC /* IonIcons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACC80DC697C9E62CB9620CCBE49FD3C6 /* ZCRevealLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E69C2B758DC464896D18C00A885ECB /* ZCRevealLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ADE17726A49DD7CC4B0AAAC8BA94C31E /* ZCTransparencyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = FA31E7B3C886A1D0968474D71F9FDD4C /* ZCTransparencyLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B0450F5D71D1D31DCEA13BE635C81DA9 /* ZCTransparencyLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F6D1C390AAB7404F790780A516055DA3 /* ZCTransparencyLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD07DF65B4F8C86E70A81008438892A4 /* UINavigationController+KMNavigationBarTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 19CB76AA737687935D7B42A72EF041AF /* UINavigationController+KMNavigationBarTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1007E25FDD5EE896494ADD3E88B6850 /* FontInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = D8998DAB8600B026F015D8D2BC8022F1 /* FontInspector.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C2803048BC91BF1808D390C80E78D44B /* ZCAnimatedLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C3BF749A86FA6FAB79574A8062F68F /* ZCAnimatedLabel-dummy.m */; };
+		C3202A22B15A05BAA6C970527B657282 /* MSCellAccessory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AD64CD35C8D421A614AA0652C51702D /* MSCellAccessory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CD20A900F1CFE092F320C690A555DF76 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */; };
+		D24D616A3DD46D068D205C783190AB87 /* Pods-BboyTraining-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 803E971DB40DFE8227CB41EE21CC3BCA /* Pods-BboyTraining-iOS-dummy.m */; };
+		D84BBB0F7A9F316E9D1BC09F2A68352F /* KMWeakObjectContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D0E347AB777131EB7DAD9A979867BD /* KMWeakObjectContainer.m */; };
+		DB59BDEAF649642DB84B39AD213B8ACE /* UIViewController+KMNavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1724E9E6AF97FEBB117E636116781900 /* UIViewController+KMNavigationBarTransition.m */; };
+		ECF4B91520000E197578244A48C1A35D /* ZCAnimatedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A4D493140266037246C5AF4E2B44E1 /* ZCAnimatedLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F01E82778AC1D66C21025C952643DBA7 /* MSCellAccessory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6D8BCBAA7735B95A19D7D54FCD36F5 /* MSCellAccessory-dummy.m */; };
+		F50250E56C301387438BD172870D0C90 /* IonIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE5F53BE959AA1EFBA18EA355AB9AB3 /* IonIcons.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FE1D433C1F1BE5B11AFB6BACF3CA4EAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		23B2DA64790E017FA7A4DE16402D25C0 /* PBXContainerItemProxy */ = {
+		9BB31DA193A288434723BDF518DC6E1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EBBE24249D5CA1E53E9B622C1C56734;
+			remoteInfo = ZCAnimatedLabel;
+		};
+		A38D2045AE4F99C051765A230170818F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 084B1FF8E099CDDF6B5FD3169504D512;
 			remoteInfo = ionicons;
 		};
-		BC1AB5C5B589879707F9ED1280768D8E /* PBXContainerItemProxy */ = {
+		CFFD4550883E98D506DFAF22F86E6745 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DE5D1285A9E1C3E1C3CFA2580D162479;
-			remoteInfo = ZCAnimatedLabel;
+			remoteGlobalIDString = 53A97C1D82FAFBB4F6AE4A6DCFF0B016;
+			remoteInfo = KMNavigationBarTransition;
 		};
-		F12DCD4DDE7E693B2F2F150429B751D7 /* PBXContainerItemProxy */ = {
+		DB564074EE276DE65A48D0A8576E8E03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -83,83 +101,105 @@
 
 /* Begin PBXFileReference section */
 		005FDC12440A8F43AE1D84F0451E6CBB /* Pods-BboyTraining-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BboyTraining-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		024BE41DA280D662048DF8F1B04EC485 /* IonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IonIcons.m; path = ionicons/IonIcons.m; sourceTree = "<group>"; };
-		03552F83157B829497E79C3B9BF9EE21 /* libPods-BboyTraining-iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BboyTraining-iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		083E15E082FE67C393A8943370493623 /* ZCFlyinLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCFlyinLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFlyinLabel.m; sourceTree = "<group>"; };
-		0C020DCE709C2093CB21BB62374C9A1C /* ZCFocusLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCFocusLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFocusLabel.h; sourceTree = "<group>"; };
+		02ED23DAEF1013DB59743FE9E1FB3BD0 /* UIView+AccessViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AccessViewController.m"; path = "MSCellAccessory/UIView+AccessViewController.m"; sourceTree = "<group>"; };
+		03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		07668A2ED61B888646A4D2F7F71340E8 /* ZCSpinLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCSpinLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCSpinLabel.m; sourceTree = "<group>"; };
+		0CAEA1006B31ADCB195C1CF7775A6C20 /* UIView+AccessViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AccessViewController.h"; path = "MSCellAccessory/UIView+AccessViewController.h"; sourceTree = "<group>"; };
 		10F9960C150ADD368AC856A3A0919AE6 /* Pods-BboyTraining-iOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BboyTraining-iOSTests-frameworks.sh"; sourceTree = "<group>"; };
-		17B29866137BF581CBB5A867C5FECD64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1112DD1DD6791F7BB3BEBB3F3F60B5FC /* libPods-BboyTraining-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BboyTraining-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		120BD50F526BEF26D6E9A395A4E1C3EC /* ZCSpinLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCSpinLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCSpinLabel.h; sourceTree = "<group>"; };
+		1724E9E6AF97FEBB117E636116781900 /* UIViewController+KMNavigationBarTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KMNavigationBarTransition.m"; path = "KMNavigationBarTransition/UIViewController+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
+		17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1831E5FDBAC8E3AAE0EE234694F21746 /* Pods-BboyTraining-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BboyTraining-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		19CB76AA737687935D7B42A72EF041AF /* UINavigationController+KMNavigationBarTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+KMNavigationBarTransition.h"; path = "KMNavigationBarTransition/UINavigationController+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
+		1AD64CD35C8D421A614AA0652C51702D /* MSCellAccessory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSCellAccessory.m; path = MSCellAccessory/MSCellAccessory.m; sourceTree = "<group>"; };
+		21770917098F94CAC510BEE0E16406F8 /* libPods-BboyTraining-iOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BboyTraining-iOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C3BF749A86FA6FAB79574A8062F68F /* ZCAnimatedLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCAnimatedLabel-dummy.m"; sourceTree = "<group>"; };
 		2501D68C03A5DAF3E7AD17FAF8B6609C /* Pods-BboyTraining-iOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BboyTraining-iOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		26E7AED299D0AC1171CFF92CF66810AE /* ionicons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ionicons-dummy.m"; sourceTree = "<group>"; };
-		27D4B579BC440BBAB1F4F923498A5EBA /* UIView+AccessViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AccessViewController.m"; path = "MSCellAccessory/UIView+AccessViewController.m"; sourceTree = "<group>"; };
-		28B27EA34E066D3AB6A83D126A7A7EA6 /* ZCEasingUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCEasingUtil.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCEasingUtil.h; sourceTree = "<group>"; };
-		2B18A27A04050D7F69628445FC83EDCC /* ionicons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ionicons.xcconfig; sourceTree = "<group>"; };
-		38EB5DA95F5AB9EFE7683EA32ADD6658 /* ZCTransparencyLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCTransparencyLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCTransparencyLabel.h; sourceTree = "<group>"; };
-		394B55D374FA61E4A62E13983BC0F436 /* ZCCoreTextLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCCoreTextLayout.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCCoreTextLayout.h; sourceTree = "<group>"; };
-		39B42A84A41F5EBA8FE2F5696FD2AABD /* ZCDashLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCDashLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCDashLabel.h; sourceTree = "<group>"; };
-		3F16EEC8E711705E464788208154FEA3 /* ZCAnimatedLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCAnimatedLabel-prefix.pch"; sourceTree = "<group>"; };
-		42110A7BDC4E3B89BE5AE2C7BD310E63 /* ZCTransparencyLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCTransparencyLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCTransparencyLabel.m; sourceTree = "<group>"; };
+		2F7EF2DA39AF340395A75679E91B6C5F /* ZCDashLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCDashLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCDashLabel.h; sourceTree = "<group>"; };
+		33427978B016AEA03213022AB5D65BB9 /* ZCThrownLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCThrownLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCThrownLabel.m; sourceTree = "<group>"; };
+		36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38640DA77A882EF81FD63AEAD9F2F44D /* KMNavigationBarTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KMNavigationBarTransition.xcconfig; sourceTree = "<group>"; };
+		3DEB2DB0A5EE59B47DEF8E7343EC08D7 /* UIViewController+KMNavigationBarTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KMNavigationBarTransition.h"; path = "KMNavigationBarTransition/UIViewController+KMNavigationBarTransition.h"; sourceTree = "<group>"; };
+		3E074ED1931877C30CCF90B775EE29F0 /* ZCThrownLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCThrownLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCThrownLabel.h; sourceTree = "<group>"; };
+		3F25EC4C94E356C7492EB72A14BE188C /* ZCFocusLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCFocusLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFocusLabel.h; sourceTree = "<group>"; };
+		3FDF1BF1CF14BA1FB61B6C83958B0C77 /* ionicons-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ionicons-dummy.m"; sourceTree = "<group>"; };
 		4429565FEEC0C9B059E5408869F37B35 /* Pods-BboyTraining-iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BboyTraining-iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		480D1EF1DED62AA1DC22F18697E9028C /* ZCFallLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCFallLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFallLabel.h; sourceTree = "<group>"; };
+		476FB5E9BE5EF64BC1205CEE78A2A90F /* libKMNavigationBarTransition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKMNavigationBarTransition.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		48F4D8BFC8C9B287644A2F8F20847C36 /* Pods-BboyTraining-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BboyTraining-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4954B6DC5931E6F9BF8420D6195CDA89 /* Pods-BboyTraining-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BboyTraining-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		4A841B8959E72311612A7CC658437304 /* Pods-BboyTraining-iOSUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BboyTraining-iOSUITests-resources.sh"; sourceTree = "<group>"; };
-		4AE4BD1D62D94430BA36DC8BCE3D99A4 /* ZCShapeshiftLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCShapeshiftLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCShapeshiftLabel.h; sourceTree = "<group>"; };
-		4EA832D8D4C2E8781D2FBC9271AC5B0B /* MSCellAccessory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSCellAccessory.xcconfig; sourceTree = "<group>"; };
+		4CE5F53BE959AA1EFBA18EA355AB9AB3 /* IonIcons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IonIcons.m; path = ionicons/IonIcons.m; sourceTree = "<group>"; };
+		50E655D98A62E717322C6C0BD042225E /* ZCFocusLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCFocusLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFocusLabel.m; sourceTree = "<group>"; };
+		555DDAD43A8040AC2DA8EC39C16C84ED /* KMNavigationBarTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KMNavigationBarTransition-dummy.m"; sourceTree = "<group>"; };
+		556B42FB4F51D74122D7552E0ECF9572 /* ZCFallLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCFallLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFallLabel.h; sourceTree = "<group>"; };
 		55EB2A064BA8BCBF3005794BEC6C2162 /* Pods-BboyTraining-iOSUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BboyTraining-iOSUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		571290FD1CAD23C0FEE0079C256E151A /* Pods-BboyTraining-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BboyTraining-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		57BEA8C5EAD499A59B593701297D82F4 /* ZCAnimatedLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCAnimatedLabel.xcconfig; sourceTree = "<group>"; };
+		5985655B43B3DABADFC1336B98D6D23A /* ionicons.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ionicons.bundle; path = ionicons/ionicons.bundle; sourceTree = "<group>"; };
 		5C9A81E5587E7A29319F885933C36840 /* Pods-BboyTraining-iOSUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BboyTraining-iOSUITests-dummy.m"; sourceTree = "<group>"; };
+		5E54CC2B17D1C4D2D974A72A53E755CC /* IonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IonIcons.h; path = ionicons/IonIcons.h; sourceTree = "<group>"; };
 		616A2ACC96EC051DCB1E40C054DB04CB /* Pods-BboyTraining-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BboyTraining-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		635C7F531BA56EF56F3266F7E4F11552 /* IonIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IonIcons.h; path = ionicons/IonIcons.h; sourceTree = "<group>"; };
-		69672827B1FB1D764E1D1B89B682F6D5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
 		69987765E58FB02752CA7F8F49036446 /* Pods-BboyTraining-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BboyTraining-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		6B62798B827ED97F25FF209A208200F4 /* ZCSpinLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCSpinLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCSpinLabel.m; sourceTree = "<group>"; };
-		6DD05B543EC930D755711C621CEE70E2 /* ionicons.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ionicons.bundle; path = ionicons/ionicons.bundle; sourceTree = "<group>"; };
-		6F6D79CD368D994019AFB8CB67B14F4F /* ZCAnimatedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCAnimatedLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCAnimatedLabel.m; sourceTree = "<group>"; };
-		759774A9CD52495ABC0CE1C0C32543F1 /* ZCDuangLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCDuangLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCDuangLabel.h; sourceTree = "<group>"; };
-		79582449BD37723B61DC9398CEB348B8 /* ZCAnimatedLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZCAnimatedLabel-dummy.m"; sourceTree = "<group>"; };
-		79C78AD0C2C0A577168A12F253F0A99D /* ZCFocusLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCFocusLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFocusLabel.m; sourceTree = "<group>"; };
-		7D7BF174692DDD6FE04022392F00509B /* ZCThrownLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCThrownLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCThrownLabel.h; sourceTree = "<group>"; };
-		7F69858CD38C6CE7A71C294530BEC767 /* MSCellAccessory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSCellAccessory-prefix.pch"; sourceTree = "<group>"; };
+		6CE20B82FC51CF97461689E301255DE1 /* ZCEasingUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCEasingUtil.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCEasingUtil.h; sourceTree = "<group>"; };
+		6F33D231186411E764F4BBA6707B951D /* ZCFallLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCFallLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFallLabel.m; sourceTree = "<group>"; };
+		70D6C0ACC019835E9D7D90FE2147C895 /* ZCRevealLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCRevealLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCRevealLabel.h; sourceTree = "<group>"; };
+		74008B21F2D19EA836DA04C0D9AE63FB /* ZCDashLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCDashLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCDashLabel.m; sourceTree = "<group>"; };
+		7992E6FBE3A1CA40E31176F4B455DEFF /* ionicons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ionicons-prefix.pch"; sourceTree = "<group>"; };
+		7BE299F52E33418CF3880DBCAD05014F /* ZCDuangLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCDuangLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCDuangLabel.h; sourceTree = "<group>"; };
 		803E971DB40DFE8227CB41EE21CC3BCA /* Pods-BboyTraining-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BboyTraining-iOS-dummy.m"; sourceTree = "<group>"; };
+		80E69C2B758DC464896D18C00A885ECB /* ZCRevealLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCRevealLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCRevealLabel.m; sourceTree = "<group>"; };
 		8148945DE48D04BC8D3550C5D69BF1DA /* Pods-BboyTraining-iOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BboyTraining-iOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8482E7C6A0A9AAF5F0836426CAD2A148 /* UIView+AccessViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AccessViewController.h"; path = "MSCellAccessory/UIView+AccessViewController.h"; sourceTree = "<group>"; };
-		8B9BA65E48DA9EAE39E5DAC099BA6D13 /* ZCEasingUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCEasingUtil.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCEasingUtil.m; sourceTree = "<group>"; };
-		8F73CD4A123E0ACE1EF5BE1466B53A0F /* ZCSpinLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCSpinLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCSpinLabel.h; sourceTree = "<group>"; };
+		84EEA4BD96D55EA78B79A29DA73C18CF /* libPods-BboyTraining-iOSUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BboyTraining-iOSUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A806C6AE9CD046BBA5F7DA91972A6B2 /* ZCDuangLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCDuangLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCDuangLabel.m; sourceTree = "<group>"; };
+		8DFCA5E18067D8376B38476237C459AF /* FontInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontInspector.h; path = ionicons/FontInspector.h; sourceTree = "<group>"; };
+		8E8BEDE62E050390BDADFFDC6E9920FF /* ZCShapeshiftLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCShapeshiftLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCShapeshiftLabel.m; sourceTree = "<group>"; };
 		8F819BBC1290D0322FE383DD6B65B979 /* Pods-BboyTraining-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BboyTraining-iOS-resources.sh"; sourceTree = "<group>"; };
+		91534F9F8A1D81C151286B3B829F2B85 /* MSCellAccessory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MSCellAccessory.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		958042508EDEB37CBFF7118CA44B2EC6 /* ZCThrownLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCThrownLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCThrownLabel.m; sourceTree = "<group>"; };
-		989BEE39399AC07AE0D879049FABD82E /* ZCFallLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCFallLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFallLabel.m; sourceTree = "<group>"; };
 		98F33FAC5982F4BC9F1CF69C428BEFA1 /* Pods-BboyTraining-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BboyTraining-iOS-frameworks.sh"; sourceTree = "<group>"; };
-		9D83DC49B1386CEEDE1B39DFEAB23DA5 /* ZCAnimatedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCAnimatedLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCAnimatedLabel.h; sourceTree = "<group>"; };
-		9E812C5F3E92AEE7D600B7F54B7CE942 /* MSCellAccessory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSCellAccessory-dummy.m"; sourceTree = "<group>"; };
-		9FFC1513B703161E1E93EEE7F490FA0E /* libPods-BboyTraining-iOSUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BboyTraining-iOSUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A114234AC145FE13C9436F2973BF328B /* ZCDuangLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCDuangLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCDuangLabel.m; sourceTree = "<group>"; };
-		A2B959E52998D194246D99EA79E4F778 /* libionicons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libionicons.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA5055AD765256E4A5CE2FBB150E8196 /* MSCellAccessory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSCellAccessory.h; path = MSCellAccessory/MSCellAccessory.h; sourceTree = "<group>"; };
-		AC731B42D571A4508ACBD0B73AB8C8E8 /* ZCAnimatedLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZCAnimatedLabel.xcconfig; sourceTree = "<group>"; };
+		9C1DFFA31C9F4E17142BE47B6F034E83 /* ZCAnimatedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCAnimatedLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCAnimatedLabel.h; sourceTree = "<group>"; };
+		9D4437F24EBD0FAD208D6DEE6692371C /* MSCellAccessory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MSCellAccessory-prefix.pch"; sourceTree = "<group>"; };
+		A0B22F5A3D09F33F4D14E5839B2807A2 /* libZCAnimatedLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZCAnimatedLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32470924807CD16037E3C3C85570C7B /* libMSCellAccessory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSCellAccessory.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD1316990E53E9594F4792F692B5D1C /* Pods-BboyTraining-iOSUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BboyTraining-iOSUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AED2316CA6A2598028B5F58CB8B0F817 /* MSCellAccessory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MSCellAccessory.m; path = MSCellAccessory/MSCellAccessory.m; sourceTree = "<group>"; };
-		B4120973CF7D3988E98C18E92FE87DFB /* ZCRevealLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCRevealLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCRevealLabel.m; sourceTree = "<group>"; };
-		B4F8DEDFB6DBB6DEDB44B30B396DE7FF /* ZCRevealLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCRevealLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCRevealLabel.h; sourceTree = "<group>"; };
-		B6FA17353427EE24B9128606EAE061A4 /* ionicons-codes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ionicons-codes.h"; path = "ionicons/ionicons-codes.h"; sourceTree = "<group>"; };
+		AD6D8BCBAA7735B95A19D7D54FCD36F5 /* MSCellAccessory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MSCellAccessory-dummy.m"; sourceTree = "<group>"; };
+		B3986E01468FC6E4A7644D3AF99063D9 /* KMSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KMSwizzle.m; path = KMNavigationBarTransition/KMSwizzle.m; sourceTree = "<group>"; };
+		B558C67544488D4BE53972CEE40AB35B /* UINavigationController+KMNavigationBarTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+KMNavigationBarTransition.m"; path = "KMNavigationBarTransition/UINavigationController+KMNavigationBarTransition.m"; sourceTree = "<group>"; };
 		B7D6486CE21A647FDC168E8A3818F748 /* Pods-BboyTraining-iOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BboyTraining-iOSTests-dummy.m"; sourceTree = "<group>"; };
-		BFA37D6CCF927DE91B24AA7AC7F033FD /* FontInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontInspector.h; path = ionicons/FontInspector.h; sourceTree = "<group>"; };
+		BC225C912C9891124CFC96D891B99095 /* ZCFlyinLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCFlyinLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFlyinLabel.h; sourceTree = "<group>"; };
+		C314B5018192A2E5B5BE2FE512C1E44B /* ZCAnimatedLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZCAnimatedLabel-prefix.pch"; sourceTree = "<group>"; };
+		C38C93E2BAEE3E9B92E9F6916408E1A4 /* libionicons.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libionicons.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E216BC71049136394F4B383E7ACB99 /* Pods-BboyTraining-iOSUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BboyTraining-iOSUITests-frameworks.sh"; sourceTree = "<group>"; };
 		C542BAEA406033EDCE3DE4124CC0DD3D /* Pods-BboyTraining-iOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BboyTraining-iOSTests-resources.sh"; sourceTree = "<group>"; };
-		C6248C44BECF763A8FE5ED89C75D9AD1 /* ZCShapeshiftLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCShapeshiftLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCShapeshiftLabel.m; sourceTree = "<group>"; };
-		D22DEB2F4D7533639F11EE5E2FCADC4F /* ZCFlyinLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCFlyinLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFlyinLabel.h; sourceTree = "<group>"; };
-		E1DB1A5431131FBA94AD97345745B36B /* libPods-BboyTraining-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BboyTraining-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E244AB8059D13F26BFD5C10FD0F97BAC /* ZCCoreTextLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCCoreTextLayout.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCCoreTextLayout.m; sourceTree = "<group>"; };
-		E2D3C0E159EB421122698EA2457FF785 /* FontInspector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FontInspector.m; path = ionicons/FontInspector.m; sourceTree = "<group>"; };
-		EB71CCFEBB63BE11502159F7F4D08E6C /* libMSCellAccessory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMSCellAccessory.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F20193BEA3010388C8D82E1B516717B5 /* ZCDashLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCDashLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCDashLabel.m; sourceTree = "<group>"; };
-		F372FB47DDBAE954872D30C0810263B3 /* libZCAnimatedLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZCAnimatedLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F538BA092A5ED3363D6EA9F52927BC9F /* ionicons-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ionicons-prefix.pch"; sourceTree = "<group>"; };
+		C5D0E347AB777131EB7DAD9A979867BD /* KMWeakObjectContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KMWeakObjectContainer.m; path = KMNavigationBarTransition/KMWeakObjectContainer.m; sourceTree = "<group>"; };
+		C8A4889075623764F4ED76C186617D5C /* KMSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KMSwizzle.h; path = KMNavigationBarTransition/KMSwizzle.h; sourceTree = "<group>"; };
+		C9C54C74A55A38AB780515DC060E83E3 /* ZCEasingUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCEasingUtil.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCEasingUtil.m; sourceTree = "<group>"; };
+		CB54A5E17E62DADAEC1FFABC317FED40 /* ZCCoreTextLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCCoreTextLayout.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCCoreTextLayout.h; sourceTree = "<group>"; };
+		D0A4D493140266037246C5AF4E2B44E1 /* ZCAnimatedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCAnimatedLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCAnimatedLabel.m; sourceTree = "<group>"; };
+		D188620740ABF74478D409A807B298DF /* ZCCoreTextLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCCoreTextLayout.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCCoreTextLayout.m; sourceTree = "<group>"; };
+		D29D02EA45A747F9F30D1607A12E6FF2 /* KMNavigationBarTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KMNavigationBarTransition-prefix.pch"; sourceTree = "<group>"; };
+		D4BE91AA874EA96EF30D4C35EBAD972C /* ZCFlyinLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCFlyinLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCFlyinLabel.m; sourceTree = "<group>"; };
+		D8998DAB8600B026F015D8D2BC8022F1 /* FontInspector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FontInspector.m; path = ionicons/FontInspector.m; sourceTree = "<group>"; };
+		DBE5B5C060005D747A60E0CD49F53DE0 /* MSCellAccessory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MSCellAccessory.h; path = MSCellAccessory/MSCellAccessory.h; sourceTree = "<group>"; };
+		EBFC4A6299C04818140184EE6E6C8A54 /* KMWeakObjectContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KMWeakObjectContainer.h; path = KMNavigationBarTransition/KMWeakObjectContainer.h; sourceTree = "<group>"; };
+		F6D1C390AAB7404F790780A516055DA3 /* ZCTransparencyLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCTransparencyLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCTransparencyLabel.h; sourceTree = "<group>"; };
+		FA31E7B3C886A1D0968474D71F9FDD4C /* ZCTransparencyLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZCTransparencyLabel.m; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCTransparencyLabel.m; sourceTree = "<group>"; };
+		FA5BD7A1DDEFA54C24DED9A8B5DC3861 /* ionicons-codes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ionicons-codes.h"; path = "ionicons/ionicons-codes.h"; sourceTree = "<group>"; };
+		FBD1BEDD03DEB1A5205A512840C0AE60 /* ZCShapeshiftLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZCShapeshiftLabel.h; path = ZCAnimatedLabel/ZCAnimatedLabel/ZCShapeshiftLabel.h; sourceTree = "<group>"; };
+		FFBF80B2F95845385674636D87013295 /* ionicons.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ionicons.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0FC708609AC6B5677DF6166B1FF73EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD20A900F1CFE092F320C690A555DF76 /* CoreText.framework in Frameworks */,
+				57D64FBDFE3D51B69181F5812625CFCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		162506CADDAF3D700D7F3E9BEA093A89 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,11 +208,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B69D943E0B804F0470DF218C2A85C04 /* Frameworks */ = {
+		57BCAB67FC70D75FE5D512E009FE55F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6F9EAF68FFAA0D5CB45A0763E1CD04B /* Foundation.framework in Frameworks */,
+				3045A4C79A788E19457DB6E668272F10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792822C05CB2B84A1861AF61E84EA3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE1D433C1F1BE5B11AFB6BACF3CA4EAB /* Foundation.framework in Frameworks */,
+				4C330E6A41628CB628F2AB68278B1CAE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,92 +249,122 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D09569FCF889273DA05CD8A618E4C8F7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70F6B9A0B5F022E330613E1563147029 /* CoreText.framework in Frameworks */,
-				988B486A15870E26585E1282386F9C1C /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01C89728B36FDC2E48EE215987CCC0C5 /* MSCellAccessory */ = {
+		0140ABC770FD04D9D8644C7AF2FC1628 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AA5055AD765256E4A5CE2FBB150E8196 /* MSCellAccessory.h */,
-				AED2316CA6A2598028B5F58CB8B0F817 /* MSCellAccessory.m */,
-				8482E7C6A0A9AAF5F0836426CAD2A148 /* UIView+AccessViewController.h */,
-				27D4B579BC440BBAB1F4F923498A5EBA /* UIView+AccessViewController.m */,
-				2CFE4DD09EE67EA3B590F75432B41A12 /* Support Files */,
+				57BEA8C5EAD499A59B593701297D82F4 /* ZCAnimatedLabel.xcconfig */,
+				23C3BF749A86FA6FAB79574A8062F68F /* ZCAnimatedLabel-dummy.m */,
+				C314B5018192A2E5B5BE2FE512C1E44B /* ZCAnimatedLabel-prefix.pch */,
 			);
-			path = MSCellAccessory;
+			name = "Support Files";
+			path = "../Target Support Files/ZCAnimatedLabel";
 			sourceTree = "<group>";
 		};
-		2CFE4DD09EE67EA3B590F75432B41A12 /* Support Files */ = {
+		119D7D439DFEA95D5C6B2E6AB322724A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				4EA832D8D4C2E8781D2FBC9271AC5B0B /* MSCellAccessory.xcconfig */,
-				9E812C5F3E92AEE7D600B7F54B7CE942 /* MSCellAccessory-dummy.m */,
-				7F69858CD38C6CE7A71C294530BEC767 /* MSCellAccessory-prefix.pch */,
+				03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */,
+				36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */,
+				17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				119D7D439DFEA95D5C6B2E6AB322724A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21D084B5EE9474EF870CB169DABA29A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A26EA27AF38FE4EEE05CC584BF775AA8 /* ionicons */,
+				3B25AB75B6AD590E72FFE680A257D321 /* KMNavigationBarTransition */,
+				74D2BD2B6F6A13280033E71DB1A1A938 /* MSCellAccessory */,
+				FACA6E3AA88321541DA24E60DC721456 /* ZCAnimatedLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		223C8FBD1ED8AD3F18BEFC7BD1DD2F33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38640DA77A882EF81FD63AEAD9F2F44D /* KMNavigationBarTransition.xcconfig */,
+				555DDAD43A8040AC2DA8EC39C16C84ED /* KMNavigationBarTransition-dummy.m */,
+				D29D02EA45A747F9F30D1607A12E6FF2 /* KMNavigationBarTransition-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KMNavigationBarTransition";
+			sourceTree = "<group>";
+		};
+		3601A6880C0C87EB42BC9BA97983B25B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				91534F9F8A1D81C151286B3B829F2B85 /* MSCellAccessory.xcconfig */,
+				AD6D8BCBAA7735B95A19D7D54FCD36F5 /* MSCellAccessory-dummy.m */,
+				9D4437F24EBD0FAD208D6DEE6692371C /* MSCellAccessory-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MSCellAccessory";
 			sourceTree = "<group>";
 		};
-		308DC5E9E2E68A28610BB23A4AB881A6 /* iOS */ = {
+		3B25AB75B6AD590E72FFE680A257D321 /* KMNavigationBarTransition */ = {
 			isa = PBXGroup;
 			children = (
-				69672827B1FB1D764E1D1B89B682F6D5 /* CoreText.framework */,
-				17B29866137BF581CBB5A867C5FECD64 /* Foundation.framework */,
+				C8A4889075623764F4ED76C186617D5C /* KMSwizzle.h */,
+				B3986E01468FC6E4A7644D3AF99063D9 /* KMSwizzle.m */,
+				EBFC4A6299C04818140184EE6E6C8A54 /* KMWeakObjectContainer.h */,
+				C5D0E347AB777131EB7DAD9A979867BD /* KMWeakObjectContainer.m */,
+				19CB76AA737687935D7B42A72EF041AF /* UINavigationController+KMNavigationBarTransition.h */,
+				B558C67544488D4BE53972CEE40AB35B /* UINavigationController+KMNavigationBarTransition.m */,
+				3DEB2DB0A5EE59B47DEF8E7343EC08D7 /* UIViewController+KMNavigationBarTransition.h */,
+				1724E9E6AF97FEBB117E636116781900 /* UIViewController+KMNavigationBarTransition.m */,
+				223C8FBD1ED8AD3F18BEFC7BD1DD2F33 /* Support Files */,
 			);
-			name = iOS;
+			path = KMNavigationBarTransition;
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		3B5AA3008A5871799250305756290E88 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				308DC5E9E2E68A28610BB23A4AB881A6 /* iOS */,
+				C38C93E2BAEE3E9B92E9F6916408E1A4 /* libionicons.a */,
+				476FB5E9BE5EF64BC1205CEE78A2A90F /* libKMNavigationBarTransition.a */,
+				A32470924807CD16037E3C3C85570C7B /* libMSCellAccessory.a */,
+				1112DD1DD6791F7BB3BEBB3F3F60B5FC /* libPods-BboyTraining-iOS.a */,
+				21770917098F94CAC510BEE0E16406F8 /* libPods-BboyTraining-iOSTests.a */,
+				84EEA4BD96D55EA78B79A29DA73C18CF /* libPods-BboyTraining-iOSUITests.a */,
+				A0B22F5A3D09F33F4D14E5839B2807A2 /* libZCAnimatedLabel.a */,
 			);
-			name = Frameworks;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		4B60B1D7E7F12DA60868DD005BB3F645 /* ionicons */ = {
+		74D2BD2B6F6A13280033E71DB1A1A938 /* MSCellAccessory */ = {
 			isa = PBXGroup;
 			children = (
-				BFA37D6CCF927DE91B24AA7AC7F033FD /* FontInspector.h */,
-				E2D3C0E159EB421122698EA2457FF785 /* FontInspector.m */,
-				635C7F531BA56EF56F3266F7E4F11552 /* IonIcons.h */,
-				024BE41DA280D662048DF8F1B04EC485 /* IonIcons.m */,
-				B6FA17353427EE24B9128606EAE061A4 /* ionicons-codes.h */,
-				E96A5987155F3B5FB4B6E93410A78063 /* Resources */,
-				B77A58C88B892075F3910A09B3AE1A43 /* Support Files */,
+				DBE5B5C060005D747A60E0CD49F53DE0 /* MSCellAccessory.h */,
+				1AD64CD35C8D421A614AA0652C51702D /* MSCellAccessory.m */,
+				0CAEA1006B31ADCB195C1CF7775A6C20 /* UIView+AccessViewController.h */,
+				02ED23DAEF1013DB59743FE9E1FB3BD0 /* UIView+AccessViewController.m */,
+				3601A6880C0C87EB42BC9BA97983B25B /* Support Files */,
 			);
-			path = ionicons;
+			path = MSCellAccessory;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				C8B63AC124CFF1A08FC595B23C600A2B /* Pods */,
-				B54C27C6EE3DA98D50353C608FF47F3A /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				21D084B5EE9474EF870CB169DABA29A3 /* Pods */,
+				3B5AA3008A5871799250305756290E88 /* Products */,
 				DF7F8AC3D3F2BE0B863DED9B685C5ED0 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7DD76BFC759E5B3CB6B2A5A0BB2DE4AA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				AC731B42D571A4508ACBD0B73AB8C8E8 /* ZCAnimatedLabel.xcconfig */,
-				79582449BD37723B61DC9398CEB348B8 /* ZCAnimatedLabel-dummy.m */,
-				3F16EEC8E711705E464788208154FEA3 /* ZCAnimatedLabel-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ZCAnimatedLabel";
 			sourceTree = "<group>";
 		};
 		9C40B888245C8D3195EC886775CB3227 /* Pods-BboyTraining-iOSTests */ = {
@@ -303,6 +382,20 @@
 			path = "Target Support Files/Pods-BboyTraining-iOSTests";
 			sourceTree = "<group>";
 		};
+		A26EA27AF38FE4EEE05CC584BF775AA8 /* ionicons */ = {
+			isa = PBXGroup;
+			children = (
+				8DFCA5E18067D8376B38476237C459AF /* FontInspector.h */,
+				D8998DAB8600B026F015D8D2BC8022F1 /* FontInspector.m */,
+				5E54CC2B17D1C4D2D974A72A53E755CC /* IonIcons.h */,
+				4CE5F53BE959AA1EFBA18EA355AB9AB3 /* IonIcons.m */,
+				FA5BD7A1DDEFA54C24DED9A8B5DC3861 /* ionicons-codes.h */,
+				BCC537E9CAFC236B7231935BC2EFF42B /* Resources */,
+				E26272EB05E2F8D0A30EE36ADB31987C /* Support Files */,
+			);
+			path = ionicons;
+			sourceTree = "<group>";
+		};
 		B05F2EB0C117C11C935734DEAA85D4E2 /* Pods-BboyTraining-iOSUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -318,38 +411,12 @@
 			path = "Target Support Files/Pods-BboyTraining-iOSUITests";
 			sourceTree = "<group>";
 		};
-		B54C27C6EE3DA98D50353C608FF47F3A /* Products */ = {
+		BCC537E9CAFC236B7231935BC2EFF42B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A2B959E52998D194246D99EA79E4F778 /* libionicons.a */,
-				EB71CCFEBB63BE11502159F7F4D08E6C /* libMSCellAccessory.a */,
-				E1DB1A5431131FBA94AD97345745B36B /* libPods-BboyTraining-iOS.a */,
-				03552F83157B829497E79C3B9BF9EE21 /* libPods-BboyTraining-iOSTests.a */,
-				9FFC1513B703161E1E93EEE7F490FA0E /* libPods-BboyTraining-iOSUITests.a */,
-				F372FB47DDBAE954872D30C0810263B3 /* libZCAnimatedLabel.a */,
+				5985655B43B3DABADFC1336B98D6D23A /* ionicons.bundle */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B77A58C88B892075F3910A09B3AE1A43 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2B18A27A04050D7F69628445FC83EDCC /* ionicons.xcconfig */,
-				26E7AED299D0AC1171CFF92CF66810AE /* ionicons-dummy.m */,
-				F538BA092A5ED3363D6EA9F52927BC9F /* ionicons-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/ionicons";
-			sourceTree = "<group>";
-		};
-		C8B63AC124CFF1A08FC595B23C600A2B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4B60B1D7E7F12DA60868DD005BB3F645 /* ionicons */,
-				01C89728B36FDC2E48EE215987CCC0C5 /* MSCellAccessory */,
-				D186041DFCD80C381EC17A738A6CA88E /* ZCAnimatedLabel */,
-			);
-			name = Pods;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		CFF90EC0FA05E08E8583A3B0B4AA5DF3 /* Pods-BboyTraining-iOS */ = {
@@ -367,40 +434,6 @@
 			path = "Target Support Files/Pods-BboyTraining-iOS";
 			sourceTree = "<group>";
 		};
-		D186041DFCD80C381EC17A738A6CA88E /* ZCAnimatedLabel */ = {
-			isa = PBXGroup;
-			children = (
-				9D83DC49B1386CEEDE1B39DFEAB23DA5 /* ZCAnimatedLabel.h */,
-				6F6D79CD368D994019AFB8CB67B14F4F /* ZCAnimatedLabel.m */,
-				394B55D374FA61E4A62E13983BC0F436 /* ZCCoreTextLayout.h */,
-				E244AB8059D13F26BFD5C10FD0F97BAC /* ZCCoreTextLayout.m */,
-				39B42A84A41F5EBA8FE2F5696FD2AABD /* ZCDashLabel.h */,
-				F20193BEA3010388C8D82E1B516717B5 /* ZCDashLabel.m */,
-				759774A9CD52495ABC0CE1C0C32543F1 /* ZCDuangLabel.h */,
-				A114234AC145FE13C9436F2973BF328B /* ZCDuangLabel.m */,
-				28B27EA34E066D3AB6A83D126A7A7EA6 /* ZCEasingUtil.h */,
-				8B9BA65E48DA9EAE39E5DAC099BA6D13 /* ZCEasingUtil.m */,
-				480D1EF1DED62AA1DC22F18697E9028C /* ZCFallLabel.h */,
-				989BEE39399AC07AE0D879049FABD82E /* ZCFallLabel.m */,
-				D22DEB2F4D7533639F11EE5E2FCADC4F /* ZCFlyinLabel.h */,
-				083E15E082FE67C393A8943370493623 /* ZCFlyinLabel.m */,
-				0C020DCE709C2093CB21BB62374C9A1C /* ZCFocusLabel.h */,
-				79C78AD0C2C0A577168A12F253F0A99D /* ZCFocusLabel.m */,
-				B4F8DEDFB6DBB6DEDB44B30B396DE7FF /* ZCRevealLabel.h */,
-				B4120973CF7D3988E98C18E92FE87DFB /* ZCRevealLabel.m */,
-				4AE4BD1D62D94430BA36DC8BCE3D99A4 /* ZCShapeshiftLabel.h */,
-				C6248C44BECF763A8FE5ED89C75D9AD1 /* ZCShapeshiftLabel.m */,
-				8F73CD4A123E0ACE1EF5BE1466B53A0F /* ZCSpinLabel.h */,
-				6B62798B827ED97F25FF209A208200F4 /* ZCSpinLabel.m */,
-				7D7BF174692DDD6FE04022392F00509B /* ZCThrownLabel.h */,
-				958042508EDEB37CBFF7118CA44B2EC6 /* ZCThrownLabel.m */,
-				38EB5DA95F5AB9EFE7683EA32ADD6658 /* ZCTransparencyLabel.h */,
-				42110A7BDC4E3B89BE5AE2C7BD310E63 /* ZCTransparencyLabel.m */,
-				7DD76BFC759E5B3CB6B2A5A0BB2DE4AA /* Support Files */,
-			);
-			path = ZCAnimatedLabel;
-			sourceTree = "<group>";
-		};
 		DF7F8AC3D3F2BE0B863DED9B685C5ED0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -411,12 +444,49 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E96A5987155F3B5FB4B6E93410A78063 /* Resources */ = {
+		E26272EB05E2F8D0A30EE36ADB31987C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6DD05B543EC930D755711C621CEE70E2 /* ionicons.bundle */,
+				FFBF80B2F95845385674636D87013295 /* ionicons.xcconfig */,
+				3FDF1BF1CF14BA1FB61B6C83958B0C77 /* ionicons-dummy.m */,
+				7992E6FBE3A1CA40E31176F4B455DEFF /* ionicons-prefix.pch */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "../Target Support Files/ionicons";
+			sourceTree = "<group>";
+		};
+		FACA6E3AA88321541DA24E60DC721456 /* ZCAnimatedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				9C1DFFA31C9F4E17142BE47B6F034E83 /* ZCAnimatedLabel.h */,
+				D0A4D493140266037246C5AF4E2B44E1 /* ZCAnimatedLabel.m */,
+				CB54A5E17E62DADAEC1FFABC317FED40 /* ZCCoreTextLayout.h */,
+				D188620740ABF74478D409A807B298DF /* ZCCoreTextLayout.m */,
+				2F7EF2DA39AF340395A75679E91B6C5F /* ZCDashLabel.h */,
+				74008B21F2D19EA836DA04C0D9AE63FB /* ZCDashLabel.m */,
+				7BE299F52E33418CF3880DBCAD05014F /* ZCDuangLabel.h */,
+				8A806C6AE9CD046BBA5F7DA91972A6B2 /* ZCDuangLabel.m */,
+				6CE20B82FC51CF97461689E301255DE1 /* ZCEasingUtil.h */,
+				C9C54C74A55A38AB780515DC060E83E3 /* ZCEasingUtil.m */,
+				556B42FB4F51D74122D7552E0ECF9572 /* ZCFallLabel.h */,
+				6F33D231186411E764F4BBA6707B951D /* ZCFallLabel.m */,
+				BC225C912C9891124CFC96D891B99095 /* ZCFlyinLabel.h */,
+				D4BE91AA874EA96EF30D4C35EBAD972C /* ZCFlyinLabel.m */,
+				3F25EC4C94E356C7492EB72A14BE188C /* ZCFocusLabel.h */,
+				50E655D98A62E717322C6C0BD042225E /* ZCFocusLabel.m */,
+				70D6C0ACC019835E9D7D90FE2147C895 /* ZCRevealLabel.h */,
+				80E69C2B758DC464896D18C00A885ECB /* ZCRevealLabel.m */,
+				FBD1BEDD03DEB1A5205A512840C0AE60 /* ZCShapeshiftLabel.h */,
+				8E8BEDE62E050390BDADFFDC6E9920FF /* ZCShapeshiftLabel.m */,
+				120BD50F526BEF26D6E9A395A4E1C3EC /* ZCSpinLabel.h */,
+				07668A2ED61B888646A4D2F7F71340E8 /* ZCSpinLabel.m */,
+				3E074ED1931877C30CCF90B775EE29F0 /* ZCThrownLabel.h */,
+				33427978B016AEA03213022AB5D65BB9 /* ZCThrownLabel.m */,
+				F6D1C390AAB7404F790780A516055DA3 /* ZCTransparencyLabel.h */,
+				FA31E7B3C886A1D0968474D71F9FDD4C /* ZCTransparencyLabel.m */,
+				0140ABC770FD04D9D8644C7AF2FC1628 /* Support Files */,
+			);
+			path = ZCAnimatedLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,32 +502,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8FFB84B24D93FF6219710558F64334EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38D4D64FCDAE0407F186759A06B8A8F0 /* ZCAnimatedLabel.h in Headers */,
+				0D925902DCC7F443F66AE5F648C3A087 /* ZCCoreTextLayout.h in Headers */,
+				459355E60D483BCBE75CFE5A1C8BF11A /* ZCDashLabel.h in Headers */,
+				7F46DE1B5145D615BE5F31CD777F3324 /* ZCDuangLabel.h in Headers */,
+				69C9373F5EF2A3B655554F1853B02AEA /* ZCEasingUtil.h in Headers */,
+				67FF1598CFB56AF27A8847AF2C7C7B8B /* ZCFallLabel.h in Headers */,
+				290FA1FABB87B96606E41ED403EB62B3 /* ZCFlyinLabel.h in Headers */,
+				5D73FEB8FCD678F263D9D8411CFCFF80 /* ZCFocusLabel.h in Headers */,
+				402527859964B483A2503E613D23A6B7 /* ZCRevealLabel.h in Headers */,
+				19BC5FF898E0161F1A09B3B3211510D4 /* ZCShapeshiftLabel.h in Headers */,
+				76144958A751A6DD43F1C616E4186687 /* ZCSpinLabel.h in Headers */,
+				3AB7D59AEFE79C7124D0A9393BC91895 /* ZCThrownLabel.h in Headers */,
+				B0450F5D71D1D31DCEA13BE635C81DA9 /* ZCTransparencyLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59EDDDD7590EDEB58BE55678C5BFE31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4086D38B52375E556527865A26D589B6 /* KMSwizzle.h in Headers */,
+				7B843B0AA93D90AC49C317512EEA3C3F /* KMWeakObjectContainer.h in Headers */,
+				BD07DF65B4F8C86E70A81008438892A4 /* UINavigationController+KMNavigationBarTransition.h in Headers */,
+				5A0A72669318551BDE34660F41A668BD /* UIViewController+KMNavigationBarTransition.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E90C80F6ABEFBFAF667A39209083F6D1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				12C3F601EE0BA8F98463D3F7C07AB38E /* MSCellAccessory.h in Headers */,
 				62D300DAE7EF376D4B7D543E899F3A2A /* UIView+AccessViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2DA00DA39C037324F8228337D2DCF1F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4D0668500E1A2DE110FFBB0A17293F0E /* ZCAnimatedLabel.h in Headers */,
-				51AE22FC5C341ED31ABC23818D4967ED /* ZCCoreTextLayout.h in Headers */,
-				351C70AE680494D2285C25E2AFAC8724 /* ZCDashLabel.h in Headers */,
-				CDB46F7B8CA32698C64213B6AF2CC69F /* ZCDuangLabel.h in Headers */,
-				4216EBA1B175A44FD163BC3FAF395DF9 /* ZCEasingUtil.h in Headers */,
-				D6827C1D71EA5CEE03D13951C7123BB6 /* ZCFallLabel.h in Headers */,
-				CEC47AEDDE468D454CE6487264BFEFD9 /* ZCFlyinLabel.h in Headers */,
-				44536B020F56700D535C8C3AE7D8F016 /* ZCFocusLabel.h in Headers */,
-				C89B3BD99E3A65C052F02B0500CE3DF5 /* ZCRevealLabel.h in Headers */,
-				813CE321523C34621214FF3E6C453139 /* ZCShapeshiftLabel.h in Headers */,
-				6FA820810340C125E869B1762210ACED /* ZCSpinLabel.h in Headers */,
-				8E6388D8F4591B7A8DD6A90C374840DF /* ZCThrownLabel.h in Headers */,
-				ADED12B52D1FFAF2B82072EF23546FBE /* ZCTransparencyLabel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +559,7 @@
 			);
 			name = ionicons;
 			productName = ionicons;
-			productReference = A2B959E52998D194246D99EA79E4F778 /* libionicons.a */;
+			productReference = C38C93E2BAEE3E9B92E9F6916408E1A4 /* libionicons.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		3600A9F789CF5101B981D34027F40BB2 /* Pods-BboyTraining-iOSUITests */ = {
@@ -494,26 +575,61 @@
 			);
 			name = "Pods-BboyTraining-iOSUITests";
 			productName = "Pods-BboyTraining-iOSUITests";
-			productReference = 9FFC1513B703161E1E93EEE7F490FA0E /* libPods-BboyTraining-iOSUITests.a */;
+			productReference = 84EEA4BD96D55EA78B79A29DA73C18CF /* libPods-BboyTraining-iOSUITests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		560D40A93D3B7AB13F38DC3E12781D8C /* Pods-BboyTraining-iOS */ = {
+		3EBBE24249D5CA1E53E9B622C1C56734 /* ZCAnimatedLabel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33D75A38E0CFE400CACA86A7D6E6BDEF /* Build configuration list for PBXNativeTarget "Pods-BboyTraining-iOS" */;
+			buildConfigurationList = ED51A9179260DB0B2CDB735BE77E79E4 /* Build configuration list for PBXNativeTarget "ZCAnimatedLabel" */;
 			buildPhases = (
-				89FE4C938ADE012843BED78EE3CF51D0 /* Sources */,
-				1B69D943E0B804F0470DF218C2A85C04 /* Frameworks */,
+				EA5C65931C24D1FC8BC224FC1B34F632 /* Sources */,
+				0FC708609AC6B5677DF6166B1FF73EE9 /* Frameworks */,
+				8FFB84B24D93FF6219710558F64334EF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9ABE5470B4C0A122AFA20AA881992FB4 /* PBXTargetDependency */,
-				9F9CC258675D3A4084D1FE9FE9D43A10 /* PBXTargetDependency */,
-				6EE43C34DEB7583FB7F2D123DAA2E816 /* PBXTargetDependency */,
+			);
+			name = ZCAnimatedLabel;
+			productName = ZCAnimatedLabel;
+			productReference = A0B22F5A3D09F33F4D14E5839B2807A2 /* libZCAnimatedLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		53A97C1D82FAFBB4F6AE4A6DCFF0B016 /* KMNavigationBarTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A3BF0480EAF47DF802BF237CE4596E /* Build configuration list for PBXNativeTarget "KMNavigationBarTransition" */;
+			buildPhases = (
+				3D398435C39C9BC5B415C6842BF1E3B8 /* Sources */,
+				792822C05CB2B84A1861AF61E84EA3CC /* Frameworks */,
+				E59EDDDD7590EDEB58BE55678C5BFE31 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMNavigationBarTransition;
+			productName = KMNavigationBarTransition;
+			productReference = 476FB5E9BE5EF64BC1205CEE78A2A90F /* libKMNavigationBarTransition.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9EC5F900732659ECA03A67ADC945AC0A /* Pods-BboyTraining-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C6F28B402A98F04177097278C8705E /* Build configuration list for PBXNativeTarget "Pods-BboyTraining-iOS" */;
+			buildPhases = (
+				E57A3DA4D8FD979C8533FF6A0D1DB182 /* Sources */,
+				57BCAB67FC70D75FE5D512E009FE55F2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42509650EAEE0C6E04F4B45A8AAD7F6D /* PBXTargetDependency */,
+				45A32471BFBA2935F51E75448A2DB387 /* PBXTargetDependency */,
+				AAAADE4A79DE616123DD7E9172518848 /* PBXTargetDependency */,
+				FFF09636F4991F4618135F76E07E0A47 /* PBXTargetDependency */,
 			);
 			name = "Pods-BboyTraining-iOS";
 			productName = "Pods-BboyTraining-iOS";
-			productReference = E1DB1A5431131FBA94AD97345745B36B /* libPods-BboyTraining-iOS.a */;
+			productReference = 1112DD1DD6791F7BB3BEBB3F3F60B5FC /* libPods-BboyTraining-iOS.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		D5E6473B93C57DC39E091DF59D44DEC3 /* MSCellAccessory */ = {
@@ -530,24 +646,7 @@
 			);
 			name = MSCellAccessory;
 			productName = MSCellAccessory;
-			productReference = EB71CCFEBB63BE11502159F7F4D08E6C /* libMSCellAccessory.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		DE5D1285A9E1C3E1C3CFA2580D162479 /* ZCAnimatedLabel */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 632E6960546AA73E463CE53CDF1CA1DE /* Build configuration list for PBXNativeTarget "ZCAnimatedLabel" */;
-			buildPhases = (
-				D9E86E7E876DDCA262B55BB98F576C18 /* Sources */,
-				D09569FCF889273DA05CD8A618E4C8F7 /* Frameworks */,
-				F2DA00DA39C037324F8228337D2DCF1F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ZCAnimatedLabel;
-			productName = ZCAnimatedLabel;
-			productReference = F372FB47DDBAE954872D30C0810263B3 /* libZCAnimatedLabel.a */;
+			productReference = A32470924807CD16037E3C3C85570C7B /* libMSCellAccessory.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		F4429045F419F0335ADBC47072077296 /* Pods-BboyTraining-iOSTests */ = {
@@ -563,7 +662,7 @@
 			);
 			name = "Pods-BboyTraining-iOSTests";
 			productName = "Pods-BboyTraining-iOSTests";
-			productReference = 03552F83157B829497E79C3B9BF9EE21 /* libPods-BboyTraining-iOSTests.a */;
+			productReference = 21770917098F94CAC510BEE0E16406F8 /* libPods-BboyTraining-iOSTests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -583,21 +682,34 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B54C27C6EE3DA98D50353C608FF47F3A /* Products */;
+			productRefGroup = 3B5AA3008A5871799250305756290E88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				084B1FF8E099CDDF6B5FD3169504D512 /* ionicons */,
+				53A97C1D82FAFBB4F6AE4A6DCFF0B016 /* KMNavigationBarTransition */,
 				D5E6473B93C57DC39E091DF59D44DEC3 /* MSCellAccessory */,
-				560D40A93D3B7AB13F38DC3E12781D8C /* Pods-BboyTraining-iOS */,
+				9EC5F900732659ECA03A67ADC945AC0A /* Pods-BboyTraining-iOS */,
 				F4429045F419F0335ADBC47072077296 /* Pods-BboyTraining-iOSTests */,
 				3600A9F789CF5101B981D34027F40BB2 /* Pods-BboyTraining-iOSUITests */,
-				DE5D1285A9E1C3E1C3CFA2580D162479 /* ZCAnimatedLabel */,
+				3EBBE24249D5CA1E53E9B622C1C56734 /* ZCAnimatedLabel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3D398435C39C9BC5B415C6842BF1E3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FAE86C8474F3AE5B8022C2D278CA7B2 /* KMNavigationBarTransition-dummy.m in Sources */,
+				869CC07DA355CBA9740E1F407B63235C /* KMSwizzle.m in Sources */,
+				D84BBB0F7A9F316E9D1BC09F2A68352F /* KMWeakObjectContainer.m in Sources */,
+				101EC93283AEDCF6BE4FA8607E0EB4E9 /* UINavigationController+KMNavigationBarTransition.m in Sources */,
+				DB59BDEAF649642DB84B39AD213B8ACE /* UIViewController+KMNavigationBarTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		815C70412CCF9AC4ED086F3A3A14D277 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -616,14 +728,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89FE4C938ADE012843BED78EE3CF51D0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D98A944C4ED2F08D324FCC716897EADB /* Pods-BboyTraining-iOS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9FF1E9EB5095DA52F190162A01459C4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -634,24 +738,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9E86E7E876DDCA262B55BB98F576C18 /* Sources */ = {
+		E57A3DA4D8FD979C8533FF6A0D1DB182 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3F306134150E57EF1791EFEBCC00864 /* ZCAnimatedLabel-dummy.m in Sources */,
-				D89B3F58098E53CB53EB2FF9ACF5EB4C /* ZCAnimatedLabel.m in Sources */,
-				F08C77A463119402BD68BB66DCCAB906 /* ZCCoreTextLayout.m in Sources */,
-				1A8B1B1F3E60B8BD6C4A7AFD6FD4011B /* ZCDashLabel.m in Sources */,
-				422EC4C3520070273A0D8C45E414D0D4 /* ZCDuangLabel.m in Sources */,
-				335161BCD9276A89BB97EE479D90E470 /* ZCEasingUtil.m in Sources */,
-				0455E50253EB0E439304E66EF112AEFB /* ZCFallLabel.m in Sources */,
-				E14E6FA1C3D1012D40DBF62622B846F6 /* ZCFlyinLabel.m in Sources */,
-				06D11C2ABF027D0202879F36226DBD93 /* ZCFocusLabel.m in Sources */,
-				A71451CDDC5BC58621EABC8863F441F3 /* ZCRevealLabel.m in Sources */,
-				CD3B0EB761A18CCDF3F1D2FEFCF42B13 /* ZCShapeshiftLabel.m in Sources */,
-				356728985FB4A053811A07502344D8B1 /* ZCSpinLabel.m in Sources */,
-				990510D38526893A36777512F779DA52 /* ZCThrownLabel.m in Sources */,
-				B19D893852A5AE2D30945DF5392D9063 /* ZCTransparencyLabel.m in Sources */,
+				D24D616A3DD46D068D205C783190AB87 /* Pods-BboyTraining-iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5C65931C24D1FC8BC224FC1B34F632 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2803048BC91BF1808D390C80E78D44B /* ZCAnimatedLabel-dummy.m in Sources */,
+				ECF4B91520000E197578244A48C1A35D /* ZCAnimatedLabel.m in Sources */,
+				8D3F0696EEA1E3BE94388D6CD286A9D0 /* ZCCoreTextLayout.m in Sources */,
+				19F33BE961CEEC3FB218FE441F6895AD /* ZCDashLabel.m in Sources */,
+				0E4D2F03998C13D2BFD7B327C7BB168A /* ZCDuangLabel.m in Sources */,
+				817E3114F41D021C6C6376C8178087F3 /* ZCEasingUtil.m in Sources */,
+				19893DA644478F7F5B34A1953094F5D6 /* ZCFallLabel.m in Sources */,
+				A1C3A2474204347D224718F4AA4846FA /* ZCFlyinLabel.m in Sources */,
+				0ABB70DDD8595EF22548EFDCEDAD3742 /* ZCFocusLabel.m in Sources */,
+				ACC80DC697C9E62CB9620CCBE49FD3C6 /* ZCRevealLabel.m in Sources */,
+				064659F0F908D66ABB5BA7EFFC525269 /* ZCShapeshiftLabel.m in Sources */,
+				3F83B1566567138E27D0B2E9B3F4FA7F /* ZCSpinLabel.m in Sources */,
+				6CBA9479E064AED621E3A07BFFE666B6 /* ZCThrownLabel.m in Sources */,
+				ADE17726A49DD7CC4B0AAAC8BA94C31E /* ZCTransparencyLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,38 +778,44 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6EE43C34DEB7583FB7F2D123DAA2E816 /* PBXTargetDependency */ = {
+		42509650EAEE0C6E04F4B45A8AAD7F6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ionicons;
-			target = 084B1FF8E099CDDF6B5FD3169504D512 /* ionicons */;
-			targetProxy = 23B2DA64790E017FA7A4DE16402D25C0 /* PBXContainerItemProxy */;
+			name = KMNavigationBarTransition;
+			target = 53A97C1D82FAFBB4F6AE4A6DCFF0B016 /* KMNavigationBarTransition */;
+			targetProxy = CFFD4550883E98D506DFAF22F86E6745 /* PBXContainerItemProxy */;
 		};
-		9ABE5470B4C0A122AFA20AA881992FB4 /* PBXTargetDependency */ = {
+		45A32471BFBA2935F51E75448A2DB387 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MSCellAccessory;
 			target = D5E6473B93C57DC39E091DF59D44DEC3 /* MSCellAccessory */;
-			targetProxy = F12DCD4DDE7E693B2F2F150429B751D7 /* PBXContainerItemProxy */;
+			targetProxy = DB564074EE276DE65A48D0A8576E8E03 /* PBXContainerItemProxy */;
 		};
-		9F9CC258675D3A4084D1FE9FE9D43A10 /* PBXTargetDependency */ = {
+		AAAADE4A79DE616123DD7E9172518848 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZCAnimatedLabel;
-			target = DE5D1285A9E1C3E1C3CFA2580D162479 /* ZCAnimatedLabel */;
-			targetProxy = BC1AB5C5B589879707F9ED1280768D8E /* PBXContainerItemProxy */;
+			target = 3EBBE24249D5CA1E53E9B622C1C56734 /* ZCAnimatedLabel */;
+			targetProxy = 9BB31DA193A288434723BDF518DC6E1F /* PBXContainerItemProxy */;
+		};
+		FFF09636F4991F4618135F76E07E0A47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ionicons;
+			target = 084B1FF8E099CDDF6B5FD3169504D512 /* ionicons */;
+			targetProxy = A38D2045AE4F99C051765A230170818F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08BAEB2A4BC42DBFD09A625C8D93FF37 /* Release */ = {
+		31F13B19E75F6F5B53F6E8CE6EF945D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC731B42D571A4508ACBD0B73AB8C8E8 /* ZCAnimatedLabel.xcconfig */;
+			baseConfigurationReference = 57BEA8C5EAD499A59B593701297D82F4 /* ZCAnimatedLabel.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/ZCAnimatedLabel/ZCAnimatedLabel-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -706,19 +824,19 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		34D1ED70CBFF75000F6BAB059F678C09 /* Debug */ = {
+		3B36DE1C7F1117B5FAAFE6FD3BEB32A5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 571290FD1CAD23C0FEE0079C256E151A /* Pods-BboyTraining-iOS.debug.xcconfig */;
+			baseConfigurationReference = 69987765E58FB02752CA7F8F49036446 /* Pods-BboyTraining-iOS.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -727,7 +845,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -767,6 +885,27 @@
 			};
 			name = Release;
 		};
+		4279FD38BBE876F10556AF3439273CB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571290FD1CAD23C0FEE0079C256E151A /* Pods-BboyTraining-iOS.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		558E44D7778CD23D0921BFA64BA55810 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1831E5FDBAC8E3AAE0EE234694F21746 /* Pods-BboyTraining-iOSUITests.release.xcconfig */;
@@ -790,7 +929,7 @@
 		};
 		5695DDBEECE1B9FE0848C71FA88099D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EA832D8D4C2E8781D2FBC9271AC5B0B /* MSCellAccessory.xcconfig */;
+			baseConfigurationReference = 91534F9F8A1D81C151286B3B829F2B85 /* MSCellAccessory.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -872,9 +1011,30 @@
 			};
 			name = Debug;
 		};
+		6E051CCB91DFB72DB69C280F9025BDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38640DA77A882EF81FD63AEAD9F2F44D /* KMNavigationBarTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KMNavigationBarTransition/KMNavigationBarTransition-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 		9DA24749DF6E3148CECD082E1E53D336 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EA832D8D4C2E8781D2FBC9271AC5B0B /* MSCellAccessory.xcconfig */;
+			baseConfigurationReference = 91534F9F8A1D81C151286B3B829F2B85 /* MSCellAccessory.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -893,22 +1053,43 @@
 			};
 			name = Release;
 		};
-		A73F32C9C497AB44ADCE8C7B8685228D /* Release */ = {
+		9FCEB2488C512D1B346476B5341E37C0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69987765E58FB02752CA7F8F49036446 /* Pods-BboyTraining-iOS.release.xcconfig */;
+			baseConfigurationReference = 57BEA8C5EAD499A59B593701297D82F4 /* ZCAnimatedLabel.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/ZCAnimatedLabel/ZCAnimatedLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A73C6E801026D67CFFE910C7A1670C0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38640DA77A882EF81FD63AEAD9F2F44D /* KMNavigationBarTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KMNavigationBarTransition/KMNavigationBarTransition-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -916,7 +1097,7 @@
 		};
 		AA7739BB3817D97FD794E3D7EA1DAB57 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B18A27A04050D7F69628445FC83EDCC /* ionicons.xcconfig */;
+			baseConfigurationReference = FFBF80B2F95845385674636D87013295 /* ionicons.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -937,7 +1118,7 @@
 		};
 		B0D558826A42AA37F411864C31CB3D15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B18A27A04050D7F69628445FC83EDCC /* ionicons.xcconfig */;
+			baseConfigurationReference = FFBF80B2F95845385674636D87013295 /* ionicons.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -998,27 +1179,6 @@
 			};
 			name = Release;
 		};
-		E479A9292AFDCEFB2C5B2BACEA7348E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC731B42D571A4508ACBD0B73AB8C8E8 /* ZCAnimatedLabel.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ZCAnimatedLabel/ZCAnimatedLabel-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1040,20 +1200,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33D75A38E0CFE400CACA86A7D6E6BDEF /* Build configuration list for PBXNativeTarget "Pods-BboyTraining-iOS" */ = {
+		76A3BF0480EAF47DF802BF237CE4596E /* Build configuration list for PBXNativeTarget "KMNavigationBarTransition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				34D1ED70CBFF75000F6BAB059F678C09 /* Debug */,
-				A73F32C9C497AB44ADCE8C7B8685228D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		632E6960546AA73E463CE53CDF1CA1DE /* Build configuration list for PBXNativeTarget "ZCAnimatedLabel" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E479A9292AFDCEFB2C5B2BACEA7348E1 /* Debug */,
-				08BAEB2A4BC42DBFD09A625C8D93FF37 /* Release */,
+				6E051CCB91DFB72DB69C280F9025BDC6 /* Debug */,
+				A73C6E801026D67CFFE910C7A1670C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1063,6 +1214,24 @@
 			buildConfigurations = (
 				5695DDBEECE1B9FE0848C71FA88099D9 /* Debug */,
 				9DA24749DF6E3148CECD082E1E53D336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C6F28B402A98F04177097278C8705E /* Build configuration list for PBXNativeTarget "Pods-BboyTraining-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4279FD38BBE876F10556AF3439273CB9 /* Debug */,
+				3B36DE1C7F1117B5FAAFE6FD3BEB32A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED51A9179260DB0B2CDB735BE77E79E4 /* Build configuration list for PBXNativeTarget "ZCAnimatedLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31F13B19E75F6F5B53F6E8CE6EF945D5 /* Debug */,
+				9FCEB2488C512D1B346476B5341E37C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

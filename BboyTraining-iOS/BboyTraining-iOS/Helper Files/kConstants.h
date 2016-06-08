@@ -9,6 +9,9 @@
 #ifndef SOLPM_kConstants_h
 #define SOLPM_kConstants_h
 
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
 typedef enum MoveType
 {
     powermove,
@@ -28,9 +31,8 @@ static CGFloat const kDefaultNavigationBarFontSize = 24.0f;
 static CGFloat const kTableCellFontSize = 30.0f;
 static CGFloat const kTableCellRowHeight = 50.0f;
 
-static NSString *const kDefaultFontName = @"OpenSans-Light";
-static NSString *const kDefaultFontNameBold = @"OpenSans-Semibold";
-
+static NSString *const kDefaultFontName = @"Lato-Light";
+static NSString *const kDefaultFontNameBold = @"Lato-Bold";
 
 ////////////////////////////////////////
 ////////////////////////////////////////
@@ -39,6 +41,7 @@ static NSString *const kDefaultFontNameBold = @"OpenSans-Semibold";
 //
 ////////////////////////////////////////
 ////////////////////////////////////////
+static NSString *const kMovesMovesKey = @"moves";
 static NSString *const kMovesPowermovesKey = @"powermoves";
 static NSString *const kMovesCombosKey = @"combos";
 static NSString *const kMovesFreezesKey = @"freezes";
@@ -53,9 +56,14 @@ static NSString* const kFootworkCategoryKey = @"footworkCategory";
 
 static NSString* const kUserDefaultsFWCombosKey = @"savedFootworkCombos";
 
+// SOLPM keys
+static NSString* const kSOPLMMovesNameKey = @"name";
+static NSString* const kSOPLMMovesStepDescriptionKey = @"stepDescription";
+static NSString* const kSOPLMMovesStepVideoKey = @"stepVideo";
+static NSString* const kSOPLMMovesStepGoalNumberKey = @"stepGoalNumber";
+static NSString* const kSOPLMMovesStepIncrementNumber = @"stepIncrementNumber";
+static NSString* const kSOPLMMovesStepRepTotal = @"stepRepTotal";
 
-
-//
 
 //--------------------------------
 //--------------------------------
@@ -65,16 +73,19 @@ static NSString* const kUserDefaultsFWCombosKey = @"savedFootworkCombos";
 //--------------------------------
 //--------------------------------
 // Move type strings
-#define MOVE_TYPE_POWERMOVES @"Powermoves"
-#define MOVE_TYPE_POWERMOVE_COMBOS @"Powermove combos"
-#define MOVE_TYPE_FREEZES @"Freezes"
-#define MOVE_TYPE_FLIPS @"Flips"
-#define MOVE_TYPE_TRICKS @"Tricks"
-#define MOVE_TYPE_FOOTWORK @"Footwork"
-#define MOVE_TYPE_MISC @"Misc"
-#define MOVE_TYPE_TOOLS @"Tools"
 
+static NSString *const kMoveTypeMoves = @"Moves";
+static NSString *const kMoveTypePowermoves = @"Powermoves";
+static NSString *const kMoveTypePowermoveCombos = @"Powermove combos";
+static NSString *const kMoveTypeFreezes = @"Freezes";
+static NSString *const kMoveTypeFlips = @"Flips";
+static NSString *const kMoveTypeTricks =  @"Tricks";
+static NSString *const kMoveTypeFootwork =  @"Footwork";
+static NSString *const kMoveTypeMisc = @"Misc";
+static NSString *const kMoveTypeTools =  @"Tools";
+ 
 // powermove list strings
+
 #define POWERMOVE_WINDMILLS @"Windmills"
 #define POWERMOVE_BABYMILLS @"Babymills"
 #define POWERMOVE_BELLYMILLS @"Bellymills"

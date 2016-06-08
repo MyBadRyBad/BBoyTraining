@@ -100,20 +100,6 @@
     moveLabel.textAlignment = NSTextAlignmentCenter;
     moveLabel.font = [UIFont fontWithName:@"OpenSans-Light" size:16.0f];
     [self.view addSubview:moveLabel];
-    
- /*   if (!imageView) {
-        imageView = [[FLAnimatedImageView alloc] init];
-        imageView.contentMode = UIViewContentModeScaleAspectFit;
-        imageView.clipsToBounds = YES;
-    }
-    
-    imageView.frame = CGRectMake(16, 120.0, self.view.bounds.size.width - 32, 300);
-    
-    NSURL *url1 = [[NSBundle mainBundle] URLForResource:@"windmill_step1" withExtension:@"gif"];
-    NSData *data1 = [NSData dataWithContentsOfURL:url1];
-    FLAnimatedImage *animatedImage = [FLAnimatedImage animatedImageWithGIFData:data1];
-    imageView.animatedImage = animatedImage;
-    [self.view addSubview:imageView]; */
 }
 
 #pragma mark -
@@ -121,7 +107,7 @@
 -(void)setupVideoPlayer
 {
     
- /*   if (_videoString.length > 0)
+    if (_videoString.length > 0)
     {
         //movieplayer initialization
         NSString *path = [[NSBundle mainBundle] pathForResource:_videoString ofType:@"mp4"];
@@ -141,7 +127,7 @@
     
         [_moviePlayer prepareToPlay];
         [_moviePlayer play];
-    } */
+    }
 }
 
 #pragma mark -
@@ -151,16 +137,6 @@
     CGRect incrementerButtonFrame;
     CGFloat fontSize;
     
-  /*  if (IS_IPHONE_4_AND_OLDER || IS_IPHONE_5)
-    {
-        incrementerButtonFrame = CGRectMake(0, 0, 70, 70);
-        fontSize = 26.0f;
-    }
-    else
-    {
-        incrementerButtonFrame = CGRectMake(0, 0, 80, 80);
-        fontSize = 30.0f;
-    } */
     _incrementerButton = [UIButton buttonWithType:UIButtonTypeCustom];
     
     _incrementerButton.frame = incrementerButtonFrame;

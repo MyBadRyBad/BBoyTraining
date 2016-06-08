@@ -28,7 +28,7 @@
 #pragma mark - Move Arrays
 + (NSArray *)getMoveTypeArray
 {
-    NSArray *moveType = [[NSArray alloc] initWithObjects:
+  /*  NSArray *moveType = [[NSArray alloc] initWithObjects:
                                      MOVE_TYPE_POWERMOVES,
                                      MOVE_TYPE_POWERMOVE_COMBOS,
                                      MOVE_TYPE_FREEZES,
@@ -39,7 +39,8 @@
                                      MOVE_TYPE_TOOLS,
                                      nil];
     
-    return moveType;
+    return moveType; */
+    return nil;
 }
 
 + (NSArray *)getPowermoveListArray

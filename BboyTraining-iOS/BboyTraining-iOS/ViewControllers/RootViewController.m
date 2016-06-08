@@ -7,10 +7,11 @@
 //
 
 #import "RootViewController.h"
-#import "MoveListViewController.h"
 #import "MovesViewController.h"
+#import "MoveNode.h"
 #import "kColorConstants.h"
 #import "kConstants.h"
+#import "HelperFunctions.h"
 #import <ZCFocusLabel.h>
 
 static CGFloat const kFrameSpacing = 20.0f;
@@ -111,10 +112,34 @@ static CGFloat const kLabelHeight = 90.0f;
 }
 
 #pragma mark -
+#pragma mark - 
+- (NSArray *)arrayOfMoveNodes
+{
+    NSString *path = [[NSBundle mainBundle] pathForResource:kMovesMovesKey ofType:@"plist"];
+    
+    NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
+    
+    MoveNode *powerMoveNode = [[MoveNode alloc] initWithCategory:kMoveTypePowermoves movesArray:dict[kMovesPowermovesKey]];
+    MoveNode *powermoveComboNode = [[MoveNode alloc] initWithCategory:kMoveTypePowermoveCombos movesArray:dict[kMovesCombosKey]];
+    MoveNode *freezesNode = [[MoveNode alloc] initWithCategory:kMoveTypeFreezes movesArray:dict[kMovesFreezesKey]];
+    MoveNode *tricksNode = [[MoveNode alloc] initWithCategory:kMoveTypeTricks movesArray:dict[kMovesTricksKey]];
+    MoveNode *flipsNode = [[MoveNode alloc] initWithCategory:kMoveTypeFlips movesArray:dict[kMovesFlipsKey]];
+    MoveNode *miscNode = [[MoveNode alloc] initWithCategory:kMoveTypeMisc movesArray:dict[kMovesMiscKey]];
+    MoveNode *footworkNode = [[MoveNode alloc] initWithCategory:kMoveTypeFootwork movesArray:dict[kMovesFootworkKey]];
+    MoveNode *toolsNode = [[MoveNode alloc] initWithCategory:kMoveTypeTools movesArray:dict[kMovesToolsKey]];
+    
+    
+    return @[powerMoveNode, powermoveComboNode, freezesNode, tricksNode, flipsNode, miscNode, footworkNode, toolsNode];
+}
+
+#pragma mark -
 #pragma mark - present viewcontroller
 - (void)presentMoveListViewController {
- //   MoveListViewController *moveListViewController = [[MoveListViewController alloc] init];
+
     MovesViewController *movesViewController = [[MovesViewController alloc] init];
+    movesViewController.navigationBarTitle = kMoveTypeMoves;
+    movesViewController.moveNodesArray = [self arrayOfMoveNodes];
+    
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:movesViewController];
     
     [self presentViewController:navigationController animated:NO completion:nil];

@@ -1,18 +1,21 @@
 PODS:
   - ionicons (2.0.3)
+  - KMNavigationBarTransition (0.0.8)
   - MSCellAccessory (1.1.2)
   - ZCAnimatedLabel (0.0.4)
 
 DEPENDENCIES:
   - ionicons
+  - KMNavigationBarTransition
   - MSCellAccessory
   - ZCAnimatedLabel
 
 SPEC CHECKSUMS:
   ionicons: ec1e86e6c3316bd9942a7f024080dd75c70dd6a5
+  KMNavigationBarTransition: e87fb2b3a194b0d7fded5fd560df83c6f43b942f
   MSCellAccessory: 8265f3cd2386c1f372da00232472605ab11426e4
   ZCAnimatedLabel: 519b688bef4403fd356bc785f9b61cdfd8e6472d
 
-PODFILE CHECKSUM: 015053cb4db0f0aa8bd69e7711b99a4a3d5d8f22
+PODFILE CHECKSUM: c3c4e778402d61baa98fc84faa4f7257887f02b6
 
 COCOAPODS: 1.0.0

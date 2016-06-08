@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0BF26A1D08A783004B6FD8 /* MoveNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0BF2691D08A783004B6FD8 /* MoveNode.m */; };
+		6E0BF2761D08C8BC004B6FD8 /* Lato 100.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E0BF26B1D08C8BC004B6FD8 /* Lato 100.ttf */; };
+		6E0BF2771D08C8BC004B6FD8 /* Lato 100italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E0BF26C1D08C8BC004B6FD8 /* Lato 100italic.ttf */; };
+		6E0BF2781D08C8BC004B6FD8 /* Lato 300.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E0BF26D1D08C8BC004B6FD8 /* Lato 300.ttf */; };
+		6E0BF2791D08C8BC004B6FD8 /* Lato 300italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E0BF26E1D08C8BC004B6FD8 /* Lato 300italic.ttf */; };
+		6E0BF27A1D08C8BC004B6FD8 /* Lato 700.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E0BF26F1D08C8BC004B6FD8 /* Lato 700.ttf */; };
+		6E0BF27B1D08C8BC004B6FD8 /* Lato 700italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E0BF2701D08C8BC004B6FD8 /* Lato 700italic.ttf */; };
+		6E0BF27C1D08C8BC004B6FD8 /* Lato 900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E0BF2711D08C8BC004B6FD8 /* Lato 900.ttf */; };
+		6E0BF27D1D08C8BC004B6FD8 /* Lato 900italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E0BF2721D08C8BC004B6FD8 /* Lato 900italic.ttf */; };
+		6E0BF27E1D08C8BC004B6FD8 /* Lato italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E0BF2731D08C8BC004B6FD8 /* Lato italic.ttf */; };
+		6E0BF27F1D08C8BC004B6FD8 /* Lato regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E0BF2741D08C8BC004B6FD8 /* Lato regular.ttf */; };
 		6E631E4C1CEE681E0054E30E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E631E4B1CEE681E0054E30E /* main.m */; };
 		6E631E4F1CEE681E0054E30E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E631E4E1CEE681E0054E30E /* AppDelegate.m */; };
 		6E631E551CEE681E0054E30E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E631E531CEE681E0054E30E /* Main.storyboard */; };
@@ -24,13 +35,11 @@
 		6E63218E1CEE6B650054E30E /* FootworkGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E63217B1CEE6B650054E30E /* FootworkGeneratorViewController.m */; };
 		6E63218F1CEE6B650054E30E /* FootworkListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E63217D1CEE6B650054E30E /* FootworkListViewController.m */; };
 		6E6321911CEE6B650054E30E /* LandscapeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6321811CEE6B650054E30E /* LandscapeNavigationController.m */; };
-		6E6321921CEE6B650054E30E /* MoveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6321831CEE6B650054E30E /* MoveListViewController.m */; };
 		6E6321931CEE6B650054E30E /* PowerMoveMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6321851CEE6B650054E30E /* PowerMoveMainViewController.m */; };
 		6E6321941CEE6B650054E30E /* PowerMoveStepsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6321871CEE6B650054E30E /* PowerMoveStepsViewController.m */; };
 		6E6321951CEE6B650054E30E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6321891CEE6B650054E30E /* RootViewController.m */; };
 		6E6321961CEE6B650054E30E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E63218B1CEE6B650054E30E /* SettingsViewController.m */; };
 		6E6321A41CEE6BB70054E30E /* FACEBOLF.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 6E6321981CEE6BB70054E30E /* FACEBOLF.OTF */; };
-		6E6321A51CEE6BB70054E30E /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E6321991CEE6BB70054E30E /* Lato-Black.ttf */; };
 		6E6321A61CEE6BB70054E30E /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E63219A1CEE6BB70054E30E /* OpenSans-Bold.ttf */; };
 		6E6321A71CEE6BB70054E30E /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E63219B1CEE6BB70054E30E /* OpenSans-BoldItalic.ttf */; };
 		6E6321A81CEE6BB70054E30E /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E63219C1CEE6BB70054E30E /* OpenSans-ExtraBold.ttf */; };
@@ -69,6 +78,18 @@
 		2CAD2C52FD1851F23EA14202 /* libPods-BboyTraining-iOSUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BboyTraining-iOSUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		345C6339F7E312E530B4D8E6 /* Pods-BboyTraining-iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BboyTraining-iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BboyTraining-iOSTests/Pods-BboyTraining-iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3EECAB936E32D68804EE5DAB /* Pods-BboyTraining-iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BboyTraining-iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BboyTraining-iOSUITests/Pods-BboyTraining-iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E0BF2681D08A783004B6FD8 /* MoveNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveNode.h; path = "Helper Files/MoveNode.h"; sourceTree = "<group>"; };
+		6E0BF2691D08A783004B6FD8 /* MoveNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoveNode.m; path = "Helper Files/MoveNode.m"; sourceTree = "<group>"; };
+		6E0BF26B1D08C8BC004B6FD8 /* Lato 100.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato 100.ttf"; path = "Fonts/Lato 100.ttf"; sourceTree = "<group>"; };
+		6E0BF26C1D08C8BC004B6FD8 /* Lato 100italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato 100italic.ttf"; path = "Fonts/Lato 100italic.ttf"; sourceTree = "<group>"; };
+		6E0BF26D1D08C8BC004B6FD8 /* Lato 300.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato 300.ttf"; path = "Fonts/Lato 300.ttf"; sourceTree = "<group>"; };
+		6E0BF26E1D08C8BC004B6FD8 /* Lato 300italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato 300italic.ttf"; path = "Fonts/Lato 300italic.ttf"; sourceTree = "<group>"; };
+		6E0BF26F1D08C8BC004B6FD8 /* Lato 700.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato 700.ttf"; path = "Fonts/Lato 700.ttf"; sourceTree = "<group>"; };
+		6E0BF2701D08C8BC004B6FD8 /* Lato 700italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato 700italic.ttf"; path = "Fonts/Lato 700italic.ttf"; sourceTree = "<group>"; };
+		6E0BF2711D08C8BC004B6FD8 /* Lato 900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato 900.ttf"; path = "Fonts/Lato 900.ttf"; sourceTree = "<group>"; };
+		6E0BF2721D08C8BC004B6FD8 /* Lato 900italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato 900italic.ttf"; path = "Fonts/Lato 900italic.ttf"; sourceTree = "<group>"; };
+		6E0BF2731D08C8BC004B6FD8 /* Lato italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato italic.ttf"; path = "Fonts/Lato italic.ttf"; sourceTree = "<group>"; };
+		6E0BF2741D08C8BC004B6FD8 /* Lato regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato regular.ttf"; path = "Fonts/Lato regular.ttf"; sourceTree = "<group>"; };
 		6E631E471CEE681E0054E30E /* BboyTraining-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BboyTraining-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E631E4B1CEE681E0054E30E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E631E4D1CEE681E0054E30E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,8 +124,6 @@
 		6E63217D1CEE6B650054E30E /* FootworkListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FootworkListViewController.m; path = ViewControllers/FootworkListViewController.m; sourceTree = "<group>"; };
 		6E6321801CEE6B650054E30E /* LandscapeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LandscapeNavigationController.h; path = ViewControllers/LandscapeNavigationController.h; sourceTree = "<group>"; };
 		6E6321811CEE6B650054E30E /* LandscapeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LandscapeNavigationController.m; path = ViewControllers/LandscapeNavigationController.m; sourceTree = "<group>"; };
-		6E6321821CEE6B650054E30E /* MoveListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveListViewController.h; path = ViewControllers/MoveListViewController.h; sourceTree = "<group>"; };
-		6E6321831CEE6B650054E30E /* MoveListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoveListViewController.m; path = ViewControllers/MoveListViewController.m; sourceTree = "<group>"; };
 		6E6321841CEE6B650054E30E /* PowerMoveMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PowerMoveMainViewController.h; path = ViewControllers/PowerMoveMainViewController.h; sourceTree = "<group>"; };
 		6E6321851CEE6B650054E30E /* PowerMoveMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PowerMoveMainViewController.m; path = ViewControllers/PowerMoveMainViewController.m; sourceTree = "<group>"; };
 		6E6321861CEE6B650054E30E /* PowerMoveStepsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PowerMoveStepsViewController.h; path = ViewControllers/PowerMoveStepsViewController.h; sourceTree = "<group>"; };
@@ -114,7 +133,6 @@
 		6E63218A1CEE6B650054E30E /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ViewControllers/SettingsViewController.h; sourceTree = "<group>"; };
 		6E63218B1CEE6B650054E30E /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ViewControllers/SettingsViewController.m; sourceTree = "<group>"; };
 		6E6321981CEE6BB70054E30E /* FACEBOLF.OTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = FACEBOLF.OTF; path = Fonts/FACEBOLF.OTF; sourceTree = "<group>"; };
-		6E6321991CEE6BB70054E30E /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Lato-Black.ttf"; path = "Fonts/Lato-Black.ttf"; sourceTree = "<group>"; };
 		6E63219A1CEE6BB70054E30E /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "Fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
 		6E63219B1CEE6BB70054E30E /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-BoldItalic.ttf"; path = "Fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		6E63219C1CEE6BB70054E30E /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-ExtraBold.ttf"; path = "Fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
@@ -254,6 +272,8 @@
 				6E63216F1CEE6B4A0054E30E /* MoveData.m */,
 				6E6321701CEE6B4A0054E30E /* StepTableViewCell.h */,
 				6E6321711CEE6B4A0054E30E /* StepTableViewCell.m */,
+				6E0BF2681D08A783004B6FD8 /* MoveNode.h */,
+				6E0BF2691D08A783004B6FD8 /* MoveNode.m */,
 			);
 			name = HelperFiles;
 			sourceTree = "<group>";
@@ -285,8 +305,6 @@
 		6E6321651CEE6A060054E30E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				6E6321821CEE6B650054E30E /* MoveListViewController.h */,
-				6E6321831CEE6B650054E30E /* MoveListViewController.m */,
 				6E8D20D91D04D87200440C30 /* MovesViewController.h */,
 				6E8D20DA1D04D87200440C30 /* MovesViewController.m */,
 				6E6321B21CEE6E360054E30E /* RootViewController */,
@@ -335,7 +353,16 @@
 			isa = PBXGroup;
 			children = (
 				6E6321981CEE6BB70054E30E /* FACEBOLF.OTF */,
-				6E6321991CEE6BB70054E30E /* Lato-Black.ttf */,
+				6E0BF26B1D08C8BC004B6FD8 /* Lato 100.ttf */,
+				6E0BF26C1D08C8BC004B6FD8 /* Lato 100italic.ttf */,
+				6E0BF26D1D08C8BC004B6FD8 /* Lato 300.ttf */,
+				6E0BF26E1D08C8BC004B6FD8 /* Lato 300italic.ttf */,
+				6E0BF26F1D08C8BC004B6FD8 /* Lato 700.ttf */,
+				6E0BF2701D08C8BC004B6FD8 /* Lato 700italic.ttf */,
+				6E0BF2711D08C8BC004B6FD8 /* Lato 900.ttf */,
+				6E0BF2721D08C8BC004B6FD8 /* Lato 900italic.ttf */,
+				6E0BF2731D08C8BC004B6FD8 /* Lato italic.ttf */,
+				6E0BF2741D08C8BC004B6FD8 /* Lato regular.ttf */,
 				6E63219A1CEE6BB70054E30E /* OpenSans-Bold.ttf */,
 				6E63219B1CEE6BB70054E30E /* OpenSans-BoldItalic.ttf */,
 				6E63219C1CEE6BB70054E30E /* OpenSans-ExtraBold.ttf */,
@@ -494,21 +521,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E631E5D1CEE681E0054E30E /* LaunchScreen.storyboard in Resources */,
+				6E0BF2771D08C8BC004B6FD8 /* Lato 100italic.ttf in Resources */,
 				6E6321AF1CEE6BB70054E30E /* OpenSans-SemiboldItalic.ttf in Resources */,
 				6E6321A91CEE6BB70054E30E /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				6E6321AC1CEE6BB70054E30E /* OpenSans-LightItalic.ttf in Resources */,
+				6E0BF27D1D08C8BC004B6FD8 /* Lato 900italic.ttf in Resources */,
 				6E6321A41CEE6BB70054E30E /* FACEBOLF.OTF in Resources */,
 				6E6321AA1CEE6BB70054E30E /* OpenSans-Italic.ttf in Resources */,
+				6E0BF27B1D08C8BC004B6FD8 /* Lato 700italic.ttf in Resources */,
+				6E0BF27E1D08C8BC004B6FD8 /* Lato italic.ttf in Resources */,
 				6E6321A61CEE6BB70054E30E /* OpenSans-Bold.ttf in Resources */,
 				6E6321A81CEE6BB70054E30E /* OpenSans-ExtraBold.ttf in Resources */,
 				6E6321A71CEE6BB70054E30E /* OpenSans-BoldItalic.ttf in Resources */,
 				6E631E5A1CEE681E0054E30E /* Assets.xcassets in Resources */,
-				6E6321A51CEE6BB70054E30E /* Lato-Black.ttf in Resources */,
+				6E0BF27A1D08C8BC004B6FD8 /* Lato 700.ttf in Resources */,
+				6E0BF27C1D08C8BC004B6FD8 /* Lato 900.ttf in Resources */,
+				6E0BF27F1D08C8BC004B6FD8 /* Lato regular.ttf in Resources */,
+				6E0BF2781D08C8BC004B6FD8 /* Lato 300.ttf in Resources */,
 				6E6321AB1CEE6BB70054E30E /* OpenSans-Light.ttf in Resources */,
 				6E6321AD1CEE6BB70054E30E /* OpenSans-Regular.ttf in Resources */,
 				6E6321AE1CEE6BB70054E30E /* OpenSans-Semibold.ttf in Resources */,
+				6E0BF2761D08C8BC004B6FD8 /* Lato 100.ttf in Resources */,
 				6E631E551CEE681E0054E30E /* Main.storyboard in Resources */,
 				6E6321B11CEE6BC40054E30E /* moves.plist in Resources */,
+				6E0BF2791D08C8BC004B6FD8 /* Lato 300italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,11 +698,11 @@
 				6E6321961CEE6B650054E30E /* SettingsViewController.m in Sources */,
 				6E631E4C1CEE681E0054E30E /* main.m in Sources */,
 				6E8D20DB1D04D87200440C30 /* MovesViewController.m in Sources */,
+				6E0BF26A1D08A783004B6FD8 /* MoveNode.m in Sources */,
 				6E6321911CEE6B650054E30E /* LandscapeNavigationController.m in Sources */,
 				6E6321731CEE6B4A0054E30E /* kColorConstants.m in Sources */,
 				6E63218D1CEE6B650054E30E /* FootworkComboViewController.m in Sources */,
 				6E6321931CEE6B650054E30E /* PowerMoveMainViewController.m in Sources */,
-				6E6321921CEE6B650054E30E /* MoveListViewController.m in Sources */,
 				6E63218F1CEE6B650054E30E /* FootworkListViewController.m in Sources */,
 				6E631E581CEE681E0054E30E /* BboyTraining_iOS.xcdatamodeld in Sources */,
 				6E6321941CEE6B650054E30E /* PowerMoveStepsViewController.m in Sources */,
