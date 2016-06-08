@@ -42,6 +42,7 @@
 		6E6321AE1CEE6BB70054E30E /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E6321A21CEE6BB70054E30E /* OpenSans-Semibold.ttf */; };
 		6E6321AF1CEE6BB70054E30E /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6E6321A31CEE6BB70054E30E /* OpenSans-SemiboldItalic.ttf */; };
 		6E6321B11CEE6BC40054E30E /* moves.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E6321B01CEE6BC40054E30E /* moves.plist */; };
+		6E8D20DB1D04D87200440C30 /* MovesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E8D20DA1D04D87200440C30 /* MovesViewController.m */; };
 		87394B51106B67C1BB07EECD /* libPods-BboyTraining-iOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCEA64F5679CC1D8BD006712 /* libPods-BboyTraining-iOSTests.a */; };
 		8FE8EB657BB4CE9C053DCD85 /* libPods-BboyTraining-iOSUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD2C52FD1851F23EA14202 /* libPods-BboyTraining-iOSUITests.a */; };
 		D02291ACB55195C983A43050 /* libPods-BboyTraining-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74490965808C24A5A007E2B6 /* libPods-BboyTraining-iOS.a */; };
@@ -125,6 +126,8 @@
 		6E6321A21CEE6BB70054E30E /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Semibold.ttf"; path = "Fonts/OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
 		6E6321A31CEE6BB70054E30E /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-SemiboldItalic.ttf"; path = "Fonts/OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
 		6E6321B01CEE6BC40054E30E /* moves.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = moves.plist; sourceTree = "<group>"; };
+		6E8D20D91D04D87200440C30 /* MovesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MovesViewController.h; path = ViewControllers/MovesViewController.h; sourceTree = "<group>"; };
+		6E8D20DA1D04D87200440C30 /* MovesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MovesViewController.m; path = ViewControllers/MovesViewController.m; sourceTree = "<group>"; };
 		74490965808C24A5A007E2B6 /* libPods-BboyTraining-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BboyTraining-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77676058FF4C33C66BCA98F2 /* Pods-BboyTraining-iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BboyTraining-iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BboyTraining-iOSTests/Pods-BboyTraining-iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		7E6CDCD5783F01E2015E0DEE /* Pods-BboyTraining-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BboyTraining-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BboyTraining-iOS/Pods-BboyTraining-iOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -284,6 +287,8 @@
 			children = (
 				6E6321821CEE6B650054E30E /* MoveListViewController.h */,
 				6E6321831CEE6B650054E30E /* MoveListViewController.m */,
+				6E8D20D91D04D87200440C30 /* MovesViewController.h */,
+				6E8D20DA1D04D87200440C30 /* MovesViewController.m */,
 				6E6321B21CEE6E360054E30E /* RootViewController */,
 				6E6321761CEE6B650054E30E /* CustomIncrementerViewController.h */,
 				6E6321771CEE6B650054E30E /* CustomIncrementerViewController.m */,
@@ -656,6 +661,7 @@
 				6E6321721CEE6B4A0054E30E /* HelperFunctions.m in Sources */,
 				6E6321961CEE6B650054E30E /* SettingsViewController.m in Sources */,
 				6E631E4C1CEE681E0054E30E /* main.m in Sources */,
+				6E8D20DB1D04D87200440C30 /* MovesViewController.m in Sources */,
 				6E6321911CEE6B650054E30E /* LandscapeNavigationController.m in Sources */,
 				6E6321731CEE6B4A0054E30E /* kColorConstants.m in Sources */,
 				6E63218D1CEE6B650054E30E /* FootworkComboViewController.m in Sources */,

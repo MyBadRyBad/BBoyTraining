@@ -1,15 +1,18 @@
 PODS:
   - ionicons (2.0.3)
   - MSCellAccessory (1.1.2)
+  - ZCAnimatedLabel (0.0.4)
 
 DEPENDENCIES:
   - ionicons
   - MSCellAccessory
+  - ZCAnimatedLabel
 
 SPEC CHECKSUMS:
   ionicons: ec1e86e6c3316bd9942a7f024080dd75c70dd6a5
   MSCellAccessory: 8265f3cd2386c1f372da00232472605ab11426e4
+  ZCAnimatedLabel: 519b688bef4403fd356bc785f9b61cdfd8e6472d
 
-PODFILE CHECKSUM: 270a8fad3c134f5e05491ed0aebdc60aca36010f
+PODFILE CHECKSUM: 015053cb4db0f0aa8bd69e7711b99a4a3d5d8f22
 
-COCOAPODS: 1.0.0.rc.2
+COCOAPODS: 1.0.0

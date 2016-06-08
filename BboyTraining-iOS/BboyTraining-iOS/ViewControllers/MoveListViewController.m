@@ -87,18 +87,20 @@ static NSString *kNavigationBarTitle = @"Bboy Training";
 
 - (void)configureNavigationBar {
     // Configure the navigation bar to a flat grey design and other stuff
-    self.navigationController.navigationBar.barTintColor = [kColorConstants navigationBarColor:1.0f];
-    self.navigationController.navigationBar.tintColor = [kColorConstants navigationBarColor:1.0f];
+ //   self.navigationController.navigationBar.barTintColor = [kColorConstants navigationBarColor:1.0f];
+ //   self.navigationController.navigationBar.tintColor = [kColorConstants navigationBarColor:1.0f];
+    self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
     self.navigationController.navigationBar.translucent = NO;
     self.navigationController.navigationBar.topItem.title = kNavigationBarTitle;
     
     NSShadow *shadow = [[NSShadow alloc] init];
     [self.navigationController.navigationBar setTitleTextAttributes:
      [NSDictionary dictionaryWithObjectsAndKeys:
-      [UIColor whiteColor], NSForegroundColorAttributeName,
+      [UIColor blackColor], NSForegroundColorAttributeName,
       shadow, NSShadowAttributeName,
       shadow, NSShadowAttributeName,
-      [UIFont fontWithName:@"OpenSans-Light" size:20.0], NSFontAttributeName,
+      [UIFont fontWithName:kDefaultFontNameBold size:kDefaultNavigationBarFontSize], NSFontAttributeName,
       nil]];
 }
 
@@ -159,10 +161,10 @@ static NSString *kNavigationBarTitle = @"Bboy Training";
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
         
-        UIView *backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, cell.frame.size.width, cell.frame.size.height)];
+   /*     UIView *backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, cell.frame.size.width, cell.frame.size.height)];
         backgroundView.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
         
-        cell.selectedBackgroundView = backgroundView;
+        cell.selectedBackgroundView = backgroundView; */
     }
     
     [self setupCell:cell withIndexPath:indexPath];
@@ -194,12 +196,15 @@ static NSString *kNavigationBarTitle = @"Bboy Training";
     if (moveDictionary)
         cellName = [moveDictionary objectForKey:@"name"];
     
-    cell.backgroundColor = [kColorConstants blueWetAsphalt:1.0f];
+  //  cell.backgroundColor = [kColorConstants blueWetAsphalt:1.0f];
+    cell.backgroundColor = [UIColor whiteColor];
     
     cell.textLabel.font = [UIFont fontWithName:kDefaultFontName size:16.0f];
     cell.textLabel.text = cellName;
-    cell.textLabel.textColor = [UIColor whiteColor];
-    cell.accessoryView = [MSCellAccessory accessoryWithType:FLAT_DISCLOSURE_INDICATOR color:[UIColor whiteColor]];
+    cell.textLabel.textAlignment = NSTextAlignmentCenter;
+  //  cell.textLabel.textColor = [UIColor whiteColor];
+    cell.textLabel.textColor = [UIColor blackColor];
+  //  cell.accessoryView = [MSCellAccessory accessoryWithType:FLAT_DISCLOSURE_INDICATOR color:[UIColor whiteColor]];
 }
 
 
@@ -249,11 +254,12 @@ static NSString *kNavigationBarTitle = @"Bboy Training";
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 36)];
-    view.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
-
+ //   view.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
+    view.backgroundColor = [UIColor whiteColor];
+    
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 8, tableView.frame.size.width, 18)];
-    label.font = [UIFont fontWithName:kDefaultFontName size:18.0f];
-    label.textColor = [UIColor whiteColor];
+    label.font = [UIFont fontWithName:kDefaultFontNameBold size:kTableCellFontSize];
+    label.textColor = [UIColor blackColor];
     label.textAlignment = NSTextAlignmentCenter;
     label.text = [_moveType objectAtIndex:section];
 
@@ -350,12 +356,14 @@ static NSString *kNavigationBarTitle = @"Bboy Training";
         
         _tableView.dataSource = self;
         _tableView.delegate = self;
-        _tableView.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
+    //    _tableView.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
+        _tableView.backgroundColor = [UIColor whiteColor];
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         _tableView.allowsSelection = YES;
         
         UIView *footerView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 70)];
-        footerView.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
+     //   footerView.backgroundColor = [kColorConstants blueMidnightBlue:1.0f];
+        _tableView.backgroundColor = [UIColor whiteColor];
         _tableView.tableFooterView = footerView;
     }
     

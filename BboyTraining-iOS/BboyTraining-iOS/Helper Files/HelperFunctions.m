@@ -10,6 +10,24 @@
 
 @implementation HelperFunctions
 
+#pragma mark -
+#pragma mark - navigation hairline removal
++ (UIImageView *)findHairlineImageViewUnder:(UIView *)view {
+    if ([view isKindOfClass:UIImageView.class] && view.bounds.size.height <= 1.0) {
+        return (UIImageView *)view;
+    }
+    for (UIView *subview in view.subviews) {
+        UIImageView *imageView = [self findHairlineImageViewUnder:subview];
+        if (imageView) {
+            return imageView;
+        }
+    }
+    return nil;
+}
+
+
+#pragma mark -
+#pragma mark - imageWithColor
 + (UIImage *)imageWithColor:(UIColor *)color {
     CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
     UIGraphicsBeginImageContext(rect.size);
@@ -23,5 +41,6 @@
     
     return image;
 }
+
 
 @end

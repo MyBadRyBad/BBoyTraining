@@ -11,6 +11,7 @@
 
 @interface HelperFunctions : NSObject
 
++ (UIImageView *)findHairlineImageViewUnder:(UIView *)view;
 + (UIImage *)imageWithColor:(UIColor *)color;
 
 @end

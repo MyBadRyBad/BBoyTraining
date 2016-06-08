@@ -24,9 +24,12 @@ typedef enum MoveType
 ////////////////////////////////////////
 ////////////////////////////////////////
 
-static CGFloat const kDefaultNavigationBarFontSize = 20.0f;
+static CGFloat const kDefaultNavigationBarFontSize = 24.0f;
+static CGFloat const kTableCellFontSize = 30.0f;
+static CGFloat const kTableCellRowHeight = 50.0f;
 
 static NSString *const kDefaultFontName = @"OpenSans-Light";
+static NSString *const kDefaultFontNameBold = @"OpenSans-Semibold";
 
 
 ////////////////////////////////////////

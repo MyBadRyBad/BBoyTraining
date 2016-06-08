@@ -8,6 +8,7 @@ target 'BboyTraining-iOS' do
   # Pods for BboyTraining-iOS
   pod 'MSCellAccessory'  
   pod 'ionicons'  
+  pod 'ZCAnimatedLabel'  
 
   target 'BboyTraining-iOSTests' do
     inherit! :search_paths
