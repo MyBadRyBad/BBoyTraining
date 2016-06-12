@@ -14,7 +14,6 @@
 #import "kConstants.h"
 #import "HelperFunctions.h"
 #import "MSCellAccessory.h"
-#import "MoveData.h"
 
 #define GENERATEBUTTONTAG 1000
 #define SAVECOMBOBUTTONTAG 2000
@@ -211,10 +210,10 @@
     cell.detailTextLabel.text = cellCategory;
     cell.detailTextLabel.textColor = [UIColor whiteColor];
     
-    if ([MoveData hasVideo:cellName])
+    /*if ([MoveData hasVideo:cellName])
         cell.accessoryView = [MSCellAccessory accessoryWithType:FLAT_DISCLOSURE_INDICATOR color:[UIColor whiteColor]];
     else
-        cell.accessoryView = nil;
+        cell.accessoryView = nil; */
 
     return cell;
 }
@@ -224,8 +223,8 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
     NSString *cellName = [_footworkArray objectAtIndex:indexPath.row];
-    if ([MoveData hasVideo:cellName])
-        [self performSegueWithIdentifier:@"segueToPowerMoveMainViewControllerFromFootworkGenerator" sender:indexPath];
+  /*  if ([MoveData hasVideo:cellName])
+        [self performSegueWithIdentifier:@"segueToPowerMoveMainViewControllerFromFootworkGenerator" sender:indexPath]; */
     
 }
 

@@ -1,5 +1,5 @@
 //
-//  PowerMoveMainViewController.h
+//  MoveVideoViewController
 //  SOLPM
 //
 //  Created by Ryan Badilla on 11/12/14.
@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MediaPlayer/MediaPlayer.h>
+#import <AVKit/AVKit.h>
 #import "kConstants.h"
 
 
@@ -27,7 +27,7 @@
 @property (nonatomic, strong) UILabel *repetitionsLabel;
 @property (nonatomic, strong) UILabel *repetitionsTotalLabel;
 
-@property (nonatomic, strong) MPMoviePlayerController *moviePlayer;
+@property (nonatomic, strong) AVPlayer *avPlayer;
 @property (nonatomic, strong) UIButton *incrementerButton;
 
 @end

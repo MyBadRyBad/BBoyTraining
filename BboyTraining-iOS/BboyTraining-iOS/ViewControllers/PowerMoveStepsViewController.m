@@ -12,7 +12,6 @@
 #import "StepTableViewCell.h"
 #import "kColorConstants.h"
 #import "MSCellAccessory.h"
-#import "MoveData.h"
 #import "HelperFunctions.h"
 
 @interface PowerMoveStepsViewController () <UIAlertViewDelegate>
@@ -238,11 +237,11 @@
         cell.textLabel.text = cellName;
         cell.textLabel.textColor = [UIColor whiteColor];
         
-        if ([MoveData hasVideo:cellName])
+    /*    if ([MoveData hasVideo:cellName])
             cell.accessoryView = [MSCellAccessory accessoryWithType:FLAT_DISCLOSURE_INDICATOR color:[UIColor whiteColor]];
         else
             cell.accessoryView = nil;
-        
+         */
         return cell;
     }
     else
@@ -282,8 +281,8 @@
     if (_movetype == stretching || _movetype == footwork)
     {
         NSString *cellName = [self getFootworkNameFromIndexPath:indexPath];
-        if ([MoveData hasVideo:cellName])
-            [self performSegueWithIdentifier:@"segueToPowerMoveMainViewController" sender:indexPath];
+    /*    if ([MoveData hasVideo:cellName])
+            [self performSegueWithIdentifier:@"segueToPowerMoveMainViewController" sender:indexPath]; */
     }
     else
         [self performSegueWithIdentifier:@"segueToPowerMoveMainViewController" sender:indexPath];
@@ -523,11 +522,11 @@
     
     // Yes
     else {
-        NSString *key = [MoveData getMoveKeyString:_powermoveName step:(_resetIndexPath.row + 1)];
+     /*   NSString *key = [MoveData getMoveKeyString:_powermoveName step:(_resetIndexPath.row + 1)];
         [defaults setObject:[NSNumber numberWithInteger:0] forKey:key];
         [defaults synchronize];
         
-        [_tableView reloadData];
+        [_tableView reloadData]; */
     }
 }
 @end

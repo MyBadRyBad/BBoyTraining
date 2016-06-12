@@ -1,5 +1,5 @@
 //
-//  PowerMoveMainViewController.m
+//  MoveVideoViewController
 //  SOLPM
 //
 //  Created by Ryan Badilla on 11/12/14.
@@ -8,7 +8,6 @@
 
 #import "MoveVideoViewController.h"
 #import <QuartzCore/QuartzCore.h>
-#import "MoveData.h"
 #import "HelperFunctions.h"
 #import "kColorConstants.h"
 
@@ -112,21 +111,6 @@
         //movieplayer initialization
         NSString *path = [[NSBundle mainBundle] pathForResource:_videoString ofType:@"mp4"];
         NSURL *videoURL = [NSURL fileURLWithPath:path];
-        _moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:videoURL];
-        _moviePlayer.controlStyle = MPMovieControlStyleNone;
-        _moviePlayer.repeatMode = MPMovieRepeatModeOne; // for looping
-        _moviePlayer.scalingMode = MPMovieScalingModeAspectFit;
-        _moviePlayer.view.frame = CGRectMake(16, 40, self.view.frame.size.width - 32, 193);
-    
-        _moviePlayer.view.layer.cornerRadius = 10.0f;
-        _moviePlayer.view.layer.masksToBounds = YES;
-        _moviePlayer.view.layer.borderColor = [[kColorConstants blueMidnightBlue:1.0f] CGColor];
-        _moviePlayer.view.layer.borderWidth = 5.0f;
-    
-        [self.view addSubview:_moviePlayer.view];
-    
-        [_moviePlayer prepareToPlay];
-        [_moviePlayer play];
     }
 }
 
@@ -232,13 +216,6 @@
     // Store the data
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     
-    NSString *key = [MoveData getMoveKeyString:_moveName step:[_stepNumber longValue]];
-    
-    NSNumber *repsNumber = [defaults objectForKey:key];
-    NSInteger totalReps = [repsNumber integerValue];
-    [defaults setObject:[NSNumber numberWithInteger:(counter + totalReps)] forKey:key];
-    
-    [defaults synchronize];
 }
 
                                               

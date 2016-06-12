@@ -11,7 +11,6 @@
 #import "MSCellAccessory.h"
 #import "kColorConstants.h"
 #import "kConstants.h"
-#import "MoveData.h"
 
 @interface FootworkComboViewController () <UITableViewDelegate, UITableViewDataSource>
 @end
@@ -135,10 +134,6 @@
     cell.detailTextLabel.text = cellCategory;
     cell.detailTextLabel.textColor = [UIColor whiteColor];
     
-    if ([MoveData hasVideo:cellName])
-        cell.accessoryView = [MSCellAccessory accessoryWithType:FLAT_DISCLOSURE_INDICATOR color:[UIColor whiteColor]];
-    else
-        cell.accessoryView = nil;
     
     return cell;
 }
@@ -147,7 +142,7 @@
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     
-    NSString *cellName = [_footworkArray objectAtIndex:indexPath.row];
+  /*  NSString *cellName = [_footworkArray objectAtIndex:indexPath.row];
     if ([MoveData hasVideo:cellName])
     {
         MoveVideoViewController *powermoveMainViewController = [[MoveVideoViewController alloc] init];
@@ -162,7 +157,7 @@
         powermoveMainViewController.videoString = [moveName lowercaseString];
         
         [self.navigationController pushViewController:powermoveMainViewController animated:YES];
-    }
+    } */
 
     
 }
