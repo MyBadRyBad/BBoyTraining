@@ -8,7 +8,7 @@
 
 #import "FootworkGeneratorViewController.h"
 #import <QuartzCore/QuartzCore.h>
-#import "PowerMoveMainViewController.h"
+#import "MoveVideoViewController.h"
 #import "FootworkListViewController.h"
 #import "kColorConstants.h"
 #import "kConstants.h"
@@ -231,7 +231,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     NSIndexPath *indexPath = sender;
-    PowerMoveMainViewController *powermoveMainViewController = [segue destinationViewController];
+    MoveVideoViewController *powermoveMainViewController = [segue destinationViewController];
     NSString *moveName = [_footworkArray objectAtIndex:indexPath.row];
 
     powermoveMainViewController.moveName = moveName;

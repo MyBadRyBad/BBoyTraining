@@ -28,14 +28,13 @@
 		6E631E731CEE681E0054E30E /* BboyTraining_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E631E721CEE681E0054E30E /* BboyTraining_iOSUITests.m */; };
 		6E6321721CEE6B4A0054E30E /* HelperFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E63216A1CEE6B4A0054E30E /* HelperFunctions.m */; };
 		6E6321731CEE6B4A0054E30E /* kColorConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E63216C1CEE6B4A0054E30E /* kColorConstants.m */; };
-		6E6321741CEE6B4A0054E30E /* MoveData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E63216F1CEE6B4A0054E30E /* MoveData.m */; };
 		6E6321751CEE6B4A0054E30E /* StepTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6321711CEE6B4A0054E30E /* StepTableViewCell.m */; };
 		6E63218C1CEE6B650054E30E /* CustomIncrementerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6321771CEE6B650054E30E /* CustomIncrementerViewController.m */; };
 		6E63218D1CEE6B650054E30E /* FootworkComboViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6321791CEE6B650054E30E /* FootworkComboViewController.m */; };
 		6E63218E1CEE6B650054E30E /* FootworkGeneratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E63217B1CEE6B650054E30E /* FootworkGeneratorViewController.m */; };
 		6E63218F1CEE6B650054E30E /* FootworkListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E63217D1CEE6B650054E30E /* FootworkListViewController.m */; };
 		6E6321911CEE6B650054E30E /* LandscapeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6321811CEE6B650054E30E /* LandscapeNavigationController.m */; };
-		6E6321931CEE6B650054E30E /* PowerMoveMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6321851CEE6B650054E30E /* PowerMoveMainViewController.m */; };
+		6E6321931CEE6B650054E30E /* MoveVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6321851CEE6B650054E30E /* MoveVideoViewController.m */; };
 		6E6321941CEE6B650054E30E /* PowerMoveStepsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6321871CEE6B650054E30E /* PowerMoveStepsViewController.m */; };
 		6E6321951CEE6B650054E30E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6321891CEE6B650054E30E /* RootViewController.m */; };
 		6E6321961CEE6B650054E30E /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E63218B1CEE6B650054E30E /* SettingsViewController.m */; };
@@ -110,8 +109,6 @@
 		6E63216B1CEE6B4A0054E30E /* kColorConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kColorConstants.h; path = "Helper Files/kColorConstants.h"; sourceTree = "<group>"; };
 		6E63216C1CEE6B4A0054E30E /* kColorConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kColorConstants.m; path = "Helper Files/kColorConstants.m"; sourceTree = "<group>"; };
 		6E63216D1CEE6B4A0054E30E /* kConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kConstants.h; path = "Helper Files/kConstants.h"; sourceTree = "<group>"; };
-		6E63216E1CEE6B4A0054E30E /* MoveData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveData.h; path = "Helper Files/MoveData.h"; sourceTree = "<group>"; };
-		6E63216F1CEE6B4A0054E30E /* MoveData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoveData.m; path = "Helper Files/MoveData.m"; sourceTree = "<group>"; };
 		6E6321701CEE6B4A0054E30E /* StepTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StepTableViewCell.h; path = "Helper Files/StepTableViewCell.h"; sourceTree = "<group>"; };
 		6E6321711CEE6B4A0054E30E /* StepTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StepTableViewCell.m; path = "Helper Files/StepTableViewCell.m"; sourceTree = "<group>"; };
 		6E6321761CEE6B650054E30E /* CustomIncrementerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomIncrementerViewController.h; path = ViewControllers/CustomIncrementerViewController.h; sourceTree = "<group>"; };
@@ -124,8 +121,8 @@
 		6E63217D1CEE6B650054E30E /* FootworkListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FootworkListViewController.m; path = ViewControllers/FootworkListViewController.m; sourceTree = "<group>"; };
 		6E6321801CEE6B650054E30E /* LandscapeNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LandscapeNavigationController.h; path = ViewControllers/LandscapeNavigationController.h; sourceTree = "<group>"; };
 		6E6321811CEE6B650054E30E /* LandscapeNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LandscapeNavigationController.m; path = ViewControllers/LandscapeNavigationController.m; sourceTree = "<group>"; };
-		6E6321841CEE6B650054E30E /* PowerMoveMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PowerMoveMainViewController.h; path = ViewControllers/PowerMoveMainViewController.h; sourceTree = "<group>"; };
-		6E6321851CEE6B650054E30E /* PowerMoveMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PowerMoveMainViewController.m; path = ViewControllers/PowerMoveMainViewController.m; sourceTree = "<group>"; };
+		6E6321841CEE6B650054E30E /* MoveVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveVideoViewController.h; path = ViewControllers/MoveVideoViewController.h; sourceTree = "<group>"; };
+		6E6321851CEE6B650054E30E /* MoveVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoveVideoViewController.m; path = ViewControllers/MoveVideoViewController.m; sourceTree = "<group>"; };
 		6E6321861CEE6B650054E30E /* PowerMoveStepsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PowerMoveStepsViewController.h; path = ViewControllers/PowerMoveStepsViewController.h; sourceTree = "<group>"; };
 		6E6321871CEE6B650054E30E /* PowerMoveStepsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PowerMoveStepsViewController.m; path = ViewControllers/PowerMoveStepsViewController.m; sourceTree = "<group>"; };
 		6E6321881CEE6B650054E30E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ViewControllers/RootViewController.h; sourceTree = "<group>"; };
@@ -268,8 +265,6 @@
 			children = (
 				6E6321691CEE6B4A0054E30E /* HelperFunctions.h */,
 				6E63216A1CEE6B4A0054E30E /* HelperFunctions.m */,
-				6E63216E1CEE6B4A0054E30E /* MoveData.h */,
-				6E63216F1CEE6B4A0054E30E /* MoveData.m */,
 				6E6321701CEE6B4A0054E30E /* StepTableViewCell.h */,
 				6E6321711CEE6B4A0054E30E /* StepTableViewCell.m */,
 				6E0BF2681D08A783004B6FD8 /* MoveNode.h */,
@@ -318,8 +313,8 @@
 				6E63217D1CEE6B650054E30E /* FootworkListViewController.m */,
 				6E6321801CEE6B650054E30E /* LandscapeNavigationController.h */,
 				6E6321811CEE6B650054E30E /* LandscapeNavigationController.m */,
-				6E6321841CEE6B650054E30E /* PowerMoveMainViewController.h */,
-				6E6321851CEE6B650054E30E /* PowerMoveMainViewController.m */,
+				6E6321841CEE6B650054E30E /* MoveVideoViewController.h */,
+				6E6321851CEE6B650054E30E /* MoveVideoViewController.m */,
 				6E6321861CEE6B650054E30E /* PowerMoveStepsViewController.h */,
 				6E6321871CEE6B650054E30E /* PowerMoveStepsViewController.m */,
 				6E63218A1CEE6B650054E30E /* SettingsViewController.h */,
@@ -692,7 +687,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E6321741CEE6B4A0054E30E /* MoveData.m in Sources */,
 				6E631E4F1CEE681E0054E30E /* AppDelegate.m in Sources */,
 				6E6321721CEE6B4A0054E30E /* HelperFunctions.m in Sources */,
 				6E6321961CEE6B650054E30E /* SettingsViewController.m in Sources */,
@@ -702,7 +696,7 @@
 				6E6321911CEE6B650054E30E /* LandscapeNavigationController.m in Sources */,
 				6E6321731CEE6B4A0054E30E /* kColorConstants.m in Sources */,
 				6E63218D1CEE6B650054E30E /* FootworkComboViewController.m in Sources */,
-				6E6321931CEE6B650054E30E /* PowerMoveMainViewController.m in Sources */,
+				6E6321931CEE6B650054E30E /* MoveVideoViewController.m in Sources */,
 				6E63218F1CEE6B650054E30E /* FootworkListViewController.m in Sources */,
 				6E631E581CEE681E0054E30E /* BboyTraining_iOS.xcdatamodeld in Sources */,
 				6E6321941CEE6B650054E30E /* PowerMoveStepsViewController.m in Sources */,

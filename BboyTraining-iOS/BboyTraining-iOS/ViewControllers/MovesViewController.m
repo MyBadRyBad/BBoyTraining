@@ -36,14 +36,13 @@ static NSString *kNavigationBarTitle = @"Moves";
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-
-    
+    _navBarHairlineImageView.hidden = YES;
     
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-  
+    _navBarHairlineImageView.hidden = NO;
 }
 
 
@@ -70,8 +69,6 @@ static NSString *kNavigationBarTitle = @"Moves";
 }
 
 - (void)setupConstaints {
-    BOOL shouldHaveBackButton = [self.navigationController.viewControllers count] > 1;
-    
     // Create a dictionary of views and metrics
     NSDictionary *viewsDictionary = NSDictionaryOfVariableBindings(_tableView);
     NSDictionary *metrics = nil;
@@ -84,10 +81,11 @@ static NSString *kNavigationBarTitle = @"Moves";
 }
 
 - (void)configureNavigationBar {
-    self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
-    self.navigationController.navigationBar.tintColor = [UIColor whiteColor];
-    self.navigationController.navigationBar.translucent = NO;
-    self.navigationItem.title = _navigationBarTitle;
+    
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage new]
+                             forBarMetrics:UIBarMetricsDefault];
+    self.navigationController.navigationBar.shadowImage = [UIImage new];
+    self.navigationController.navigationBar.translucent = YES;
     
     NSShadow *shadow = [[NSShadow alloc] init];
     [self.navigationController.navigationBar setTitleTextAttributes:
@@ -95,13 +93,17 @@ static NSString *kNavigationBarTitle = @"Moves";
       [UIColor blackColor], NSForegroundColorAttributeName,
       shadow, NSShadowAttributeName,
       shadow, NSShadowAttributeName,
-      [UIFont fontWithName:kDefaultFontName size:kTableCellFontSize], NSFontAttributeName,
+      [UIFont fontWithName:kDefaultFontName size:kDefaultNavigationBarFontSize], NSFontAttributeName,
       nil]];
     
     
-    UIImage *backImage = [IonIcons imageWithIcon:ion_ios_arrow_back size:30.0 color:[UIColor blackColor]];
+    // set backbutton attributes
+    NSDictionary *normalAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+                                      [UIFont fontWithName:kDefaultFontName size:kDefaultNavigationBarButtonFontSize], NSFontAttributeName,
+                                      nil];
+    [[UIBarButtonItem appearance] setTitleTextAttributes:normalAttributes
+                                                forState:UIControlStateNormal];
     
-    self.navigationItem.backBarButtonItem = [[UIBarButtonItem alloc] initWithImage:backImage style:UIBarButtonItemStyleDone target:self action:nil];
 }
 
 #pragma mark -
@@ -154,8 +156,8 @@ static NSString *kNavigationBarTitle = @"Moves";
         
         NSMutableArray *newArrayOfMoveNodes = [[NSMutableArray alloc] init];
         for (NSDictionary *dictionary in moveNode.movesArray) {
-            MoveNode *moveNode = [[MoveNode alloc] initWithMoveDictionary:dictionary];
-            [newArrayOfMoveNodes addObject:moveNode];
+            MoveNode *newMoveNode = [[MoveNode alloc] initWithMoveDictionary:dictionary categoryType:moveNode.categoryType];
+            [newArrayOfMoveNodes addObject:newMoveNode];
         }
         
         // push a new movesViewController with subcategorys
@@ -164,9 +166,33 @@ static NSString *kNavigationBarTitle = @"Moves";
         movesViewController.navigationBarTitle = moveNode.categoryName;
         
         [self.navigationController pushViewController:movesViewController animated:YES];
+    } else {
+        [self pushViewControllerOfCategoryType:moveNode.categoryType indexPath:indexPath];
     }
 }
 
+- (void)pushViewControllerOfCategoryType:(CategoryType)categoryType indexPath:(NSIndexPath *)indexPath {
+    switch (categoryType) {
+        case CategoryTypePowermoves:
+            break;
+        case CategoryTypePowermoveCombos:
+            break;
+        case CategoryTypeFreezes:
+            break;
+        case CategoryTypeTricks:
+            break;
+        case CategoryTypeFlips:
+            break;
+        case CategoryTypeMisc:
+            break;
+        case CategoryTypeFootwork:
+            break;
+        case CategoryTypeTools:
+            break;
+        default:
+            break;
+    }
+}
 
 #pragma mark -
 #pragma mark - tableView Heights
@@ -183,7 +209,7 @@ static NSString *kNavigationBarTitle = @"Moves";
         }
     }
     
-    return ((tableView.bounds.size.height - contentHeight) * 0.5) - self.navigationController.navigationBar.frame.size.height;
+    return ((tableView.bounds.size.height - contentHeight) * 0.5) - (self.navigationController.navigationBar.frame.size.height + 20);
 }
 
 

@@ -11,7 +11,7 @@
 #import "kConstants.h"
 
 
-@interface PowerMoveMainViewController : UIViewController
+@interface MoveVideoViewController : UIViewController
 
 @property (nonatomic) MoveType moveType;
 

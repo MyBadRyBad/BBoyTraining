@@ -119,14 +119,39 @@ static CGFloat const kLabelHeight = 90.0f;
     
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     
-    MoveNode *powerMoveNode = [[MoveNode alloc] initWithCategory:kMoveTypePowermoves movesArray:dict[kMovesPowermovesKey]];
-    MoveNode *powermoveComboNode = [[MoveNode alloc] initWithCategory:kMoveTypePowermoveCombos movesArray:dict[kMovesCombosKey]];
-    MoveNode *freezesNode = [[MoveNode alloc] initWithCategory:kMoveTypeFreezes movesArray:dict[kMovesFreezesKey]];
-    MoveNode *tricksNode = [[MoveNode alloc] initWithCategory:kMoveTypeTricks movesArray:dict[kMovesTricksKey]];
-    MoveNode *flipsNode = [[MoveNode alloc] initWithCategory:kMoveTypeFlips movesArray:dict[kMovesFlipsKey]];
-    MoveNode *miscNode = [[MoveNode alloc] initWithCategory:kMoveTypeMisc movesArray:dict[kMovesMiscKey]];
-    MoveNode *footworkNode = [[MoveNode alloc] initWithCategory:kMoveTypeFootwork movesArray:dict[kMovesFootworkKey]];
-    MoveNode *toolsNode = [[MoveNode alloc] initWithCategory:kMoveTypeTools movesArray:dict[kMovesToolsKey]];
+    MoveNode *powerMoveNode = [[MoveNode alloc] initWithCategory:kMoveTypePowermoves
+                                                      movesArray:dict[kMovesPowermovesKey]
+                                                    categoryType:CategoryTypePowermoves];
+    
+    MoveNode *powermoveComboNode = [[MoveNode alloc] initWithCategory:kMoveTypePowermoveCombos
+                                                           movesArray:dict[kMovesCombosKey]
+                                                         categoryType:CategoryTypePowermoveCombos];
+    
+    MoveNode *freezesNode = [[MoveNode alloc] initWithCategory:kMoveTypeFreezes
+                                                    movesArray:dict[kMovesFreezesKey]
+                                                  categoryType:CategoryTypeFreezes];
+    
+    MoveNode *tricksNode = [[MoveNode alloc] initWithCategory:kMoveTypeTricks
+                                                   movesArray:dict[kMovesTricksKey]
+                                                 categoryType:CategoryTypeTricks];
+    
+    MoveNode *flipsNode = [[MoveNode alloc] initWithCategory:kMoveTypeFlips
+                                                  movesArray:dict[kMovesFlipsKey]
+                                                categoryType:CategoryTypeFlips];
+    
+    
+    MoveNode *miscNode = [[MoveNode alloc] initWithCategory:kMoveTypeMisc
+                                                 movesArray:dict[kMovesMiscKey]
+                                               categoryType:CategoryTypeMisc];
+    
+    
+    MoveNode *footworkNode = [[MoveNode alloc] initWithCategory:kMoveTypeFootwork
+                                                     movesArray:dict[kMovesFootworkKey]
+                                                   categoryType:CategoryTypeFootwork];
+    
+    MoveNode *toolsNode = [[MoveNode alloc] initWithCategory:kMoveTypeTools
+                                                  movesArray:dict[kMovesToolsKey]
+                                                categoryType:CategoryTypeTools];
     
     
     return @[powerMoveNode, powermoveComboNode, freezesNode, tricksNode, flipsNode, miscNode, footworkNode, toolsNode];

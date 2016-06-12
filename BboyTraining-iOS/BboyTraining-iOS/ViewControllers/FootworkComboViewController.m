@@ -7,7 +7,7 @@
 //
 
 #import "FootworkComboViewController.h"
-#import "PowerMoveMainViewController.h"
+#import "MoveVideoViewController.h"
 #import "MSCellAccessory.h"
 #import "kColorConstants.h"
 #import "kConstants.h"
@@ -150,7 +150,7 @@
     NSString *cellName = [_footworkArray objectAtIndex:indexPath.row];
     if ([MoveData hasVideo:cellName])
     {
-        PowerMoveMainViewController *powermoveMainViewController = [[PowerMoveMainViewController alloc] init];
+        MoveVideoViewController *powermoveMainViewController = [[MoveVideoViewController alloc] init];
         
         NSString *moveName = [_footworkArray objectAtIndex:indexPath.row];
         powermoveMainViewController.moveName = moveName;

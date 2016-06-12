@@ -19,6 +19,7 @@ typedef enum MoveType
     stretching
 } MoveType;
 
+
 ////////////////////////////////////////
 ////////////////////////////////////////
 //
@@ -27,7 +28,8 @@ typedef enum MoveType
 ////////////////////////////////////////
 ////////////////////////////////////////
 
-static CGFloat const kDefaultNavigationBarFontSize = 24.0f;
+static CGFloat const kDefaultNavigationBarFontSize = 30.0f;
+static CGFloat const kDefaultNavigationBarButtonFontSize = 18.0f;
 static CGFloat const kTableCellFontSize = 30.0f;
 static CGFloat const kTableCellRowHeight = 50.0f;
 

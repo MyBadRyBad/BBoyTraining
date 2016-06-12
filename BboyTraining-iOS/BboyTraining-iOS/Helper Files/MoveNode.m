@@ -24,21 +24,24 @@
     return self;
 }
 
-- (instancetype)initWithMoveDictionary:(NSDictionary *)moveDictionary {
+- (instancetype)initWithMoveDictionary:(NSDictionary *)moveDictionary categoryType:(CategoryType)categoryType {
     self = [super init];
     if (self) {
         _categoryName = moveDictionary[kSOPLMMovesNameKey];
+        _categoryType = categoryType;
         _moveDictionary = moveDictionary;
         _movesArray = nil;
+        
     }
     
     return self;
 }
 
-- (instancetype)initWithCategory:(NSString *)categoryName movesArray:(NSArray *)movesArray{
+- (instancetype)initWithCategory:(NSString *)categoryName movesArray:(NSArray *)movesArray categoryType:(CategoryType)categoryType{
     self = [super init];
     if (self) {
         _categoryName = categoryName;
+        _categoryType = categoryType;
         _movesArray = movesArray;
         _moveDictionary = nil;
     }

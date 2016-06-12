@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Newdesto. All rights reserved.
 //
 
-#import "PowerMoveMainViewController.h"
+#import "MoveVideoViewController.h"
 #import <QuartzCore/QuartzCore.h>
 #import "MoveData.h"
 #import "HelperFunctions.h"
 #import "kColorConstants.h"
 
-@interface PowerMoveMainViewController ()
+@interface MoveVideoViewController ()
 {
   //  FLAnimatedImageView *imageView;
     NSInteger counter;
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation PowerMoveMainViewController
+@implementation MoveVideoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

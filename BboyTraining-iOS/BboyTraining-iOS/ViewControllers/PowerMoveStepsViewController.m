@@ -7,7 +7,7 @@
 //
 
 #import "PowerMoveStepsViewController.h"
-#import "PowerMoveMainViewController.h"
+#import "MoveVideoViewController.h"
 #import "LandscapeNavigationController.h"
 #import "StepTableViewCell.h"
 #import "kColorConstants.h"
@@ -471,7 +471,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     NSIndexPath *indexPath = sender;
-    PowerMoveMainViewController *powermoveMainViewController = [segue destinationViewController];
+    MoveVideoViewController *powermoveMainViewController = [segue destinationViewController];
   //  LandscapeNavigationController *navController = [segue destinationViewController];
    // PowerMoveMainViewController *powermoveMainViewController = (PowerMoveMainViewController *)navController.topViewController;
     powermoveMainViewController.moveName = _powermoveName;
